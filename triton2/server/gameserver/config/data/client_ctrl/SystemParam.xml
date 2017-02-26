@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SystemParamList Version="20091002001">
+
+  <!--FunctionID="1" : 表示UI功能，Param3="UI名称"，指定UI显示的开启或关闭， 可禁止打开某个界面-->
+  <!--FunctionID="2" : 表示消息功能，Param1="消息ID"，指定消息的开启或关闭， 可截断某个消息，无论是客户端发送给服务器的，还是服务器发送给客户端的-->
+  <!--FunctionID="3" : 表示某项NPC服务，Param1="服务ID"，指定服务的开启或关闭， 可关闭某项NPC服务-->
+  <!--FunctionID="4" : 表示某个NPC的服务，Param1="NPC模板ID"，指定NPC的所有服务的开启或关闭， 可关闭某个NPC的所有服务-->
+  <!--FunctionID="5" : 表示某个NPC的某项服务，Param1="NPC模板ID"，Param2="服务ID"，指定NPC的指定服务的开启或关闭， 可关闭某个NPC的某项服务-->
+  <!--FunctionID="6" : 控制IGS语音聊天功能的开或关-->
+  <!--FunctionID="7" : 控制飞行缩放的开或关-->
+  <!--FunctionID="8" : 控制实时更新资源服务的开或关-->
+  <!--FunctionID="9" : 控制某个帮助文件（主要用于产品公告）,Param3="help的txt的名称"，指定帮助文件的显示与隐藏--> 
+  <!--FunctionID="10" : 控制包裹整理的开或关-->
+  <!--OnOFF="1"  : 0 表示关闭，1表示开启-->
+
+  <SystemParam FunctionID="1" OnOFF="1" Param1="0" Param2="0" Param3="Package"/><!--包裹-->
+  <SystemParam FunctionID="2" OnOFF="1" Param1="2065" Param2="0" Param3=""/><!--关闭获得金钱通知-->
+  <SystemParam FunctionID="2" OnOFF="1" Param1="2232" Param2="0" Param3=""/><!--关闭领取双倍请求-->
+  <SystemParam FunctionID="3" OnOFF="1" Param1="6" Param2="0" Param3=""/><!--关闭商店服务通知-->
+  <SystemParam FunctionID="4" OnOFF="1" Param1="7356" Param2="0" Param3=""/><!--关闭国都孙思茂所有服务-->
+  <SystemParam FunctionID="7" OnOFF="0" Param1="0" Param2="0" Param3=""/><!--关闭飞行缩放的服务-->
+  <SystemParam FunctionID="2" OnOFF="0" Param1="3028" Param2="0" Param3=""/><!--关闭是否允许他人查看装备消息-->
+  <SystemParam FunctionID="2" OnOFF="0" Param1="3029" Param2="0" Param3=""/><!--关闭是否允许他人查看装备消息-->
+
+</SystemParamList>

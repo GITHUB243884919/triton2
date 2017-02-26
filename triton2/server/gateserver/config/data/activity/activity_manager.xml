@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<activitiy_manager>
+  <menus>
+    <!-- game_id 即服务器组id, activitityFileName 即 该服务组对应的 活动列表文件名   -->
+    <activity game_id="4"   activitityFileName   ="activity.xml"  />
+    <activity game_id="504" activitityFileName   ="activity.xml"  />
+    <activity game_id="475" activitityFileName   ="activity_475.xml"/>
+  </menus>
+</activitiy_manager>

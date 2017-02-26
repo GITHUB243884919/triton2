@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2401">
+    <Map MapName="蓬莱岛" MapID="101" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="0" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="1">
+        <Size cx="144" cy="160" />
+        <OgreData>
+            <Ogre OgreIndex="100001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="118" PosY="118" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0" Notify="1">
+                <RefreshDate>
+                    <Refresh RefreshDate="00000000210060" />
+                </RefreshDate>
+                <DeadRefresh>
+                    <NewOgre ID="64761" Name="祥瑞金龙,110" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData>
+            <Teleport TeleportIndex="100000" NpcID="" LineID="50" MapID="61" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="3" y="62" cx="2" cy="3" />
+                <DesPos x="393" y="447" />
+            </Teleport>
+        </TeleportData>
+        <NpcData>
+            <Npc NpcIndex="100002" NpcID="70199" NpcName="灵台方寸山接引人" NpcInit="1" Disappear="" Direction="0" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="131" y="134" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

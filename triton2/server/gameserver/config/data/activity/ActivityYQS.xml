@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="GBK"?>
+<ActivityYQS>
+	<!--判断是否开启摇钱树活动-->
+    <IsUsingYQSActivity>1</IsUsingYQSActivity>
+    <!--用户上缴奖励限制-->
+	<ExpPrize limite="50"></ExpPrize>
+	<!---->
+	<LevelExpTpl>60362</LevelExpTpl>
+	<!--
+			描述：			摇钱树活动相关NPC信息
+			参数说明：	
+					name:	NPC名称
+			值：			NPC对应ID
+    -->
+	<NPCS>
+		<NPC name="ShanCaiTongZhi" id="130691" line="1" map="62"></NPC>
+		<NPC name="YaoQianShu" id="130529" line="1" map="62"></NPC>
+	</NPCS>
+	<!-- 
+			描述：			摇钱树等级及相关对应信息配置
+			参数说明：
+					id:  	摇钱树等级，1对应树苗阶段，2对应小树阶段，3对应中树阶段，4对应大树阶段
+					storeboxtype: 摇钱树在相应阶段结算时所掉落宝箱的类型，1为白色宝箱，2为蓝色宝箱，3为紫色宝箱，4为金色宝箱。
+					buff:	阶段所对应的buff
+	-->
+	<Levels>
+		<Level id="1" buff="0" storeboxtype="1" num="15" ></Level>
+		<Level id="2" buff="70831" storeboxtype="2" num="15" ></Level>
+		<Level id="3" buff="70832" storeboxtype="3" num="15" ></Level>
+		<Level id="4" buff="70833" storeboxtype="4" num="15" ></Level>
+	</Levels>
+	<!--
+			描述：			摇钱树浇灌物品对应的成长度
+			参数说明：
+					base：	基础成长值
+					id:			对应上缴仙露的ID
+			值：				上缴仙露后对应的成长度倍数
+	-->
+	<Growing Base="1" >
+		<Daw id="70733" >1</Daw>
+		<Daw id="70734" >8</Daw>
+		<Daw id="70735" >50</Daw>
+	</Growing>
+	<!--
+			描述：			在摇钱树达到某种成长度是所提示相应通知
+			参数说明：
+					value:	摇钱树所达到的成长度
+			值：				所发送的相应消息码
+	-->
+	<GrowingNotice>
+		<Notice Value="3500" >-69585</Notice>
+		<Notice Value="14000" >-69584</Notice>
+		<Notice Value="30000" >-69583</Notice>
+	</GrowingNotice>
+	<!--
+			描述：					中奖信息
+			参数说明：
+				condition:	阵营上缴仙露瓶数为当数字的正数倍时，触发中奖(作废)
+				growing:	浇灌得到成长
+				random:		获得物品概率
+				id:		奖励物品ID
+				num:		奖励物品个数
+	-->
+	<Prizes condition="1000">
+		<Prize Growing="1" Random="8" id="70738" num="1"></Prize>
+		<Prize Growing="8" Random="80" id="70738" num="1"></Prize>
+		<Prize Growing="50" Random="600" id="70738" num="1"></Prize>
+	</Prizes>
+	<!-- 
+				描述：				宝箱等级与宝箱NPC对应表
+				参数说明：
+					num:		需要创建包箱的个数
+					level:		宝箱等级，1为白色宝箱，2为蓝色宝箱，3为紫色宝箱，4为金色宝箱。
+					
+				值：					对应的宝箱NPC地图索引ID
+	-->
+	<StoreBoxs>
+		<StoreBox Level="1" id="130588" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130635" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130639" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130655" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130643" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130647" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130651" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130659" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130663" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130667" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130671" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130675" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130679" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130683" line="1" map="62" ></StoreBox>
+		<StoreBox Level="1" id="130687" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130593" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130636" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130640" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130644" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130648" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130652" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130656" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130660" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130664" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130668" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130672" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130676" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130680" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130684" line="1" map="62" ></StoreBox>
+		<StoreBox Level="2" id="130688" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130633" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130637" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130641" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130645" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130649" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130653" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130657" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130661" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130665" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130669" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130673" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130677" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130681" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130685" line="1" map="62" ></StoreBox>
+		<StoreBox Level="3" id="130689" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130634" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130638" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130642" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130646" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130650" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130654" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130658" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130662" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130666" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130670" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130674" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130678" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130682" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130686" line="1" map="62" ></StoreBox>
+		<StoreBox Level="4" id="130690" line="1" map="62" ></StoreBox>
+	</StoreBoxs>
+	<!--
+		描述：		用户贡献度排名相关配置信息
+		参数说明：
+			MaxLimite:	排名用户数限制
+			UpdateDelay:	多长时间与数据库同步一次排名
+			rank:		奖励排名
+		值:		奖励的称号卷轴
+	-->
+	<PlayerRankInfo MaxLimite="50" UpdateDelay="60"  >
+		<Prize Rank='1' mailid="39" prizeitem="70756" prizeitemnum="1" ></Prize>
+		<Prize Rank='2' mailid="39" prizeitem="70757" prizeitemnum="1" ></Prize>
+		<Prize Rank='3' mailid="39" prizeitem="70757" prizeitemnum="1" ></Prize>
+		<Prize Rank='4' mailid="39" prizeitem="70757" prizeitemnum="1" ></Prize>
+		<Prize Rank='5' mailid="39" prizeitem="70758" prizeitemnum="1" ></Prize>
+		<Prize Rank='6' mailid="39" prizeitem="70758" prizeitemnum="1" ></Prize>
+		<Prize Rank='7' mailid="39" prizeitem="70758" prizeitemnum="1" ></Prize>
+		<Prize Rank='8' mailid="39" prizeitem="70758" prizeitemnum="1" ></Prize>
+		<Prize Rank='9' mailid="39" prizeitem="70758" prizeitemnum="1" ></Prize>
+		<Prize Rank='10' mailid="39" prizeitem="70758" prizeitemnum="1" ></Prize>
+    </PlayerRankInfo>
+    <!--
+        描述：      阵营奖励
+        参数说明：
+            rank:   给与奖励的阵营所要达到的排名等级
+            doubleexptime:    给与的双倍经验时长
+            doubleexprate:    更与多少倍的经验
+    -->
+	<CampPrizes>
+		<CampPrize Rank="1" doubleexptime="3600" doubleexprate="20000"></CampPrize>
+		<CampPrize Rank="2" doubleexptime="3600" doubleexprate="10000"></CampPrize>
+		<CampPrize Rank="3" doubleexptime="3600" doubleexprate="10000"></CampPrize>
+		<CampPrize Rank="4" doubleexptime="3600" doubleexprate="10000"></CampPrize>
+	</CampPrizes>
+</ActivityYQS>

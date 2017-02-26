@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2298">
+    <Map MapName="普通大雁塔八层" MapID="88" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="1" AbsSafe="0" ConSafe="0" Type="2" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="40" cy="60" />
+        <RelivePos MapID="81" x="24" y="36" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="87000" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="16" PosY="39" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55606" Name="绿皮护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87001" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="10" PosY="30" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55607" Name="巨笔护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87002" CountDelay="0" CountNum="0" OgreInit="1" Disappear="6000" Relife="0" PosX="10" PosY="38" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55607" Name="巨笔护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87003" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="6" PosY="27" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55607" Name="巨笔护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87004" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="16" PosY="20" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55607" Name="巨笔护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87005" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="24" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55606" Name="绿皮护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87006" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="20" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55606" Name="绿皮护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87007" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="18" PosY="30" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87008" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="8" PosY="23" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87009" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="7" PosY="34" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87010" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="11" PosY="23" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55610" Name="金翅大王,20" Rand="6000" />
+                    <NewOgre ID="55609" Name="浣花大王,20" Rand="4000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87011" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="20" PosY="15" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87012" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="12" PosY="19" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87013" CountDelay="0" CountNum="0" OgreInit="1" Disappear="6000" Relife="0" PosX="15" PosY="34" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87014" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="5" PosY="30" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="87015" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="0" PosX="15" PosY="16" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="55608" Name="赤虎护卫,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData>
+            <Teleport TeleportIndex="87016" NpcID="" LineID="" MapID="89" MinLevel="" Init="0" MaxActive="0" ExistTime="0">
+                <SrcRect x="4" y="21" cx="3" cy="4" />
+                <DesPos x="26" y="30" />
+            </Teleport>
+            <Teleport TeleportIndex="87017" NpcID="" LineID="" MapID="87" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="23" y="35" cx="3" cy="3" />
+                <DesPos x="8" y="24" />
+            </Teleport>
+        </TeleportData>
+        <NpcData />
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

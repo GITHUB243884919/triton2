@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gbk"?>
+<databases>
+  <database>
+    <name>main</name>
+    <type>mysql</type>
+    <host>127.0.0.1</host>
+    <port>3307</port>
+    <charset>GBK</charset>
+    <username>root</username>
+    <password></password>
+    <dbname>GameDB</dbname>
+    <pconnect>true</pconnect>
+    <comment>For main connection</comment>
+  </database>
+</databases>

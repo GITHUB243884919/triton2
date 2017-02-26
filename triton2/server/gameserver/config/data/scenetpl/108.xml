@@ -1,0 +1,2780 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2323">
+    <Map MapName="碧波潭二区之碧波园" MapID="108" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="0" ConSafe="0" Type="1" NationProt="0" MinLevel="80" MaxLevel="0" FlyRide="0">
+        <Size cx="110" cy="150" />
+        <RelivePos MapID="105" x="69" y="34" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="107001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="64" PosY="106" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107002" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="62" PosY="92" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107003" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="64" PosY="68" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107004" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="64" PosY="69" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107001" Probability="3000" />
+                    <NewOgre Index="107002" Probability="3000" />
+                    <NewOgre Index="107003" Probability="4000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107005" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="89" PosY="58" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107006" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="95" PosY="42" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107007" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="82" PosY="39" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107008" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="82" PosY="40" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107005" Probability="3000" />
+                    <NewOgre Index="107006" Probability="3000" />
+                    <NewOgre Index="107007" Probability="4000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107009" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="56" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107010" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="71" PosY="32" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107011" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="56" PosY="29" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107009" Probability="5000" />
+                    <NewOgre Index="107010" Probability="5000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107012" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="26" PosY="25" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107013" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="16" PosY="30" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107014" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="17" PosY="47" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107015" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="17" PosY="48" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107012" Probability="3000" />
+                    <NewOgre Index="107013" Probability="3000" />
+                    <NewOgre Index="107014" Probability="4000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107016" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="19" PosY="62" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107017" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="16" PosY="73" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107018" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="20" PosY="82" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107019" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="20" PosY="83" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107016" Probability="3000" />
+                    <NewOgre Index="107017" Probability="3000" />
+                    <NewOgre Index="107018" Probability="4000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107020" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="15" PosY="122" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107021" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="31" PosY="120" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107022" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="26" PosY="98" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107023" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="26" PosY="99" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107020" Probability="3000" />
+                    <NewOgre Index="107021" Probability="3000" />
+                    <NewOgre Index="107022" Probability="4000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107024" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="37" PosY="52" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107025" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="48" PosY="57" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107026" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="51" PosY="72" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66408" Name="鱼美人（精英）,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107027" CountDelay="0" CountNum="600" OgreInit="0" Disappear="10000" Relife="0" PosX="51" PosY="73" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh />
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh>
+                    <NewOgre Index="107024" Probability="3000" />
+                    <NewOgre Index="107025" Probability="3000" />
+                    <NewOgre Index="107026" Probability="4000" />
+                </CrossRefresh>
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107028" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="63" PosY="128" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107029" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="58" PosY="119" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107030" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="57" PosY="114" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107031" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="65" PosY="111" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107032" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="68" PosY="108" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107033" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="68" PosY="100" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107034" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="68" PosY="93" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107035" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="64" PosY="97" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107036" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="65" PosY="102" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107037" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="57" PosY="95" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107038" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="66" PosY="83" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107039" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="66" PosY="78" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107040" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="60" PosY="67" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107041" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="57" PosY="76" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107042" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="73" PosY="57" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107043" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="69" PosY="60" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107044" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="76" PosY="67" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107045" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="58" PosY="106" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107046" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="67" PosY="97" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107047" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="69" PosY="104" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107048" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="54" PosY="112" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107049" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="59" PosY="90" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107050" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="70" PosY="69" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107051" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="71" PosY="58" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107004" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107052" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="28" PosY="39" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107053" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="35" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107054" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="36" PosY="46" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107055" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="40" PosY="48" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107056" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="40" PosY="60" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107057" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="42" PosY="53" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107058" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="46" PosY="53" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107059" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="45" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107060" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="50" PosY="54" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107061" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="43" PosY="65" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107062" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="45" PosY="69" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107063" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="50" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107064" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="53" PosY="62" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107065" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="56" PosY="67" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107066" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="44" PosY="52" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66370" Name="田螺姑娘,105" Rand="5000" />
+                    <NewOgre ID="66371" Name="田螺姑娘,106" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107067" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="46" PosY="66" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107068" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="52" PosY="57" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107069" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="40" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107070" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="35" PosY="58" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107071" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="53" PosY="75" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107072" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="48" PosY="72" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66395" Name="凶狠的田螺姑娘,105" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107027" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107073" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="83" PosY="62" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107074" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="89" PosY="66" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107075" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="90" PosY="60" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107076" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="97" PosY="66" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107077" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="97" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107079" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="91" PosY="53" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107080" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="96" PosY="46" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107081" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="96" PosY="52" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107082" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="86" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107083" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="83" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107084" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="77" PosY="48" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107085" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="77" PosY="39" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107086" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="81" PosY="33" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107087" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="84" PosY="43" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107088" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="91" PosY="36" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107089" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="96" PosY="38" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107090" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="88" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107091" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="81" PosY="66" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107092" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="78" PosY="52" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107093" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="86" PosY="36" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107094" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="93" PosY="40" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107095" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="96" PosY="49" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107096" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="93" PosY="57" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107097" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="87" PosY="60" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107098" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="93" PosY="66" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66399" Name="蠢笨的碧波潭螃蟹精兵,107" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107099" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="67" PosY="31" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107100" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="69" PosY="36" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107101" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="62" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107102" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="56" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107103" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="49" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107105" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="47" PosY="27" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107106" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="42" PosY="21" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107107" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="37" PosY="24" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107011" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107078" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="93" PosY="48" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66378" Name="碧波潭螃蟹精兵,107" Rand="5000" />
+                    <NewOgre ID="66379" Name="碧波潭螃蟹精兵,108" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107008" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107108" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="28" PosY="21" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107109" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="23" PosY="35" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107110" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="26" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107111" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="25" PosY="20" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107112" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="18" PosY="25" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107113" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="19" PosY="29" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107114" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="38" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107115" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="12" PosY="39" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107117" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="11" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107118" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="35" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107119" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="14" PosY="46" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107116" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="30" PosY="25" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107120" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="31" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107121" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="25" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107122" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="24" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107123" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="17" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107124" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="19" PosY="43" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107015" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107125" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="14" PosY="55" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107126" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="11" PosY="62" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107127" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="15" PosY="64" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107128" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="14" PosY="58" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107129" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="68" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107130" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="14" PosY="72" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107131" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="16" PosY="69" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107132" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="24" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107133" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="23" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107134" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107135" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107136" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="14" PosY="81" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107137" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="71" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66374" Name="琵琶乐姬,106" Rand="5000" />
+                    <NewOgre ID="66375" Name="琵琶乐姬,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107138" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="17" PosY="87" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107139" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="22" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107140" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="65" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107141" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="20" PosY="52" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107142" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="14" PosY="75" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66397" Name="美艳的琵琶乐姬,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107019" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107143" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="18" PosY="95" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107144" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="26" PosY="89" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107145" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="27" PosY="94" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107146" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="29" PosY="101" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107147" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="32" PosY="95" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107148" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="37" PosY="98" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107149" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="36" PosY="102" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107150" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="45" PosY="99" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107151" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="16" PosY="103" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107152" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="20" PosY="108" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107153" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="16" PosY="110" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107154" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="116" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107155" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="18" PosY="121" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107156" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="123" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107157" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="16" PosY="128" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107158" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="23" PosY="122" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107159" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="23" PosY="128" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107160" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="28" PosY="122" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107161" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="29" PosY="115" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107162" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="34" PosY="122" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107163" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="34" PosY="112" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107164" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="22" PosY="105" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107165" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="13" PosY="111" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107166" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="12" PosY="127" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107167" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="21" PosY="124" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107168" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="28" PosY="126" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107169" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="33" PosY="98" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107170" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="12" PosY="119" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66372" Name="碧波潭龙虾精兵,106" Rand="5000" />
+                    <NewOgre ID="66373" Name="碧波潭龙虾精兵,107" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107171" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="16" PosY="119" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107172" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="18" PosY="106" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107173" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="19" PosY="126" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107174" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="15" PosY="125" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107175" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="26" PosY="124" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107176" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="32" PosY="123" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107177" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="30" PosY="112" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107178" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="31" PosY="97" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107179" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="25" PosY="92" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="107180" CountDelay="0" CountNum="0" OgreInit="1" Disappear="2000" Relife="2000" PosX="43" PosY="102" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="66396" Name="凶残的碧波潭龙虾精兵,106" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh>
+                    <NewOgre Index="107023" />
+                </CountRefresh>
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData>
+            <Teleport TeleportIndex="107000" NpcID="" LineID="" MapID="107" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="58" y="134" cx="3" cy="4" />
+                <DesPos x="60" y="8" />
+            </Teleport>
+            <Teleport TeleportIndex="107104" NpcID="" LineID="" MapID="114" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="11" y="6" cx="3" cy="4" />
+                <DesPos x="13" y="184" />
+            </Teleport>
+        </TeleportData>
+        <NpcData />
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

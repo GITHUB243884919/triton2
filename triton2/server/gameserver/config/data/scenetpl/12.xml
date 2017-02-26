@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2506">
+    <Map MapName="普陀山" MapID="12" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="1">
+        <Size cx="54" cy="138" />
+        <OgreData>
+            <Ogre OgreIndex="11020" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="7" PosY="6" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate>
+                    <Refresh RefreshDate="20100808170000" />
+                    <Refresh RefreshDate="20100815170000" />
+                    <Refresh RefreshDate="20100822170000" />
+                    <Refresh RefreshDate="20100829170000" />
+                    <Refresh RefreshDate="20100807160000" />
+                    <Refresh RefreshDate="20100814160000" />
+                    <Refresh RefreshDate="20100821160000" />
+                    <Refresh RefreshDate="20100828160000" />
+                    <Refresh RefreshDate="20100806150000" />
+                    <Refresh RefreshDate="20100813150000" />
+                    <Refresh RefreshDate="20100820150000" />
+                    <Refresh RefreshDate="20100827150000" />
+                    <Refresh RefreshDate="20100910150000" />
+                    <Refresh RefreshDate="20100911160000" />
+                    <Refresh RefreshDate="20100912170000" />
+                    <Refresh RefreshDate="20101015150000" />
+                    <Refresh RefreshDate="20101022150000" />
+                    <Refresh RefreshDate="20101029150000" />
+                    <Refresh RefreshDate="20101016160000" />
+                    <Refresh RefreshDate="20101023160000" />
+                    <Refresh RefreshDate="20101030160000" />
+                    <Refresh RefreshDate="20101017170000" />
+                    <Refresh RefreshDate="20101024170000" />
+                    <Refresh RefreshDate="20101031170000" />
+                    <Refresh RefreshDate="20110527150000" />
+                    <Refresh RefreshDate="20110528160000" />
+                    <Refresh RefreshDate="20110529170000" />
+                    <Refresh RefreshDate="20110603150000" />
+                    <Refresh RefreshDate="20110604160000" />
+                    <Refresh RefreshDate="20110605170000" />
+                    <Refresh RefreshDate="20110723150000" />
+                    <Refresh RefreshDate="20110731150000" />
+                    <Refresh RefreshDate="20110724160000" />
+                    <Refresh RefreshDate="20110730170000" />
+                </RefreshDate>
+                <DeadRefresh>
+                    <NewOgre ID="69515" Name="普陀山门派内丹,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="69515" Time="900000" NewID="0" NewName="" OldName="普陀山门派内丹,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="11000" NpcID="36088" NpcName="观音菩萨" NpcInit="1" Disappear="3000" Direction="-1" Relife="300" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="30" y="47" />
+            </Npc>
+            <Npc NpcIndex="11001" NpcID="36089" NpcName="黑熊精" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="48" y="125" />
+            </Npc>
+            <Npc NpcIndex="11002" NpcID="36090" NpcName="木吒" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="38" y="92" />
+            </Npc>
+            <Npc NpcIndex="11003" NpcID="40081" NpcName="陆公" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="19" y="42" />
+            </Npc>
+            <Npc NpcIndex="11004" NpcID="36091" NpcName="善财童子" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="16" y="62" />
+            </Npc>
+            <Npc NpcIndex="11005" NpcID="54883" NpcName="灵妙仙子" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="15" y="76" />
+            </Npc>
+            <Npc NpcIndex="11006" NpcID="54884" NpcName="居尘侍者" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="23" y="81" />
+            </Npc>
+            <Npc NpcIndex="11014" NpcID="67752" NpcName="悯世侍者" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="15" y="45" />
+            </Npc>
+            <Npc NpcIndex="11018" NpcID="67751" NpcName="怜尘仙子" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="13" y="49" />
+            </Npc>
+            <Npc NpcIndex="11019" NpcID="67785" NpcName="飞云居士" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="22" y="64" />
+            </Npc>
+            <Collect NpcIndex="11007" NpcID="39907" NpcName="小黄花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="11" y="74" />
+            </Collect>
+            <Collect NpcIndex="11008" NpcID="39907" NpcName="小黄花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="24" y="85" />
+            </Collect>
+            <Collect NpcIndex="11009" NpcID="39907" NpcName="小黄花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="20" y="62" />
+            </Collect>
+            <Collect NpcIndex="11010" NpcID="39907" NpcName="小黄花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="15" y="88" />
+            </Collect>
+            <Collect NpcIndex="11011" NpcID="39907" NpcName="小黄花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="24" y="76" />
+            </Collect>
+            <Collect NpcIndex="11012" NpcID="40180" NpcName="仙池荷花" NpcInit="1" Disappear="500" Direction="-1" Relife="1000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="10" y="70" />
+            </Collect>
+            <Collect NpcIndex="11013" NpcID="40180" NpcName="仙池荷花" NpcInit="1" Disappear="500" Direction="-1" Relife="1000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="8" y="72" />
+            </Collect>
+            <Collect NpcIndex="11015" NpcID="40180" NpcName="仙池荷花" NpcInit="1" Disappear="500" Direction="-1" Relife="1000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="8" y="70" />
+            </Collect>
+            <Collect NpcIndex="11016" NpcID="40180" NpcName="仙池荷花" NpcInit="1" Disappear="500" Direction="-1" Relife="1000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="9" y="71" />
+            </Collect>
+            <Collect NpcIndex="11017" NpcID="40180" NpcName="仙池荷花" NpcInit="1" Disappear="500" Direction="-1" Relife="1000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="10" y="72" />
+            </Collect>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	gameid:	 西游记固定，体验区是504, 正式区是4
+	worldid: 由Erating分配的GatewayID的第一位和最后两位组成
+	gate_code, gate_passwd, gate_mac 由erating分配
+-->
+<config>
+	<server>
+		<gate_server wan_addr = "_GATE_SERVER_IP_:_GATE_SERVER_PORT_" lan_addr="" id = "2" />
+		<proxy_server address = "_PROXY_SERVER_IP_:_PROXY_SERVER_PORT_" />
+		<mysql mysql_info="_MYSQL_CONN_" />
+		<erating 
+			gameid = "_ERATING_GAMEID_"
+			worldid = "_ERATING_WORLDID_" 
+			gate_code = "_ERATING_GATE_CODE_"
+			gate_passwd = "_ERATING_GATE_PASSWORD_" 
+			gate_mac = "_ERATING_GATE_MAC_" />
+	</server>
+</config>
+
+

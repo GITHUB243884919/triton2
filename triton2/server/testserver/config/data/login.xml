@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Configuration>
+  <LoginServers>
+    <LoginServer id="61001" host="127.0.0.1" port="10000" type="1" status_type="1" status="2"/>
+    <LoginServer id="62001" host="127.0.0.1" port="11000" type="1" status_type="0" status="1"/>
+    <LoginServer id="63001" host="127.0.0.1" port="12000" type="1" status_type="0" status="0"/>
+    <LoginServer id="64001" host="127.0.0.1" port="13000" type="2" status_type="1" status="0"/>
+    <LoginServer id="65001" host="127.0.0.1" port="14000" type="2" status_type="1" status="4"/>
+    <LoginServer id="66001" host="127.0.0.1" port="15000" type="1" status_type="0" status="5"/>
+  </LoginServers>
+</Configuration>

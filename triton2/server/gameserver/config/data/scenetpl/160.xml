@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2440">
+    <Map MapName="未名阁" MapID="160" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="0" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="-858993460">
+        <Size cx="40" cy="60" />
+        <OgreData />
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="159000" NpcID="75620" NpcName="未名小童的师姐" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="13" y="29" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

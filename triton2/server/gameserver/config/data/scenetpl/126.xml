@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2352">
+    <Map MapName="云霄塔之云霄之巅" MapID="126" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="2" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="60" cy="76" />
+        <RelivePos MapID="128" x="18" y="34" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="125001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="32" PosY="42" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67909" Name="黄金金身鲤鱼小将,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="125002" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="32" PosY="42" Dir="0" Rand="0" InitBuffID="63888" TimeBuffID="63888" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67910" Name="黄金金身地灵谛听兽,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="125003" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="32" PosY="42" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67911" Name="黄金金身怒焰猛虎,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="125004" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="32" PosY="42" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67912" Name="黄金金身乌龟丞相,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="125005" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="32" PosY="42" Dir="0" Rand="0" InitBuffID="69006" TimeBuffID="69006" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67913" Name="黄金金身幽冥无常,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="125006" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="31" PosY="43" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67914" Name="黄金金身九尾狐精,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="125007" NpcID="69343" NpcName="腾云仙" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="17" y="48" />
+            </Npc>
+            <Npc NpcIndex="125000" NpcID="70083" NpcName="5层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125008" NpcID="70084" NpcName="10层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125009" NpcID="70085" NpcName="15层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125010" NpcID="70086" NpcName="20层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125011" NpcID="70087" NpcName="25层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125012" NpcID="70088" NpcName="30层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125013" NpcID="70089" NpcName="35层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125014" NpcID="70090" NpcName="40层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125015" NpcID="70091" NpcName="45层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+            <Npc NpcIndex="125016" NpcID="70092" NpcName="50层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="40" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `GMS_IBSTORE_PROMOTION`;create table GMS_IBSTORE_PROMOTION(	goods_id int primary key,	locked_count int not null default 0,	elapsed_time int not null default 0,	update_time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);

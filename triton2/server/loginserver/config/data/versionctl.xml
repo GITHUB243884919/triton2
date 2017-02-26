@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<verify_service verify="false">
+		<hash client_version="1004001000" value="d4428f2e504c37fa2cb1727ebfe51f6a" />
+		<hash client_version="1004001000" value="babab81d3a86f7d52dc5a9e7da80a728" />
+		<hash client_version="1004001000" value="44829ff81d04b2b1dd3d1ec73297a112" />
+	</verify_service>
+</config>

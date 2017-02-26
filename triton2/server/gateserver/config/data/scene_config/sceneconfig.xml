@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SceneList>
+<SceneObject Name = "game1" LineID = "1"  ServerID="1" >
+			<Map MapID = "1" TplName = "1"/>
+			<Map MapID = "5" TplName = "5"/>
+			<Map MapID = "6" TplName = "6"/>
+			<Map MapID = "7" TplName = "7"/>
+			<Map MapID = "22" TplName ="22"/>
+			<Map MapID = "23" TplName ="23"/>
+			<Map MapID = "25" TplName ="25"/>
+			<Map MapID = "26" TplName ="26"/>
+			<Map MapID = "27" TplName ="27"/>
+			<Map MapID = "28" TplName ="28"/>
+			<Map MapID = "29" TplName ="29"/>
+			<Map MapID = "30" TplName ="30"/>
+			<Map MapID = "31" TplName ="31"/>
+			<Map MapID = "32" TplName ="32"/>
+			<Map MapID = "33" TplName ="33"/>
+			<Map MapID = "34" TplName ="34"/>
+			<Map MapID = "35" TplName ="35"/>
+			<Map MapID = "36" TplName ="36"/>
+			<Map MapID = "37" TplName ="37"/>
+			<Map MapID = "38" TplName ="38"/>
+			<Map MapID = "39" TplName ="39"/>
+			<Map MapID = "40" TplName ="40"/>
+			<Map MapID = "41" TplName ="41"/>
+			<Map MapID = "42" TplName ="42"/>
+			<Map MapID = "43" TplName ="43"/>
+			<Map MapID = "44" TplName ="44"/>
+			<Map MapID = "45" TplName ="45"/>
+			<Map MapID = "46" TplName ="46"/>
+			<Map MapID = "47" TplName ="47"/>
+			<Map MapID = "48" TplName ="48"/>
+			<Map MapID = "49" TplName ="49"/>
+			<Map MapID = "50" TplName ="50"/>
+			<Map MapID = "51" TplName ="51"/>
+			<Map MapID = "53" TplName ="53"/>
+			<Map MapID = "54" TplName ="54"/>
+			<Map MapID = "60" TplName ="60"/>
+			<Map MapID = "62" TplName ="62"/>
+			<Map MapID = "63" TplName ="63"/>
+			<Map MapID = "64" TplName ="64"/>
+			<Map MapID = "65" TplName ="65"/>
+			<Map MapID = "67" TplName ="67"/>
+			<Map MapID = "68" TplName ="68"/>
+			<Map MapID = "69" TplName ="69"/>
+			<Map MapID = "70" TplName ="70"/>
+			<Map MapID = "72" TplName ="72"/>
+			<Map MapID = "73" TplName ="73"/>
+			<Map MapID = "74" TplName ="74"/>
+			<Map MapID = "75" TplName ="75"/>
+			<Map MapID = "76" TplName ="76"/>
+			<Map MapID = "77" TplName ="77"/>
+			<Map MapID = "78" TplName ="78"/>
+			<Map MapID = "79" TplName ="79"/>
+			<Map MapID = "93" TplName ="93"/>
+			<Map MapID = "96" TplName ="96"/>
+			<Map MapID = "97" TplName ="97"/>
+			<Map MapID = "100" TplName ="100"/>
+			<Map MapID = "105" TplName ="105"/>
+			<Map MapID = "106" TplName ="106"/>
+			<Map MapID = "107" TplName ="107"/>
+			<Map MapID = "108" TplName ="108"/>
+			<Map MapID = "114" TplName ="114"/>
+			<Map MapID = "115" TplName ="115"/>
+			<Map MapID = "116" TplName ="116"/>
+			<Map MapID = "117" TplName ="117"/>
+			<Map MapID = "118" TplName ="118"/>
+			<Map MapID = "157" TplName ="157"/>
+			<Map MapID = "159" TplName ="159"/>
+			<Map MapID = "162" TplName ="162"/>
+</SceneObject>
+
+
+
+<SceneObject Name = "game2" LineID = "2"  ServerID="2">
+			<Map MapID = "1" TplName = "1"/>
+			<Map MapID = "5" TplName = "5"/>
+			<Map MapID = "6" TplName = "6"/>
+			<Map MapID = "7" TplName = "7"/>
+			<Map MapID = "22" TplName ="22"/>
+			<Map MapID = "23" TplName ="23"/>
+			<Map MapID = "25" TplName ="25"/>
+			<Map MapID = "26" TplName ="26"/>
+			<Map MapID = "27" TplName ="27"/>
+			<Map MapID = "28" TplName ="28"/>
+			<Map MapID = "29" TplName ="29"/>
+			<Map MapID = "30" TplName ="30"/>
+			<Map MapID = "31" TplName ="31"/>
+			<Map MapID = "32" TplName ="32"/>
+			<Map MapID = "33" TplName ="33"/>
+			<Map MapID = "34" TplName ="34"/>
+			<Map MapID = "35" TplName ="35"/>
+			<Map MapID = "36" TplName ="36"/>
+			<Map MapID = "37" TplName ="37"/>
+			<Map MapID = "38" TplName ="38"/>
+			<Map MapID = "39" TplName ="39"/>
+			<Map MapID = "40" TplName ="40"/>
+			<Map MapID = "41" TplName ="41"/>
+			<Map MapID = "42" TplName ="42"/>
+			<Map MapID = "43" TplName ="43"/>
+			<Map MapID = "44" TplName ="44"/>
+			<Map MapID = "45" TplName ="45"/>
+			<Map MapID = "46" TplName ="46"/>
+			<Map MapID = "47" TplName ="47"/>
+			<Map MapID = "48" TplName ="48"/>
+			<Map MapID = "49" TplName ="49"/>
+			<Map MapID = "50" TplName ="50"/>
+			<Map MapID = "51" TplName ="51"/>
+			<Map MapID = "53" TplName ="53"/>
+			<Map MapID = "54" TplName ="54"/>
+			<Map MapID = "60" TplName ="60"/>
+			<Map MapID = "62" TplName ="62"/>
+			<Map MapID = "63" TplName ="63"/>
+			<Map MapID = "64" TplName ="64"/>
+			<Map MapID = "65" TplName ="65"/>
+			<Map MapID = "67" TplName ="67"/>
+			<Map MapID = "68" TplName ="68"/>
+			<Map MapID = "69" TplName ="69"/>
+			<Map MapID = "70" TplName ="70"/>
+			<Map MapID = "72" TplName ="72"/>
+			<Map MapID = "73" TplName ="73"/>
+			<Map MapID = "74" TplName ="74"/>
+			<Map MapID = "75" TplName ="75"/>
+			<Map MapID = "76" TplName ="76"/>
+			<Map MapID = "77" TplName ="77"/>
+			<Map MapID = "78" TplName ="78"/>
+			<Map MapID = "79" TplName ="79"/>
+			<Map MapID = "93" TplName ="93"/>
+			<Map MapID = "96" TplName ="96"/>
+			<Map MapID = "100" TplName ="100"/>
+			<Map MapID = "97" TplName ="97"/>
+			<Map MapID = "105" TplName ="105"/>
+			<Map MapID = "106" TplName ="106"/>
+			<Map MapID = "107" TplName ="107"/>
+			<Map MapID = "108" TplName ="108"/>
+			<Map MapID = "114" TplName ="114"/>
+			<Map MapID = "115" TplName ="115"/>
+			<Map MapID = "116" TplName ="116"/>
+			<Map MapID = "117" TplName ="117"/>
+			<Map MapID = "118" TplName ="118"/>
+			<Map MapID = "157" TplName ="157"/>
+			<Map MapID = "159" TplName ="159"/>
+			<Map MapID = "162" TplName ="162"/>
+</SceneObject>
+
+
+
+<SceneObject Name = "game3" LineID = "3"  ServerID="3">
+			<Map MapID = "1" TplName = "1"/>
+			<Map MapID = "5" TplName = "5"/>
+			<Map MapID = "6" TplName = "6"/>
+			<Map MapID = "7" TplName = "7"/>
+			<Map MapID = "22" TplName ="22"/>
+			<Map MapID = "23" TplName ="23"/>
+			<Map MapID = "25" TplName ="25"/>
+			<Map MapID = "26" TplName ="26"/>
+			<Map MapID = "27" TplName ="27"/>
+			<Map MapID = "28" TplName ="28"/>
+			<Map MapID = "29" TplName ="29"/>
+			<Map MapID = "30" TplName ="30"/>
+			<Map MapID = "31" TplName ="31"/>
+			<Map MapID = "32" TplName ="32"/>
+			<Map MapID = "33" TplName ="33"/>
+			<Map MapID = "34" TplName ="34"/>
+			<Map MapID = "35" TplName ="35"/>
+			<Map MapID = "36" TplName ="36"/>
+			<Map MapID = "37" TplName ="37"/>
+			<Map MapID = "38" TplName ="38"/>
+			<Map MapID = "39" TplName ="39"/>
+			<Map MapID = "40" TplName ="40"/>
+			<Map MapID = "41" TplName ="41"/>
+			<Map MapID = "42" TplName ="42"/>
+			<Map MapID = "43" TplName ="43"/>
+			<Map MapID = "44" TplName ="44"/>
+			<Map MapID = "45" TplName ="45"/>
+			<Map MapID = "46" TplName ="46"/>
+			<Map MapID = "47" TplName ="47"/>
+			<Map MapID = "48" TplName ="48"/>
+			<Map MapID = "49" TplName ="49"/>
+			<Map MapID = "50" TplName ="50"/>
+			<Map MapID = "51" TplName ="51"/>
+			<Map MapID = "53" TplName ="53"/>
+			<Map MapID = "54" TplName ="54"/>
+			<Map MapID = "60" TplName ="60"/>
+			<Map MapID = "62" TplName ="62"/>
+			<Map MapID = "63" TplName ="63"/>
+			<Map MapID = "64" TplName ="64"/>
+			<Map MapID = "65" TplName ="65"/>
+			<Map MapID = "67" TplName ="67"/>
+			<Map MapID = "68" TplName ="68"/>
+			<Map MapID = "69" TplName ="69"/>
+			<Map MapID = "70" TplName ="70"/>
+			<Map MapID = "72" TplName ="72"/>
+			<Map MapID = "73" TplName ="73"/>
+			<Map MapID = "74" TplName ="74"/>
+			<Map MapID = "75" TplName ="75"/>
+			<Map MapID = "76" TplName ="76"/>
+			<Map MapID = "77" TplName ="77"/>
+			<Map MapID = "78" TplName ="78"/>
+			<Map MapID = "79" TplName ="79"/>
+			<Map MapID = "93" TplName ="93"/>
+			<Map MapID = "96" TplName ="96"/>
+			<Map MapID = "100" TplName ="100"/>
+			<Map MapID = "97" TplName ="97"/>
+			<Map MapID = "105" TplName ="105"/>
+			<Map MapID = "106" TplName ="106"/>
+			<Map MapID = "107" TplName ="107"/>
+			<Map MapID = "108" TplName ="108"/>
+			<Map MapID = "114" TplName ="114"/>
+			<Map MapID = "115" TplName ="115"/>
+			<Map MapID = "116" TplName ="116"/>
+			<Map MapID = "117" TplName ="117"/>
+			<Map MapID = "118" TplName ="118"/>
+			<Map MapID = "157" TplName ="157"/>
+			<Map MapID = "159" TplName ="159"/>
+			<Map MapID = "162" TplName ="162"/>
+</SceneObject>
+
+
+<SceneObject Name = "game4" LineID = "4"  ServerID="4">
+			<Map MapID = "1" TplName = "1"/>
+			<Map MapID = "5" TplName = "5"/>
+			<Map MapID = "6" TplName = "6"/>
+			<Map MapID = "7" TplName = "7"/>
+			<Map MapID = "22" TplName ="22"/>
+			<Map MapID = "23" TplName ="23"/>
+			<Map MapID = "25" TplName ="25"/>
+			<Map MapID = "26" TplName ="26"/>
+			<Map MapID = "27" TplName ="27"/>
+			<Map MapID = "28" TplName ="28"/>
+			<Map MapID = "29" TplName ="29"/>
+			<Map MapID = "30" TplName ="30"/>
+			<Map MapID = "31" TplName ="31"/>
+			<Map MapID = "32" TplName ="32"/>
+			<Map MapID = "33" TplName ="33"/>
+			<Map MapID = "34" TplName ="34"/>
+			<Map MapID = "35" TplName ="35"/>
+			<Map MapID = "36" TplName ="36"/>
+			<Map MapID = "37" TplName ="37"/>
+			<Map MapID = "38" TplName ="38"/>
+			<Map MapID = "39" TplName ="39"/>
+			<Map MapID = "40" TplName ="40"/>
+			<Map MapID = "41" TplName ="41"/>
+			<Map MapID = "42" TplName ="42"/>
+			<Map MapID = "43" TplName ="43"/>
+			<Map MapID = "44" TplName ="44"/>
+			<Map MapID = "45" TplName ="45"/>
+			<Map MapID = "46" TplName ="46"/>
+			<Map MapID = "47" TplName ="47"/>
+			<Map MapID = "48" TplName ="48"/>
+			<Map MapID = "49" TplName ="49"/>
+			<Map MapID = "50" TplName ="50"/>
+			<Map MapID = "51" TplName ="51"/>
+			<Map MapID = "53" TplName ="53"/>
+			<Map MapID = "54" TplName ="54"/>
+			<Map MapID = "60" TplName ="60"/>
+			<Map MapID = "62" TplName ="62"/>
+			<Map MapID = "63" TplName ="63"/>
+			<Map MapID = "64" TplName ="64"/>
+			<Map MapID = "65" TplName ="65"/>
+			<Map MapID = "67" TplName ="67"/>
+			<Map MapID = "68" TplName ="68"/>
+			<Map MapID = "69" TplName ="69"/>
+			<Map MapID = "70" TplName ="70"/>
+			<Map MapID = "72" TplName ="72"/>
+			<Map MapID = "73" TplName ="73"/>
+			<Map MapID = "74" TplName ="74"/>
+			<Map MapID = "75" TplName ="75"/>
+			<Map MapID = "76" TplName ="76"/>
+			<Map MapID = "77" TplName ="77"/>
+			<Map MapID = "78" TplName ="78"/>
+			<Map MapID = "79" TplName ="79"/>
+			<Map MapID = "93" TplName ="93"/>
+			<Map MapID = "96" TplName ="96"/>
+			<Map MapID = "97" TplName ="97"/>
+			<Map MapID = "100" TplName ="100"/>
+			<Map MapID = "105" TplName ="105"/>
+			<Map MapID = "106" TplName ="106"/>
+			<Map MapID = "107" TplName ="107"/>
+			<Map MapID = "108" TplName ="108"/>
+			<Map MapID = "114" TplName ="114"/>
+			<Map MapID = "115" TplName ="115"/>
+			<Map MapID = "116" TplName ="116"/>
+			<Map MapID = "117" TplName ="117"/>
+			<Map MapID = "118" TplName ="118"/>
+			<Map MapID = "157" TplName ="157"/>
+			<Map MapID = "159" TplName ="159"/>
+			<Map MapID = "162" TplName ="162"/>
+</SceneObject>
+
+
+
+<SceneObject Name = "menpai" LineID = "50"  ServerID="5">
+        <Map MapID = "8" TplName = "8"/>
+        <Map MapID = "9" TplName = "9"/>
+        <Map MapID = "10" TplName ="10"/>
+        <Map MapID = "11" TplName ="11"/>
+        <Map MapID = "12" TplName ="12"/>
+        <Map MapID = "13" TplName ="13"/>
+	<Map MapID = "61" TplName ="61"/>
+	<Map MapID = "101" TplName ="101"/>
+	<Map MapID = "127" TplName ="127"/>
+</SceneObject>
+
+<SceneObject Name = "qitian" LineID = "51"  ServerID="8">
+        <Map MapID = "109" TplName = "109"/>
+        <Map MapID = "110" TplName ="110"/>
+        <Map MapID = "111" TplName ="111"/>
+        <Map MapID = "112" TplName ="112"/>
+        <Map MapID = "113" TplName ="113"/>
+</SceneObject>
+
+<SceneObject Name = "leiyinsi" LineID = "10"  ServerID="10">        
+        <Map MapID = "164" TplName ="164"/>
+</SceneObject>
+<SceneObject Name = "leiyinsi" LineID = "97"  ServerID="9">        
+        <Map MapID = "156" TplName ="156"/>
+</SceneObject>
+<SceneObject Name = "leiyinsi" LineID = "96"  ServerID="11">        
+        <Map MapID = "156" TplName ="156"/>
+</SceneObject>
+<SceneObject Name = "leiyinsi" LineID = "95"  ServerID="12">        
+        <Map MapID = "156" TplName ="156"/>
+</SceneObject>
+<SceneObject Name = "leiyinsi" LineID = "94"  ServerID="13">        
+        <Map MapID = "156" TplName ="156"/>
+</SceneObject>
+<SceneObject Name = "leiyinsi" LineID = "93"  ServerID="16">        
+        <Map MapID = "156" TplName ="156"/>
+</SceneObject>
+<SceneObject Name = "leiyinsi" LineID = "92"  ServerID="17">        
+        <Map MapID = "156" TplName ="156"/>
+</SceneObject>
+
+<SceneObject Name = "dungeon1" LineID = "98"  ServerID = "6">
+			<Map MapID = "14" TplName ="14"/>
+			<Map MapID = "15" TplName ="15"/>
+			<Map MapID = "16" TplName ="16"/>
+			<Map MapID = "17" TplName ="17"/>
+			<Map MapID = "18" TplName ="18"/>
+			<Map MapID = "19" TplName ="19"/>
+			<Map MapID = "20" TplName ="20"/>
+			<Map MapID = "21" TplName ="21"/>
+			<Map MapID = "52" TplName ="52"/>
+			<Map MapID = "55" TplName ="55"/>
+			<Map MapID = "56" TplName ="56"/>
+			<Map MapID = "57" TplName ="57"/>
+			<Map MapID = "58" TplName ="58"/>
+			<Map MapID = "59" TplName ="59"/>
+			<Map MapID = "66" TplName ="66"/>
+			<Map MapID = "71" TplName ="71"/>
+			<Map MapID = "80" TplName ="80"/>
+			<Map MapID = "81" TplName ="81"/>
+			<Map MapID = "82" TplName ="82"/>
+			<Map MapID = "83" TplName ="83"/>
+			<Map MapID = "84" TplName ="84"/>
+			<Map MapID = "85" TplName ="85"/>
+			<Map MapID = "86" TplName ="86"/>
+			<Map MapID = "87" TplName ="87"/>
+			<Map MapID = "88" TplName ="88"/>
+			<Map MapID = "89" TplName ="89"/>
+			<Map MapID = "90" TplName ="90"/>			
+			<Map MapID = "91" TplName ="91"/>
+			<Map MapID = "92" TplName ="92"/>
+			<Map MapID = "94" TplName ="94"/>
+			<Map MapID = "95" TplName ="95"/>
+			<Map MapID = "99" TplName ="99"/>	
+			<Map MapID = "102" TplName ="102"/>
+			<Map MapID = "103" TplName ="103"/>
+			<Map MapID = "104" TplName ="104"/>
+			<Map MapID = "112" TplName ="112"/>
+			<Map MapID = "113" TplName ="113"/>
+			<Map MapID = "119" TplName ="119"/>
+			<Map MapID = "120" TplName ="120"/>
+			<Map MapID = "121" TplName ="121"/>
+			<Map MapID = "122" TplName ="122"/>
+			<Map MapID = "123" TplName ="123"/>
+			<Map MapID = "124" TplName ="124"/>
+			<Map MapID = "125" TplName ="125"/>
+			<Map MapID = "126" TplName ="126"/>
+        		<Map MapID = "112" TplName ="112"/>
+        		<Map MapID = "113" TplName ="113"/>
+        		<Map MapID = "128" TplName ="128"/>
+                <Map MapID = "130" TplName ="130"/>
+                <Map MapID = "141" TplName ="141"/>
+                <Map MapID = "142" TplName ="142"/>
+                <Map MapID = "143" TplName ="143"/>
+                <Map MapID = "144" TplName ="144"/>
+                <Map MapID = "145" TplName ="145"/>
+                <Map MapID = "146" TplName ="146"/>
+                <Map MapID = "147" TplName ="147"/>
+                <Map MapID = "148" TplName ="148"/>
+                <Map MapID = "149" TplName ="149"/>
+                <Map MapID = "150" TplName ="150"/>
+                <Map MapID = "151" TplName ="151"/>
+                <Map MapID = "154" TplName ="154"/>
+                <Map MapID = "160" TplName ="160"/>
+				<Map MapID = "161" TplName ="161"/>
+				<Map MapID = "165" TplName ="165"/>
+</SceneObject>
+
+
+<SceneObject Name = "dungeon2" LineID = "99"  ServerID = "7">
+			<Map MapID = "14" TplName ="14"/>
+			<Map MapID = "15" TplName ="15"/>
+			<Map MapID = "16" TplName ="16"/>
+			<Map MapID = "17" TplName ="17"/>
+			<Map MapID = "18" TplName ="18"/>
+			<Map MapID = "19" TplName ="19"/>
+			<Map MapID = "20" TplName ="20"/>
+			<Map MapID = "21" TplName ="21"/>
+			<Map MapID = "52" TplName ="52"/>
+			<Map MapID = "55" TplName ="55"/>
+			<Map MapID = "56" TplName ="56"/>
+			<Map MapID = "57" TplName ="57"/>
+			<Map MapID = "58" TplName ="58"/>
+			<Map MapID = "59" TplName ="59"/>
+			<Map MapID = "66" TplName ="66"/>
+			<Map MapID = "71" TplName ="71"/>
+			<Map MapID = "80" TplName ="80"/>
+			<Map MapID = "81" TplName ="81"/>
+			<Map MapID = "82" TplName ="82"/>
+			<Map MapID = "83" TplName ="83"/>
+			<Map MapID = "84" TplName ="84"/>
+			<Map MapID = "85" TplName ="85"/>
+			<Map MapID = "86" TplName ="86"/>
+			<Map MapID = "87" TplName ="87"/>
+			<Map MapID = "88" TplName ="88"/>
+			<Map MapID = "89" TplName ="89"/>
+			<Map MapID = "90" TplName ="90"/>			
+			<Map MapID = "91" TplName ="91"/>
+			<Map MapID = "92" TplName ="92"/>
+			<Map MapID = "94" TplName ="94"/>
+			<Map MapID = "95" TplName ="95"/>
+			<Map MapID = "99" TplName ="99"/>	
+			<Map MapID = "102" TplName ="102"/>
+			<Map MapID = "103" TplName ="103"/>
+			<Map MapID = "104" TplName ="104"/>
+			<Map MapID = "112" TplName ="112"/>
+			<Map MapID = "113" TplName ="113"/>
+			<Map MapID = "119" TplName ="119"/>
+			<Map MapID = "120" TplName ="120"/>
+			<Map MapID = "121" TplName ="121"/>
+			<Map MapID = "122" TplName ="122"/>
+			<Map MapID = "123" TplName ="123"/>
+			<Map MapID = "124" TplName ="124"/>
+			<Map MapID = "125" TplName ="125"/>
+			<Map MapID = "126" TplName ="126"/>
+        		<Map MapID = "128" TplName ="128"/>
+                <Map MapID = "130" TplName ="130"/>
+                <Map MapID = "141" TplName ="141"/>
+                <Map MapID = "142" TplName ="142"/>
+                <Map MapID = "143" TplName ="143"/>
+                <Map MapID = "144" TplName ="144"/>
+                <Map MapID = "145" TplName ="145"/>
+                <Map MapID = "146" TplName ="146"/>
+                <Map MapID = "147" TplName ="147"/>
+                <Map MapID = "148" TplName ="148"/>
+                <Map MapID = "149" TplName ="149"/>
+                <Map MapID = "150" TplName ="150"/>
+                <Map MapID = "151" TplName ="151"/>
+                <Map MapID = "154" TplName ="154"/>
+                <Map MapID = "160" TplName ="160"/>
+				<Map MapID = "161" TplName ="161"/>
+                <Map MapID = "165" TplName ="165"/>
+</SceneObject>
+<SceneObject Name = "dungeon3" LineID = "90"  ServerID = "14">
+			<Map MapID = "14" TplName ="14"/>
+			<Map MapID = "15" TplName ="15"/>
+			<Map MapID = "16" TplName ="16"/>
+			<Map MapID = "17" TplName ="17"/>
+			<Map MapID = "18" TplName ="18"/>
+			<Map MapID = "19" TplName ="19"/>
+			<Map MapID = "20" TplName ="20"/>
+			<Map MapID = "21" TplName ="21"/>
+			<Map MapID = "52" TplName ="52"/>
+			<Map MapID = "55" TplName ="55"/>
+			<Map MapID = "56" TplName ="56"/>
+			<Map MapID = "57" TplName ="57"/>
+			<Map MapID = "58" TplName ="58"/>
+			<Map MapID = "59" TplName ="59"/>
+			<Map MapID = "66" TplName ="66"/>
+			<Map MapID = "71" TplName ="71"/>
+			<Map MapID = "80" TplName ="80"/>
+			<Map MapID = "81" TplName ="81"/>
+			<Map MapID = "82" TplName ="82"/>
+			<Map MapID = "83" TplName ="83"/>
+			<Map MapID = "84" TplName ="84"/>
+			<Map MapID = "85" TplName ="85"/>
+			<Map MapID = "86" TplName ="86"/>
+			<Map MapID = "87" TplName ="87"/>
+			<Map MapID = "88" TplName ="88"/>
+			<Map MapID = "89" TplName ="89"/>
+			<Map MapID = "90" TplName ="90"/>			
+			<Map MapID = "91" TplName ="91"/>
+			<Map MapID = "92" TplName ="92"/>
+			<Map MapID = "94" TplName ="94"/>
+			<Map MapID = "95" TplName ="95"/>
+			<Map MapID = "99" TplName ="99"/>	
+			<Map MapID = "102" TplName ="102"/>
+			<Map MapID = "103" TplName ="103"/>
+			<Map MapID = "104" TplName ="104"/>
+			<Map MapID = "119" TplName ="119"/>
+			<Map MapID = "120" TplName ="120"/>
+			<Map MapID = "121" TplName ="121"/>
+			<Map MapID = "122" TplName ="122"/>
+			<Map MapID = "123" TplName ="123"/>
+			<Map MapID = "124" TplName ="124"/>
+			<Map MapID = "125" TplName ="125"/>
+			<Map MapID = "126" TplName ="126"/>
+        		<Map MapID = "112" TplName ="112"/>
+        		<Map MapID = "113" TplName ="113"/>
+        		<Map MapID = "128" TplName ="128"/>
+                <Map MapID = "130" TplName ="130"/>
+                <Map MapID = "141" TplName ="141"/>
+                <Map MapID = "142" TplName ="142"/>
+                <Map MapID = "143" TplName ="143"/>
+                <Map MapID = "144" TplName ="144"/>
+                <Map MapID = "145" TplName ="145"/>
+                <Map MapID = "146" TplName ="146"/>
+                <Map MapID = "147" TplName ="147"/>
+                <Map MapID = "148" TplName ="148"/>
+                <Map MapID = "149" TplName ="149"/>
+                <Map MapID = "150" TplName ="150"/>
+                <Map MapID = "151" TplName ="151"/>
+                <Map MapID = "154" TplName ="154"/>
+                <Map MapID = "160" TplName ="160"/>
+				<Map MapID = "161" TplName ="161"/>
+				<Map MapID = "165" TplName ="165"/>
+</SceneObject>
+
+<SceneObject Name = "dungeon4" LineID = "91"  ServerID = "15">
+			<Map MapID = "14" TplName ="14"/>
+			<Map MapID = "15" TplName ="15"/>
+			<Map MapID = "16" TplName ="16"/>
+			<Map MapID = "17" TplName ="17"/>
+			<Map MapID = "18" TplName ="18"/>
+			<Map MapID = "19" TplName ="19"/>
+			<Map MapID = "20" TplName ="20"/>
+			<Map MapID = "21" TplName ="21"/>
+			<Map MapID = "52" TplName ="52"/>
+			<Map MapID = "55" TplName ="55"/>
+			<Map MapID = "56" TplName ="56"/>
+			<Map MapID = "57" TplName ="57"/>
+			<Map MapID = "58" TplName ="58"/>
+			<Map MapID = "59" TplName ="59"/>
+			<Map MapID = "66" TplName ="66"/>
+			<Map MapID = "71" TplName ="71"/>
+			<Map MapID = "80" TplName ="80"/>
+			<Map MapID = "81" TplName ="81"/>
+			<Map MapID = "82" TplName ="82"/>
+			<Map MapID = "83" TplName ="83"/>
+			<Map MapID = "84" TplName ="84"/>
+			<Map MapID = "85" TplName ="85"/>
+			<Map MapID = "86" TplName ="86"/>
+			<Map MapID = "87" TplName ="87"/>
+			<Map MapID = "88" TplName ="88"/>
+			<Map MapID = "89" TplName ="89"/>
+			<Map MapID = "90" TplName ="90"/>			
+			<Map MapID = "91" TplName ="91"/>
+			<Map MapID = "92" TplName ="92"/>
+			<Map MapID = "94" TplName ="94"/>
+			<Map MapID = "95" TplName ="95"/>
+			<Map MapID = "99" TplName ="99"/>	
+			<Map MapID = "102" TplName ="102"/>
+			<Map MapID = "103" TplName ="103"/>
+			<Map MapID = "104" TplName ="104"/>
+			<Map MapID = "119" TplName ="119"/>
+			<Map MapID = "120" TplName ="120"/>
+			<Map MapID = "121" TplName ="121"/>
+			<Map MapID = "122" TplName ="122"/>
+			<Map MapID = "123" TplName ="123"/>
+			<Map MapID = "124" TplName ="124"/>
+			<Map MapID = "125" TplName ="125"/>
+			<Map MapID = "126" TplName ="126"/>
+        		<Map MapID = "112" TplName ="112"/>
+        		<Map MapID = "113" TplName ="113"/>
+        		<Map MapID = "128" TplName ="128"/>
+                <Map MapID = "130" TplName ="130"/>
+                <Map MapID = "141" TplName ="141"/>
+                <Map MapID = "142" TplName ="142"/>
+                <Map MapID = "143" TplName ="143"/>
+                <Map MapID = "144" TplName ="144"/>
+                <Map MapID = "145" TplName ="145"/>
+                <Map MapID = "146" TplName ="146"/>
+                <Map MapID = "147" TplName ="147"/>
+                <Map MapID = "148" TplName ="148"/>
+                <Map MapID = "149" TplName ="149"/>
+                <Map MapID = "150" TplName ="150"/>
+                <Map MapID = "151" TplName ="151"/>
+                <Map MapID = "154" TplName ="154"/>
+                <Map MapID = "160" TplName ="160"/>
+				<Map MapID = "161" TplName ="161"/>
+		<Map MapID = "165" TplName ="165"/>
+</SceneObject>
+</SceneList>

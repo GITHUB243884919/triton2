@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PublishConfig>
+	<CorpsPublish>
+		<TaskList>
+		<TaskInfo TaskID="10735"	 TaskState="1"  EntityID="0"/>
+		</TaskList>
+
+		<CorpsConfig>
+		<CorpsLimit MaxTodayPublish="10"  MaxWeekPublish="50"/>
+		</CorpsConfig>
+
+	</CorpsPublish>
+
+</PublishConfig>

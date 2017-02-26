@@ -1,0 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8" ?> 
+<DBSERVER_CONFIG>
+  <MYSQL mysql_info="_MYSQL_CONN_" /> 
+	<DB>
+		<SERVER ID="1" IP="_DB_SERVER_IP_" /> 
+	</DB>
+	<PROXY>
+		<SERVER.1 ID="1" IP="_PROXY_SERVER_IP_" Port="_PROXY_SERVER_PORT_" /> 
+	</PROXY>
+</DBSERVER_CONFIG>

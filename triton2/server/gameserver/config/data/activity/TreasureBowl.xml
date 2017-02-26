@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TreasureConfig TotalNum="100" >
+	<ProbabilityConfig>
+		<Probability ID="1" > 
+			<NumberProbality ItemNum="1" Probality="5400" />
+			<NumberProbality ItemNum="2" Probality="4500" />
+			<NumberProbality ItemNum="3" Probality="100"  />
+		</Probability>
+
+		<Probability ID="2" > 
+			<NumberProbality ItemNum="1" Probality="4900"  />
+			<NumberProbality ItemNum="2" Probality="5000"  />
+			<NumberProbality ItemNum="3" Probality="100"  />
+		</Probability>
+
+		<Probability ID="3" > 
+			<NumberProbality ItemNum="1" Probality="4400"  />
+			<NumberProbality ItemNum="2" Probality="5500"   />
+			<NumberProbality ItemNum="3" Probality="100"   />
+		</Probability>
+
+		<Probability ID="4" > 
+			<NumberProbality ItemNum="1" Probality="3400"  />
+			<NumberProbality ItemNum="2" Probality="6500" />
+			<NumberProbality ItemNum="3" Probality="100"  />
+		</Probability>
+
+		<Probability ID="5" > 
+			<NumberProbality ItemNum="1" Probality="3000" />
+			<NumberProbality ItemNum="2" Probality="6900"   />
+			<NumberProbality ItemNum="3" Probality="100"  />
+		</Probability>
+	</ProbabilityConfig>
+
+<ExchangeConfig>
+	<Item OldID="62242" NewID="64309" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="10" TipsType="1" />
+	<Item OldID="63923" NewID="64329" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="10" TipsType="1" />
+	<Item OldID="63912" NewID="64339" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="10" TipsType="1" />
+	<Item OldID="63505" NewID="63506" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="20" TipsType="1" />
+	<Item OldID="41477" NewID="58105" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="20" TipsType="1" />
+	<Item OldID="61280" NewID="61310" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="20" TipsType="1" />
+	<Item OldID="71383" NewID="71426" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="36" TipsType="1" />
+	<Item OldID="63935" NewID="64334" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="40" TipsType="1" />
+	<Item OldID="60127" NewID="60194" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="49" TipsType="1" />
+	<Item OldID="25408" NewID="25409" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="50" TipsType="1" />
+	<Item OldID="58123" NewID="33681" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="50" TipsType="1" />
+	<Item OldID="69519" NewID="69520" ProbalityID="1" TipsNum="3" UsedTime="10" TaxMoney="50" TipsType="1" />
+	<Item OldID="63913" NewID="64340" ProbalityID="1" TipsNum="3" UsedTime="10" TaxMoney="80" TipsType="1" />
+	<Item OldID="61989" NewID="64862" ProbalityID="1" TipsNum="3" UsedTime="10" TaxMoney="90" TipsType="1" />
+	<Item OldID="60349" NewID="60352" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="99" TipsType="1" />
+	<Item OldID="60192" NewID="60195" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="99" TipsType="1" />
+	<Item OldID="70811" NewID="72937" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="99" TipsType="1" />
+	<Item OldID="58183" NewID="57499" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="100" TipsType="1" />
+	<Item OldID="70004" NewID="70128" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="100" TipsType="1" />
+	<Item OldID="26337" NewID="58119" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="100" TipsType="1" />
+	<Item OldID="62246" NewID="64310" ProbalityID="1" TipsNum="3" UsedTime="10" TaxMoney="100" TipsType="1" />
+	<Item OldID="63926" NewID="64330" ProbalityID="1" TipsNum="3" UsedTime="10" TaxMoney="100" TipsType="1" />
+	<Item OldID="57437" NewID="58132" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="100" TipsType="1" />
+	<Item OldID="58182" NewID="56001" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="110" TipsType="1" />
+	<Item OldID="63936" NewID="64335" ProbalityID="1" TipsNum="3" UsedTime="10" TaxMoney="120" TipsType="1" />
+	<Item OldID="25415" NewID="25416" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="200" TipsType="1" />
+	<Item OldID="64157" NewID="72925" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="200" TipsType="1" />
+	<Item OldID="65298" NewID="72934" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="200" TipsType="1" />
+	<Item OldID="63914" NewID="64341" ProbalityID="2" TipsNum="2" UsedTime="10" TaxMoney="210" TipsType="1" />
+	<Item OldID="62250" NewID="64311" ProbalityID="2" TipsNum="2" UsedTime="10" TaxMoney="250" TipsType="1" />
+	<Item OldID="63931" NewID="64331" ProbalityID="2" TipsNum="2" UsedTime="10" TaxMoney="250" TipsType="1" />
+	<Item OldID="70652" NewID="70761" ProbalityID="2" TipsNum="2" UsedTime="20" TaxMoney="300" TipsType="1" />
+	<Item OldID="69866" NewID="69874" ProbalityID="2" TipsNum="2" UsedTime="20" TaxMoney="300" TipsType="1" />
+	<Item OldID="63937" NewID="64336" ProbalityID="2" TipsNum="2" UsedTime="10" TaxMoney="300" TipsType="1" />
+	<Item OldID="59201" NewID="64863" ProbalityID="2" TipsNum="2" UsedTime="7" TaxMoney="380" TipsType="1" />
+	<Item OldID="63917" NewID="64342" ProbalityID="2" TipsNum="2" UsedTime="5" TaxMoney="420" TipsType="1" />
+	<Item OldID="69867" NewID="69875" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="500" TipsType="1" />
+	<Item OldID="62253" NewID="64312" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="500" TipsType="1" />
+	<Item OldID="63932" NewID="64332" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="500" TipsType="1" />
+	<Item OldID="63938" NewID="64337" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="600" TipsType="1" />
+	<Item OldID="25394" NewID="25395" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="800" TipsType="1" />
+	<Item OldID="64158" NewID="72926" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="800" TipsType="1" />
+	<Item OldID="63921" NewID="64338" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="840" TipsType="1" />
+	<Item OldID="70810" NewID="72938" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="999" TipsType="1" />
+	<Item OldID="64159" NewID="72927" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="1000" TipsType="1" />
+	<Item OldID="62258" NewID="64308" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1000" TipsType="1" />
+	<Item OldID="63934" NewID="64328" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1000" TipsType="1" />
+	<Item OldID="57436" NewID="58131" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="1000" TipsType="1" />
+	<Item OldID="63975" NewID="72935" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="1000" TipsType="1" />
+	<Item OldID="63939" NewID="64333" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1200" TipsType="1" />
+	<Item OldID="59202" NewID="64864" ProbalityID="4" TipsNum="2" UsedTime="5" TaxMoney="2400" TipsType="1" />
+	<Item OldID="59203" NewID="64865" ProbalityID="5" TipsNum="2" UsedTime="3" TaxMoney="12000" TipsType="1" />
+	<Item OldID="59205" NewID="64867" ProbalityID="5" TipsNum="2" UsedTime="1" TaxMoney="96000" TipsType="1" />
+	<Item OldID="72781" NewID="72999" ProbalityID="1" TipsNum="3" UsedTime="20" TaxMoney="10" TipsType="1" />
+	<Item OldID="72784" NewID="73002" ProbalityID="3" TipsNum="2" UsedTime="20" TaxMoney="625" TipsType="1" />
+	<Item OldID="63952" NewID="64366" ProbalityID="3" TipsNum="2" UsedTime="10" TaxMoney="630" TipsType="1" />
+	<Item OldID="63957" NewID="64356" ProbalityID="3" TipsNum="2" UsedTime="10" TaxMoney="750" TipsType="1" />
+	<Item OldID="63677" NewID="64326" ProbalityID="3" TipsNum="2" UsedTime="10" TaxMoney="750" TipsType="1" />
+	<Item OldID="63962" NewID="64361" ProbalityID="3" TipsNum="2" UsedTime="10" TaxMoney="900" TipsType="1" />
+	<Item OldID="63953" NewID="64367" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1260" TipsType="1" />
+	<Item OldID="63958" NewID="64357" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1500" TipsType="1" />
+	<Item OldID="63679" NewID="64327" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1500" TipsType="1" />
+	<Item OldID="63963" NewID="64362" ProbalityID="3" TipsNum="2" UsedTime="5" TaxMoney="1800" TipsType="1" />
+	<Item OldID="69420" NewID="69413" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="6000" TipsType="1" />
+	<Item OldID="69417" NewID="69410" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="6600" TipsType="1" />
+	<Item OldID="69435" NewID="69436" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="7500" TipsType="1" />
+	<Item OldID="69419" NewID="69412" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="7500" TipsType="1" />
+	<Item OldID="63954" NewID="64363" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="2520" TipsType="1" />
+	<Item OldID="63959" NewID="64353" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="3000" TipsType="1" />
+	<Item OldID="63680" NewID="64323" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="3000" TipsType="1" />
+	<Item OldID="63964" NewID="64358" ProbalityID="4" TipsNum="2" UsedTime="3" TaxMoney="3600" TipsType="1" />
+	<Item OldID="59204" NewID="64866" ProbalityID="5" TipsNum="2" UsedTime="2" TaxMoney="36000" TipsType="1" />
+</ExchangeConfig>
+</TreasureConfig>

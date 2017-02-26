@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sceneserver>
+	<scenece_server WanAddr = "_GAME1_SERVER_IP_:_GAME1_SERVER_PORT_" LanAddr="_GAME1_SERVER_IP_" ServerID = "_GAME1_SERVER_ID_" />
+	<proxy_server Address = "_PROXY_SERVER_IP_:_PROXY_SERVER_PORT_" />
+</sceneserver>

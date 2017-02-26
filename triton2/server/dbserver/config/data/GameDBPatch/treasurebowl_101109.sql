@@ -1,0 +1,16 @@
+alter table UMS_ROLE_DETAIL1_00 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_01 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_02 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_03 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_04 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_05 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_06 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_07 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_08 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_09 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_10 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_11 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_12 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_13 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_14 add column role_treasurebowl blob;
+alter table UMS_ROLE_DETAIL1_15 add column role_treasurebowl blob;

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<serverconfig>
+	<ServerList ListID="0" WarStartNum="2" >       
+        <server ServerKey="1" ServerType="1" WorldID="107" LineID="10" Addr="100.10.42.205:30106" ReptionIndex="0" >       
+        		<GlobalMapInfo MapID="164" PosX="29" PosY="47" />
+        		<OriginalMapInfo MapID="62" PosX="258" PosY="199" />
+        </server>
+        <server ServerKey="2" ServerType="0" WorldID="116" LineID="97" Addr="100.10.42.205:30606" ReptionIndex="30" >       
+        		<GlobalMapInfo MapID="163" PosX="49" PosY="74" />
+        		<OriginalMapInfo MapID="62" PosX="213" PosY="492" />
+        </server>
+	</ServerList>
+	<ServerList ListID="1" WarStartNum="2" >       
+        <server ServerKey="3" ServerType="1" WorldID="116" LineID="10" Addr="100.10.42.205:30106" ReptionIndex="0" >       
+        		<GlobalMapInfo MapID="62" PosX="239" PosY="406" />
+        		<OriginalMapInfo MapID="62" PosX="258" PosY="199" />
+        </server>
+        <server ServerKey="4" ServerType="0" WorldID="116" LineID="97" Addr="100.10.42.205:30606" ReptionIndex="30" >       
+        		<GlobalMapInfo MapID="163" PosX="49" PosY="74" />
+        		<OriginalMapInfo MapID="62" PosX="213" PosY="492" />
+        </server>
+	</ServerList>
+</serverconfig>

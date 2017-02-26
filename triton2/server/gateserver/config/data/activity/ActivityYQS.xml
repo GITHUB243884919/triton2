@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GBK"?>
+<ActivityYQS>
+	<!--
+		描述：	判断是否开启摇钱树活动
+		值：	1为开启，0为不开启
+	-->
+	<IsUsingActivityYQS>1</IsUsingActivityYQS>
+	<!--
+		描述：	经验奖励配置
+		参数说明：
+			limite:	每次摇钱树活动用户上缴仙露瓶数限制
+	-->
+	<ExpPrize limite='50'></ExpPrize>
+	<!-- 
+		描述：		摇钱树等级及相关对应信息配置
+		参数说明：
+			id:	摇钱树等级，1对应树苗阶段，2对应小树阶段，3对应中树阶段，4对应大树阶段
+		值：		摇钱数当前等级所对应的最大成长度
+	-->
+	<Levels>
+		<Level id="1" >4999</Level>
+		<Level id="2" >19999</Level>
+		<Level id="3" >39999</Level>
+		<Level id="4" >40000</Level>
+	</Levels>
+	<!--
+			描述：	结算配置
+			参数说明：
+					starttime :		结算开始时间
+					end：			进入最后一个阶段后，过多长时间销毁宝箱NPC
+					time:			进入结算流程在结算后多长时间后进入此阶段
+					campranklimit:		阵营排名限制条件：0为所有无限制条件，1为只有排名为第一名的阵营开启此阶段
+					notice：		进入此阶段需向客户端发送的消息代码。
+					encourage:		进入此阶段是否向阵营用户发放奖励，0为不发放奖励，1为发放奖励
+					param1:			消息参数
+					param2:			消息参数
+					param3:			消息参数
+	-->
+	<Settle starttime="1630" end="10" >
+		<phase id="0" time="0" campranklimit="5" notice="-69580" encourage="0" param1="5" param2="" param3="" ></phase>
+		<phase id="1" time="2" campranklimit="5" notice="-69580" encourage="0" param1="3" param2="" param3="" ></phase>
+		<phase id="2" time="2" campranklimit="5" notice="-69580" encourage="0" param1="1" param2="" param3="" ></phase>
+		<phase id="3" time="1" campranklimit="5" notice="-69579" encourage="1" param1="" param2="" param3="" ></phase>
+		<phase id="4" time="10" campranklimit="5" notice="-69579" encourage="2" param1="" param2="" param3="" ></phase>
+		<phase id="5" time="10" campranklimit="5" notice="-69579" encourage="3" param1="" param2="" param3="" ></phase>
+		<phase id="6" time="10" campranklimit="2" notice="-69579" encourage="4" param1="" param2="" param3="" ></phase>
+		<phase id="7" time="10" campranklimit="2" notice="-69579" encourage="5" param1="" param2="" param3="" ></phase>
+	</Settle>
+</ActivityYQS>

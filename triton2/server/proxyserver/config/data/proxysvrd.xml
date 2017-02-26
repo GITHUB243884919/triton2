@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- flag =  0 是游戏代理服务器  -->
+<server_list>
+	<server type="local_server" id="_PROXY_ID_" flag="_PROXY_FLAG_" gameid="_GAMEID_" port="_PROXY_SERVER_PORT_" comment="proxy"></server>
+	<server type="database_server" id="1" addr="_DB_SERVER_IP_" comment="db"></server>
+	<server type="game_server" id="_GAME1_SERVER_ID_" addr="_GAME1_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_GAME2_SERVER_ID_" addr="_GAME2_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_GAME3_SERVER_ID_" addr="_GAME3_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_GAME4_SERVER_ID_" addr="_GAME4_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_GAME5_SERVER_ID_" addr="_GAME5_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_FB1_SERVER_ID_" addr="_FB1_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_FB2_SERVER_ID_" addr="_FB2_SERVER_IP_" comment="scene"></server>
+	<server type="game_server" id="_FB3_SERVER_ID_" addr="_FB3_SERVER_IP_" comment="scene"></server>
+	<server type="other_server" id="1" addr="_LOGIN_SERVER_IP_" comment="login"></server>
+	<server type="other_server" id="2" addr="_GATE_SERVER_IP_" comment="gate"></server>
+	<server type="other_server" id="4" addr="_LOG_SERVER_IP_" comment="log"></server>
+	<server type="global_Proxy" id="1" addr="_GLOBAL_PROXY_ADDR_" port="_GLOBAL_PROXY_PORT_" comment="scene"></server>
+	<server type="proxy_server"  addr="_PROXY_SERVER_ADDR_1" port="_PROXY_SERVER_PORT_1" comment="proxy"></server>
+	<server type="dungeon_server" addr="_DUNGEON_SERVER_ADDR_" port="_DUNGEON_SERVER_PORT_" comment="dunserver"></server>
+</server_list>
+
+

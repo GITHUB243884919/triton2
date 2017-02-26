@@ -1,0 +1,11 @@
+[tcpsvrd]
+ListenPortNum = 1
+ListenPort1   = _GAME1_SERVER_PORT_
+
+[syspara]
+CheckTimeGap  = 5
+SocketTimeOut = 60
+ConnTimeOut   = 30
+MaxLogCount   = 60000
+TCPBufLen     = 300000
+WriteStatGap  = 60

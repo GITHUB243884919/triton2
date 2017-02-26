@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2265">
+    <Map MapName="大战花果山" MapID="55" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="1" NoNation="0" AbsSafe="0" ConSafe="0" Type="2" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="158" cy="162" />
+        <OgreData>
+            <Ogre OgreIndex="54000" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="25" PosY="44" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45663" Name="猴兵,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="21" PosY="43" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45663" Name="猴兵,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54002" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="29" PosY="42" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45663" Name="猴兵,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54003" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="25" PosY="49" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45664" Name="猴将,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54004" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="130" PosY="52" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45661" Name="天兵,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54005" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="132" PosY="54" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45661" Name="天兵,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54006" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="134" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45661" Name="天兵,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54007" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="131" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45662" Name="天将,20" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54008" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="52" PosY="110" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43257" Name="护卫囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54009" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="54" PosY="110" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43257" Name="护卫囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54010" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="56" PosY="110" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43257" Name="护卫囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54011" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="52" PosY="114" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43257" Name="护卫囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54012" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="54" PosY="114" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43257" Name="护卫囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54013" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="56" PosY="114" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43257" Name="护卫囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="54014" CountDelay="0" CountNum="0" OgreInit="0" Disappear="6000" Relife="0" PosX="54" PosY="112" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="43256" Name="囚车,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="54015" NpcID="54891" NpcName="哪吒" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="125" y="40" />
+            </Npc>
+            <Npc NpcIndex="54016" NpcID="54890" NpcName="巨灵神" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="141" y="56" />
+            </Npc>
+            <Npc NpcIndex="54017" NpcID="54892" NpcName="李天王" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="139" y="39" />
+            </Npc>
+            <Npc NpcIndex="54018" NpcID="54888" NpcName="通背猿猴" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="26" y="43" />
+            </Npc>
+            <Npc NpcIndex="54019" NpcID="54889" NpcName="花果山健将" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="21" y="30" />
+            </Npc>
+            <Npc NpcIndex="54020" NpcID="54887" NpcName="赤尻马猴" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="19" y="42" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData>
+            <Block BlockIndex="54021" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="123" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54022" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="126" PosY="54" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54023" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="129" PosY="57" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54024" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="132" PosY="60" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54025" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="123" PosY="55" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54026" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="123" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54027" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="123" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54028" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="126" PosY="58" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54029" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="126" PosY="62" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54030" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="129" PosY="61" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54031" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="129" PosY="65" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54032" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="121" PosY="56" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54033" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="121" PosY="61" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54034" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="126" PosY="67" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54035" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="129" PosY="68" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54036" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="119" PosY="62" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54037" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="119" PosY="66" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54038" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="121" PosY="65" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54039" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="123" PosY="68" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54040" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="126" PosY="71" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54041" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="121" PosY="53" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54042" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="19" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54043" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="23" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54044" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="26" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54045" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="19" PosY="55" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54046" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="23" PosY="55" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54047" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="26" PosY="55" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54048" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="19" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54049" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="23" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54050" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="26" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54051" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="17" PosY="59" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54052" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="16" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54053" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="19" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54054" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="23" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+            <Block BlockIndex="54055" CountDelay="0" CountNum="0" BlockInit="1" Disappear="0" Relife="0" PosX="26" PosY="63" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewBlock ID="52433" Name="阻挡,28" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <Path />
+            </Block>
+        </BlockData>
+    </Map>
+</Scene_Conf>

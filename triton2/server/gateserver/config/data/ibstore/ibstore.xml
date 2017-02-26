@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<version value="1000"/>
+	<focus bulletin="　提示:点击上方“绑定元宝”按钮可进入“绑定元宝商城”，使用绑定元宝可购买绑定元宝商城道具。
+	*	为回馈体验区玩家，体验区大部分[F=255,0,0]元宝类商品现在已经可以使用绑定元宝购买。[/F]
+	* 新增声望商城，使用声望可以购买。
+	*	为方便玩家体验全新荣誉套装，部分令牌在绑定元宝区限时推出。
+	* 点击商城下方“下一页”旁边的箭头按钮，可翻页查看更多精彩道具。">
+		<tab id="0" desc="新品">
+			<goods id="70128" />
+			<goods id="64087" />
+			<goods id="59191" />
+			<goods id="57436" />
+			<goods id="57437" />
+		</tab>
+		<tab id="2" desc="推荐">
+			<goods id="59462" />
+			<goods id="25402" />
+			<goods id="67798" />
+			<goods id="60631" />
+			<goods id="70129" />
+		</tab>
+	</focus>
+    <pages>
+		<page id="0" desc="元宝">
+        	<tab id="0" desc="热销">
+        	<sub_tab id="1" desc="聚宝盆测试">
+        	<goods id="62242" />
+					<goods id="63923" />
+					<goods id="63912" />
+					<goods id="63505" />
+					<goods id="41477" />
+					<goods id="61280" />
+					<goods id="71383" />
+					<goods id="63935" />
+					<goods id="60127" />
+<goods id="25408" />
+<goods id="58123" />
+<goods id="69519" />
+<goods id="63913" />
+<goods id="61989" />
+<goods id="60349" />
+<goods id="60192" />
+<goods id="70811" />
+<goods id="58183" />
+<goods id="70004" />
+<goods id="26337" />
+<goods id="62246" />
+<goods id="63926" />
+<goods id="57437" />
+<goods id="58182" />
+<goods id="63936" />
+<goods id="25415" />
+<goods id="64157" />
+<goods id="65298" />
+<goods id="63914" />
+<goods id="62250" />
+<goods id="63931" />
+<goods id="70652" />
+<goods id="69866" />
+<goods id="63937" />
+<goods id="59201" />
+<goods id="63917" />
+<goods id="69867" />
+<goods id="62253" />
+<goods id="63932" />
+<goods id="63938" />
+<goods id="25394" />
+<goods id="64158" />
+<goods id="63921" />
+<goods id="70810" />
+<goods id="64159" />
+<goods id="62258" />
+<goods id="63934" />
+<goods id="57436" />
+<goods id="63975" />
+<goods id="63939" />
+<goods id="59202" />
+<goods id="59203" />
+<goods id="59205" />
+</sub_tab>       	
+        	  <sub_tab id="2" desc="时装"> 
+        	    <goods id="76299" />
+        	    <goods id="76303" />
+        	    <goods id="64573" />
+         	    <goods id="64574" />       	  
+            	<goods id="64575" />  
+            	<goods id="64580" /> 
+            	<goods id="64577" />   
+            	<goods id="64586" />  
+            	<goods id="64592" /> 
+            	<goods id="64582" />   
+            	<goods id="64591" />   	
+            	<goods id="64587" />
+ 					</sub_tab>          	  
+        		<sub_tab id="3" desc="其他"> 
+							<goods id="59462" />
+							<goods id="40131" />
+							<goods id="58177" />
+							<goods id="58173" />
+							<goods id="58199" />
+							<goods id="67798" />
+							<goods id="58200" />
+							<goods id="59201" />
+							<goods id="59202"	/>
+							<goods id="60349" />
+							<goods id="25415" />
+							<goods id="59218" />
+							<goods id="58179" />
+							<goods id="25408" />
+							<goods id="58198" />
+							<goods id="26337" />
+							<goods id="61330" />
+					</sub_tab>
+        	</tab>
+          <tab id="1" desc="丹药">
+          	  <sub_tab id="1" desc="全部"> 
+			        <goods id="58177" />
+        			<goods id="58183" />
+        			<goods id="58181" />
+        			<goods id="58178" />
+        			<goods id="58173" />
+        			<goods id="58174" />
+        			<goods id="58175" />
+        			<goods id="58182" />
+        			<goods id="58180" />
+					<goods id="61816" />
+					<goods id="61889" />
+					<goods id="59788" />
+        			<goods id="59792" />
+        			<goods id="58171" />
+        			<goods id="58172" />
+			  		</sub_tab>
+            </tab>
+         <tab id="2" desc="装备">
+          	  <sub_tab id="1" desc="生产强化">
+          			<goods id="25408" />
+          			<goods id="25415" />
+          			<goods id="25394" /> 
+          			<goods id="58198" />
+        			<goods id="58199" />
+        			<goods id="58200" />
+					<goods id="59202"	/>
+					<goods id="59201" />
+					<goods id="61989" />
+					<goods id="59191" />
+					<goods id="59190" />
+					<goods id="59189" />
+					<goods id="61977" />
+					<goods id="26337" />							  			
+              </sub_tab>
+              <sub_tab id="2" desc="宝石相关">
+              <goods id="67798" />
+              <goods id="63766" />
+              <goods id="63505" />
+       				<goods id="61963" />
+       				<goods id="57474" />
+       				<goods id="61964" />
+       				<goods id="57476" />
+       				<goods id="41477" /> 
+       				<goods id="42662" />
+        			<goods id="42663" />
+        			<goods id="42664" />
+              </sub_tab>
+              <sub_tab id="3" desc="其它">
+							<goods id="65258"	/>
+							<goods id="61280" />        			
+        			<goods id="60626" />
+					<goods id="60627" />
+					<goods id="60628" />
+					<goods id="60629" />
+					<goods id="60630" />
+              </sub_tab>
+            </tab>
+           <tab id="3" desc="玩法">
+          <sub_tab id="1" desc="结婚">
+			    	<goods id="63392" />
+			    	<goods id="63393" />
+					<goods id="65156" />
+          	  </sub_tab>
+          	  <sub_tab id="2" desc="飞行">
+					<goods id="61761" />
+					<goods id="61762" />
+					<goods id="61763" />
+			    	<goods id="61764" />
+			    	<goods id="61765" />
+			    	<goods id="61766" />
+					<goods id="61767" />
+					<goods id="61769" />
+					<goods id="58178" />
+					<goods id="59462" />
+          	  </sub_tab>
+           </tab>
+           <tab id="4" desc="VIP区">
+          	  <sub_tab id="1" desc="全部">
+							<goods id="62191" />
+							<goods id="62192" />
+							<goods id="62193" />
+							<goods id="62194" />
+							<goods id="62195" />
+							<goods id="62196" />	
+          	  </sub_tab> 
+           </tab> 
+           <tab id="5" desc="其它">
+          	  <sub_tab id="1" desc="全部">
+					<goods id="62022" />
+					<goods id="59462" />
+					<goods id="40131" />
+					<goods id="60349" />
+					<goods id="59218" />
+        			<goods id="58179" />
+        			<goods id="57436" /> 
+        			<goods id="57437" />
+        			<goods id="58123" />
+					<goods id="58124" />
+					<goods id="60631" />				        			
+        			<goods id="58230" />
+        			<goods id="58229" />
+        			<goods id="58228" />
+        			<goods id="58227" />
+        			<goods id="57501" />
+        			<goods id="61330" />
+					<goods id="35978" />  
+					<goods id="60192" />        			
+					<goods id="60127" /> 
+          	  </sub_tab>
+           </tab> 
+        </page>
+        <page id="1" desc="绑定元宝">
+            <tab id="0" desc="首页">
+            <sub_tab id="1" desc="测试道具">
+              <goods id="77174"	/>
+              <goods id="77170"	/>
+              <goods id="77171"	/>
+              <goods id="77172"	/>
+              <goods id="77173"	/>
+              <goods id="76900"	/>
+              <goods id="76910"	/>
+              <goods id="76620"	/>
+              <goods id="76926"	/>
+              <goods id="76618"	/>
+              <goods id="76615"	/>  
+              <goods id="76610"	/>        
+              <goods id="76467"	/>
+              <goods id="76296"	/>
+              <goods id="76300"	/>
+              <goods id="75760"	/>
+              <goods id="75759"	/>
+              <goods id="76322"	/>
+              <goods id="76321"	/>
+              <goods id="76244"	/>
+              <goods id="76219"	/>
+              <goods id="75491"	/>
+              <goods id="75655"	/>
+              <goods id="73554"	/>
+              <goods id="73555"	/>
+              <goods id="73556"	/>
+              <goods id="73557"	/>  
+              <goods id="70258"	/>                                                            
+              <goods id="59785"	/>
+              <goods id="59793"	/>
+              <goods id="71650"	/>
+              <goods id="72781"	/>
+              <goods id="72782"	/>
+              <goods id="72783"	/>
+              <goods id="72784"	/>
+              <goods id="72785"	/>
+              <goods id="72786"	/>
+              <goods id="72787"	/>
+              <goods id="72788"	/>
+              <goods id="72795"	/>
+              <goods id="72937"	/>
+              <goods id="72938"	/>
+              <goods id="70652"	/>
+              <goods id="70653"	/>
+              <goods id="70654"	/>
+              <goods id="70678"	/>
+              <goods id="70226"	/>
+              <goods id="70227"	/>
+              <goods id="70520"	/>
+           		<goods id="70276"	/>
+              <goods id="70127"	/>
+							<goods id="70128"	/>
+							<goods id="70129"	/>
+							<goods id="64084"	/>
+							<goods id="64085"	/>
+							<goods id="64086"	/>
+							<goods id="64087"	/>
+							<goods id="70126"	/>
+            </sub_tab>
+        		<sub_tab id="2" desc="热销"> 
+        			<goods id="60289" />
+							<goods id="32663" />
+							<goods id="36010" />
+							<goods id="41445" />
+							<goods id="64326" />
+							<goods id="60352" />
+							<goods id="25416"	/>
+							<goods id="59218" />
+							<goods id="36036" />
+							<goods id="25409" />
+							<goods id="41444" />
+							<goods id="58119" />
+					</sub_tab>
+							<sub_tab id="3" desc="方寸山技能书"> 
+							<goods id="68563" />
+							<goods id="68564" />
+							<goods id="68565" />
+							<goods id="68566" />
+							<goods id="68567" />
+							<goods id="68568" />
+							<goods id="68569" />
+							<goods id="68570" />
+							<goods id="68571" />
+							<goods id="68572" />
+							<goods id="68573" />
+							<goods id="68574" />
+							<goods id="68652" />
+							<goods id="68653" />
+							<goods id="68654" />
+							</sub_tab>			
+							<sub_tab id="4" desc="周末抢购">
+							<goods id="60333" />
+							<goods id="60334" />
+							<goods id="60335" />
+							<goods id="60336" />
+							<goods id="60337" />
+							<goods id="60338" />
+							</sub_tab>
+        	</tab>
+          <tab id="1" desc="丹药">
+          	  <sub_tab id="1" desc="全部">
+			        <goods id="32663" />
+        			<goods id="57499" />
+        			<goods id="57498" />
+        			<goods id="52940" />
+        			<goods id="36010" />
+        			<goods id="57500" />
+        			<goods id="56002" />
+        			<goods id="56001" />
+        			<goods id="56000" />
+        			<goods id="61816" />
+					<goods id="61889" />
+					<goods id="59781" />
+					<goods id="59780" />
+					<goods id="36009" />
+        			<goods id="36781" />
+			  		</sub_tab>
+            </tab>
+            <tab id="2" desc="装备">
+          	  <sub_tab id="1" desc="生产强化">
+          			<goods id="25409" />
+          			<goods id="25416" />
+          			<goods id="25395" />
+          			<goods id="25402" />
+          			<goods id="41444" />
+        			<goods id="41445" />
+        			<goods id="41446" />
+        			<goods id="69427" />
+					<goods id="58119"	/>
+							<goods id="72925"	/>
+ 							<goods id="72926"	/>
+ 							<goods id="72927"	/>
+              </sub_tab>
+              <sub_tab id="2" desc="宝石相关">
+              <goods id="63506" />
+       				<goods id="61965" />
+       				<goods id="58120" />
+       				<goods id="61966" />
+       				<goods id="58121" />
+       				<goods id="58105" /> 
+       				<goods id="58106" />
+        			<goods id="58107" />
+        			<goods id="58108" />
+         	</sub_tab>
+              <sub_tab id="3" desc="属性鉴定">
+              <goods id="64334" />
+							<goods id="64335" />
+							<goods id="64336" />
+							<goods id="64337" />
+							<goods id="64333" />
+							<goods id="64349" />
+							<goods id="64350" />
+							<goods id="64351" />
+							<goods id="64352" />
+							<goods id="64348" />
+							<goods id="64309" />
+							<goods id="64310" />
+							<goods id="64311" />
+							<goods id="64312" />
+							<goods id="64308" />
+							<goods id="64326" />
+							<goods id="64327" />
+							<goods id="64323" />
+							<goods id="64361" />
+							<goods id="64362" />
+							<goods id="64358" />
+							<goods id="64376" />
+							<goods id="64377" />
+							<goods id="64373" />
+							<goods id="64329" />
+							<goods id="64330" />
+							<goods id="64331" />
+							<goods id="64332" />
+							<goods id="64328" />
+							<goods id="64339" />
+							<goods id="64340" />
+							<goods id="64341" />
+							<goods id="64342" />
+							<goods id="64338" />
+							<goods id="64344" />
+							<goods id="64345" />
+							<goods id="64346" />
+							<goods id="64347" />
+							<goods id="64343" />
+							<goods id="64356" />
+							<goods id="64357" />
+							<goods id="64353" />
+							<goods id="64366" />
+							<goods id="64367" />
+							<goods id="64363" />
+							<goods id="64371" />
+							<goods id="64372" />
+							<goods id="64368" />
+							<goods id="69410"	/>
+							<goods id="69412"	/>
+							<goods id="69413"	/>
+							<goods id="69414"	/>
+							<goods id="69415"	/>
+							<goods id="69436"	/>
+							</sub_tab>
+              <sub_tab id="4" desc="其它">
+							<goods id="61310" />        			
+        			<goods id="60626" />
+					<goods id="60627" />
+					<goods id="60628" />
+					<goods id="60629" />
+					<goods id="60630" />
+              </sub_tab>
+            </tab>
+           <tab id="3" desc="玩法">
+          <sub_tab id="1" desc="结婚">
+          <goods id="64022" />
+					<goods id="64023" />
+					<goods id="62042" />
+					<goods id="65290"	/>
+					<goods id="65291"	/>
+			    	<goods id="62043" />
+			    	<goods id="63392" />
+			    	<goods id="63393" />
+					<goods id="61178" />
+					<goods id="61188" />
+					<goods id="61179" />
+					<goods id="61189" />
+					<goods id="61180" />
+					<goods id="61190" />
+					<goods id="61181" />
+					<goods id="61191" />
+					<goods id="65157" />
+          	  </sub_tab>
+          	  <sub_tab id="2" desc="飞行">
+					<goods id="61761" />
+					<goods id="61762" />
+					<goods id="61763" />
+			    	<goods id="61764" />
+			    	<goods id="61765" />
+			    	<goods id="61766" />
+					<goods id="61767" />
+					<goods id="61769" />
+					<goods id="52940" />
+					<goods id="60289" />
+          	  </sub_tab>
+          	  	  <sub_tab id="3" desc="时装">
+					<goods id="64552" />
+					<goods id="64553" />
+					<goods id="64554" />
+			    	<goods id="64559" />
+			    	<goods id="64556" />
+			    	<goods id="64565" />
+					<goods id="64571" />
+					<goods id="64561" />
+					<goods id="64563" />
+					<goods id="64566" />
+          	  </sub_tab>
+           </tab>
+           <tab id="5" desc="其它">
+          	  <sub_tab id="1" desc="全部">
+          <goods id="70850" />	  
+					<goods id="60295" />
+					<goods id="60289" />
+					<goods id="60352" />
+					<goods id="59218" />
+					<goods id="67033" />
+        			<goods id="36036" />
+        		<goods id="63854"	/>
+        		<goods id="63855"	/>
+        		<goods id="63856"	/>
+        		<goods id="70126"	/>
+							<goods id="64841" />
+							<goods id="64842" />
+							<goods id="64843" />
+							<goods id="64844" />
+							<goods id="64845" />
+        			<goods id="58131" /> 
+        			<goods id="58132" />
+        			<goods id="33681" />
+					<goods id="33682" />
+        			<goods id="58235" />
+        			<goods id="58234" />
+        			<goods id="58233" />
+        			<goods id="58232" />
+        			<goods id="58207" />
+					<goods id="60195" />        			
+					<goods id="60194" />   
+          	  </sub_tab>
+           </tab>
+        </page>
+         <page id="2" desc="竞技声望">
+         <tab id="0" desc="竞技声望">
+         <sub_tab id="1" desc="全部">
+<goods id="600001" />
+<goods id="600002" />
+<goods id="600003" />
+<goods id="600004" />
+<goods id="600005" />
+<goods id="600006" />
+<goods id="600007" />
+<goods id="600008" />
+<goods id="600009" />
+<goods id="600010" />
+<goods id="600011" />
+<goods id="600012" />
+<goods id="600013" />
+<goods id="600014" />
+<goods id="600015" />
+<goods id="600017" />
+<goods id="600018" />
+<goods id="600019" />
+<goods id="600021" />
+<goods id="600022" />
+<goods id="600025" />
+<goods id="600034" />
+<goods id="600035" />
+<goods id="600036" />
+<goods id="600037" />
+         </sub_tab>
+         </tab>
+         </page>
+         <page id="3" desc="副本声望">
+         <tab id="0" desc="副本声望">
+         <sub_tab id="1" desc="全部">
+         <goods id="700001" />
+<goods id="700002" />
+<goods id="700003" />
+<goods id="700004" />
+<goods id="700005" />
+<goods id="700006" />
+<goods id="700007" />
+<goods id="700008" />
+<goods id="700009" />
+<goods id="700010" />
+<goods id="700011" />
+<goods id="700012" />
+<goods id="700013" />
+<goods id="700014" />
+<goods id="700015" />
+<goods id="700016" />
+<goods id="700017" />
+<goods id="700018" />
+<goods id="700019" />
+<goods id="700020" />
+<goods id="700021" />
+<goods id="700022" />
+<goods id="700023" />
+<goods id="700024" />
+<goods id="700025" />
+<goods id="700026" />
+<goods id="700027" />
+<goods id="700028" />
+<goods id="700029" />
+<goods id="700030" />
+<goods id="700031" />
+<goods id="700032" />
+<goods id="700033" />
+<goods id="700034" />
+<goods id="700035" />
+<goods id="700036" />
+<goods id="700037" />
+<goods id="700038" />
+<goods id="700039" />
+<goods id="700040" />
+<goods id="700041" />
+<goods id="700042" />
+<goods id="700043" />
+<goods id="700044" />
+<goods id="700045" />
+<goods id="700046" />
+<goods id="700047" />
+<goods id="700048" />
+<goods id="700049" />
+<goods id="700050" />
+<goods id="700051" />
+<goods id="700052" />
+<goods id="700053" />
+<goods id="700054" />
+<goods id="700055" />
+<goods id="700056" />
+<goods id="700057" />
+<goods id="700058" />
+<goods id="700059" />
+<goods id="700060" />
+<goods id="700062" />
+<goods id="700063" />
+<goods id="700065" />
+<goods id="700066" />
+<goods id="700069" />
+<goods id="700072" />
+<goods id="700073" />
+<goods id="700074" />
+<goods id="700075" />
+<goods id="700076" />
+<goods id="700077" />
+<goods id="700078" />
+<goods id="700079" />
+<goods id="700080" />
+<goods id="700081" />
+<goods id="700082" />
+<goods id="700083" />
+<goods id="700084" />
+<goods id="700085" />
+<goods id="700086" />
+<goods id="700087" />
+<goods id="700088" />
+<goods id="700089" />
+         </sub_tab>
+         </tab>
+         </page>
+         <page id="4" desc="历练声望">
+         <tab id="0" desc="历练声望">
+         <sub_tab id="1" desc="全部">
+         <goods id="800001" />
+<goods id="800002" />
+<goods id="800003" />
+<goods id="800004" />
+<goods id="800005" />
+<goods id="800006" />
+<goods id="800007" />
+<goods id="800008" />
+<goods id="800009" />
+<goods id="800010" />
+<goods id="800011" />
+<goods id="800012" />
+<goods id="800013" />
+<goods id="800014" />
+<goods id="800015" />
+<goods id="800016" />
+<goods id="800017" />
+<goods id="800018" />
+<goods id="800019" />
+<goods id="800020" />
+<goods id="800021" />
+<goods id="800022" />
+<goods id="800023" />
+<goods id="800024" />
+<goods id="800025" />
+<goods id="800026" />
+<goods id="800027" />
+<goods id="800028" />
+<goods id="800029" />
+<goods id="800030" />
+<goods id="800031" />
+<goods id="800032" />
+<goods id="800033" />
+<goods id="800034" />
+<goods id="800035" />
+<goods id="800036" />
+<goods id="800037" />
+<goods id="800038" />
+<goods id="800039" />
+<goods id="800040" />
+<goods id="800041" />
+<goods id="800042" />
+<goods id="800043" />
+<goods id="800044" />
+<goods id="800045" />
+         </sub_tab>
+         </tab>
+         </page>
+        </pages>
+    <items>
+        <goods id="58171" item_id="58171" item_count="1" unit="5" price="200" active="1" count="-1" discount="100" expiry_date="20161221" comment="九转金丹·小"/>
+        <goods id="58173" item_id="58173" item_count="1" unit="5" price="900" active="1" count="-1" discount="500" expiry_date="20161221" flag="HOT" comment="九转金丹·中"/>
+        <goods id="58172" item_id="58172" item_count="1" unit="5" price="200" active="1" count="-1" discount="200" expiry_date="20161221" comment="琼浆玉液·小"/>
+        <goods id="58174" item_id="58174" item_count="1" unit="5" price="900" active="1" count="-1" discount="900" expiry_date="20161221" comment="琼浆玉液·中"/>
+        <goods id="58178" item_id="58178" item_count="1" unit="5" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="定心丸"/>
+        <goods id="58181" item_id="58181" item_count="1" unit="5" price="50" active="1" count="-1" discount="50" expiry_date="20161221" comment="如意丹·小"/>
+        <goods id="58183" item_id="58183" item_count="1" unit="5" price="100" active="1" count="-1" discount="100" expiry_date="20161221"	comment="如意丹·中"/>
+        <goods id="58177" item_id="58177" item_count="1" unit="5" price="150" active="1" count="-1" discount="150" expiry_date="20161221" flag="HOT" comment="如意丹·大"/>
+        <goods id="58180" item_id="58180" item_count="1" unit="5" price="60" active="1" count="-1" discount="60" expiry_date="20161221" comment="小护法金丹"/>
+        <goods id="58182" item_id="58182" item_count="1" unit="5" price="120" active="1" count="-1" discount="110" expiry_date="20161221" comment="中护法金丹"/>
+        <goods id="58175" item_id="58175" item_count="1" unit="5" price="240" active="1" count="-1" discount="200" expiry_date="20161221" comment="大护法金丹"/>
+        <goods id="58198" item_id="58198" item_count="20" unit="5" price="200" active="1" count="-1" discount="100" expiry_date="20161221" flag="HOT" comment="初级精炼石"/>
+        <goods id="58199" item_id="58199" item_count="20" unit="5" price="400" active="1" count="-1" discount="200" expiry_date="20161221" flag="HOT" comment="中级精炼石"/>
+        <goods id="58200" item_id="58200" item_count="20" unit="5" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" flag="HOT" comment="高级精炼石"/>
+        <goods id="41477" item_id="41477" item_count="1" unit="5" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="宝石摘除符（1档）"/>
+        <goods id="42662" item_id="42662" item_count="1" unit="5" price="100" active="1" count="-1" discount="100" expiry_date="20161221" comment="宝石摘除符（2档）"/>
+        <goods id="42663" item_id="42663" item_count="1" unit="5" price="500" active="1" count="-1" discount="400" expiry_date="20161221" comment="宝石摘除符（3档）"/>
+        <goods id="42664" item_id="42664" item_count="1" unit="5" price="2500" active="1" count="-1" discount="2000" expiry_date="20161221" comment="宝石摘除符（4档）"/>
+        <goods id="26337" item_id="26337" item_count="1" unit="5" price="100" active="1" count="-1" discount="100" expiry_date="20161221" comment="定心符"/>
+        <goods id="57474" item_id="57474" item_count="1" unit="5" price="250" active="1" count="-1" discount="250" expiry_date="20161221" comment="4档宝石合成符"/>
+        <goods id="57476" item_id="57476" item_count="1" unit="5" price="6250" active="1" count="-1" discount="5000" expiry_date="20161221" comment="6档宝石合成符"/>
+        <goods id="58123" item_id="58123" item_count="1" unit="5" price="50" active="1" count="-1" discount="50" expiry_date="20161221" comment="金喇叭"/>
+        <goods id="58124" item_id="58124" item_count="1" unit="5" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="银喇叭"/>
+        <goods id="58179" item_id="58179" item_count="1" unit="5" price="20" active="1" count="-1" discount="20" expiry_date="20161221" flag="HOT" comment="急急如律令"/>
+        <goods id="57501" item_id="57501" item_count="1" unit="5" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="军团联盟扩军令"/>
+        <goods id="58227" item_id="58227" item_count="1" unit="5" price="400" active="1" count="-1" discount="300" expiry_date="20161221" comment="背包·12格"/>
+        <goods id="58228" item_id="58228" item_count="1" unit="5" price="600" active="1" count="-1" discount="400" expiry_date="20161221" comment="背包·14格"/>
+        <goods id="58229" item_id="58229" item_count="1" unit="5" price="800" active="1" count="-1" discount="600" expiry_date="20161221" comment="背包·16格"/>
+        <goods id="58230" item_id="58230" item_count="1" unit="5" price="1000" active="1" count="-1" discount="800" expiry_date="20161221" flag="REC" comment="背包·18格"/>
+        <goods id="25408" item_id="25408" item_count="1" unit="5" price="100" active="1" count="-1" discount="50" expiry_date="20161221" flag="HOT" comment="奇妙的白虎精魂"/>
+        <goods id="25415" item_id="25415" item_count="1" unit="5" price="300" active="1" count="-1" discount="200" expiry_date="20161221" flag="HOT" comment="奇妙的玄武精魂"/>
+        <goods id="25394" item_id="25394" item_count="1" unit="5" price="1200" active="1" count="-1" discount="800" expiry_date="20161221" flag="HOT" comment="奇妙的朱雀精魂"/>
+        <goods id="40131" item_id="40131" item_count="1" unit="5" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" flag="HOT" comment="金珊瑚"/>
+        <goods id="59462" item_id="59462" item_count="1" unit="5" price="6000" active="1" count="-1" discount="2800" expiry_date="20161221" flag="HOT" comment="会员卡"/>
+        <goods id="60349" item_id="60349" item_count="1" unit="5" price="99" active="1" count="-1" discount="99" expiry_date="20161221" flag="HOT" comment="九十九朵玫瑰"/>
+        <goods id="60631" item_id="60631" item_count="1" unit="5" price="999" active="1" count="-1" discount="999" expiry_date="20161221" flag="REC" comment="法宝养成礼包"/>
+        <goods id="60192" item_id="60192" item_count="20" unit="5" price="398" active="1" count="-1" discount="99" expiry_date="20161221" comment="华丽的礼花"/>
+        <goods id="60127" item_id="60127" item_count="20" unit="5" price="198" active="1" count="-1" discount="49" expiry_date="20161221" comment="精致的礼花"/>
+        <goods id="59788" item_id="59788" item_count="1" unit="5" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="点化仙丹·下等"/>
+        <goods id="59792" item_id="59792" item_count="1" unit="5" price="3000" active="1" count="-1" discount="3000" expiry_date="20161221" comment="点化仙丹·中等"/>
+		<goods id="61280" item_id="61280" item_count="1" unit="5" price="50" active="1" count="-1" discount="20" expiry_date="20161221" comment="金刚钻"/>
+		<goods id="61816" item_id="61816" item_count="1" unit="4" price="1000" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="斗转仙丹·下等"/>
+		<goods id="61889" item_id="61889" item_count="1" unit="4" price="3000" active="1"  count="-1" discount="3000" expiry_date="20161221" comment="斗转仙丹·中等"/>
+  		<goods id="35978" item_id="35978" item_count="1" unit="5" price="1000" active="1"  count="-1" discount="300" expiry_date="20161221" comment="黄金锁"/>
+  		<goods id="59189" item_id="59189" item_count="1" unit="5" price="500" active="1"  count="-1" discount="200" expiry_date="20161221" flag="HOT" comment="下等乾坤八卦石•陆"/>
+  		<goods id="59190" item_id="59190" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="900" expiry_date="20161221" flag="HOT" comment="下等乾坤八卦石•柒"/>
+  		<goods id="62022" item_id="62022" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="898" expiry_date="20161221" flag="NEW" comment="会员卡·7天"/>
+  		<goods id="61330" item_id="61330" item_count="1" unit="5" price="999" active="1"  count="-1" discount="999" expiry_date="20161221" comment="快速升级礼包"/>
+  		<goods id="61963" item_id="61963" item_count="1" unit="5" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" comment="3档宝石合成符"/>
+  		<goods id="61964" item_id="61964" item_count="1" unit="5" price="1250" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="5档宝石合成符"/>
+  		<goods id="61977" item_id="61977" item_count="1" unit="5" price="100" active="1"  count="-1" discount="50" expiry_date="20161221" comment="下等乾坤八卦石•伍"/>
+  		<goods id="61989" item_id="61989" item_count="1" unit="5" price="250" active="1"  count="-1" discount="90" expiry_date="20161221" flag="HOT" comment="中等乾坤八卦石•伍"/>
+  		<goods id="59201" item_id="59201" item_count="1" unit="5" price="1000" active="1"  count="-1" discount="380" expiry_date="20161221" flag="HOT" comment="中等乾坤八卦石•陆"/>
+  		<goods id="63766" item_id="63766" item_count="1" unit="5" price="300" active="1"  count="-1" discount="200" expiry_date="20161221" flag="HOT" comment="宝石藏宝图"/>
+  		<goods id="57436" item_id="57436" item_count="1" unit="5" price="1000" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="回炉石"/>
+  		<goods id="57437" item_id="57437" item_count="1" unit="5" price="100" active="1"  count="-1" discount="100" expiry_date="20161221" flag="NEW" comment="重铸石"/>
+  		<goods id="59202" item_id="59202" item_count="1" unit="5" price="3000" active="1"  count="-1" discount="2400" expiry_date="20161221" flag="NEW" comment="中等乾坤八卦石·柒"/>
+  		<goods id="59191" item_id="59191" item_count="1" unit="5" price="6000" active="1"  count="-1" discount="6000" expiry_date="20161221" flag="NEW" comment="下等乾坤八卦石·捌"/>
+  		<goods id="63505" item_id="63505" item_count="1" unit="5" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="NEW" comment="2档宝石合成符"/>
+  		<goods id="65156" item_id="65156" item_count="1" unit="5" price="99" active="1"  count="-1" discount="99" expiry_date="20161221" flag="NEW" comment="情比金坚石"/>
+
+  		<goods id="63854" item_id="63854" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="蟠桃钥匙"/>
+  		<goods id="63855" item_id="63855" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="龙宫钥匙"/>
+  		<goods id="63856" item_id="63856" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="黄风钥匙"/>
+  		<goods id="65258" item_id="65258" item_count="1" unit="5" price="4500" active="1" count="-1" discount="3000" expiry_date="20161221"  comment="炫金印"/>
+  		<goods id="36009" item_id="36009" item_count="1" unit="4" price="200" active="1" count="-1" discount="200" expiry_date="20161221" comment="九转金丹·小"/>
+        <goods id="36010" item_id="36010" item_count="1" unit="4" price="900" active="1" count="-1" discount="900" expiry_date="20161221" comment="九转金丹·中"/>
+        <goods id="36781" item_id="36781" item_count="1" unit="4" price="200" active="1" count="-1" discount="200" expiry_date="20161221" comment="琼浆玉液·小"/>
+        <goods id="57500" item_id="57500" item_count="1" unit="4" price="900" active="1" count="-1" discount="900" expiry_date="20161221" comment="琼浆玉液·中"/>
+        <goods id="52940" item_id="52940" item_count="1" unit="4" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="定心丸"/>
+        <goods id="57498" item_id="57498" item_count="1" unit="4" price="50" active="1" count="-1" discount="50" expiry_date="20161221" comment="如意丹·小"/>
+        <goods id="57499" item_id="57499" item_count="1" unit="4" price="100" active="1" count="-1" discount="100" expiry_date="20161221"	comment="如意丹·中"/>
+        <goods id="32663" item_id="32663" item_count="1" unit="4" price="150" active="1" count="-1" discount="150" expiry_date="20161221" comment="如意丹·大"/>
+        <goods id="56000" item_id="56000" item_count="1" unit="4" price="60" active="1" count="-1" discount="60" expiry_date="20161221" comment="小护法金丹"/>
+        <goods id="56001" item_id="56001" item_count="1" unit="4" price="120" active="1" count="-1" discount="120" expiry_date="20161221" comment="中护法金丹"/>
+        <goods id="56002" item_id="56002" item_count="1" unit="4" price="240" active="1" count="-1" discount="240" expiry_date="20161221" comment="大护法金丹"/>
+        <goods id="41444" item_id="41444" item_count="20" unit="4" price="200" active="1"  count="-1" discount="200" expiry_date="20161221" comment="(绑)初级精炼石"/>
+        <goods id="41445" item_id="41445" item_count="20" unit="4" price="400" active="1" count="-1" discount="400" expiry_date="20161221" comment="中级精炼石"/>
+        <goods id="41446" item_id="41446" item_count="20" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="高级精炼石"/>
+        <goods id="58105" item_id="58105" item_count="1" unit="4" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="宝石摘除符（1档）"/>
+        <goods id="58106" item_id="58106" item_count="1" unit="4" price="100" active="1" count="-1" discount="100" expiry_date="20161221" comment="宝石摘除符（2档）"/>
+        <goods id="58107" item_id="58107" item_count="1" unit="4" price="500" active="1" count="-1" discount="500" expiry_date="20161221" comment="宝石摘除符（3档）"/>
+        <goods id="58108" item_id="58108" item_count="1" unit="4" price="2500" active="1" count="-1" discount="2500" expiry_date="20161221" comment="宝石摘除符（4档）"/>
+        <goods id="58119" item_id="58119" item_count="1" unit="4" price="100" active="1" count="-1" discount="100" expiry_date="20161221" comment="定心符"/>
+        <goods id="58120" item_id="58120" item_count="1" unit="4" price="250" active="1" count="-1" discount="250" expiry_date="20161221" comment="4档宝石合成符"/>
+        <goods id="58121" item_id="58121" item_count="1" unit="4" price="6250" active="1" count="-1" discount="6250" expiry_date="20161221" comment="6档宝石合成符"/>
+        <goods id="36036" item_id="36036" item_count="1" unit="4" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="急急如律令"/>
+        <goods id="58234" item_id="58234" item_count="1" unit="4" price="800" active="1" count="-1" discount="800" expiry_date="20161221" comment="背包·16格"/>
+        <goods id="58235" item_id="58235" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="背包·18格"/>
+        <goods id="33681" item_id="33681" item_count="1" unit="4" price="50" active="1" count="-1" discount="50" expiry_date="20161221" comment="(绑)金喇叭"/>
+        <goods id="33682" item_id="33682" item_count="1" unit="4" price="20" active="1" count="-1" discount="20" expiry_date="20161221" comment="(绑)银喇叭"/>
+        <goods id="58207" item_id="58207" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="(绑)军团联盟扩军令"/>
+        <goods id="58232" item_id="58232" item_count="1" unit="4" price="400" active="1" count="-1" discount="400" expiry_date="20161221" comment="(绑)背包·12格"/>
+        <goods id="58233" item_id="58233" item_count="1" unit="4" price="600" active="1" count="-1" discount="600" expiry_date="20161221" comment="(绑)背包·14格"/>
+        <goods id="59218" item_id="59218" item_count="1" unit="4" price="200" active="1" count="-1" discount="200" expiry_date="20161221" comment="重游符"/>
+        <goods id="25409" item_id="25409" item_count="1" unit="4" price="100" active="1" count="-1" discount="100" expiry_date="20161221" comment="奇妙的白虎精魂"/>
+        <goods id="25416" item_id="25416" item_count="1" unit="4" price="300" active="1" count="-1" discount="300" expiry_date="20161221" comment="奇妙的玄武精魂"/>
+        <goods id="25395" item_id="25395" item_count="1" unit="4" price="1200" active="1" count="-1" discount="1200" expiry_date="20161221" comment="奇妙的朱雀精魂"/>
+        <goods id="60289" item_id="60289" item_count="1" unit="4" price="6000" active="1" count="-1" discount="6000" expiry_date="20161221" comment="会员卡"/>
+        <goods id="60352" item_id="60352" item_count="1" unit="4" price="99" active="1" count="-1" discount="99" expiry_date="20161221" comment="九十九朵玫瑰"/>
+        <goods id="60626" item_id="60626" item_count="1" unit="4" price="10" active="1" limit="1" count="-1" discount="10" expiry_date="20161221" comment="饰品三件套20级"/>
+        <goods id="60627" item_id="60627" item_count="1" unit="4" price="20" active="1" limit="1" count="-1" discount="20" expiry_date="20161221" comment="饰品三件套30级"/>
+        <goods id="60628" item_id="60628" item_count="1" unit="4" price="50" active="1" limit="1" count="-1" discount="50" expiry_date="20161221" comment="饰品三件套40级"/>
+        <goods id="60629" item_id="60629" item_count="1" unit="4" price="100" active="1" limit="1" count="-1" discount="100" expiry_date="20161221" comment="饰品三件套50级"/>
+        <goods id="60630" item_id="60630" item_count="1" unit="4" price="200" active="1" limit="1" count="-1" discount="200" expiry_date="20161221" comment="饰品三件套60级"/>
+        <goods id="59780" item_id="59780" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="点化仙丹·下等"/>
+        <goods id="59781" item_id="59781" item_count="1" unit="4" price="3000" active="1" count="-1" discount="3000" expiry_date="20161221" comment="点化仙丹·中等"/>
+		<goods id="61310" item_id="61310" item_count="1" unit="4" price="50" active="1" count="-1" discount="50" expiry_date="20161221" comment="(绑)金刚钻"/>
+        <goods id="60195" item_id="60195" item_count="20" unit="4" price="398" active="1" count="-1" discount="398" expiry_date="20161221" comment="(绑)华丽的礼花"/>
+        <goods id="60194" item_id="60194" item_count="20" unit="4" price="198" active="1" count="-1" discount="198" expiry_date="20161221" comment="(绑)精致的礼花"/>
+		<goods id="61761" item_id="61761" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="齐天祥云(30天)"/>
+  		<goods id="61762" item_id="61762" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" comment="泼墨乌云(30天)"/>
+  		<goods id="61763" item_id="61763" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" comment="蓬莱仙鹤(30天)"/>
+		<goods id="61764" item_id="61764" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" comment="朱羽仙云(30天)"/>
+  		<goods id="61765" item_id="61765" item_count="1" unit="4" price="3000" active="1"  count="-1" discount="3000" expiry_date="20161221" comment="灵山莲花台(30天)"/>
+  		<goods id="61766" item_id="61766" item_count="1" unit="4" price="3000" active="1"  count="-1" discount="3000" expiry_date="20161221" comment="如意神鹤(30天)"/>
+  		<goods id="61767" item_id="61767" item_count="1" unit="4" price="3000" active="1"  count="-1" discount="3000" expiry_date="20161221" comment="紫金葫芦仙(30天)"/>
+  		<goods id="61769" item_id="61769" item_count="1" unit="4" price="1000" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="齐云鹤(30天)"/>
+  		<goods id="60295" item_id="60295" item_count="1" unit="4" price="1500" active="1"  count="-1" discount="1500" expiry_date="20161221" comment="会员卡·7天"/>
+  		<goods id="61965" item_id="61965" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" comment="3档宝石合成符"/>
+  		<goods id="61966" item_id="61966" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" comment="5档宝石合成符"/>
+  		<goods id="62191" item_id="62191" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="赤野狂风•精英"/>
+  		<goods id="62192" item_id="62192" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="墨影追风•精英"/>
+  		<goods id="62193" item_id="62193" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="黑狱狼王•精英"/>
+  		<goods id="62194" item_id="62194" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="腾云仙踪•精英"/>
+  		<goods id="62195" item_id="62195" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="金针梦魇•精英"/>
+  		<goods id="62196" item_id="62196" item_count="1" unit="4" price="8000" active="1"  count="-1" discount="8000" expiry_date="20161221" comment="幻逸神墨•精英"/>
+  		<goods id="58131" item_id="58131" item_count="1" unit="4" price="1000" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="回炉石"/>
+  		<goods id="58132" item_id="58132" item_count="1" unit="4" price="100" active="1"  count="-1" discount="100" expiry_date="20161221" comment="重铸石"/>
+  		<goods id="63506" item_id="63506" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" comment="2档宝石合成符"/>
+  		<goods id="63392" item_id="63392" item_count="1" unit="4" price="2999" active="1"  count="-1" discount="2999" expiry_date="20161221" comment="新郎变身道具"/>
+  		<goods id="63393" item_id="63393" item_count="1" unit="4" price="2999" active="1"  count="-1" discount="2999" expiry_date="20161221" comment="新娘变身道具"/>
+  		<goods id="65157" item_id="65157" item_count="1" unit="4" price="99" active="1"  count="-1" discount="99" expiry_date="20161221" comment="情比金坚石"/>
+  		<goods id="62189" item_id="62189" item_count="1" unit="4" price="800" active="1"  count="-1" discount="800" expiry_date="20161221" flag="NEW" comment="织女的绣花针"/>
+  		<goods id="72925" item_id="72925" item_count="1" unit="4" price="400" active="1"  count="-1" discount="400" expiry_date="20161221" flag="NEW" comment="初级水晶钻"/>
+  		<goods id="72926" item_id="72926" item_count="1" unit="4" price="1200" active="1"  count="-1" discount="1200" expiry_date="20161221" flag="NEW" comment="中级水晶钻"/>
+  		<goods id="72927" item_id="72927" item_count="1" unit="4" price="1600" active="1"  count="-1" discount="1600" expiry_date="20161221" flag="NEW" comment="高级水晶钻"/>
+  		<goods id="64841" item_id="64841" item_count="1" unit="4" price="9" active="1"  count="-1" discount="9" expiry_date="20161221" flag="NEW" comment="白玉钥匙20级"/>
+  		<goods id="64842" item_id="64842" item_count="1" unit="4" price="18" active="1"  count="-1" discount="18" expiry_date="20161221" flag="NEW" comment="白玉钥匙30级"/>
+  		<goods id="64843" item_id="64843" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="白玉钥匙40级"/>
+  		<goods id="64844" item_id="64844" item_count="1" unit="4" price="99" active="1"  count="-1" discount="99" expiry_date="20161221" flag="NEW" comment="白玉钥匙50级"/>
+  		<goods id="64845" item_id="64845" item_count="1" unit="4" price="188" active="1"  count="-1" discount="188" expiry_date="20161221" flag="NEW" comment="白玉钥匙60级"/>		
+  		<goods id="64334" item_id="64334" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="紫色子母石戒指(20级)"/>
+  		<goods id="64335" item_id="64335" item_count="1" unit="4" price="160" active="1"  count="-1" discount="160" expiry_date="20161221" flag="NEW" comment="紫色子母石戒指(40级)"/>
+  		<goods id="64336" item_id="64336" item_count="1" unit="4" price="420" active="1"  count="-1" discount="420" expiry_date="20161221" flag="NEW" comment="紫色子母石戒指(60级)"/>
+  		<goods id="64337" item_id="64337" item_count="1" unit="4" price="840" active="1"  count="-1" discount="840" expiry_date="20161221" flag="NEW" comment="紫色子母石戒指(80级)"/>
+  		<goods id="64333" item_id="64333" item_count="1" unit="4" price="1680" active="1"  count="-1" discount="1680" expiry_date="20161221" flag="NEW" comment="紫色子母石戒指(100级)"/>
+  		<goods id="64349" item_id="64349" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="紫色子母石衣服(20级)"/>
+  		<goods id="64350" item_id="64350" item_count="1" unit="4" price="160" active="1"  count="-1" discount="160" expiry_date="20161221" flag="NEW" comment="紫色子母石衣服(40级)"/>
+  		<goods id="64351" item_id="64351" item_count="1" unit="4" price="420" active="1"  count="-1" discount="420" expiry_date="20161221" flag="NEW" comment="紫色子母石衣服(60级)"/>
+  		<goods id="64352" item_id="64352" item_count="1" unit="4" price="840" active="1"  count="-1" discount="840" expiry_date="20161221" flag="NEW" comment="紫色子母石衣服(80级)"/>
+  		<goods id="64348" item_id="64348" item_count="1" unit="4" price="1680" active="1"  count="-1" discount="1680" expiry_date="20161221" flag="NEW" comment="紫色子母石衣服(100级)"/>
+  		<goods id="64309" item_id="64309" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="紫色子母石护(20级)"/>
+  		<goods id="64310" item_id="64310" item_count="1" unit="4" price="160" active="1"  count="-1" discount="160" expiry_date="20161221" flag="NEW" comment="紫色子母石护(40级)"/>
+  		<goods id="64311" item_id="64311" item_count="1" unit="4" price="420" active="1"  count="-1" discount="420" expiry_date="20161221" flag="NEW" comment="紫色子母石护(60级)"/>
+  		<goods id="64312" item_id="64312" item_count="1" unit="4" price="840" active="1"  count="-1" discount="840" expiry_date="20161221" flag="NEW" comment="紫色子母石护(80级)"/>
+  		<goods id="64308" item_id="64308" item_count="1" unit="4" price="1680" active="1"  count="-1" discount="1680" expiry_date="20161221" flag="NEW" comment="紫色子母石护(100级)"/>
+  		<goods id="64326" item_id="64326" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" flag="NEW" comment="金色子母石护(60级)"/>
+  		<goods id="64327" item_id="64327" item_count="1" unit="4" price="2500" active="1"  count="-1" discount="2500" expiry_date="20161221" flag="NEW" comment="金色子母石护(80级)"/>
+  		<goods id="64323" item_id="64323" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金色子母石护(100级)"/>  		
+  		<goods id="64361" item_id="64361" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" flag="NEW" comment="金色子母石戒指(60级)"/>
+  		<goods id="64362" item_id="64362" item_count="1" unit="4" price="2500" active="1"  count="-1" discount="2500" expiry_date="20161221" flag="NEW" comment="金色子母石戒指(80级)"/>
+  		<goods id="64358" item_id="64358" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金色子母石戒指(100级)"/>
+  		<goods id="64376" item_id="64376" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" flag="NEW" comment="金色子母石衣服(60级)"/>
+  		<goods id="64377" item_id="64377" item_count="1" unit="4" price="2500" active="1"  count="-1" discount="2500" expiry_date="20161221" flag="NEW" comment="金色子母石衣服(80级)"/>
+  		<goods id="64373" item_id="64373" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金色子母石衣服(100级)"/>
+  		<goods id="69139" item_id="69139" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="蟠桃钥匙"/>
+  		<goods id="69138" item_id="69138" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="龙宫钥匙"/>
+  		<goods id="69137" item_id="69137" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="黄风钥匙"/>
+  		<goods id="64022" item_id="64022" item_count="1" unit="4" price="9999" active="1"  count="-1" discount="9999" expiry_date="20161221" flag="NEW" comment="富贵型婚礼卷轴"/>
+  		<goods id="64023" item_id="64023" item_count="1" unit="4" price="29999" active="1"  count="-1" discount="29999" expiry_date="20161221" flag="NEW" comment="豪华型婚礼卷轴"/>
+  		<goods id="62042" item_id="62042" item_count="1" unit="4" price="299" active="1"  count="-1" discount="299" expiry_date="20161221" flag="NEW" comment="富贵请帖"/>
+  		<goods id="62043" item_id="62043" item_count="1" unit="4" price="999" active="1"  count="-1" discount="999" expiry_date="20161221" flag="NEW" comment="豪华请帖"/>
+  		<goods id="61178" item_id="61178" item_count="1" unit="4" price="2999" active="1"  count="-1" discount="2999" expiry_date="20161221" flag="NEW" comment="翡翠戒指(女)"/>
+  		<goods id="61179" item_id="61179" item_count="1" unit="4" price="4999" active="1"  count="-1" discount="4999" expiry_date="20161221" flag="NEW" comment="碧玉簪(女)"/>
+  		<goods id="61180" item_id="61180" item_count="1" unit="4" price="9999" active="1"  count="-1" discount="9999" expiry_date="20161221" flag="NEW" comment="香玉镯(女)"/>
+  		<goods id="61181" item_id="61181" item_count="1" unit="4" price="29999" active="1"  count="-1" discount="29999" expiry_date="20161221" flag="NEW" comment="缠臂金(女)"/>
+  		<goods id="61188" item_id="61188" item_count="1" unit="4" price="2999" active="1"  count="-1" discount="2999" expiry_date="20161221" flag="NEW" comment="象牙扳指(男)"/>
+  		<goods id="61189" item_id="61189" item_count="1" unit="4" price="4999" active="1"  count="-1" discount="4999" expiry_date="20161221" flag="NEW" comment="蝉翼宣诗(男)"/>
+  		<goods id="61190" item_id="61190" item_count="1" unit="4" price="9999" active="1"  count="-1" discount="9999" expiry_date="20161221" flag="NEW" comment="羊脂彩印(男)"/>
+  		<goods id="61191" item_id="61191" item_count="1" unit="4" price="29999" active="1"  count="-1" discount="29999" expiry_date="20161221" flag="NEW" comment="永结同心锁(男)"/>
+  		<goods id="67033" item_id="67033" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="银珊瑚"/>
+  		<goods id="64573" item_id="64573" item_count="1" unit="5" price="2000" active="1"  count="-1" discount="1500" expiry_date="20161221" flag="NEW" comment="7天新郎礼服"/>
+  		<goods id="64574" item_id="64574" item_count="1" unit="5" price="2000" active="1"  count="-1" discount="1500" expiry_date="20161221" flag="NEW" comment="7天新娘礼服"/>
+  		<goods id="64575" item_id="64575" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="7天俊逸道袍"/>
+  		<goods id="64577" item_id="64577" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="7天书生蓝袍"/>
+  		<goods id="64580" item_id="64580" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="7天仙踪彩衣"/>
+		  <goods id="64582" item_id="64582" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="7天天蚕宝衣"/>
+ 			<goods id="64586" item_id="64586" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="7天玉花罗裙"/>
+ 	 		<goods id="64592" item_id="64592" item_count="1" unit="5" price="1500" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="7天天兵神铠"/>
+ 	  	<goods id="64587" item_id="64587" item_count="1" unit="5" price="800" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="7天兔耳仙衣"/>
+ 		  <goods id="64591" item_id="64591" item_count="1" unit="5" price="800" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="7天西域华贵长袍"/>
+		  <goods id="67798" item_id="67798" item_count="1" unit="5" price="1000" active="1"  count="-1" discount="500" expiry_date="20161221" flag="REC" comment="高级宝石藏宝图"/>
+		  <goods id="65290" item_id="65290" item_count="1" unit="4" price="10800" active="1"  count="-1" discount="10800" expiry_date="20161221" flag="NEW" comment="富贵型补办重温卷轴"/>
+  		<goods id="65291" item_id="65291" item_count="1" unit="4" price="32800" active="1"  count="-1" discount="32800" expiry_date="20161221" flag="NEW" comment="豪华型补办重温卷轴"/>
+  		<goods id="66887" item_id="66887" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="荣誉令牌"/>
+  		<goods id="69267" item_id="69267" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="骄阳令牌"/>
+  		<goods id="69265" item_id="69265" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="银月令牌"/>
+  		<goods id="66881" item_id="66881" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="红宝石令牌"/>
+  		<goods id="66882" item_id="66882" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="红水晶令牌"/>
+  		<goods id="66883" item_id="66883" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="红玛瑙令牌"/>
+  		<goods id="66884" item_id="66884" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="绿宝石令牌"/>
+  		<goods id="66885" item_id="66885" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="绿水晶令牌"/>
+  		<goods id="66886" item_id="66886" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="TIM" comment="绿玛瑙令牌"/>
+  		<goods id="25402" item_id="25402" item_count="1" unit="4" price="3600" active="1" count="-1" discount="3600" expiry_date="20161221" flag="REC" comment="奇妙的青龙精魂"/>
+  		<goods id="70127" item_id="70127" item_count="1" unit="4" price="30" active="1" limit="3,3" count="-1" discount="30" expiry_date="20161221" flag="NEW" comment="乾坤丸·小"/>
+  		<goods id="70128" item_id="70128" item_count="1" unit="4" price="90" active="1" count="-1" discount="90" expiry_date="20161221" flag="NEW" comment="乾坤丸·中"/>
+  		<goods id="70129" item_id="70129" item_count="1" unit="4" price="300" active="1" count="-1" discount="300" expiry_date="20161221" flag="NEW" comment="乾坤丸·大"/>
+  		<goods id="64084" item_id="64084" item_count="1" unit="4" price="50" active="1" count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="单人召集令"/>
+  		<goods id="64085" item_id="64085" item_count="1" unit="4" price="150" active="1" count="-1" discount="150" expiry_date="20161221" flag="NEW" comment="小队召集令"/>
+  		<goods id="64086" item_id="64086" item_count="1" unit="4" price="400" active="1" count="-1" discount="400" expiry_date="20161221" flag="NEW" comment="家族召集令"/>
+  		<goods id="64087" item_id="64087" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="军团召集令"/>
+  		<goods id="68563" item_id="68563" item_count="1" unit="4" price="500" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="缚妖诀"/>
+  		<goods id="68564" item_id="68564" item_count="1" unit="4" price="500" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="分水诀"/>
+  		<goods id="68565" item_id="68565" item_count="1" unit="4" price="500" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="树形决"/>
+  		<goods id="68566" item_id="68566" item_count="1" unit="4" price="500" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="变化自如·第一阶"/>
+  		<goods id="68567" item_id="68567" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="随风决"/>
+  		<goods id="68568" item_id="68568" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="真火决"/>
+  		<goods id="68569" item_id="68569" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="石形决"/>
+  		<goods id="68570" item_id="68570" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="变化自如·第二阶"/>
+  		<goods id="68571" item_id="68571" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" flag="NEW" comment="驭魂诀"/>
+  		<goods id="68572" item_id="68572" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" flag="NEW" comment="灵明诀"/>
+  		<goods id="68573" item_id="68573" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" flag="NEW" comment="化生诀"/>
+  		<goods id="68574" item_id="68574" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" flag="NEW" comment="变化自如·第三阶"/>
+  		<goods id="68652" item_id="68652" item_count="10" unit="4" price="50" active="1" count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="青铜仙尘"/>
+  		<goods id="70276" item_id="70276" item_count="1" unit="4" price="300" active="1" count="-1" discount="200" expiry_date="20161221" flag="NEW" comment="多宝令牌盒"/>
+  		<goods id="68653" item_id="68653" item_count="10" unit="4" price="200" active="1" count="-1" discount="200" expiry_date="20161221" flag="NEW" comment="白银仙尘"/>
+  		<goods id="68654" item_id="68654" item_count="10" unit="4" price="500" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="黄金仙尘"/>
+  		<goods id="70126" item_id="70126" item_count="1" unit="4" price="800" active="1" count="-1" discount="600" expiry_date="20161221" flag="NEW" comment="绣花针"/>
+  		<goods id="64329" item_id="64329" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="紫色子母石头鞋子(20级)"/>
+  		<goods id="64330" item_id="64330" item_count="1" unit="4" price="160" active="1"  count="-1" discount="160" expiry_date="20161221" flag="NEW" comment="紫色子母石头鞋子(40级)"/>
+  		<goods id="64331" item_id="64331" item_count="1" unit="4" price="420" active="1"  count="-1" discount="420" expiry_date="20161221" flag="NEW" comment="紫色子母石头鞋子(60级)"/>
+  		<goods id="64332" item_id="64332" item_count="1" unit="4" price="840" active="1"  count="-1" discount="840" expiry_date="20161221" flag="NEW" comment="紫色子母石头鞋子(80级)"/>
+  		<goods id="64328" item_id="64328" item_count="1" unit="4" price="1680" active="1"  count="-1" discount="1680" expiry_date="20161221" flag="NEW" comment="紫色子母石头鞋子(100级)"/>
+  		<goods id="64339" item_id="64339" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="紫色子母石饰品(20级)"/>
+  		<goods id="64340" item_id="64340" item_count="1" unit="4" price="160" active="1"  count="-1" discount="160" expiry_date="20161221" flag="NEW" comment="紫色子母石饰品(40级)"/>
+  		<goods id="64341" item_id="64341" item_count="1" unit="4" price="420" active="1"  count="-1" discount="420" expiry_date="20161221" flag="NEW" comment="紫色子母石饰品(60级)"/>
+  		<goods id="64342" item_id="64342" item_count="1" unit="4" price="840" active="1"  count="-1" discount="840" expiry_date="20161221" flag="NEW" comment="紫色子母石饰品(80级)"/>
+  		<goods id="64338" item_id="64338" item_count="1" unit="4" price="1680" active="1"  count="-1" discount="1680" expiry_date="20161221" flag="NEW" comment="紫色子母石饰品(100级)"/>
+  		<goods id="64344" item_id="64344" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="紫色子母石武器(20级)"/>
+  		<goods id="64345" item_id="64345" item_count="1" unit="4" price="160" active="1"  count="-1" discount="160" expiry_date="20161221" flag="NEW" comment="紫色子母石武器(40级)"/>
+  		<goods id="64346" item_id="64346" item_count="1" unit="4" price="420" active="1"  count="-1" discount="420" expiry_date="20161221" flag="NEW" comment="紫色子母石武器(60级)"/>
+  		<goods id="64347" item_id="64347" item_count="1" unit="4" price="840" active="1"  count="-1" discount="840" expiry_date="20161221" flag="NEW" comment="紫色子母石武器(80级)"/>
+  		<goods id="64343" item_id="64343" item_count="1" unit="4" price="1680" active="1"  count="-1" discount="1680" expiry_date="20161221" flag="NEW" comment="紫色子母石武器(100级)"/>
+  		<goods id="64356" item_id="64356" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" flag="NEW" comment="金色子母石头鞋子(60级)"/>
+  		<goods id="64357" item_id="64357" item_count="1" unit="4" price="2500" active="1"  count="-1" discount="2500" expiry_date="20161221" flag="NEW" comment="金色子母石头鞋子(80级)"/>
+  		<goods id="64353" item_id="64353" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金色子母石头鞋子(100级)"/>
+  		<goods id="64366" item_id="64366" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" flag="NEW" comment="金色子母石饰品(60级)"/>
+  		<goods id="64367" item_id="64367" item_count="1" unit="4" price="2500" active="1"  count="-1" discount="2500" expiry_date="20161221" flag="NEW" comment="金色子母石饰品(80级)"/>
+  		<goods id="64363" item_id="64363" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金色子母石饰品(100级)"/>
+  		<goods id="64371" item_id="64371" item_count="1" unit="4" price="1250" active="1"  count="-1" discount="1250" expiry_date="20161221" flag="NEW" comment="金色子母石武器(60级)"/>
+  		<goods id="64372" item_id="64372" item_count="1" unit="4" price="2500" active="1"  count="-1" discount="2500" expiry_date="20161221" flag="NEW" comment="金色子母石武器(80级)"/>
+  		<goods id="64368" item_id="64368" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金色子母石武器(100级)"/>
+  		<goods id="60333" item_id="60333" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="金镶玉1档"/>
+  		<goods id="60334" item_id="60334" item_count="1" unit="4" price="10000" active="1"  count="-1" discount="10000" expiry_date="20161221" flag="NEW" comment="金镶玉2档"/>
+	    <goods id="60335" item_id="60335" item_count="1" unit="4" price="20000" active="1"  count="-1" discount="20000" expiry_date="20161221" flag="NEW" comment="金镶玉3档"/>
+	    <goods id="60336" item_id="60336" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="玉皇令1档"/>
+	    <goods id="60337" item_id="60337" item_count="1" unit="4" price="10000" active="1"  count="-1" discount="10000" expiry_date="20161221" flag="NEW" comment="玉皇令2档"/>
+	    <goods id="60338" item_id="60338" item_count="1" unit="4" price="20000" active="1"  count="-1" discount="20000" expiry_date="20161221" flag="NEW" comment="玉皇令3档"/>
+	    <goods id="70652" item_id="70652" item_count="1" unit="4" price="200" active="1"  count="-1" discount="200" expiry_date="20161221" flag="NEW" comment="大经验球"/>
+	    <goods id="70653" item_id="70653" item_count="1" unit="4" price="300" active="1"  count="-1" discount="300" expiry_date="20161221" flag="NEW" comment="巨大经验球"/>
+	    <goods id="70654" item_id="70654" item_count="1" unit="4" price="500" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="超级大经验球"/>
+	    <goods id="70678" item_id="70678" item_count="1" unit="4" price="2000" active="1"  count="-1" discount="2000" expiry_date="20161221" flag="NEW" comment="转魂丹"/>
+	    <goods id="70226" item_id="70226" item_count="1" unit="4" price="1000" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="原生石魂"/>
+	    <goods id="70227" item_id="70227" item_count="1" unit="4" price="2000" active="1"  count="-1" discount="2000" expiry_date="20161221" flag="NEW" comment="次生石魂"/>
+	    <goods id="70520" item_id="70520" item_count="1" unit="4" price="4000" active="1"  count="-1" discount="4000" expiry_date="20161221" flag="NEW" comment="再生石魂"/>
+	    <goods id="72937" item_id="72937" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="丝带"/>
+	    <goods id="72938" item_id="72938" item_count="1" unit="4" price="200" active="1"  count="-1" discount="200" expiry_date="20161221" flag="NEW" comment="包装纸"/>
+	    <goods id="69410" item_id="69410" item_count="1" unit="4" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="NEW" comment="金色子母石头鞋子(110级)"/>
+	    <goods id="69412" item_id="69412" item_count="1" unit="4" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="NEW" comment="金色子母石戒指(110级)"/>
+	    <goods id="69413" item_id="69413" item_count="1" unit="4" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="NEW" comment="金色子母石饰品(110级)"/>
+	    <goods id="69414" item_id="69414" item_count="1" unit="4" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="NEW" comment="金色子母石武器(110级)"/>
+	    <goods id="69415" item_id="69415" item_count="1" unit="4" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="NEW" comment="金色子母石衣服(110级)"/>
+	    <goods id="69436" item_id="69436" item_count="1" unit="4" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="NEW" comment="金色子母石护(110级)"/>
+	    <goods id="69427" item_id="69427" item_count="20" unit="4" price="2000" active="1"  count="-1" discount="2000" expiry_date="20161221" flag="NEW" comment="终极精炼石"/>
+	    <goods id="72795" item_id="72795" item_count="1" unit="4" price="400" active="1"  count="-1" discount="400" expiry_date="20161221" flag="NEW" comment="超级护法金丹"/>
+	    <goods id="72781" item_id="72781" item_count="1" unit="4" price="20" active="1"  count="-1" discount="20" expiry_date="20161221" flag="NEW" comment="雕琢符1档"/>
+	    <goods id="72782" item_id="72782" item_count="1" unit="4" price="50" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW" comment="雕琢符2档"/>
+	    <goods id="72783" item_id="72783" item_count="1" unit="4" price="150" active="1"  count="-1" discount="150" expiry_date="20161221" flag="NEW" comment="雕琢符3档"/>
+	    <goods id="72784" item_id="72784" item_count="1" unit="4" price="450" active="1"  count="-1" discount="450" expiry_date="20161221" flag="NEW" comment="雕琢符4档"/>
+	    <goods id="72785" item_id="72785" item_count="1" unit="4" price="1350" active="1"  count="-1" discount="1350" expiry_date="20161221" flag="NEW" comment="雕琢符5档"/>
+	    <goods id="72786" item_id="72786" item_count="1" unit="4" price="4050" active="1"  count="-1" discount="4050" expiry_date="20161221" flag="NEW" comment="雕琢符6档"/>
+	    <goods id="72787" item_id="72787" item_count="1" unit="4" price="12150" active="1"  count="-1" discount="12150" expiry_date="20161221" flag="NEW" comment="雕琢符7档"/>
+	    <goods id="72788" item_id="72788" item_count="1" unit="4" price="36450" active="1"  count="-1" discount="36450" expiry_date="20161221" flag="NEW" comment="雕琢符8档"/>
+	    <goods id="71650" item_id="71650" item_count="1" unit="4" price="3000" active="1"  count="-1" discount="3000" expiry_date="20161221" flag="NEW" comment="时装织女针"/>
+	    <goods id="70258" item_id="70258" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="斗转仙丹·上等"/>
+	    <goods id="59785" item_id="59785" item_count="1" unit="4" price="2000" active="1"  count="-1" discount="2000" expiry_date="20161221" flag="NEW" comment="星移仙丹·上等"/>
+	    <goods id="59793" item_id="59793" item_count="1" unit="4" price="5000" active="1"  count="-1" discount="5000" expiry_date="20161221" flag="NEW" comment="点化仙丹·上等"/>
+	    <goods id="62242" item_id="62242" item_count="1" unit="5" price="50" active="1"  count="-1" discount="10" expiry_date="20161221" comment="紫色子母石护(20级)"/>
+  		<goods id="62246" item_id="62246" item_count="1" unit="5" price="160" active="1"  count="-1" discount="100" expiry_date="20161221" comment="紫色子母石护(40级)"/>
+  		<goods id="62250" item_id="62250" item_count="1" unit="5" price="420" active="1"  count="-1" discount="250" expiry_date="20161221" comment="紫色子母石护(60级)"/>
+  		<goods id="62253" item_id="62253" item_count="1" unit="5" price="840" active="1"  count="-1" discount="500" expiry_date="20161221" comment="紫色子母石护(80级)"/>
+  		<goods id="62258" item_id="62258" item_count="1" unit="5" price="1680" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="紫色子母石护(100级)"/>
+  		<goods id="63923" item_id="63923" item_count="1" unit="5" price="50" active="1"  count="-1" discount="10" expiry_date="20161221" comment="紫色子母石防具(20级)"/>
+  		<goods id="63926" item_id="63926" item_count="1" unit="5" price="160" active="1"  count="-1" discount="100" expiry_date="20161221" comment="紫色子母石防具(40级)"/>
+  		<goods id="63931" item_id="63931" item_count="1" unit="5" price="420" active="1"  count="-1" discount="250" expiry_date="20161221" comment="紫色子母石防具(60级)"/>
+  		<goods id="63932" item_id="63932" item_count="1" unit="5" price="840" active="1"  count="-1" discount="500" expiry_date="20161221" comment="紫色子母石防具(80级)"/>
+  		<goods id="63934" item_id="63934" item_count="1" unit="5" price="1680" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="紫色子母石防具(100级)"/>
+  		<goods id="63912" item_id="63912" item_count="1" unit="5" price="50" active="1"  count="-1" discount="10" expiry_date="20161221" comment="紫色子母石饰品(20级)"/>
+  		<goods id="63913" item_id="63913" item_count="1" unit="5" price="160" active="1"  count="-1" discount="80" expiry_date="20161221" comment="紫色子母石饰品(40级)"/>
+  		<goods id="63914" item_id="63914" item_count="1" unit="5" price="420" active="1"  count="-1" discount="210" expiry_date="20161221" comment="紫色子母石饰品(60级)"/>
+  		<goods id="63917" item_id="63917" item_count="1" unit="5" price="840" active="1"  count="-1" discount="420" expiry_date="20161221" comment="紫色子母石饰品(80级)"/>
+  		<goods id="63921" item_id="63921" item_count="1" unit="5" price="1680" active="1"  count="-1" discount="840" expiry_date="20161221" comment="紫色子母石饰品(100级)"/>
+  		<goods id="71383" item_id="71383" item_count="1" unit="5" price="36" active="1"  count="-1" discount="36" expiry_date="20161221" flag="NEW" comment="小丝带"/>
+			<goods id="70811" item_id="70811" item_count="1" unit="5" price="99" active="1"  count="-1" discount="99" expiry_date="20161221" flag="NEW" comment="丝带"/>
+			<goods id="70810" item_id="70810" item_count="1" unit="5" price="999" active="1"  count="-1" discount="999" expiry_date="20161221" flag="NEW" comment="包装纸"/>
+			<goods id="63935" item_id="63935" item_count="1" unit="5" price="50" active="1"  count="-1" discount="40" expiry_date="20161221" comment="紫色子母石戒指(20级)"/>
+  		<goods id="63936" item_id="63936" item_count="1" unit="5" price="160" active="1"  count="-1" discount="120" expiry_date="20161221" comment="紫色子母石戒指(40级)"/>
+  		<goods id="63937" item_id="63937" item_count="1" unit="5" price="420" active="1"  count="-1" discount="300" expiry_date="20161221" comment="紫色子母石戒指(60级)"/>
+  		<goods id="63938" item_id="63938" item_count="1" unit="5" price="840" active="1"  count="-1" discount="600" expiry_date="20161221" comment="紫色子母石戒指(80级)"/>
+  		<goods id="63939" item_id="63939" item_count="1" unit="5" price="1680" active="1"  count="-1" discount="1200" expiry_date="20161221" comment="紫色子母石戒指(100级)"/>
+  		<goods id="69519" item_id="69519" item_count="1" unit="5" price="100" active="1"  count="-1" discount="50" expiry_date="20161221" flag="NEW"	comment="节庆礼花"/>
+  		<goods id="68655" item_id="68655" item_count="1" unit="5" price="100" active="1" count="-1" discount="50" expiry_date="20161221" flag="NEW"	comment="乾坤丸·小"/>
+  		<goods id="70004" item_id="70004" item_count="1" unit="5" price="200" active="1" count="-1" discount="100" expiry_date="20161221" flag="NEW"	comment="乾坤丸·中"/>
+  		<goods id="70007" item_id="70007" item_count="1" unit="5" price="500" active="1" count="-1" discount="250" expiry_date="20161221" flag="NEW"	comment="乾坤丸·大"/>
+  		<goods id="64157" item_id="64157" item_count="1" unit="5" price="400" active="1"  count="-1" discount="200" expiry_date="20161221" flag="NEW" comment="初级水晶钻"/>
+  		<goods id="64158" item_id="64158" item_count="1" unit="5" price="1200" active="1"  count="-1" discount="800" expiry_date="20161221" flag="NEW" comment="中级水晶钻"/>
+  		<goods id="64159" item_id="64159" item_count="1" unit="5" price="1600" active="1"  count="-1" discount="1000" expiry_date="20161221" flag="NEW" comment="高级水晶钻"/>
+  		<goods id="65298" item_id="65298" item_count="1" unit="5" price="300" active="1"  count="-1" discount="200" expiry_date="20161221" flag="NEW" comment="优质法宝试金石"/>
+  		<goods id="69866" item_id="69866" item_count="1" unit="5" price="500" active="1"  count="-1" discount="300" expiry_date="20161221" flag="NEW" comment="5档宝石剥离符"/>
+  		<goods id="69867" item_id="69867" item_count="1" unit="5" price="800" active="1"  count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="6档宝石剥离符"/>	
+  		<goods id="63975" item_id="63975" item_count="1" unit="5" price="2000" active="1"  count="-1" discount="1000" expiry_date="20161221" comment="菩萨经"/>
+  		<goods id="59203" item_id="59203" item_count="1" unit="5" price="12000" active="1"  count="-1" discount="12000" expiry_date="20161221" flag="HOT" comment="中等乾坤八卦石·捌"/>
+  		<goods id="73554" item_id="73554" item_count="10" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="心形数字礼花"/>
+  		<goods id="73555" item_id="73555" item_count="10" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="星形数字礼花"/>
+  		<goods id="73556" item_id="73556" item_count="10" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="爱意浓浓数字礼花"/>
+  		<goods id="73557" item_id="73557" item_count="10" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" flag="NEW" comment="节日祝福数字礼花"/> 		
+  		<goods id="70460" item_id="70460" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="孙悟空3品蓝色法宝"/>
+  		<goods id="70464" item_id="70464" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="猪八戒3品蓝色法宝"/>
+  		<goods id="70468" item_id="70468" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="沙和尚3品蓝色法宝"/>
+  		<goods id="70472" item_id="70472" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="唐僧3品蓝色法宝"/>
+  		<goods id="74393" item_id="74393" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="缚妖索3品蓝色法宝"/>
+  		<goods id="74395" item_id="74395" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="黄金鸟3品蓝色法宝"/>
+  		<goods id="74396" item_id="74396" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="玉葫芦3品蓝色法宝"/>
+  		<goods id="74397" item_id="74397" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="莲花印3品蓝色法宝"/>
+  		<goods id="74438" item_id="74438" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="比翼鸟3品蓝色法宝"/>
+  		<goods id="74439" item_id="74439" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="宝玉瓶3品蓝色法宝"/>
+  		<goods id="74440" item_id="74440" item_count="1" unit="4" price="1000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="琉璃索3品蓝色法宝"/>
+  		<goods id="74388" item_id="74388" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="缚妖索4品紫色法宝"/>
+  		<goods id="74390" item_id="74390" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="黄金鸟4品紫色法宝"/>
+  		<goods id="74391" item_id="74391" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="玉葫芦4品紫色法宝"/>
+  		<goods id="74392" item_id="74392" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="莲花印4品紫色法宝"/>
+  		<goods id="64378" item_id="64378" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="比翼鸟4品紫色法宝"/>
+  		<goods id="64400" item_id="64400" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="宝玉瓶4品紫色法宝"/>
+  		<goods id="71487" item_id="71487" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1500" expiry_date="20161221" comment="琉璃索4品紫色法宝"/> 	
+  		<goods id="70850" item_id="70850" item_count="1" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" comment="师徒断交书"/> 	
+  		<goods id="75491" item_id="75491" item_count="1" unit="4" price="100" active="1" count="-1" discount="50" expiry_date="20161221" comment="白色符文转换符"/> 	
+  		<goods id="75655" item_id="75655" item_count="1" unit="4" price="100" active="1" count="-1" discount="50" expiry_date="20161221" comment="白色符文合成符"/> 	
+  		<goods id="64552" item_id="64552" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="7天绑定新郎礼服"/> 	
+ 	  	<goods id="64553" item_id="64553" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="7天绑定新娘礼服"/> 	
+ 	  	<goods id="64554" item_id="64554" item_count="1" unit="4" price="5000" active="1" count="-1" discount="2500" expiry_date="20161221" comment="7天绑定俊逸道袍"/> 	
+ 	  	<goods id="64559" item_id="64559" item_count="1" unit="4" price="5000" active="1" count="-1" discount="2500" expiry_date="20161221" comment="7天绑定仙踪彩衣"/> 	
+ 	  	<goods id="64556" item_id="64556" item_count="1" unit="4" price="5000" active="1" count="-1" discount="2400" expiry_date="20161221" comment="7天绑定书生蓝袍"/> 	
+ 	  	<goods id="64565" item_id="64565" item_count="1" unit="4" price="5000" active="1" count="-1" discount="2500" expiry_date="20161221" comment="7天绑定玉花罗裙"/> 	
+ 	  	<goods id="64571" item_id="64571" item_count="1" unit="4" price="5000" active="1" count="-1" discount="2400" expiry_date="20161221" comment="7天绑定天兵神铠"/> 	
+ 	  	<goods id="64561" item_id="64561" item_count="1" unit="4" price="5000" active="1" count="-1" discount="2600" expiry_date="20161221" comment="7天绑定天蚕宝衣"/> 	
+ 	  	<goods id="64563" item_id="64563" item_count="1" unit="4" price="3000" active="1" count="-1" discount="1600" expiry_date="20161221" comment="7天绑定猎户劲装"/> 	
+ 	  	<goods id="64566" item_id="64566" item_count="1" unit="4" price="3000" active="1" count="-1" discount="1600" expiry_date="20161221" comment="7天绑定兔耳仙衣"/> 	
+ 	  	<goods id="76219" item_id="76219" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1000" expiry_date="20161221" comment="佛缘"/> 	
+ 	  	<goods id="76299" item_id="76299" item_count="1" unit="5" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="游龙时装"/> 	
+ 	  	<goods id="76303" item_id="76303" item_count="1" unit="5" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="栖凤时装"/> 	
+  		<goods id="76296" item_id="76296" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="7天绑定游龙时装"/> 	
+ 	  	<goods id="76300" item_id="76300" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="7天绑定栖凤时装"/> 
+ 	  	<goods id="75760" item_id="75760" item_count="1" unit="4" price="2000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="紫色90级法球子母石"/> 
+ 	  	<goods id="75759" item_id="75759" item_count="1" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" comment="紫色60级法球子母石"/> 	
+ 	  	<goods id="76322" item_id="76322" item_count="1" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" comment="蓝色90级法球子母石"/> 	
+ 	  	<goods id="76321" item_id="76321" item_count="1" unit="4" price="500" active="1" count="-1" discount="300" expiry_date="20161221" comment="蓝色60级法球子母石"/> 		
+ 	  	<goods id="76244" item_id="76244" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="三品蓝色后天袋"/> 	
+ 	  	<goods id="76467" item_id="76467" item_count="1" unit="4" price="1500" active="1" count="-1" discount="1000" expiry_date="20161221" comment="黄金宝箱钥匙"/>
+ 	  	<goods id="76900" item_id="76900" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="玉华王子"/>
+ 	  	<goods id="76910" item_id="76910" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="孔雀公主"/>
+ 	  	<goods id="76620" item_id="76620" item_count="1" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" comment="香囊"/>
+ 	  	<goods id="76926" item_id="76926" item_count="1" unit="4" price="8000" active="1" count="-1" discount="5000" expiry_date="20161221" comment="七星剑"/>
+ 	  	<goods id="76618" item_id="76618" item_count="1" unit="4" price="2500" active="1" count="-1" discount="2000" expiry_date="20161221" comment="玉圭"/>
+ 	 	  <goods id="76615" item_id="76615" item_count="1" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" comment="金兰谱"/>
+ 	 	  <goods id="76610" item_id="76610" item_count="1" unit="4" price="2500" active="1" count="-1" discount="2000" expiry_date="20161221" comment="双衡比目玫瑰佩"/>
+    	<goods id="77174" item_id="77174" item_count="1" unit="4" price="500" active="1" count="-1" discount="200" expiry_date="20161221" comment="聚灵珠"/>
+    	<goods id="77170" item_id="77170" item_count="1" unit="4" price="1000" active="1" count="-1" discount="500" expiry_date="20161221" comment="初级启灵珠"/> 	 	  
+  	 	<goods id="77171" item_id="77171" item_count="1" unit="4" price="2000" active="1" count="-1" discount="1000" expiry_date="20161221" comment="中级启灵珠"/>   	 	  
+    	<goods id="77172" item_id="77172" item_count="1" unit="4" price="3000" active="1" count="-1" discount="2000" expiry_date="20161221" comment="高级启灵珠"/>	 	  
+     	<goods id="77173" item_id="77173" item_count="1" unit="4" price="5000" active="1" count="-1" discount="4000" expiry_date="20161221" comment="玄级启灵珠"/>	 	  
+    	 	  	  	  	
+<goods id="600001" item_id="36010" item_count="1" unit="6" price="2400" active="1" count="-1" discount="2400" expiry_date="20161221" comment="九转金丹·中"/>
+<goods id="600002" item_id="57500" item_count="1" unit="6" price="2400" active="1" count="-1" discount="2400" expiry_date="20161221" comment="琼浆玉液·中"/>
+<goods id="600003" item_id="36036" item_count="1" unit="6" price="80" active="1" count="-1" discount="80" expiry_date="20161221" comment="急急如律令"/>
+<goods id="600004" item_id="58105" item_count="1" unit="6" price="80" active="1" count="-1" discount="80" expiry_date="20161221" comment="宝石摘除符（1档）"/>
+<goods id="600005" item_id="63506" item_count="1" unit="6" price="80" active="1" count="-1" discount="80" expiry_date="20161221" comment="2档宝石合成符"/>
+<goods id="600006" item_id="72999" item_count="1" unit="6" price="24" active="1" count="-1" discount="24" expiry_date="20161221" comment="宝石雕琢符（1档）"/>
+<goods id="600007" item_id="25409" item_count="1" unit="6" price="80" active="1" count="-1" discount="80" expiry_date="20161221" comment="奇妙的白虎精魂"/>
+<goods id="600008" item_id="25416" item_count="1" unit="6" price="240" active="1" count="-1" discount="240" expiry_date="20161221" comment="奇妙的玄武精魄"/>
+<goods id="600009" item_id="25395" item_count="1" unit="6" price="800" active="1" count="-1" discount="800" expiry_date="20161221" comment="奇妙的朱雀精魄"/>
+<goods id="600010" item_id="25402" item_count="1" unit="6" price="2400" active="1" count="-1" discount="2400" expiry_date="20161221" comment="奇妙的青龙精魂"/>
+<goods id="600011" item_id="75491" item_count="1" unit="6" price="160" active="1" count="-1" discount="160" expiry_date="20161221" comment="白色符文转换符"/>
+<goods id="600012" item_id="75655" item_count="1" unit="6" price="400" active="1" count="-1" discount="400" expiry_date="20161221" comment="白色符文升级符"/>
+<goods id="600013" item_id="69139" item_count="1" unit="6" price="400" active="1" count="-1" discount="400" expiry_date="20161221" comment="蟠桃劫钥匙"/>
+<goods id="600014" item_id="69137" item_count="1" unit="6" price="800" active="1" count="-1" discount="800" expiry_date="20161221" comment="黄风钥匙"/>
+<goods id="600015" item_id="69138" item_count="1" unit="6" price="800" active="1" count="-1" discount="800" expiry_date="20161221" comment="龙宫钥匙"/>
+<goods id="600017" item_id="77026" item_count="1" unit="6" price="120" active="1" count="-1" discount="120" expiry_date="20161221" comment="乾坤八卦石碎片·陆"/>
+<goods id="600018" item_id="77027" item_count="1" unit="6" price="640" active="1" count="-1" discount="640" expiry_date="20161221" comment="乾坤八卦石碎片·柒"/>
+<goods id="600019" item_id="77028" item_count="1" unit="6" price="1600" active="1" count="-1" discount="1600" expiry_date="20161221" comment="乾坤八卦石碎片·捌"/>
+<goods id="600021" item_id="76334" item_count="1" unit="6" price="2000" active="1" count="-1" discount="2000" expiry_date="20161221" comment="紫金葫芦仙（7天）"/>
+<goods id="600022" item_id="61841" item_count="1" unit="6" price="2000" active="1" count="-1" discount="2000" expiry_date="20161221" comment="如意神鹤（7天）"/>
+<goods id="600025" item_id="69522" item_count="1" unit="6" price="4000" active="1" count="-1" discount="4000" expiry_date="20161221" comment="齐天祥云（7天）"/>
+<goods id="600034" item_id="75412" item_count="1" unit="6" price="4800" active="1" count="-1" discount="4800" expiry_date="20161221" comment="九幽魔女（7天）"/>
+<goods id="600035" item_id="75411" item_count="1" unit="6" price="4800" active="1" count="-1" discount="4800" expiry_date="20161221" comment="九幽魔王（7天）"/>
+<goods id="600036" item_id="76633" item_count="1" unit="6" price="800" active="1" count="-1" discount="800" expiry_date="20161221" comment="佛缘"/>
+<goods id="600037" item_id="72935" item_count="1" unit="6" price="4000" active="1" count="-1" discount="4000" expiry_date="20161221" comment="菩萨经"/>
+
+<goods id="700001" item_id="36009" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="九转金丹·小"/>
+<goods id="700002" item_id="36010" item_count="1" unit="7" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="九转金丹·中"/>
+<goods id="700003" item_id="36781" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="琼浆玉液·小"/>
+<goods id="700004" item_id="57500" item_count="1" unit="7" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="琼浆玉液·中"/>
+<goods id="700005" item_id="52940" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="定心丸"/>
+<goods id="700006" item_id="57498" item_count="1" unit="7" price="142" active="1" count="-1" discount="142" expiry_date="20161221" comment="如意丹·小"/>
+<goods id="700007" item_id="57499" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="如意丹·中"/>
+<goods id="700008" item_id="76962" item_count="1" unit="7" price="572" active="1" count="-1" discount="572" expiry_date="20161221" comment="如意丹·大"/>
+<goods id="700009" item_id="36036" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="急急如律令"/>
+<goods id="700010" item_id="56000" item_count="1" unit="7" price="142" active="1" count="-1" discount="142" expiry_date="20161221" comment="小护法金丹"/>
+<goods id="700011" item_id="56001" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="中护法金丹"/>
+<goods id="700012" item_id="56002" item_count="1" unit="7" price="572" active="1" count="-1" discount="572" expiry_date="20161221" comment="大护法金丹"/>
+<goods id="700013" item_id="70127" item_count="1" unit="7" price="181" active="1" count="-1" discount="181" expiry_date="20161221" comment="乾坤丸·小"/>
+<goods id="700014" item_id="70128" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="乾坤丸·中"/>
+<goods id="700015" item_id="70129" item_count="1" unit="7" price="718" active="1" count="-1" discount="718" expiry_date="20161221" comment="乾坤丸·大"/>
+<goods id="700016" item_id="75072" item_count="1" unit="7" price="288" active="1" count="-1" discount="288" expiry_date="20161221" comment="法宝经验丹·大"/>
+<goods id="700017" item_id="75071" item_count="1" unit="7" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="法宝经验丹·中"/>
+<goods id="700018" item_id="75070" item_count="1" unit="7" price="142" active="1" count="-1" discount="142" expiry_date="20161221" comment="法宝经验丹·小"/>
+<goods id="700019" item_id="41444" item_count="20" unit="7" price="181" active="1" count="-1" discount="181" expiry_date="20161221" comment="初级精炼石*20"/>
+<goods id="700020" item_id="41445" item_count="20" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="中级精炼石*20"/>
+<goods id="700021" item_id="41446" item_count="20" unit="7" price="718" active="1" count="-1" discount="718" expiry_date="20161221" comment="高级精炼石*20"/>
+<goods id="700022" item_id="69427" item_count="20" unit="7" price="1432" active="1" count="-1" discount="1432" expiry_date="20161221" comment="玄级精炼石*20"/>
+<goods id="700023" item_id="58119" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="定心符"/>
+<goods id="700024" item_id="58105" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="宝石摘除符（1档）"/>
+<goods id="700025" item_id="63506" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="2档宝石合成符"/>
+<goods id="700026" item_id="33681" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="金喇叭"/>
+<goods id="700027" item_id="33682" item_count="1" unit="7" price="34" active="1" count="-1" discount="34" expiry_date="20161221" comment="银喇叭"/>
+<goods id="700028" item_id="58232" item_count="1" unit="7" price="1075" active="1" count="-1" discount="1075" expiry_date="20161221" comment="厚棉布包"/>
+<goods id="700029" item_id="58233" item_count="1" unit="7" price="1432" active="1" count="-1" discount="1432" expiry_date="20161221" comment="优质麻布包"/>
+<goods id="700030" item_id="58234" item_count="1" unit="7" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="优质棉布包"/>
+<goods id="700031" item_id="58235" item_count="1" unit="7" price="2868" active="1" count="-1" discount="2868" expiry_date="20161221" comment="火浣布包"/>
+<goods id="700032" item_id="70126" item_count="1" unit="7" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="织女的绣花针"/>
+<goods id="700033" item_id="25409" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="奇妙的白虎精魂"/>
+<goods id="700034" item_id="25416" item_count="1" unit="7" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="奇妙的玄武精魄"/>
+<goods id="700035" item_id="25395" item_count="1" unit="7" price="718" active="1" count="-1" discount="718" expiry_date="20161221" comment="奇妙的朱雀精魄"/>
+<goods id="700036" item_id="25402" item_count="1" unit="7" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="奇妙的青龙精魂"/>
+<goods id="700037" item_id="60195" item_count="20" unit="7" price="142" active="1" count="-1" discount="142" expiry_date="20161221" comment="华丽的礼花*20"/>
+<goods id="700038" item_id="60194" item_count="20" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="精致的礼花*20"/>
+<goods id="700039" item_id="59780" item_count="1" unit="7" price="3582" active="1" count="-1" discount="3582" expiry_date="20161221" comment="点化仙丹·下等"/>
+<goods id="700040" item_id="59781" item_count="1" unit="7" price="10750" active="1" count="-1" discount="10750" expiry_date="20161221" comment="点化仙丹·中等"/>
+<goods id="700041" item_id="59782" item_count="1" unit="7" price="17918" active="1" count="-1" discount="17918" expiry_date="20161221" comment="点化仙丹·上等"/>
+<goods id="700042" item_id="77023" item_count="1" unit="7" price="3582" active="1" count="-1" discount="3582" expiry_date="20161221" comment="斗转仙丹·下等"/>
+<goods id="700043" item_id="77024" item_count="1" unit="7" price="10750" active="1" count="-1" discount="10750" expiry_date="20161221" comment="斗转仙丹·中等"/>
+<goods id="700044" item_id="77025" item_count="1" unit="7" price="17918" active="1" count="-1" discount="17918" expiry_date="20161221" comment="斗转仙丹·上等"/>
+<goods id="700045" item_id="59772" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="星移仙丹·下等"/>
+<goods id="700046" item_id="59775" item_count="1" unit="7" price="4300" active="1" count="-1" discount="4300" expiry_date="20161221" comment="星移仙丹·中等"/>
+<goods id="700047" item_id="59779" item_count="1" unit="7" price="7168" active="1" count="-1" discount="7168" expiry_date="20161221" comment="星移仙丹·上等"/>
+<goods id="700048" item_id="64084" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="单人召集令"/>
+<goods id="700049" item_id="64085" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="小队召集令"/>
+<goods id="700050" item_id="64086" item_count="1" unit="7" price="1432" active="1" count="-1" discount="1432" expiry_date="20161221" comment="家族召集令"/>
+<goods id="700051" item_id="64087" item_count="1" unit="7" price="2868" active="1" count="-1" discount="2868" expiry_date="20161221" comment="军团召集令"/>
+<goods id="700052" item_id="73554" item_count="10" unit="7" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="心型数字礼花*10"/>
+<goods id="700053" item_id="73555" item_count="10" unit="7" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="星型数字礼花*10"/>
+<goods id="700054" item_id="73556" item_count="10" unit="7" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="爱意浓浓礼花*10"/>
+<goods id="700055" item_id="73557" item_count="10" unit="7" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="节日祝福礼花*10"/>
+<goods id="700056" item_id="75491" item_count="1" unit="7" price="142" active="1" count="-1" discount="142" expiry_date="20161221" comment="白色符文转换符"/>
+<goods id="700057" item_id="75655" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="白色符文升级符"/>
+<goods id="700058" item_id="69139" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="蟠桃劫钥匙"/>
+<goods id="700059" item_id="69137" item_count="1" unit="7" price="718" active="1" count="-1" discount="718" expiry_date="20161221" comment="黄风钥匙"/>
+<goods id="700060" item_id="69138" item_count="1" unit="7" price="718" active="1" count="-1" discount="718" expiry_date="20161221" comment="龙宫钥匙"/>
+<goods id="700062" item_id="77026" item_count="1" unit="7" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="乾坤八卦石碎片·陆"/>
+<goods id="700063" item_id="77029" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="师徒断交书"/>
+<goods id="700065" item_id="76334" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="紫金葫芦仙（7天）"/>
+<goods id="700066" item_id="61841" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="如意神鹤（7天）"/>
+<goods id="700069" item_id="69522" item_count="1" unit="7" price="3582" active="1" count="-1" discount="3582" expiry_date="20161221" comment="齐天祥云（7天）"/>
+<goods id="700072" item_id="64552" item_count="1" unit="7" price="4300" active="1" count="-1" discount="4300" expiry_date="20161221" comment="新郎礼服（7天）"/>
+<goods id="700073" item_id="64553" item_count="1" unit="7" price="4300" active="1" count="-1" discount="4300" expiry_date="20161221" comment="新娘礼服（7天）"/>
+<goods id="700074" item_id="64554" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="俊逸道袍（7天）"/>
+<goods id="700075" item_id="64559" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="仙踪彩衣（7天）"/>
+<goods id="700076" item_id="64556" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="书生蓝装（7天）"/>
+<goods id="700077" item_id="64565" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="玉花罗裙（7天）"/>
+<goods id="700078" item_id="64571" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="天兵神凯（7天）"/>
+<goods id="700079" item_id="64561" item_count="1" unit="7" price="1793" active="1" count="-1" discount="1793" expiry_date="20161221" comment="天蚕宝衣（7天）"/>
+<goods id="700080" item_id="64563" item_count="1" unit="7" price="1432" active="1" count="-1" discount="1432" expiry_date="20161221" comment="猎户劲装（7天）"/>
+<goods id="700081" item_id="64566" item_count="1" unit="7" price="1432" active="1" count="-1" discount="1432" expiry_date="20161221" comment="兔耳仙衣（7天）"/>
+<goods id="700082" item_id="76633" item_count="1" unit="7" price="718" active="1" count="-1" discount="718" expiry_date="20161221" comment="佛缘"/>
+<goods id="700083" item_id="72935" item_count="1" unit="7" price="3582" active="1" count="-1" discount="3582" expiry_date="20161221" comment="菩萨经"/>
+<goods id="700084" item_id="58131" item_count="1" unit="7" price="2868" active="1" count="-1" discount="2868" expiry_date="20161221" comment="回炉石"/>
+<goods id="700085" item_id="58132" item_count="1" unit="7" price="288" active="1" count="-1" discount="288" expiry_date="20161221" comment="重铸石"/>
+<goods id="700086" item_id="69899" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="祥云宝镜"/>
+<goods id="700087" item_id="71426" item_count="1" unit="7" price="73" active="1" count="-1" discount="73" expiry_date="20161221" comment="小丝带"/>
+<goods id="700088" item_id="72937" item_count="1" unit="7" price="357" active="1" count="-1" discount="357" expiry_date="20161221" comment="丝带"/>
+<goods id="700089" item_id="65157" item_count="1" unit="7" price="142" active="1" count="-1" discount="142" expiry_date="20161221" comment="情比金坚石"/>
+
+<goods id="800001" item_id="36009" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="九转金丹·小"/>
+<goods id="800002" item_id="36781" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="琼浆玉液·小"/>
+<goods id="800003" item_id="52940" item_count="1" unit="8" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="定心丸"/>
+<goods id="800004" item_id="57498" item_count="1" unit="8" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="如意丹·小"/>
+<goods id="800005" item_id="57499" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="如意丹·中"/>
+<goods id="800006" item_id="76962" item_count="1" unit="8" price="860" active="1" count="-1" discount="860" expiry_date="20161221" comment="如意丹·大"/>
+<goods id="800007" item_id="56000" item_count="1" unit="8" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="小护法金丹"/>
+<goods id="800008" item_id="56001" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="中护法金丹"/>
+<goods id="800009" item_id="56002" item_count="1" unit="8" price="860" active="1" count="-1" discount="860" expiry_date="20161221" comment="大护法金丹"/>
+<goods id="800010" item_id="41444" item_count="20" unit="8" price="271" active="1" count="-1" discount="271" expiry_date="20161221" comment="初级精炼石*20"/>
+<goods id="800011" item_id="41445" item_count="20" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="中级精炼石*20"/>
+<goods id="800012" item_id="41446" item_count="20" unit="8" price="1075" active="1" count="-1" discount="1075" expiry_date="20161221" comment="高级精炼石*20"/>
+<goods id="800013" item_id="69427" item_count="20" unit="8" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="玄级精炼石*20"/>
+<goods id="800014" item_id="33681" item_count="1" unit="8" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="金喇叭"/>
+<goods id="800015" item_id="33682" item_count="1" unit="8" price="56" active="1" count="-1" discount="56" expiry_date="20161221" comment="银喇叭"/>
+<goods id="800016" item_id="58232" item_count="1" unit="8" price="1613" active="1" count="-1" discount="1613" expiry_date="20161221" comment="厚棉布包"/>
+<goods id="800017" item_id="58233" item_count="1" unit="8" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="优质麻布包"/>
+<goods id="800018" item_id="58234" item_count="1" unit="8" price="3225" active="1" count="-1" discount="3225" expiry_date="20161221" comment="优质棉布包"/>
+<goods id="800019" item_id="58235" item_count="1" unit="8" price="4300" active="1" count="-1" discount="4300" expiry_date="20161221" comment="火浣布包"/>
+<goods id="800020" item_id="25409" item_count="1" unit="8" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="奇妙的白虎精魂"/>
+<goods id="800021" item_id="25416" item_count="1" unit="8" price="323" active="1" count="-1" discount="323" expiry_date="20161221" comment="奇妙的玄武精魄"/>
+<goods id="800022" item_id="25395" item_count="1" unit="8" price="1075" active="1" count="-1" discount="1075" expiry_date="20161221" comment="奇妙的朱雀精魄"/>
+<goods id="800023" item_id="25402" item_count="1" unit="8" price="3225" active="1" count="-1" discount="3225" expiry_date="20161221" comment="奇妙的青龙精魂"/>
+<goods id="800024" item_id="60195" item_count="20" unit="8" price="215" active="1" count="-1" discount="215" expiry_date="20161221" comment="华丽的礼花*20"/>
+<goods id="800025" item_id="60194" item_count="20" unit="8" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="精致的礼花*20"/>
+<goods id="800026" item_id="59780" item_count="1" unit="8" price="5375" active="1" count="-1" discount="5375" expiry_date="20161221" comment="点化仙丹·下等"/>
+<goods id="800027" item_id="59781" item_count="1" unit="8" price="16125" active="1" count="-1" discount="16125" expiry_date="20161221" comment="点化仙丹·中等"/>
+<goods id="800028" item_id="59782" item_count="1" unit="8" price="26875" active="1" count="-1" discount="26875" expiry_date="20161221" comment="点化仙丹·上等"/>
+<goods id="800029" item_id="77023" item_count="1" unit="8" price="5375" active="1" count="-1" discount="5375" expiry_date="20161221" comment="斗转仙丹·下等"/>
+<goods id="800030" item_id="77024" item_count="1" unit="8" price="16125" active="1" count="-1" discount="16125" expiry_date="20161221" comment="斗转仙丹·中等"/>
+<goods id="800031" item_id="77025" item_count="1" unit="8" price="26875" active="1" count="-1" discount="26875" expiry_date="20161221" comment="斗转仙丹·上等"/>
+<goods id="800032" item_id="59772" item_count="1" unit="8" price="2688" active="1" count="-1" discount="2688" expiry_date="20161221" comment="星移仙丹·下等"/>
+<goods id="800033" item_id="59775" item_count="1" unit="8" price="6450" active="1" count="-1" discount="6450" expiry_date="20161221" comment="星移仙丹·中等"/>
+<goods id="800034" item_id="59779" item_count="1" unit="8" price="10750" active="1" count="-1" discount="10750" expiry_date="20161221" comment="星移仙丹·上等"/>
+<goods id="800035" item_id="64084" item_count="1" unit="8" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="单人召集令"/>
+<goods id="800036" item_id="64085" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="小队召集令"/>
+<goods id="800037" item_id="64086" item_count="1" unit="8" price="2150" active="1" count="-1" discount="2150" expiry_date="20161221" comment="家族召集令"/>
+<goods id="800038" item_id="64087" item_count="1" unit="8" price="4300" active="1" count="-1" discount="4300" expiry_date="20161221" comment="军团召集令"/>
+<goods id="800039" item_id="73554" item_count="10" unit="8" price="323" active="1" count="-1" discount="323" expiry_date="20161221" comment="心型数字礼花*10"/>
+<goods id="800040" item_id="73555" item_count="10" unit="8" price="323" active="1" count="-1" discount="323" expiry_date="20161221" comment="星型数字礼花*10"/>
+<goods id="800041" item_id="73556" item_count="10" unit="8" price="323" active="1" count="-1" discount="323" expiry_date="20161221" comment="爱意浓浓礼花*10"/>
+<goods id="800042" item_id="73557" item_count="10" unit="8" price="323" active="1" count="-1" discount="323" expiry_date="20161221" comment="节日祝福礼花*10"/>
+<goods id="800043" item_id="69899" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="祥云宝镜"/>
+<goods id="800044" item_id="71426" item_count="1" unit="8" price="108" active="1" count="-1" discount="108" expiry_date="20161221" comment="小丝带"/>
+<goods id="800045" item_id="72937" item_count="1" unit="8" price="538" active="1" count="-1" discount="538" expiry_date="20161221" comment="丝带"/>
+	 </items>
+		<promotion>
+		<goods id="60333" type="1" begin_val="5" end_val="7" begin_time="190000" end_time="220000" max_count="3" />
+		<goods id="60334" type="1" begin_val="5" end_val="7" begin_time="190000" end_time="220000" max_count="3" />
+		<goods id="60335" type="1" begin_val="5" end_val="7" begin_time="190000" end_time="220000" max_count="3" />
+		<goods id="60336" type="1" begin_val="5" end_val="7" begin_time="190000" end_time="220000" max_count="3" />
+		<goods id="60337" type="1" begin_val="5" end_val="7" begin_time="190000" end_time="220000" max_count="3" />
+		<goods id="60338" type="1" begin_val="5" end_val="7" begin_time="190000" end_time="220000" max_count="3" />
+			<goods id="63766" begin_time="2010-04-20 00:00:00" />
+			<goods id="65258" begin_time="2010-04-20 00:00:00" end_time="2010-06-20 00:00:00"	/>
+	</promotion>
+</config>
+      
+      
+      
+      
+      
+      

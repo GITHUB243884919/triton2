@@ -1,0 +1,1 @@
+alter table UMS_WORLDGLOBAL add column war_nosubmit int not null default 0;

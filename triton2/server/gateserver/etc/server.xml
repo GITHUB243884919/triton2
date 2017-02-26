@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gbk"?>
+<server>
+	<server_ip>0.0.0.0</server_ip>
+	<server_port>10002</server_port>
+	<maximum_client>32</maximum_client>
+	<maximum_message>32</maximum_message>
+	<max_input_buffer_size>113000</max_input_buffer_size>
+	<max_output_buffer_size>113000</max_output_buffer_size>
+	<send_interval>0</send_interval>
+	<keep_alive>1800000</keep_alive>
+	<comment>DataServer XML configure file</comment>
+	<date>2007-11-26 22:17</date>
+</server>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2424">
+    <Map MapName="大乱斗" MapID="129" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="1" NoNation="0" AbsSafe="0" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="100" cy="106" />
+        <RelivePos MapID="154" x="15" y="32" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="128000" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="92" PosY="0" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71323" Name="大逃杀隐藏NPC0,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71323" Time="300000" NewID="0" NewName="" OldName="大逃杀隐藏NPC0,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="93" PosY="0" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71324" Name="大逃杀隐藏NPC1,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71324" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC1,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128002" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="94" PosY="0" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71333" Name="大逃杀隐藏NPC10,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71333" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC10,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128003" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="95" PosY="0" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71334" Name="大逃杀隐藏NPC11,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71334" Time="180000" NewID="0" NewName="" OldName="大逃杀隐藏NPC11,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128004" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="96" PosY="0" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71325" Name="大逃杀隐藏NPC2,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71325" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC2,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128005" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="97" PosY="0" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71326" Name="大逃杀隐藏NPC3,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71326" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC3,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128006" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="92" PosY="1" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71327" Name="大逃杀隐藏NPC4,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71327" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC4,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128007" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="93" PosY="1" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71328" Name="大逃杀隐藏NPC5,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71328" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC5,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128008" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="94" PosY="1" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71329" Name="大逃杀隐藏NPC6,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71329" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC6,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128009" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="95" PosY="1" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71330" Name="大逃杀隐藏NPC7,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71330" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC7,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128010" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="96" PosY="1" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71331" Name="大逃杀隐藏NPC8,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71331" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC8,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="128011" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="97" PosY="1" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71332" Name="大逃杀隐藏NPC9,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71332" Time="120000" NewID="0" NewName="" OldName="大逃杀隐藏NPC9,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData />
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GBK" ?> 
+<!-- TimeID：时间段ID， BeginTime：开始时间， EndTime：结束时间， CommonAllowed：是否富贵豪华专用(1是0否)  -->
+<WeddingConfig>
+	<WeddingInfo TimeID="0" BeginTime="11" EndTime="12"  CommonAllowed="0" />
+	<WeddingInfo TimeID="1" BeginTime="12" EndTime="13"  CommonAllowed="1" />
+	<WeddingInfo TimeID="2" BeginTime="13" EndTime="14"  CommonAllowed="1" />
+	<WeddingInfo TimeID="3" BeginTime="14" EndTime="15"  CommonAllowed="0" />
+	<WeddingInfo TimeID="4" BeginTime="18" EndTime="19"  CommonAllowed="0" />
+	<WeddingInfo TimeID="5" BeginTime="19" EndTime="20"  CommonAllowed="1" />
+	<WeddingInfo TimeID="6" BeginTime="20" EndTime="21"  CommonAllowed="1" />
+	<WeddingInfo TimeID="7" BeginTime="21" EndTime="22"  CommonAllowed="0" />
+</WeddingConfig>

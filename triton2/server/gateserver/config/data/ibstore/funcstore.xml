@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!--value_type="" 确定 value 的类型   0 代表value为直接用的数值; 1 value 代表va为 对应模板数值的比率 -->
+  <!--consume  consume_type=""   BIND_MONEY 1; UNBIND_MONEY  2  ; SILVER_YUANBAO   4; GOLDEN_YUANBAO   5  -->
+  <!--uint_type 1: 次  2 :hour  3: day-->
+  <!--count_limit 一次购买的最大数量-->
+  <version value="1000"/>
+  <funcs>
+    <func id="100001" name="如意丹*大" value_type="0" show="1" default_type="0" unit_type="2" uint="1"   count_limit ="100">
+      <consume  consume_type="5"  value="150"/>
+    </func>
+    <func id="100002" name="乾坤丸*大" value_type="0" show="1" default_type="0" unit_type="2" unit="5"   count_limit ="100">
+      <consume  consume_type="5"  value="250"/>
+    </func>
+    <func id="100003" name="会员" value_type="0" show="1" default_type="0" unit_type="3" unit="1" count_limit ="100">
+      <consume  consume_type="5"  value="100"/>
+    </func>
+    <func id="100004" name="12包裹" value_type="0" show="0" default_type="0" unit_type="3" unit="1" count_limit ="100">
+      <consume  consume_type="5"  value="10"/>
+    </func>
+    <func id="100005" name="14包裹" value_type="0" show="0" default_type="0" unit_type="3" unit="1" count_limit ="100">
+      <consume  consume_type="5"  value="14"/>
+    </func>
+    <func id="100006" name="16包裹" value_type="0" show="0" default_type="0" unit_type="3" unit="1" count_limit ="100">
+      <consume  consume_type="5"  value="20"/>
+    </func>
+    <func id="100007" name="18包裹" value_type="0" show="0" default_type="0" unit_type="3" unit="1" count_limit ="100">
+      <consume  consume_type="5"  value="28"/>
+    </func>
+  </funcs>
+</config>
+
+
+

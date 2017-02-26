@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2518">
+    <Map MapName="军团除妖" MapID="161" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="0" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="-858993460">
+        <Size cx="44" cy="56" />
+        <RelivePos MapID="161" x="8" y="8" LineID="99" Border="1" />
+        <OgreData>
+            <Ogre OgreIndex="160000" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="37" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71323" Name="大逃杀内丹1,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71323" Time="300000" NewID="0" NewName="" OldName="大逃杀内丹1,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="38" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71324" Name="大逃杀内丹2,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71324" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹2,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160002" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="39" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71333" Name="大逃杀内丹3,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71333" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹3,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160003" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="40" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71334" Name="大逃杀内丹4,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71334" Time="180000" NewID="0" NewName="" OldName="大逃杀内丹4,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160004" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="41" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71325" Name="大逃杀内丹5,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71325" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹5,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160005" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="42" PosY="50" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71326" Name="大逃杀内丹6,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71326" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹6,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160006" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="37" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71327" Name="大逃杀内丹7,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71327" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹7,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160007" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="38" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71328" Name="大逃杀内丹8,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71328" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹8,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160008" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="39" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71329" Name="大逃杀内丹9,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71329" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹9,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160009" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="40" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71330" Name="大逃杀内丹10,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71330" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹10,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160010" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="41" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71331" Name="大逃杀内丹11,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71331" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹11,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="160011" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="42" PosY="51" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="71332" Name="大逃杀内丹12,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="71332" Time="120000" NewID="0" NewName="" OldName="大逃杀内丹12,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData />
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

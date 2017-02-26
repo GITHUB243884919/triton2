@@ -1,0 +1,1636 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<helper>
+<proto id="0" name="EGlobeDefine" >
+	<field  id="1" name="UNKNOWN_NAME" label="未命名"   />
+	<field  id="2" name="UNKNOWN_DESC" label="未描述"   />
+	<field  id="3" name="ITEM_NAME" label="道具名称"   />
+	<field  id="4" name="EM_GET" label="获得"   />
+	<field  id="5" name="EM_LOST" label="失去"   />
+</proto>
+
+<enum id ="1" name="EEquipPart" >
+	<field id="00" name="EQUIPMENT_WEAPON" label="武器"  /> 
+	<field id="01" name="EQUIPMENT_CHEST" label="胸部护具"  />
+	<field id="02" name="EQUIPMENT_LEG" label="腿部护具"  />
+	<field id="03" name="EQUIPMENT_HEAD" label="头部护具"  />
+	<field id="04" name="EQUIPMENT_NECK" label="项链"  />
+	<field id="05" name="EQUIPMENT_RINGLEFT" label="左戒指"  />
+	<field id="06" name="EQUIPMENT_RINGRIGHT" label="右戒指"  />
+	<field id="07" name="EQUIPMENT_SASH" label="腰带"  />
+	<field id="08" name="EQUIPMENT_CUFFLEFT" label="左护腕"  />
+	<field id="09" name="EQUIPMENT_CUFFRIGHT" label="右护腕"  />
+	<field id="10" name="EQUIPMENT_CHARMLEFT" label="右护符"  />
+	<field id="11" name="EQUIPMENT_CHARMRIGHT" label="右护符"  />
+	<field id="12" name="EQUIPMENT_BALL" label="法球"  />
+	<field id="13" name="EQUIPMENT_CLOAK" label="披风"  />
+	<field id="14" name="EQUIPMENT_FASHION" label="时装"  />
+	<field id="18" name="EQUIPMENT_MAGICWEAPON" label="法宝"  />
+</enum>
+
+<proto id="4" name ="PBRoleInfo">
+	<field  id="01" name="role_id" label="角色ID"   /> 
+	<field  id="02" name="role_status" label="角色状态"   /> 
+	<field  id="03" name="account_id" label="帐号ID"   /> 
+	<field  id="04" name="role_name" label="角色名称"   /> 
+	<field  id="05" name="is_alive" label="死亡状态"   /> 
+	<field  id="06" name="gender_id" label="性别"   /> 
+	<field  id="07" name="metier_id" label="职业"  domain="EMetier"  /> 
+	<field  id="08" name="nationality_id" label="阵营"  domain="ECamp"  /> 
+	<field  id="09" name="face_type" label="脸型"   /> 
+	<field  id="10" name="line_id" label="线ID"  domain="ELineID"  /> 
+	<field  id="11" name="map_id" label="地图ID" domain="EMapName"  /> 
+	<field  id="12" name="pos_x" label="横坐标"   /> 
+	<field  id="13" name="pos_y" label="纵坐标"   /> 
+	<field  id="14" name="role_level" label="等级"   /> 
+	<field  id="15" name="role_expr" label="经验"  format="2" /> 
+	<field  id="16" name="role_money" label="非绑定金" format="3" /> 
+	<field  id="17" name="bounded_money" label="绑定金" format="3" /> 
+	<field  id="18" name="login_time" label="最近登录时刻" format="1"  /> 
+	<field  id="19" name="online_duration" label="在线时间"   /> 
+	<field  id="20" name="update_time" label="最后存盘时刻" format="1"  /> 
+	<field  id="21" name="create_time" label="角色创建时刻" format="1"  /> 
+	<field  id="22" name="proto" label="角色详细属性"   />
+  	<field  id="23" name="login_ip" label="角色登录IP"   />
+</proto>
+
+<proto id="7" name ="PBSkillObject" >
+	<field  id="1" name="SkillID" label="技能模版ID"   />
+	<field  id="2" name="SkillLevel" label="技能等级"   />
+	<field  id="3" name="Cooldown" label="技能冷却时间"   />
+	<field  id="4" name="IncLevel" label="增加的技能等级"   />
+</proto>
+
+<proto id="8" name ="PBSkill" label="chinese_name">
+	<field id="01" name="TempID" label="模板ID"  />
+	<field id="02" name="Name" label="技能名称"  />
+	<field id="03" name="SkillID" label="技能ID"  />
+	<field id="04" name="RequireWeapon" label="技能需要的武器类别"  />
+	<field id="05" name="MetierID" label="技能所属职业"  />
+	<field id="06" name="GenerID" label="技能所属职业系别"  />
+	<field id="07" name="SkillLevel" label="技能等级"  />
+	<field id="08" name="SkillIcon" label="技能图标"  />
+	<field id="09" name="SkillDescribe" label="技能描述"  />
+	<field id="10" name="FireType" label="释放形态"  />
+	<field id="11" name="SkillType" label="技能类型"  />
+	<field id="12" name="TimeType" label="时间类型"  />
+	<field id="13" name="AniTime" label="施放时间即动画时间(毫秒)"  />
+	<field id="14" name="FireTime" label="吟唱时间(毫秒)"  />
+	<field id="15" name="CDTime" label="冷却时间(毫秒)"  />
+	<field id="16" name="Cost" label="消耗值"  />
+	<field id="17" name="NeedDelay" label="技能是否需要延迟计算伤害"  />
+	<field id="18" name="SkillFuncID1" label="对应第1项被动效果ID"  />
+	<field id="19" name="Parameter1" label="第1项效果ID对应数值"  />
+	<field id="20" name="SkillFuncID2" label="对应第2项被动效果ID"  />
+	<field id="21" name="Parameter2" label="第2项效果ID对应数值"  />
+	<field id="22" name="SkillFuncID3" label="对应第3项被动效果ID"  />
+	<field id="23" name="Parameter3" label="第3项效果ID对应数值"  />
+	<field id="24" name="SkillFuncID4" label="对应第4项被动效果ID"  />
+	<field id="25" name="Parameter4" label="第4项效果ID对应数值"  />
+	<field id="26" name="SkillAction" label="技能动画"  />
+	<field id="27" name="AutoRepeat" label="是否自动重复"  />
+	<field id="28" name="AutoNormalAttack " label="是否自动普通攻击"  />
+	<field id="29" name="AutoCoolingSkill " label="是否冷却所有技能"  />
+	<field id="30" name="UseCondition" label="技能使用条件"  />
+	<field id="31" name="StudyGold" label="学习技能所需金币"  />
+	<field id="32" name="StudyBindMoney" label="学习技能所需金币是否绑定"  />
+	<field id="33" name="SkillListShowType " label="技能列表显示类型"  />
+	<field id="34" name="SkillTempType" label="技能模板类型"  />
+	<field id="35" name="StudySkillLevel" label="学习技能所需人物等级"  />
+	<field id="36" name="InsertAutoState" label="是否进入自动重复攻击状态"  />
+	<field id="37" name="BreakAutoState" label="是否打断自动重复攻击状态"  />
+	<field id="38" name="NeedTarget" label="是否需要攻击目标"  />
+	<field id="39" name="NeedPet" label="是否需要召唤兽"  />
+	<field id="40" name="ActionCamp" label="可施放阵营"  />
+	<field id="41" name="DamageType" label="伤害类型"  />
+	<field id="42" name="BindStudyGold" label="学习技能所需金币是否支持绑定金"  />
+	<field id="43" name="AttackFix" label="技能攻击力固定值"  />
+	<field id="44" name="AttackPer" label="技能攻击力百分比"  />
+	<field id="45" name="ResType" label="属性攻击类别"  />
+	<field id="46" name="ResValue" label="属性攻击数值"  />
+</proto>
+
+<proto id="9" name ="PBAureoleSkill" label="chinese_name">
+	<field id="1" name="SkillInfo" label="技能基本信息"   />
+	<field id="2" name="Inceessary" label="是否持续消耗"   />
+	<field id="3" name="InceessaryTime" label="持续消耗时间间隔"   />
+	<field id="4" name="Cost" label="消耗"   />
+	<field id="5" name="AureoleDistance" label="影响范围"   />
+	<field id="6" name="AureoleType" label="光环技能类型"   />
+</proto>
+
+<proto id="10" name ="PBNormalSkill" label="chinese_name">
+	<field id="01" name="SkillInfo" label="技能基本信息"   />
+	<field id="02" name="SkillHitrate" label="技能准确度"   />
+	<field id="03" name="MinDistance" label="开始吟唱距离"   />
+	<field id="04" name="MaxDistance" label="追击距离"   />
+	<field id="05" name="EfktMaxNum" label="最大作用数量"   />
+	<field id="06" name="AttackRange" label="攻击范围类型"   />
+	<field id="07" name="RandParam" label="范围攻击第n参数(1,2)"   />
+	<field id="08" name="BuffGroupID" label="Buff组"   />
+	<field id="09" name="ContinuedRule" label="技能打断条件"   />
+	<field id="10" name="ContinuedTime" label="持续攻击间隔时间"   />
+	<field id="11" name="ContinuedNum" label="1持续次数"   />
+	<field id="12" name="IgnoreArmor" label="忽略护甲值"   />
+</proto>
+
+<proto id="11" name ="PBTrapSkill" label="chinese_name">
+	<field id="1" name="SkillInfo" label="技能基本信息"   />
+	<field id="2" name="LastTime" label="持续时间"   />
+	<field id="3" name="ApplyType" label="作用类型"   />
+	<field id="4" name="TouchRange" label="触发范围（半径）"   />
+	<field id="5" name="ApplyRange" label="作用范围（半径）"   />
+	<field id="6" name="TrapRes" label="陷阱资源"   />
+	<field id="7" name="BuffGroupID" label="Buff组"   />
+	<field id="8" name="Condition" label="激活条件"   />
+	<field id="9" name="EffectMaxNumber " label="最大作用人数"   />
+</proto>
+
+<enum id="13" name="EItemAction" >
+	<field id="01" name="EM_GET_BY_IBSTORE" label="[从商城花费 $OP_PARAM2 EMoneyType($OP_PARAM1)][购买]"  /> 
+	<field id="02" name="EM_GET_BY_RECV_MAIL" label="[收取角色$OP_PARAM1在FromUnixTime($OP_PARAM3)发出的邮件($OP_PARAM2) 获得]"  /> 
+	<field id="03" name="EM_GET_BY_STALL_BUY" label="[从 角色$OP_PARAM1 的摊位花费 FormatMoney($OP_PARAM3) EMoneyType($OP_PARAM2)][购买]"  /> 
+	<field id="04" name="EM_GET_BY_EXCHANGE" label="[与角色 $OP_PARAM1 交易][获得]"  /> 
+	<field id="05" name="EM_GET_BY_ACCEPT_TASK" label="[接受任务 ETaskName($OP_PARAM1)][获得]"  /> 
+	<field id="06" name="EM_GET_BY_END_TASK" label="[交付任务 ETaskName($OP_PARAM1)][获得]"  /> 
+	<field id="07" name="EM_GET_BY_ERATING" label="[从奖励NPC处领取活动 $OP_PARAM1)][获得]"  /> 
+	<field id="08" name="EM_GET_BY_PICKITEM" label="[在($OP_PARAM1,$OP_PARAM2)][捡起]"  /> 
+	<field id="09" name="EM_GET_BY_PRODUCE" label="[用 $OP_PARAM2 个 EItemName($OP_PARAM1)($OP_PARAM1) 生产][获得]"  /> 
+	<field id="10" name="EM_GET_BY_CHANGE" label="[$OP_PARAM1 满成长后][转换]"  /> 
+	<field id="11" name="EM_GET_BY_RUN_TASK" label="[NPC ENpcName($OP_PARAM2)在任务ETaskName($OP_PARAM1)中[发放]"  /> 
+	<field id="12" name="EM_GET_BY_NPC_SHOP" label="[从NPC ENpcName($OP_PARAM3)处花费FormatMoney($OP_PARAM2) EMoneyType($OP_PARAM1)][购买]"  /> 
+	<field id="13" name="EM_GET_BY_DEFAULT" label="[获得][默认初始装备]"  /> 
+	<field id="14" name="EM_GET_BY_TASKITEM" label="[通过任务ETaskName($OP_PARAM1)物品EItemName($OP_PARAM2)($OP_PARAM2)][获得]"  /> 
+	<field id="15" name="EM_GET_BY_COLLECT" label="[在($OP_PARAM1,$OP_PARAM2)采集][获得]"  /> 
+	<field id="16" name="EM_GET_BY_COMPOSE" label="[通过$OP_PARAM2个EItemName($OP_PARAM1)($OP_PARAM1)合成][获得]"  /> 
+	<field id="17" name="EM_GET_BY_REPETION" label="[完成副本EMapName($OP_PARAM1)][根据奖励$OP_PARAM2][获得]"  /> 
+	<field id="18" name="EM_GET_BY_GMINSERT" label="[在($OP_PARAM1,$OP_PARAM2)][使用GM插入物品指令][获得]"  /> 
+	<field id="19" name="EM_GET_BY_ROLLBACK" label="[在($OP_PARAM1,$OP_PARAM2)]使用失败后补偿给玩家]"  /> 
+	<field id="20" name="EM_GET_BY_DIRECTINS" label="[开启ID为$OP_PARAM3的EItemName($OP_PARAM2)($OP_PARAM2)][获得]"  /> 
+	<field id="21" name="EM_GET_BY_UNBOUND" label="[解绑ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)后][获得]"  /> 
+	<field id="22" name="EM_GET_BY_DECOMPOUND" label="[分解ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)后][获得]"  /> 
+	<field id="23" name="EM_GET_BY_INVESTIGATION" label="[完成调查问卷EItemName($OP_PARAM1)($OP_PARAM1)后][获得]"  /> 
+	<field id="24" name="EM_GET_BY_GUAJI_SHOP" label="[挂机时花费FormatMoney($OP_PARAM2) EMoneyType($OP_PARAM1)][购买]"  /> 
+	<field id="25" name="EM_GET_BY_BUY_BACK" label="[花费 FormatMoney($OP_PARAM2) EMoneyType($OP_PARAM1)][回购]"  /> 
+	<field id="26" name="EM_GET_BY_AWARD" label="[领取占领地图奖励]"  />
+  <field id="32" name="EM_GET_BY_TREASUREBOWL" label="[聚宝获取物品EItemName($OP_PARAM1),数量为$OP_PARAM2]"  />
+  <field id="50" name="EM_LOST_BY_SEND_MAIL" label="[给角色($OP_PARAM1)][发送邮件物品]"  /> 
+	<field id="51" name="EM_LOST_BY_STALL_SELL" label="[以FormatMoney($OP_PARAM3) EMoneyType($OP_PARAM2)的总价][摆摊卖给角色($OP_PARAM1)]"  /> 
+	<field id="52" name="EM_LOST_BY_EXCHANGE" label="[交易给玩家($OP_PARAM1)]"  /> 
+	<field id="53" name="EM_LOST_BY_ACCEPT_TASK" label="[接受任务ETaskName($OP_PARAM1)][失去]"  /> 
+	<field id="54" name="EM_LOST_BY_END_TASK" label="[交付任务ETaskName($OP_PARAM1)][失去]"  /> 
+	<field id="55" name="EM_LOST_BY_ERATING" label="[完成活动$OP_PARAM1][缴纳]"  /> 
+	<field id="56" name="EM_LOST_BY_THROW_ITEM" label="[在($OP_PARAM1,$OP_PARAM2)][掉落在地上]"  /> 
+	<field id="57" name="EM_LOST_BY_PRODUCE" label="[生产ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)][失去原料]"  /> 
+	<field id="58" name="EM_LOST_BY_USE" label="[在($OP_PARAM1,$OP_PARAM2)][使用失去]"  /> 
+	<field id="59" name="EM_LOST_BY_OPEN_SLOT" label="[为ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)开槽][失去]"  /> 
+	<field id="60" name="EM_LOST_BY_COMPOSE" label="[合成ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)][失去材料]"  /> 
+	<field id="61" name="EM_LOST_BY_EAT" label="[丢进EItemName($OP_PARAM1)($OP_PARAM1)]"  /> 
+	<field id="62" name="EM_LOST_BY_INSERT_SLOT" label="[镶嵌到ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)上]"  /> 
+	<field id="63" name="EM_LOST_BY_UPGRADE" label="[精炼ID为$OP_PARAM3的EItemName($OP_PARAM2)($OP_PARAM2)][失去]"  /> 
+	<field id="64" name="EM_LOST_BY_CHANGE" label="[转化成了ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)]"  /> 
+	<field id="65" name="EM_LOST_BY_DECOMPOUND" label="[分解了]"  /> 
+	<field id="66" name="EM_LOST_BY_SELL2NPC" label="[以FormatMoney($OP_PARAM3) EMoneyType($OP_PARAM2)的价格卖给NPC ENpcName($OP_PARAM1)][失去]"  /> 
+	<field id="67" name="EM_LOST_BY_JUDGE" label="[鉴定ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)][消耗]"  /> 
+	<field id="68" name="EM_LOST_BY_BOUND" label="[滴血ID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)][消耗]"  /> 
+	<field id="69" name="EM_LOST_BY_ABORTTASK" label="[放弃任务ETaskName($OP_PARAM1)][失去]"  /> 
+	<field id="70" name="EM_LOST_BY_DESTROY" label="[在($OP_PARAM1, $OP_PARAM2)][系统销毁]"  /> 
+	<field id="71" name="EM_LOST_BY_TIMEOUT" label="[系统回收到期物品($OP_PARAM1, $OP_PARAM2)]"  />
+	<field id="72" name="EM_LOST_BY_CHANGEEQUIP" label="[转换装备EItemName($OP_PARAM1)$OP_PARAM1)失去]"  />
+	<field id="73" name="EM_LOST_BY_REPETION" label="[副本钥匙]"  />
+	<field id="74" name="EM_LOST_BY_GETSTAR" label="[装备摘星($OP_PARAM1) EItemName($OP_PARAM2)($OP_PARAM2) ]"  />
+	<field id="75" name="EM_LOST_BY_ADDSTAR" label="[装备加星($OP_PARAM1) EItemName($OP_PARAM2)($OP_PARAM2)]"  />
+	<field id="76" name="EM_LOST_BY_ADDEXTRA" label="[装备刻印($OP_PARAM1) EItemName($OP_PARAM2)($OP_PARAM2)]"  />
+	<field id="77" name="EM_LOST_BY_FANGCUN" label="[学习方寸山技能]"  />
+	<field id="78" name="EM_LOST_BY_MASTER" label="[解除拜师失去]"  />
+	<field id="79" name="EM_LOST_BY_CARVE" label="[雕琢失去 old($OP_PARAM2) new ($OP_PARAM3) ]"  />
+	<field id="80" name="EM_LOST_BY_MWQUICKUP" label="[法宝飞升失去]"  />
+	<field id="81" name="EM_LOST_BY_QLCOMPOSE" label="[法宝气灵合成失去]"  />
+	<field id="82" name="EM_START_USE_TIME_ITEM" label="[开始使用限时道具]"  />
+</enum>
+<enum id="14" name="EMapName" >
+	<field id="01" name="map_name_1" label="傲来村"  /> 
+	<field id="06" name="map_name_6" label="积雷山"  /> 
+	<field id="07" name="map_name_7" label="火焰山"  /> 
+	<field id="08" name="map_name_8" label="狮驼岭"  /> 
+	<field id="09" name="map_name_9" label="广寒宫"  /> 
+	<field id="10" name="map_name_10" label="五庄观"  /> 
+	<field id="11" name="map_name_11" label="天王殿"  /> 
+	<field id="12" name="map_name_12" label="普陀山"  /> 
+	<field id="13" name="map_name_13" label="凌烟阁"  /> 
+	<field id="14" name="map_name_14" label="龙宫"  /> 
+	<field id="15" name="map_name_15" label="五庄观幻境"  /> 
+	<field id="16" name="map_name_16" label="狮驼岭幻境"  /> 
+	<field id="17" name="map_name_17" label="凌烟阁幻境"  /> 
+	<field id="18" name="map_name_18" label="普陀山幻境"  /> 
+	<field id="19" name="map_name_19" label="天王殿幻境"  /> 
+	<field id="20" name="map_name_20" label="广寒宫幻境"  /> 
+	<field id="21" name="map_name_21" label="蟠桃劫"  /> 
+	<field id="22" name="map_name_22" label="花果山"  /> 
+	<field id="23" name="map_name_23" label="黑风洞一层"  /> 
+	<field id="24" name="map_name_24" label="龙宫精英"  /> 
+	<field id="25" name="map_name_25" label="黑风洞二层"  /> 
+	<field id="26" name="map_name_26" label="黑风洞三层"  /> 
+	<field id="27" name="map_name_27" label="黑风洞四层"  /> 
+	<field id="28" name="map_name_28" label="白骨墓一层"  /> 
+	<field id="29" name="map_name_29" label="白骨墓二层"  /> 
+	<field id="30" name="map_name_30" label="白骨墓三层"  /> 
+	<field id="31" name="map_name_31" label="白骨墓四层"  /> 
+	<field id="32" name="map_name_32" label="白骨迷宫北"  /> 
+	<field id="33" name="map_name_33" label="白骨迷宫南"  /> 
+	<field id="34" name="map_name_34" label="白骨迷宫东"  /> 
+	<field id="35" name="map_name_35" label="白骨迷宫西"  /> 
+	<field id="36" name="map_name_36" label="白骨迷宫西北"  /> 
+	<field id="37" name="map_name_37" label="白骨迷宫东北"  /> 
+	<field id="38" name="map_name_38" label="白骨迷宫西南"  /> 
+	<field id="39" name="map_name_39" label="白骨迷宫东南"  /> 
+	<field id="40" name="map_name_40" label="白骨迷宫"  /> 
+	<field id="41" name="map_name_41" label="白骨墓六层"  /> 
+	<field id="42" name="map_name_42" label="边境"  /> 
+	<field id="43" name="map_name_43" label="黑风洞五层"  /> 
+	<field id="44" name="map_name_44" label="黑风洞六层"  /> 
+	<field id="45" name="map_name_45" label="女儿国"  /> 
+	<field id="46" name="map_name_46" label="芭蕉洞一层"  /> 
+	<field id="47" name="map_name_47" label="芭蕉洞二层"  /> 
+	<field id="48" name="map_name_48" label="芭蕉洞三层"  /> 
+	<field id="49" name="map_name_49" label="芭蕉洞四层"  /> 
+	<field id="50" name="map_name_50" label="芭蕉洞五层"  /> 
+	<field id="51" name="map_name_51" label="芭蕉洞六层"  /> 
+	<field id="52" name="map_name_52" label="将军冢"  /> 
+	<field id="53" name="map_name_53" label="监狱"  /> 
+	<field id="54" name="map_name_54" label="白骨精巢穴"  /> 
+	<field id="55" name="map_name_55" label="大战花果山"  /> 
+	<field id="56" name="map_name_56" label="简易蟠桃劫"  /> 
+	<field id="57" name="map_name_57" label="精英蟠桃劫"  /> 
+	<field id="58" name="map_name_58" label="简易龙宫"  /> 
+	<field id="59" name="map_name_59" label="精英龙宫"  /> 
+	<field id="60" name="map_name_60" label="黑风山"  /> 
+	<field id="5" name="map_name_5" label="万寿山"  /> 
+	<field id="62" name="map_name_62" label="长安"  /> 
+	<field id="63" name="map_name_63" label="高老庄"  /> 
+	<field id="64" name="map_name_64" label="白虎岭"  /> 
+	<field id="65" name="map_name_65" label="益州"  /> 
+	<field id="66" name="map_name_66" label="蓬莱仙岛"  /> 
+	<field id="67" name="map_name_67" label="平顶山"  /> 
+	<field id="68" name="map_name_68" label="乌鸡国"  /> 
+	<field id="69" name="map_name_69" label="车迟国"  /> 
+	<field id="70" name="map_name_70" label="宝象国"  /> 
+	<field id="71" name="map_name_71" label="军团战地图"  /> 
+	<field id="72" name="map_name_72" label="火云洞一层"  /> 
+	<field id="73" name="map_name_73" label="火云洞二层"  /> 
+	<field id="74" name="map_name_74" label="火云洞三层"  /> 
+	<field id="75" name="map_name_75" label="火云洞四层"  /> 
+	<field id="76" name="map_name_76" label="火云洞五层"  /> 
+	<field id="77" name="map_name_77" label="火云洞六层"  /> 
+	<field id="78" name="map_name_78" label="井龙宫"  /> 
+	<field id="79" name="map_name_79" label="花果山海滨"  /> 
+	<field id="81" name="map_name_81" label="普通大雁塔一层"  /> 
+	<field id="82" name="map_name_82" label="普通大雁塔二层"  /> 
+	<field id="83" name="map_name_83" label="普通大雁塔三层"  /> 
+	<field id="84" name="map_name_84" label="普通大雁塔四层"  /> 
+	<field id="85" name="map_name_85" label="普通大雁塔五层"  /> 
+	<field id="86" name="map_name_86" label="普通大雁塔六层"  /> 
+	<field id="87" name="map_name_87" label="普通大雁塔七层"  /> 
+	<field id="88" name="map_name_88" label="普通大雁塔八层"  /> 
+	<field id="89" name="map_name_89" label="普通大雁塔九层"  /> 
+	<field id="90" name="map_name_90" label="普通大雁塔十层"  /> 
+	<field id="91" name="map_name_91" label="黄风洞"  /> 
+	<field id="92" name="map_name_92" label="莲花洞"  /> 
+	<field id="93" name="map_name_93" label="黄金宝塔" /> 
+	<field id="94" name="map_name_94" label="品仙桃" /> 
+	<field id="95" name="map_name_95" label="阴曹地府" /> 
+	<field id="96" name="map_name_96" label="火云洞一层" /> 
+	<field id="2" name="map_name_2" label="蓬莱仙境" /> 
+	<field id="3" name="map_name_3" label="化龙关" /> 
+	<field id="24" name="map_name_24" label="降龙关" /> 
+	<field id="61" name="map_name_61" label="齐天仙境" /> 
+	<field id="80" name="map_name_80" label="腾云大战" /> 
+	<field id="97" name="map_name_97" label="礼堂" /> 
+	<field id="98" name="map_name_98" label="家族家园" /> 
+	<field id="99" name="map_name_99" label="御花园" /> 
+	<field id="100" name="map_name_100" label="玉门关" /> 
+	<field id="101" name="map_name_101" label="蓬莱岛" /> 
+	<field id="102" name="map_name_102" label="御花园夏" /> 
+	<field id="103" name="map_name_103" label="御花园秋" /> 
+	<field id="104" name="map_name_104" label="御花园冬" /> 
+	<field id="105" name="map_name_105" label="伏龙寺" />
+	<field id="106" name="map_name_106" label="小雷音寺" />
+        <field id="107" name="map_name_107" label="碧波潭一区之潭中径" />
+        <field id="108" name="map_name_108" label="碧波潭二区之碧波园" />
+        <field id="109" name="map_name_109" label="齐天大战之精英战场" />
+        <field id="110" name="map_name_110" label="齐天大战之分线战场一" />
+        <field id="111" name="map_name_111" label="齐天大战之分线战场二" />
+        <field id="114" name="map_name_114" label="碧波潭三区之珊瑚海" />
+        <field id="115" name="map_name_115" label="碧波潭之曲廊苑" />
+        <field id="116" name="map_name_116" label="碧波潭之兵器库" />
+        <field id="117" name="map_name_117" label="碧波潭之宝物库" />
+        <field id="118" name="map_name_118" label="碧波潭四区之龙王宝殿" />
+        <field id="119" name="map_name_119" label="云霄塔之一" />
+        <field id="120" name="map_name_120" label="云霄塔之二" />
+        <field id="121" name="map_name_121" label="云霄塔之三" />
+        <field id="122" name="map_name_122" label="云霄塔之四" />
+        <field id="123" name="map_name_123" label="云霄塔之五" />
+        <field id="124" name="map_name_124" label="云霄塔之六" />
+        <field id="125" name="map_name_125" label="云霄塔之七" />
+        <field id="126" name="map_name_126" label="云霄塔之云霄之巅" />
+        <field id="112" name="map_name_112" label="云霄塔之八" />
+	<field id="113" name="map_name_113" label="云霄塔之九" />
+	<field id="127" name="map_name_127" value="灵台方寸山" />
+	<field id="128" name="map_name_128" value="幽冥" />
+	<field id="129" name="map_name_129" value="大逃杀" />
+	<field id="250001" name="map_name_250001" label="云霄塔001层" />
+	<field id="250002" name="map_name_250002" label="云霄塔002层" />
+	<field id="250003" name="map_name_250003" label="云霄塔003层" />
+	<field id="250004" name="map_name_250004" label="云霄塔004层" />
+	<field id="250005" name="map_name_250005" label="云霄塔005层" />
+	<field id="250006" name="map_name_250006" label="云霄塔006层" />
+	<field id="250007" name="map_name_250007" label="云霄塔007层" />
+	<field id="250008" name="map_name_250008" label="云霄塔008层" />
+	<field id="250009" name="map_name_250009" label="云霄塔009层" />
+	<field id="250010" name="map_name_250010" label="云霄塔010层" />
+	<field id="250011" name="map_name_250011" label="云霄塔011层" />
+	<field id="250012" name="map_name_250012" label="云霄塔012层" />
+	<field id="250013" name="map_name_250013" label="云霄塔013层" />
+	<field id="250014" name="map_name_250014" label="云霄塔014层" />
+	<field id="250015" name="map_name_250015" label="云霄塔015层" />
+	<field id="250016" name="map_name_250016" label="云霄塔016层" />
+	<field id="250017" name="map_name_250017" label="云霄塔017层" />
+	<field id="250018" name="map_name_250018" label="云霄塔018层" />
+	<field id="250019" name="map_name_250019" label="云霄塔019层" />
+	<field id="250020" name="map_name_250020" label="云霄塔020层" />
+	<field id="250021" name="map_name_250021" label="云霄塔021层" />
+	<field id="250022" name="map_name_250022" label="云霄塔022层" />
+	<field id="250023" name="map_name_250023" label="云霄塔023层" />
+	<field id="250024" name="map_name_250024" label="云霄塔024层" />
+	<field id="250025" name="map_name_250025" label="云霄塔025层" />
+	<field id="250026" name="map_name_250026" label="云霄塔026层" />
+	<field id="250027" name="map_name_250027" label="云霄塔027层" />
+	<field id="250028" name="map_name_250028" label="云霄塔028层" />
+	<field id="250029" name="map_name_250029" label="云霄塔029层" />
+	<field id="250030" name="map_name_250030" label="云霄塔030层" />
+	<field id="250031" name="map_name_250031" label="云霄塔031层" />
+	<field id="250032" name="map_name_250032" label="云霄塔032层" />
+	<field id="250033" name="map_name_250033" label="云霄塔033层" />
+	<field id="250034" name="map_name_250034" label="云霄塔034层" />
+	<field id="250035" name="map_name_250035" label="云霄塔035层" />
+	<field id="250036" name="map_name_250036" label="云霄塔036层" />
+	<field id="250037" name="map_name_250037" label="云霄塔037层" />
+	<field id="250038" name="map_name_250038" label="云霄塔038层" />
+	<field id="250039" name="map_name_250039" label="云霄塔039层" />
+	<field id="250040" name="map_name_250040" label="云霄塔040层" />
+	<field id="250041" name="map_name_250041" label="云霄塔041层" />
+	<field id="250042" name="map_name_250042" label="云霄塔042层" />
+	<field id="250043" name="map_name_250043" label="云霄塔043层" />
+	<field id="250044" name="map_name_250044" label="云霄塔044层" />
+	<field id="250045" name="map_name_250045" label="云霄塔045层" />
+	<field id="250046" name="map_name_250046" label="云霄塔046层" />
+	<field id="250047" name="map_name_250047" label="云霄塔047层" />
+	<field id="250048" name="map_name_250048" label="云霄塔048层" />
+	<field id="250049" name="map_name_250049" label="云霄塔049层" />
+	<field id="250050" name="map_name_250050" label="云霄塔050层" />
+	<field id="250051" name="map_name_250051" label="云霄塔051层" />
+	<field id="250052" name="map_name_250052" label="云霄塔052层" />
+	<field id="250053" name="map_name_250053" label="云霄塔053层" />
+	<field id="250054" name="map_name_250054" label="云霄塔054层" />
+	<field id="250055" name="map_name_250055" label="云霄塔055层" />
+	<field id="250056" name="map_name_250056" label="云霄塔056层" />
+	<field id="250057" name="map_name_250057" label="云霄塔057层" />
+	<field id="250058" name="map_name_250058" label="云霄塔058层" />
+	<field id="250059" name="map_name_250059" label="云霄塔059层" />
+	<field id="250060" name="map_name_250060" label="云霄塔060层" />
+	<field id="250061" name="map_name_250061" label="云霄塔061层" />
+	<field id="250062" name="map_name_250062" label="云霄塔062层" />
+	<field id="250063" name="map_name_250063" label="云霄塔063层" />
+	<field id="250064" name="map_name_250064" label="云霄塔064层" />
+	<field id="250065" name="map_name_250065" label="云霄塔065层" />
+	<field id="250066" name="map_name_250066" label="云霄塔066层" />
+	<field id="250067" name="map_name_250067" label="云霄塔067层" />
+	<field id="250068" name="map_name_250068" label="云霄塔068层" />
+	<field id="250069" name="map_name_250069" label="云霄塔069层" />
+	<field id="250070" name="map_name_250070" label="云霄塔070层" />
+	<field id="250071" name="map_name_250071" label="云霄塔071层" />
+	<field id="250072" name="map_name_250072" label="云霄塔072层" />
+	<field id="250073" name="map_name_250073" label="云霄塔073层" />
+	<field id="250074" name="map_name_250074" label="云霄塔074层" />
+	<field id="250075" name="map_name_250075" label="云霄塔075层" />
+	<field id="250076" name="map_name_250076" label="云霄塔076层" />
+	<field id="250077" name="map_name_250077" label="云霄塔077层" />
+	<field id="250078" name="map_name_250078" label="云霄塔078层" />
+	<field id="250079" name="map_name_250079" label="云霄塔079层" />
+	<field id="250080" name="map_name_250080" label="云霄塔080层" />
+	<field id="250081" name="map_name_250081" label="云霄塔081层" />
+	<field id="250082" name="map_name_250082" label="云霄塔082层" />
+	<field id="250083" name="map_name_250083" label="云霄塔083层" />
+	<field id="250084" name="map_name_250084" label="云霄塔084层" />
+	<field id="250085" name="map_name_250085" label="云霄塔085层" />
+	<field id="250086" name="map_name_250086" label="云霄塔086层" />
+	<field id="250087" name="map_name_250087" label="云霄塔087层" />
+	<field id="250088" name="map_name_250088" label="云霄塔088层" />
+	<field id="250089" name="map_name_250089" label="云霄塔089层" />
+	<field id="250090" name="map_name_250090" label="云霄塔090层" />
+	<field id="250091" name="map_name_250091" label="云霄塔091层" />
+	<field id="250092" name="map_name_250092" label="云霄塔092层" />
+	<field id="250093" name="map_name_250093" label="云霄塔093层" />
+	<field id="250094" name="map_name_250094" label="云霄塔094层" />
+	<field id="250095" name="map_name_250095" label="云霄塔095层" />
+	<field id="250096" name="map_name_250096" label="云霄塔096层" />
+	<field id="250097" name="map_name_250097" label="云霄塔097层" />
+	<field id="250098" name="map_name_250098" label="云霄塔098层" />
+	<field id="250099" name="map_name_250099" label="云霄塔099层" />
+	<field id="250100" name="map_name_250100" label="云霄塔100层" />
+</enum>
+
+<enum id="15" name="EMoneyUnit" >
+	<field id="01" name="em_bind_money" label="绑定金"  /> 
+	<field id="02" name="em_unbind_money" label="非绑定金"  /> 
+	<field id="04" name="em_silver_yuanbao" label="银元宝"  /> 
+	<field id="05" name="em_golden_yuanbao" label="金元宝"  /> 
+	<field id="06" name="em_combat_fame" label="竞技声望"  />
+	<field id="07" name="em_repe_fame" label="副本声望"  />
+	<field id="08" name="em_common_fame" label="历练声望"  />
+</enum>
+
+<proto id="17" name="PBPropertyValue1">
+	<field id="1" name="InitValue" label="InitValue" />
+	<field id="2" name="DeltaValue" label="DeltaValue" />
+</proto>
+<proto id="18" name="PBSkillBox">
+	<field id="1" name="Skills" label="已激活技能" />
+	<field id="2" name="SkillActNum" label="已鉴定次数" />
+	<field id="3" name="SkillBookID" label="已使用的技能书" />
+	<field id="4" name="AddedSkillPoints" label="对应技能已加的技能点" />
+	<field id="5" name="SkillInitLevel" label="对应技能初始等级" />
+	<field id="6" name="ActiveState" label="激活状态" />
+</proto>
+<proto id="19" name="PBItemObject">
+	<field id="1" name="ItemID" label="道具ID" />
+	<field id="2" name="Number" label="道具数量" />
+	<field id="3" name="Index" label="道具在包裹中的索引" />
+	<field id="4" name="InvalidTime" label="到期时间" />
+	<field id="5" name="Cooldown" label="冷却时间" />
+	<field id="6" name="BindStatus" label="物品绑定状态" />
+	<field id="7" name="ObjGuID" label="生成时的唯一标识" />
+	<field id="8" name="UsedTimes" label="已使用次数" />
+	<field id="9" name="ItemContent" label="物品内容" />
+	<field id="10" name="PurchaseID" label="购买物品时候的交易ID" />
+	<field id="11" name="Color" label="装备颜色(1白，2蓝，3紫，4金)" />
+</proto>
+<proto id="20" name="PBItemContent">
+	<field id="1" name="RemainHP" label="剩余HP" />
+	<field id="2" name="RemainMP" label="剩余MP" />
+	<field id="3" name="RemainAP" label="剩余AP" />
+	<field id="4" name="Current" label="当前存储的元气" />
+	<field id="5" name="TelePos" label="传送信息" />
+	<field id="6" name="ItemMW" label="如果是法宝" />
+	<field id="7" name="ItemEquip" label="如果是装备" />
+</proto>
+<proto id="21" name="PBItemObjEquip">
+	<field id="1" name="SlotProperty" label="装备属性槽是否打开，0未开，1打开" />
+	<field id="2" name="Property" label="附加属性ID" />
+	<field id="3" name="SlotValue" label="装备属性槽的宝石ID" />
+	<field id="4" name="Level" label="装备等级" />
+	<field id="5" name="SlotNumber" label="打开的装备属性槽个数" />
+	<field id="6" name="NameLength" label="生产者名字长度" />
+	<field id="7" name="Name" label="生产者名字" />
+	<field id="8" name="SlotSpell" label="镶嵌的符文" />
+	<field id="9" name="Durability" label="装备耐久度" />
+	<field id="10" name="MaxSlotNumber" label="生成的最大槽数" />
+	<field id="11" name="Judge" label="已鉴定的本体属性数值" />
+	<field id="12" name="ResDef" label="抗性类别" />
+	<field id="13" name="ResAtt" label="属性攻击类别" />
+	<field id="14" name="DefLevel" label="抗性等级" />
+	<field id="15" name="AttLevel" label="属性攻击等级" />
+	<field id="16" name="MagicStoneID" label="装备附魔石ID" />
+	<field id="17" name="MagicStoneNum" label="附魔次数" />
+	<field id="18" name="BindFreeTime" label="物品手动绑定解除时间" />
+</proto>
+<proto id="22" name="PBItemObjMW">
+	<field id="1" name="MWLevel" label="法宝等级" />
+	<field id="2" name="Exp" label="法宝经验" />
+	<field id="3" name="Mp" label="法力值" />
+	<field id="4" name="Hp" label="灵气值" />
+	<field id="5" name="CurKeenpoints" label="当前锐力" />
+	<field id="6" name="CurCalmpoints" label="当前定力" />
+	<field id="7" name="CurMagicpoints" label="当前法力" />
+	<field id="8" name="CurBierpoints" label="当前灵力" />
+	<field id="9" name="CurImmortalpoints" label="当前仙力" />
+	<field id="10" name="LeftPoints" label="当前剩余潜能点" />
+	<field id="11" name="ProBase" label="属性基础值" />
+	<field id="12" name="ProUp" label="属性成长值" />
+	<field id="13" name="ProEff" label="属性影响度" />
+	<field id="14" name="ProSpir" label="灵性" />
+	<field id="15" name="ProcessVal" label="当前进度值" />
+	<field id="16" name="LeftSkillPoints" label="当前剩余技能点" />
+	<field id="17" name="MaxMp" label="法力值上限" />
+	<field id="18" name="MaxHp" label="灵气值上限" />
+	<field id="19" name="IncMp" label="法力值每次恢复点数" />
+	<field id="20" name="IncHp" label="灵气值每次恢复点数" />
+	<field id="21" name="SkillBox" label="法宝技能框情况" />
+	<field id="22" name="AddKeenpoints" label="AddKeenpoints" />
+	<field id="23" name="AddCalmpoints" label="AddCalmpoints" />
+	<field id="24" name="AddMagicpoints" label="AddMagicpoints" />
+	<field id="25" name="AddBierpoints" label="AddBierpoints" />
+	<field id="26" name="AddImmortalpoints" label="AddImmortalpoints" />
+	<field id="27" name="SkillList" label="SkillList" />
+	<field id="28" name="JudgeFlag" label="属性鉴定标志" />
+	<field id="29" name="ExtraKeenpoints" label="ExtraKeenpoints" />
+	<field id="30" name="ExtraCalmpoints" label="ExtraCalmpoints" />
+	<field id="31" name="ExtraMagicpoints" label="ExtraMagicpoints" />
+	<field id="32" name="ExtraBierpoints" label="ExtraBierpoints" />
+	<field id="33" name="ExtraImmortalpoints" label="ExtraImmortalpoints" />
+	<field id="34" name="PlayerAddPointLastLevel" label="玩家加点备份" />
+	<field id="35" name="LeftPointsLastLevel" label="本次升级前玩家的剩余潜能点" />
+	<field id="36" name="NewAddPoints" label="本次升级新加的潜能点" />
+	<field id="37" name="NewAddSkillPoints" label="本次升级新加的技能点" />
+	<field id="38" name="StepClearState" label="玩家小洗状态" />
+	<field id="39" name="LastAddedSkillBoxIndex" label="上次技能加点的技能框索引" />
+	<field id="40" name="LastLevelProcessVal" label="进度值备份" />
+	<field id="41" name="NextActBoxIndex" label="下一个将被激活的技能框" />
+	<field id="42" name="LastLevelNextActBox" label="下一个将被激活的技能框" />
+</proto>
+<proto id="23" name="PBItemBox">
+	<field id="1" name="ReleaseIndex" label="当前释放到哪个格子" />
+	<field id="2" name="ItemObjects" label="255个物品" />
+	<field id="3" name="StorMoney" label="存储在仓库的非绑定金钱" />
+	<field id="4" name="StorBindMoney" label="存储在仓库里面的绑定金钱" />
+	<field id="5" name="KitBag" label="扩展包" />
+</proto>
+<proto id="24" name="PBBuffObject">
+	<field id="1" name="BuffID" label="Buff模版ID" />
+	<field id="2" name="PersistTime" label="Buff持续时间（毫秒为单位）" />
+	<field id="3" name="SrcEntityID" label="释放者ID" />
+	<field id="4" name="TimerType" label="时间类型" />
+	<field id="5" name="LastInterval" label="上次时间间隔" />
+	<field id="6" name="Parames" label="扩展数据" />
+	<field id="7" name="Parames2" label="扩展数据2" />
+	<field id="8" name="BackDamage" label="返回伤害的总量" />
+	<field id="9" name="ListID" label="ListID" />
+	<field id="10" name="SuperCount" label="Buff叠加次数" />
+</proto>
+<proto id="25" name="PBBuffList">
+	<field id="1" name="BuffNumber" label="Buff个数" />
+	<field id="2" name="BuffObjects" label="BUFF列表" />
+</proto>
+<proto id="26" name="PBStateParam">
+	<field id="1" name="StateType" label="状态类型ID" />
+	<field id="2" name="From" label="From" />
+	<field id="3" name="Index" label="Index" />
+	<field id="4" name="Parames1" label="Parames1" />
+	<field id="5" name="Parames2" label="Parames2" />
+	<field id="6" name="InState" label="是否处于该状态" />
+	<field id="7" name="BuffAdd" label="BuffAdd" />
+</proto>
+<proto id="27" name="PBStateList">
+	<field id="1" name="StateParamObj" label="StateParamObj" />
+</proto>
+<proto id="28" name="PBSkillObject">
+	<field id="1" name="SkillID" label="技能模版ID" />
+	<field id="2" name="SkillLevel" label="技能等级" />
+	<field id="3" name="Cooldown" label="技能冷却时间" />
+	<field id="4" name="IncLevel" label="增加的技能等级" />
+</proto>
+<proto id="29" name="PBSkillList">
+	<field id="1" name="SkillNumber" label="技能个数" />
+	<field id="2" name="SkillObjects" label="技能列表" />
+</proto>
+<proto id="30" name="PBShortcut">
+	<field id="1" name="Shortcut" label="Shortcut" />
+	<field id="2" name="mType" label="mType" />
+	<field id="3" name="mIndex" label="mIndex" />
+	<field id="4" name="mLabelType" label="mLabelType" />
+	<field id="5" name="mLabelIndex" label="mLabelIndex" />
+	<field id="6" name="Param1" label="Param1" />
+</proto>
+<proto id="31" name="PBShortcutList">
+	<field id="1" name="ShortcutNumber" label="ShortcutNumber" />
+	<field id="2" name="Shortcuts" label="快捷键列表" />
+	<field id="3" name="HelpStatus" label="新手指引的动作状态" />
+</proto>
+<proto id="32" name="PBKillData">
+	<field id="1" name="KillID" label="杀死者的ID" />
+	<field id="2" name="KillTime" label="杀死的时间" format="1" />
+</proto>
+<proto id="33" name="PBWizard">
+	<field id="1" name="WizardPoint" label="才华等级" />
+	<field id="2" name="WizardValue" label="才华值" />
+	<field id="3" name="WizardSubmit" label="才华提交量" />
+	<field id="4" name="WizardIncrease" label="才华加点" />
+	<field id="5" name="Trend" label="成长倾向" />
+	<field id="6" name="CombatFame" label="当前竞技声望" />
+	<field id="7" name="RepeFame" label="当前副本声望" />
+	<field id="8" name="CommonFame" label="当前历练声望" />
+	<field id="9" name="CombatToday" label="今日竞技声望" />
+	<field id="10" name="RepeToday" label="今日副本声望" />
+	<field id="11" name="CommonToday" label="今日历练声望" />
+	<field id="12" name="CombatAll" label="竞技总获得" />
+	<field id="13" name="RepeAll" label="副本总获得" />
+	<field id="14" name="CommonAll" label="历练总获得" />	
+</proto>
+<proto id="34" name="PBTelePostion">
+	<field id="1" name="Line" label="线ID" />
+	<field id="2" name="Map" label="地图ID" />
+	<field id="3" name="PosX" label="x坐标" />
+	<field id="4" name="PosY" label="y坐标" />
+</proto>
+<proto id="35" name="PBPlayerBasicInfo">
+	<field id="1" name="Str" label="Str" />
+	<field id="2" name="Sta" label="Sta" />
+	<field id="3" name="Spr" label="Spr" />
+	<field id="4" name="Con" label="Con" />
+	<field id="5" name="Wis" label="Wis" />
+	<field id="6" name="RemainPoint" label="RemainPoint" />
+	<field id="7" name="SkillPoint" label="技能点" />
+	<field id="8" name="ProLevel" label="生产等级" />
+	<field id="9" name="ProExp" label="生产经验" />
+	<field id="10" name="ShowFashion" label="显示时装" />
+	<field id="9" name="ShowEquip" label="显示装备" />
+</proto>
+<proto id="36" name="PBMonsterRecordInfo">
+	<field id="1" name="ActiveCard" label="已激活卡片" />
+	<field id="2" name="OwnCard" label="已收集卡片" />
+</proto>
+<proto id="37" name="PBPlayerMWInfo">
+	<field id="1" name="AssignExpScl" label="玩家分配给法宝的经验" />
+</proto>
+<proto id="38" name="PBPlayerCDGroupInfo">
+	<field id="1" name="CDGroup" label="冷却组" />
+</proto>
+<proto id="39" name="PBTelePosInfo">
+	<field id="1" name="TownPos" label="回城点" />
+</proto>
+<proto id="40" name="PBPlayerPVPInfo">
+	<field id="1" name="PKMode" label="PK模式" />
+	<field id="2" name="PKValue" label="PK值" />
+	<field id="3" name="KillNum" label="杀敌数" />
+	<field id="4" name="Honor" label="功勋" />
+	<field id="5" name="InHonPerDay" label="每天获得的功勋值" />
+	<field id="6" name="OutHonPerDay" label="每天提供的功勋数" />
+	<field id="7" name="Kill" label="杀死的记录" />
+	<field id="8" name="KillNumIn" label="在国内的杀敌数" />
+	<field id="9" name="YellowStatus" label="黄名" />
+	<field id="10" name="PrisonTime" label="监狱时间" />
+	<field id="11" name="TotalPrisonTime" label="囚禁总共时间" />
+	<field id="12" name="TodayHonor" label="今日功勋" />
+	<field id="13" name="TotalWar" label="国战累计战功" />
+	<field id="14" name="TodayWar" label="本次国战战功" />
+	<field id="15" name="TodayOther" label="本日其它战功" />
+	<field id="16" name="FreeWar" label="累计可支配战功" />
+	<field id="17" name="WarSerial" label="当前国战计次" />
+	<field id="18" name="WarKill" label="当前国战击杀" />
+	<field id="19" name="ExpHonor" label="今日已兑换经验荣誉" />
+	<field id="20" name="ItemHonor" label="今日已兑换物品荣誉" />
+</proto>
+<proto id="41" name="PBPlayerStatisticInfo">
+	<field id="1" name="CompletedTasks" label="完成的任务数" />
+	<field id="2" name="OriginReliveTimes" label="原地复活次数" />
+	<field id="3" name="KillSameNationNum" label="杀本阵营人数" />
+	<field id="4" name="KillOgreNum" label="杀怪数" />
+	<field id="5" name="UpFailNum" label="精炼失败次数" />
+	<field id="6" name="TodayKillEnemyIn" label="在国内的杀敌数" />
+	<field id="7" name="TodayKillEnemyOut" label="在国外的杀敌数" />
+	<field id="8" name="DieNum" label="死亡次数" />
+</proto>
+<proto id="42" name="PBPlayerTalentInfo">
+	<field id="1" name="TalentPoint" label="造化点" />
+	<field id="2" name="TalentStep" label="当前造化小阶" />
+	<field id="3" name="TalentStudy" label="当前小阶已投入的造化点" />
+	<field id="4" name="TalentSkill" label="造化技能" />
+	<field id="5" name="TalentExp" label="修为值" />
+	<field id="6" name="TalentLevel" label="造化点等级" />
+</proto>
+<proto id="43" name="PBPlayerTitleInfo">
+	<field id="1" name="CurrentTitle" label="当前称号" />
+	<field id="2" name="TitleList" label="称号列表" />
+	<field id="3" name="TitleSkill" label="称号技能" />
+	<field id="4" name="Time" label="获得时间" format="1" />
+</proto>
+<proto id="44" name="PBPlayerActivityInfo">
+	<field id="1" name="DiploidTime" label="领双时间" format="1" />
+	<field id="2" name="LastRefreshTimeOfDipLoid" label="有效双倍时间" format="1" />
+	<field id="3" name="DiploidState" label="双倍经验状态" />
+	<field id="4" name="DailyWelfareSta" label="每日福利的状态" />
+	<field id="5" name="LastDaylyDisposTime" label="上次处理每日事务的时间" format="1" />
+	<field id="6" name="LastWeeklyDisposTime" label="上次处理每周事务的时间" format="1" />
+	<field id="7" name="LastFamilyApplyTime" label="最后一次申请加入家族的时间" format="1" />
+	<field id="8" name="LastTimeLeaveFamily" label="最后一次离开家族的时间" format="1" />
+	<field id="9" name="LastJudgeTime" label="上次评价时间" format="1" />
+	<field id="10" name="SaveDate" label="某些属性的刷新时间，如：副本，pv" format="1" />
+	<field id="11" name="VipFlag" label="vip 标志" />
+	<field id="12" name="VipTime" label="vip 终止日期" format="1" />
+	<field id="13" name="AwardRecord" label="领取记录" />
+	<field id="14" name="InvestStatus" label="调查问卷的状态" />
+	<field id="15" name="WeeklyAwardRecord" label="当周领取记录" />
+	<field id="16" name="ActivityState" label="活动状态" />
+	<field id="17" name="HasVoted" label="弹劾投票记录" />
+	<field id="18" name="SaveTm" label="存盘时间戳" format="1" />
+</proto>
+<proto id="45" name="PBPlayerClientInfo">
+	<field id="1" name="Shortcut" label="[DB]玩家快捷键列表" />
+</proto>
+<proto id="46" name="PBProperty">
+	<field id="1" name="CurHP" label="[DB]当前HP" />
+	<field id="2" name="CurMP" label="[DB]当前MP" />
+	<field id="3" name="CurAP" label="[DB]当前AP" />
+	<field id="4" name="BasicInfo" label="[DB]基础信息" />
+	<field id="5" name="Baggage" label="[DB]玩家包裹" />
+	<field id="6" name="TaskBaggage" label="[DB]玩家任务包裹" />
+	<field id="7" name="Equipment" label="[DB]玩家装备" />
+	<field id="8" name="Storage" label="[DB]玩家仓库" />
+	<field id="9" name="Skill" label="[DB]玩家技能列表" />
+	<field id="10" name="Buff" label="[DB]玩家buff列表" />
+	<field id="11" name="CDGroup" label="[DB]CD组" />
+	<field id="12" name="MonsterRecord" label="[DB]妖魔志信息" />
+	<field id="13" name="TelePos" label="[DB]可传送点信息" />
+	<field id="14" name="PvPInfo" label="[DB]PVP信息" />
+	<field id="15" name="TitleInfo" label="[DB]称号信息" />
+	<field id="16" name="TalentInfo" label="[DB]造化信息" />
+	<field id="17" name="MWInfo" label="[DB]法宝信息" />
+	<field id="18" name="LifeSkillBox" label="[DB]生活技能" />
+	<field id="19" name="StatisticInfo" label="[DB]统计信息" />
+	<field id="20" name="ClientInfo" label="[DB]客户度独立信息" />
+	<field id="21" name="Wizard" label="[DB]才华信息" />
+	<field id="22" name="Activity" label="[DB]活动信息" />
+</proto>
+<proto id="47" name="PBTask">
+	<field id="1" name="TaskID" label="TaskID" />
+	<field id="2" name="TaskProgress" label="TaskProgress" />
+	<field id="3" name="GameTimeLeft" label="剩余时间" />
+	<field id="4" name="TaskData" label="TaskData" />
+	<field id="5" name="TalkedNpcs" label="已经完成的对话NPC" />
+	<field id="6" name="ExFlags" label="特殊标记" />
+</proto>
+<proto id="48" name="PBLoopTaskData">
+	<field id="1" name="TodayCompletedCircles" label="今天已经完成的所有环任务的次数" />
+	<field id="2" name="LastCompletedTime" label="上次完成环任务的时间" />
+	<field id="3" name="LoopTasks" label="身上的环任务" />
+	<field id="4" name="CompletedTimes" label="已完成次数" />
+	<field id="5" name="LastAbortTime" label="本轮上次放弃时间" />
+	<field id="6" name="CurSubIndex" label="当前进行中的子任务索引，只有接任" />
+	<field id="7" name="WeekLoops" label="本周已完成的完美环任务次数" />
+	<field id="8" name="DayCompletedLoopFlag" label="今日是否完成一整轮环任务的标志" />
+</proto>
+<proto id="49" name="PBStorageTaskData">
+	<field id="1" name="Tasks" label="身上的当前的库任务列表" />
+	<field id="2" name="TaskNum" label="库任务的数量" />
+	<field id="3" name="LastClickNpc" label="玩家上次点击NPC的时间" format="1" />
+	<field id="4" name="CurTaskID" label="当前库任务ID" />
+	<field id="5" name="GotTasks" label="已经接了的" />
+	<field id="6" name="GotNum" label="已经接在身上的库任务数量" />
+	<field id="7" name="TodayCompleted" label="今天已完成次数" />
+</proto>
+<proto id="50" name="TragedyStruct">
+	<field id="1" name="TragedyIndex" label="劫难任务索引" />
+	<field id="2" name="NextTragedyTask" label="对应的" />
+	<field id="3" name="TragedyState" label="对应的劫难任务状态" />
+</proto>
+<proto id="51" name="PBTaskGroupData">
+	<field id="1" name="GroupID" label="组ID" />
+	<field id="2" name="TodayCompleted" label="今日完成次数" />
+</proto>
+<proto id="52" name="PBTaskList">
+	<field id="1" name="TaskNumber" label="TaskNumber" />
+	<field id="2" name="TaskList" label="TaskList" />
+	<field id="3" name="LoopTaskData" label="LoopTaskData" />
+	<field id="4" name="EventID" label="EventID" />
+	<field id="5" name="EventParam" label="EventParam" />
+	<field id="6" name="EventTick" label="EventTick" />
+	<field id="7" name="StorageTaskData" label="StorageTaskData" />
+	<field id="8" name="TragedyTaskData" label="TragedyTaskData" />
+	<field id="9" name="CompletedTask" label="CompletedTask" />
+	<field id="10" name="FailedTask" label="FailedTask" />
+	<field id="11" name="TaskGroups" label="TaskGroups" />
+	<field id="12" name="CompletedTragedy" label="已完成劫难的数量" />
+	<field id="13" name="LastLogOff" label="上次跨服" />
+	<field id="14" name="RedirectFailTask" label="RedirectFailTask" />
+</proto>
+<proto id="53" name="PBMapData">
+	<field id="1" name="Direction" label="朝向" />
+	<field id="2" name="PosX" label="x坐标" />
+	<field id="3" name="PosY" label="y坐标" />
+	<field id="4" name="AliveStatus" label="生存状态" />
+</proto>
+<proto id="54" name="PBFriendGlobalData">
+	<field id="1" name="GroupNames" label="分组名字" />
+	<field id="2" name="IsRefuseAll" label="是否自动拒绝添加好友请求" />
+</proto>
+<proto id="55" name="PBFriendData">
+	<field id="1" name="PlayerId" label="好友charid" />
+	<field id="2" name="GroupID" label="组ID" />
+	<field id="3" name="Rel2Me" label="和我的关系" />
+</proto>
+<proto id="56" name="PBEnemyData">
+	<field id="1" name="PlayerId" label="仇敌charid" />
+	<field id="2" name="Killed" label="杀死他的次数" />
+	<field id="3" name="BeKilled" label="被他杀的次数" />
+	<field id="4" name="IsLocked" label="是否锁定" />
+	<field id="5" name="KillTime" label="时间戳" />
+</proto>
+<proto id="57" name="PBFriend">
+	<field id="1" name="Global" label="Global" />
+	<field id="2" name="Friend" label="Friend" />
+	<field id="3" name="Enemy" label="Enemy" />
+	<field id="4" name="BlackList" label="黑名单" />
+</proto>
+<proto id="58" name="PBRepetionData">
+	<field id="1" name="Index" label="Index" />
+	<field id="2" name="Data" label="Data" />
+</proto>
+<proto id="59" name="PBRepetionMap">
+	<field id="1" name="MapID" label="MapID" />
+	<field id="2" name="Count" label="Count" />
+	<field id="3" name="Data" label="Data" />
+</proto>
+<proto id="60" name="PBRepetion">
+	<field id="1" name="BackLineID" label="BackLineID" />
+	<field id="2" name="BackMapID" label="BackMapID" />
+	<field id="3" name="BackPosX" label="BackPosX" />
+	<field id="4" name="BackPosY" label="BackPosY" />
+	<field id="5" name="MapInfo" label="MapInfo" />
+	<field id="6" name="Key" label="Key" />
+	<field id="7" name="CampID" label="CampID" />
+</proto>
+<proto id="61" name="PBMember">
+	<field id="1" name="EntityID" label="EntityID" />
+	<field id="2" name="CharID" label="CharID" />
+	<field id="3" name="Name" label="Name" />
+	<field id="4" name="AccountID" label="AccountID" />
+	<field id="5" name="Type" label="Type" />
+	<field id="6" name="Face" label="Face" />
+	<field id="7" name="Metier" label="Metier" />
+	<field id="8" name="Level" label="Level" />
+	<field id="9" name="Sex" label="Sex" />
+	<field id="10" name="LineID" label="LineID" />
+	<field id="11" name="MapID" label="MapID" />
+	<field id="12" name="HP" label="HP" />
+	<field id="13" name="MP" label="MP" />
+	<field id="14" name="AP" label="AP" />
+	<field id="15" name="XPos" label="XPos" />
+	<field id="16" name="YPos" label="YPos" />
+	<field id="17" name="CommState" label="玩家状态：在线、离线、跨服..." />
+	<field id="18" name="BuffList" label="buff列表" />
+</proto>
+<proto id="62" name="PBTeamMsg">
+	<field id="1" name="Type" label="求组" />
+	<field id="2" name="CharID" label="CharID" />
+	<field id="3" name="Name" label="Name" />
+	<field id="4" name="Metier" label="Metier" />
+	<field id="5" name="Level" label="Level" />
+	<field id="6" name="MaxLevel" label="MaxLevel" />
+	<field id="7" name="MinLevel" label="MinLevel" />
+	<field id="8" name="Content" label="Content" />
+	<field id="9" name="Count" label="Count" />
+	<field id="10" name="RootStyle" label="一级条件" />
+	<field id="11" name="SubStyle" label="二级条件" />
+</proto>
+<proto id="63" name="PBStallInfo">
+	<field id="1" name="StallName" label="StallName" />
+	<field id="2" name="AdContent" label="AdContent" />
+	<field id="3" name="HasFlag" label="摊位是否存在：true--存在，false-" />
+</proto>
+<proto id="64" name="PBLifeSkill">
+	<field id="1" name="LifeSkillType" label="生活技能类型" />
+	<field id="2" name="LifeSkillLevel" label="生活技能等级" />
+	<field id="3" name="SpecializedDegree" label="生活技能熟练度" />
+	<field id="4" name="LifeSkillStatus" label="生活技能状态" />
+	<field id="5" name="LifeSkillKind" label="技能种类，主技能还是辅修技能" />
+	<field id="6" name="ComposeID" label="已学配方ID" />
+</proto>
+<proto id="65" name="PBLifeSkillBox">
+	<field id="1" name="LifeSkill" label="LifeSkill" />
+</proto>
+<proto id="66" name="PBSinglePublishInfo">
+	<field id="1" name="ID" label="唯一标识ID（现在是任务ID）" />
+	<field id="2" name="State" label="发布状态" />
+	<field id="3" name="LeftTimes" label="剩余可接次数" />
+</proto>
+<proto id="67" name="PBSingleCountryInfo">
+	<field id="1" name="info" label="每个国家有这么多。。" />
+</proto>
+<proto id="68" name="PBTaskPublishInfo">
+	<field id="1" name="CountryData" label="分国家存储的数据" />
+</proto>
+
+<enum id="69" name="EAliveType" >
+	<field  id="1" name="ALIVE_DIE" label="死亡"   />
+	<field  id="0" name="ALIVE_NORMAL" label="活着"   />
+</enum>
+
+<enum id="70" name="EMetier" >
+	<field  id="0" name="METIER_NONE" label="任意职业"   />
+	<field  id="1" name="METIER_WARRIOR" label="天王殿"   />
+	<field  id="2" name="METIER_ROGUE" label="凌烟阁"   />
+	<field  id="3" name="METIER_HUNTER" label="广寒宫"   />
+	<field  id="4" name="METIER_SORCERER" label="普陀山"   />
+	<field  id="5" name="METIER_PRIEST" label="五庄观"   />
+	<field  id="6" name="METIER_DRUID" label="狮驼岭"   />
+	<field  id="7" name="METIER_NOVICE" label="新手职业"   />
+</enum>
+
+<enum id="71" name="ECamp" >
+	<field  id="1" name="EM_JUXIAN" label="聚仙"   />
+	<field  id="2" name="EM_QIANKUN" label="乾坤"   />
+	<field  id="3" name="EM_PUTI" label="菩提"   />
+	<field  id="4" name="EM_HUNYUAN" label="混元"   />
+</enum>
+
+<enum id="72" name="EServerID" >
+	<field  id="1" name="EM_JUXIAN" label="聚仙"   />
+	<field  id="2" name="EM_QIANKUN" label="乾坤"   />
+	<field  id="3" name="EM_PUTI" label="菩提"   />
+	<field  id="4" name="EM_HUNYUAN" label="混元"   />
+	<field  id="5" name="EM_SHCOOL" label="师门"   />
+	<field  id="6" name="EM_DUNGEON1" label="副本1"   />
+	<field  id="7" name="EM_DUNGEON2" label="副本2"   />
+</enum>
+
+<enum id="73" name="EOpItemDef">
+	<field  id="0" name="time" label="时间" />
+	<field  id="1" name="map_id" label="地图"/>
+	<field  id="2" name="op_type" label="操作"/>
+	<field  id="3" name="item_id" label="道具"/>
+	<field  id="4" name="item_num" label="改变"/>
+	<field  id="5" name="item_total" label="改变后"/>
+	<field  id="6" name="op_param1" label="描述"/>
+	<field  id="7" name="item_guid" label="道具唯一ID"/>
+</enum>
+
+<enum id="74" name="ELineID" >
+	<field  id="1" name="EM_JUXIAN" label="聚仙"   />
+	<field  id="2" name="EM_QIANKUN" label="乾坤"   />
+	<field  id="3" name="EM_PUTI" label="菩提"   />
+	<field  id="4" name="EM_HUNYUAN" label="混元"   />
+	<field  id="50" name="EM_SHCOOL" label="师门"   />
+	<field  id="98" name="EM_DUNGEON2" label="副本"   />
+	<field  id="99" name="EM_DUNGEON1" label="副本"   />
+</enum>
+
+
+<enum id="75" name="EOpMoneyDef">
+	<field  id="0" name="time" label="时间" />
+	<field  id="1" name="map_id" label="地图"/>
+	<field  id="2" name="op_type" label="行为"/>
+	<field  id="3" name="item_num" label="改变"/>
+	<field  id="4" name="item_total" label="改变后"/>
+	<field  id="5" name="op_param1" label="描述"/>
+</enum>
+
+<enum id="77" name="EOpExpDef">
+	<field  id="0" name="time" label="时间" />
+	<field  id="1" name="map_id" label="地图"/>
+	<field  id="2" name="delta_exp" label="获得经验"/>
+	<field  id="3" name="cur_exp" label="当前经验"/>
+	<field  id="4" name="op_param1" label="描述"/>
+</enum>
+
+<enum id="79" name="EMoneyAction" >
+	<field id="01" name="EM_GET_BY_SELL2NPC" label="[卖给NPC][$OP_PARAM2 个 EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="02" name="EM_GET_BY_PICKMONEY" label="[在 ($OP_PARAM1, $OP_PARAM2) ][捡起]"  />
+	<field id="03" name="EM_GET_BY_EXCHANGE_MONEY" label="[在 ($OP_PARAM1, $OP_PARAM2) ][与角色 $OP_PARAM3 交易]"  />
+	<field id="04" name="EM_GET_BY_GMINSERT_MONEY" label="[在 ($OP_PARAM1, $OP_PARAM2) ][使用GM指令]"  />
+	<field id="05" name="EM_GET_BY_STORE_MONEY" label="[从仓库支取后, 仓库剩余 FormatMoney($OP_PARAM2) EMoneyType($OP_PARAM1)]"  />
+	<field id="06" name="EM_GET_BY_RED_BAG" label="[开启 EItemName($OP_PARAM1)($OP_PARAM1)] "  />
+	<field id="07" name="EM_GET_BY_RECV_MONEY" label="[收取角色 $OP_PARAM2 在 FromUnixTime($OP_PARAM3) 邮件]"  />
+	<field id="08" name="EM_GET_BY_QUESTLIB" label="[每日答题]"  />
+	<field id="09" name="EM_GET_BY_ERATING_MONEY" label="[领取Erating活动($OP_PARAM1)物品]"  />
+	<field id="10" name="EM_GET_BY_CORPS" label="[从军团($OP_PARAM1)获取]"  />
+	<field id="11" name="EM_GET_BY_FAMILY" label="[从家族($OP_PARAM1)获取]"  />
+	<field id="12" name="EM_GET_BY_STALL" label="[摆摊卖给角色$OP_PARAM1 EItemName($OP_PARAM2)($OP_PARAM2)]"  />
+	<field id="13" name="EM_GET_BY_TASK" label="[完成任务 ETaskName($OP_PARAM1) ]"  />
+	<field id="14" name="EM_GET_BY_GIFT" label="[开礼包 EItemName($OP_PARAM1)($OP_PARAM1) ]"  />
+	<field id="15" name="EM_GET_BY_WAR" label="[国战领奖获得]"  />
+	<field id="16" name="EM_GET_BY_BOURSE" label="[从元宝交易所中获得 ]"  />
+	<field id="17" name="EM_GET_BY_BOURSE_ERR" label="[元宝交易所存钱失败 ]"  />
+	<field id="18" name="EM_GET_BY_TELFAIL_ROLLBACK" label="[ 传送失败系统返还 ]"  />
+	<field id="19" name="EM_GET_BY_FAME" label="[ 副本获得 ]"  />
+	<field id="50" name="EM_LOST_BY_SEND_MONEY" label="[发送邮件给角色$OP_PARAM1]"  />
+	<field id="51" name="EM_LOST_BY_BUY4NPC" label="[从NPC处购买了 $OP_PARAM2 个 EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="52" name="EM_LOST_BY_REPAIR" label="[修理装备 EItemName($OP_PARAM1)]"  />
+	<field id="53" name="EM_LOST_BY_PRODUCE_EQUIP" label="[生产装备 EItemName($OP_PARAM1)($OP_PARAM1), GUID为$OP_PARAM3]"  />
+	<field id="54" name="EM_LOST_BY_PRODUCE_PHYS" label="[生产药品 EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="55" name="EM_LOST_BY_UPGRADE_EQUIP" label="[升级装备 EItemName($OP_PARAM1)($OP_PARAM1), 其GUID为$OP_PARAM3]"  />
+	<field id="56" name="EM_LOST_BY_INSERT_RUNE" label="[向 EItemName($OP_PARAM1)($OP_PARAM1) 上镶嵌符文, 其GUID为$OP_PARAM3]"  />
+	<field id="57" name="EM_LOST_BY_INSERT_JEWEL" label="[向 EItemName($OP_PARAM1)($OP_PARAM1) 上镶嵌宝石, 其GUID为$OP_PARAM3]"  />
+	<field id="58" name="EM_LOST_BY_OPEN_SLOT2" label="[在 EItemName($OP_PARAM1)($OP_PARAM1) 开槽, 其GUID为$OP_PARAM3]"  />
+	<field id="59" name="EM_LOST_BY_STUDY_TALENT" label="[学习天赋, 已学($OP_PARAM2)点，剩余($OP_PARAM3)点]"  />
+	<field id="60" name="EM_LOST_BY_EXCHANGE_MONEY" label="[在($OP_PARAM1, $OP_PARAM2) 与角色 $OP_PARAM3 交易]"  />
+	<field id="61" name="EM_LOST_BY_MONEY_RELIFE" label="[在($OP_PARAM1, $OP_PARAM2) 金钱复活]"  />
+	<field id="62" name="EM_LOST_BY_NPC_TELEPORT" label="[通过NPC ENpcName($OP_PARAM1) 传送]"  />
+	<field id="63" name="EM_LOST_BY_BUY_BACK" label="[回购 $OP_PARAM2 个 EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="64" name="EM_LOST_BY_BIND_ITEM" label="[绑定装备 EItemName($OP_PARAM1)($OP_PARAM1), 其GUID为$OP_PARAM3]"  />
+	<field id="65" name="EM_LOST_BY_UNBIND_ITEM" label="[解绑装备  EItemName($OP_PARAM1)($OP_PARAM1), 其GUID为$OP_PARAM3]"  />
+	<field id="66" name="EM_LOST_BY_STUDY_SKILL" label="[学习技能]"  />
+	<field id="67" name="EM_LOST_BY_STORE_MONEY" label="[向仓库存钱后, 仓库剩余FormatMoney($OP_PARAM2) EMoneyType($OP_PARAM1)]"  />
+	<field id="68" name="EM_LOST_BY_RESUME_BIND" label="[恢复装备EItemName($OP_PARAM1)($OP_PARAM1)的绑定状态]"  />
+	<field id="69" name="EM_LOST_BY_REMOVE_JEWEL" label="[从GUID为$OP_PARAM3 的 EItemName($OP_PARAM1)($OP_PARAM1)摘除宝石]"  />
+	<field id="70" name="EM_LOST_BY_JUDGE_EQUIP" label="[鉴定GUID为$OP_PARAM3 的 EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="71" name="EM_LOST_BY_CHANGE_RESIST" label="[转换 GUID为$OP_PARAM3 的 EItemName($OP_PARAM1)($OP_PARAM1) 的抗性]"  />
+	<field id="72" name="EM_LOST_BY_COMPOSE_JEWEL" label="[合成宝石 GUID为$OP_PARAM3 的 EItemName($OP_PARAM1)($OP_PARAM1) ]"  />
+	<field id="73" name="EM_LOST_BY_MULTI_COMPOSE" label="[兑换 GUID为$OP_PARAM3 的 EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="75" name="EM_LOST_BY_UP_LIFESKILL" label="[玩家升级生活技能($OP_PARAM1)为($OP_PARAM2)级]"  />
+	<field id="76" name="EM_LOST_BY_STUDY_COMPOSE" label="[学习配方($OP_PARAM1)]"  />
+	<field id="77" name="EM_LOST_BY_JUDGE_FABAO" label="[鉴定法宝 GUID为$OP_PARAM3 的 EItemName($OP_PARAM1)($OP_PARAM1)]" />
+	<field id="78" name="EM_LOST_BY_BUY_PHYSIC" label="[挂机时自动购买了 $OP_PARAM2 个 EItemName($OP_PARAM1)($OP_PARAM1)" />
+	<field id="79" name="EM_LOST_BY_POSTAL_FEE" label="[ 发送邮件给角色$OP_PARAM1的邮资 ]"  />
+	<field id="80" name="EM_LOST_BY_BUILD_CORPS" label="[ 创建军团($OP_PARAM1) ]"  />
+	<field id="81" name="EM_LOST_BY_CONTR_CORPS" label="[ 向军团($OP_PARAM1)捐献 ]"  />
+	<field id="82" name="EM_LOST_BY_BUILD_FAMILY" label="[ 创建家族($OP_PARAM1) ]"  />
+	<field id="83" name="EM_LOST_BY_CONTR_FAMILY" label="[ 向家族($OP_PARAM1)捐献 ]"  />
+	<field id="84" name="EM_LOST_BY_STALL" label="[ 在摆摊区从角色$OP_PARAM1 处购买了 EItemName($OP_PARAM2)($OP_PARAM2)]"  />
+	<field id="85" name="EM_LOST_BY_EQUIPCHANGE" label="[ 重置GUID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1)属性 ]"  />
+	<field id="86" name="EM_LOST_BY_ADD_EXTRA" label="[ 印鉴GUID为$OP_PARAM3的EItemName($OP_PARAM1)($OP_PARAM1) ]"  />
+	<field id="87" name="EM_LOST_BY_WAR" label="[ 国战($OP_PARAM1)报名 ]"  />
+	<field id="88" name="EM_LOST_BY_BOURSE" label="[ 向元宝交易所存钱 ]"  />
+	<field id="89" name="EM_LOST_BY_TAX" label="[ 摆摊卖掉GUID为OP_PARAM3的EItemName($OP_PARAM2)($OP_PARAM2)缴纳交易税 ]"  />
+	<field id="90" name="EM_LOST_BY_STALLFEE" label="[ 摆摊交易手续费 ]"  />
+	<field id="91" name="EM_LOST_BY_MASTERMONEY" label="[ 拜师失去 ]"  />
+	<field id="92" name="EM_LOST_BY_CARVEMONEY" label="[ 雕琢失去 ]"  />
+	<field id="93" name="EM_LOST_BY_DECOMPOS" label="[ 分解装备/法宝后失去 ]"  />
+	<field id="94" name="EM_LOST_BY_MWPRINT" label="[ 法宝印记后失去 ]"  />
+	<field id="95" name="EM_LOST_MONEY_BY_QLCOMPOSE" label="[ 法宝器灵合成失去 ]"  />
+	<field id="96" name="EM_LOST_BY_BUY4FUNC" label="[ 功能付费 ]"  />
+	<field id="97" name="EM_LOST_BY_FAME" label="[ 声望失去 ]"  />
+	<field id="98" name="EM_LOST_BY_SPIRIT_UPGRADE" label="[ 聚灵失去 ]"  />
+	<field id="99" name="EM_LOST_BY_SPIRIT_DOWNGRADE" label="[ 退灵失去 ]"  />
+</enum>
+
+<enum id="80" name="EExpAction" >
+	<field id="01" name="EM_EXP_BY_HORNOR" label="[荣誉转换为经验]"  />
+	<field id="02" name="EM_EXP_BY_CARD" label="[卡片获得经验]"  />
+	<field id="03" name="EM_EXP_BY_MULTICOM" label="[兑换获得经验]"  />
+	<field id="04" name="EM_EXP_BY_COMMAND" label="[使用GM 指令]"  />
+	<field id="05" name="EM_EXP_BY_TEAM_ALLOT" label="[开启内丹]"  />
+	<field id="06" name="EM_EXP_BY_FAMILY_ALLOT" label="[开启家族内丹]"  />
+	<field id="07" name="EM_EXP_BY_QUESTION" label="[答题卷]"  />
+	<field id="08" name="EM_EXP_BY_INVESTIGATION" label="[填写调查问卷]"  />
+	<field id="09" name="EM_EXP_BY_ERATING" label="[ 活动NPC奖励 ] "  />
+	<field id="10" name="EM_EXP_BY_TASK" label="[完成任务ETaskName($OP_PARAM2) ]"  />
+	<field id="11" name="EM_EXP_BY_ENTITY_DIE" label="[杀死怪物 ENpcName($OP_PARAM3)($OP_PARAM3) 获得]"  />
+	<field id="12" name="EM_EXP_BY_BUFF" label="[BUFF持续加经验固定值]"  />
+	<field id="13" name="EM_EXP_BY_FLOWER" label="[送人鲜花获得经验]"  />
+	<field id="14" name="EM_EXP_BY_EXPITEM" label="[使用经验道具]"  />
+	<field id="15" name="EM_EXP_BY_BLACKPILLS" label="[使用黑狗丸]"  />
+	<field id="16" name="EM_EXP_BY_EXPILLS" label="[使用经验球]"  />
+	<field id="17" name="EM_EXP_BY_HANDIN" label="[上缴物品获取经验]"  />
+	<field id="18" name="EM_EXP_BY_OFFLINE" label="[由离线获得经验]"  />
+</enum>
+
+<enum id="81" name="EItemUpgradeType" >
+	<field id="0" name="UPG_PROPERTY" label="装备[从($PREV)星强化到($CURR)星]"  />
+	<field id="1" name="UPG_RESDEF" label="[EEquipResist($RESULT)]从[EElemLevel($PREV) 强化至 EElemLevel($CURR)]" />
+	<field id="2" name="UPG_RESATT" label="[EEquipAttack($RESULT)]从[EElemLevel($PREV) 强化至 EElemLevel($CURR)]" />
+	<field id="3" name="EM_ATTR_BIND" label="绑定状态改变" />
+	<field id="4" name="EM_ATTR_SLOT" label="装备开槽从($PREV)孔变为($CURR)孔"  />
+	<field id="5" name="EM_ATTR_DIANJIN" label="装备点金从[($OP_PARAM1)阶EEquipAttr($PREV)]变更为[($CURR)阶EEquipAttr($RESULT)]"  />
+	<field id="6" name="EM_ATTR_JEWEL" label="装备上镶嵌宝石[EItemName($OP_PARAM1)($OP_PARAM1)]"  />
+	<field id="7" name="EM_ATTR_OWNER" label="归属"  />
+	<field id="8" name="EM_ATTR_PROPERTY" label="鉴定出[蓝色附加属性][EEquipAttr($RESULT);EEquipAttr($CURR)]"  />
+	<field id="9" name="EM_ATTR_JUDGE" label="[白色属性][$OP_PARAM1;$OP_PARAM2]从[EJudgeResult($PREV)]鉴定为[EJudgeResult($CURR)]"  />
+	<field id="10" name="EM_ATTR_MARK" label=" 对装备使用了[EItemName($OP_PARAM1)]" />
+	<field id="11" name="EM_ATTR_RUNNE" label="装备上镶嵌符文[EItemName($OP_PARAM1)($OP_PARAM1)]" />
+	<field id="12" name="EM_ATTR_LOCK" label="装备从[EBindStatus($CURR)状态]变更为[EBindStatus($PREV)状态]"  />
+	<field id="13" name="EM_CHANGE_RESIST" label="装备抗性属性从[EElemLevel($RESULT)][EEquipResist($PREV)]转换为[EEquipResist($CURR)]"  />
+	<field id="14" name="EM_CHANGE_ATTACK" label="装备攻击属性从[EElemLevel($RESULT)][EEquipAttack($PREV)]转换为[EEquipAttack($CURR)]"  />
+</enum>
+
+<enum id="82" name="EItemUpResultType" >
+	<field id="0" name="UPG_SUCCESS" label="强化成功"  />
+	<field id="1" name="UPG_REMAIN" label="强化中"  />
+	<field id="2" name="UPG_FAIL" label="强化失败"  />
+	<field id="3" name="UPG_DOWN" label="降级"  />
+	<field id="4" name="UPG_STOP" label="强化停止"  />
+</enum>
+
+<enum id="83" name="EItemUpDef">
+	<field  id="0" name="time" label="时间" />
+	<field  id="1" name="item_id" label="道具"/>
+	<field  id="2" name="item_guid" label="唯一ID"/>
+	<field  id="3" name="type" label="状态"/>
+	<field  id="4" name="result" label="结果"/>
+</enum>
+
+
+<enum id="84" name="ECountry">
+	<field id="0" name="COUNTRY_CHANGAN" label="大唐"  />
+	<field id="1" name="COUNTRY_WUJI" label="乌鸡国"  />
+	<field id="2" name="COUNTRY_CHECHI" label="车迟国"  />
+	<field id="3" name="COUNTRY_BAOXIANG" label="宝象国"  />
+	<field id="4" name="COUNTRY_NVER" label="女儿国"  />
+</enum>
+
+<proto id="85" name="ETitle">
+	<field id="0" name="TITLE_COMMON" label="字段,属性,属性值"  />
+	<field id="1" name="TITLE_FAMILY_LIST" label="ID,名称,等级,创建人,创建时间,人数,阵营"  />
+	<field id="3" name="TITLE_UNION_LIST" label="ID,名称,军团数量,军团盟主,阵营"  />
+	<field id="4" name="TITLE_COUNTRY_LIST" label="ID,阵营,占领地图,国王,占领时间,占领军团"  />
+	<field id="5" name="TITLE_FAMILY_LOG" label="时间,事件"  />
+	<field id="6" name="TITLE_ROLE_LOGOUT" label="ServerID,副本ID,地图,等级,登录IP,登录时间,登出时间,离开原因,存盘结果,是否正常退出"  />
+	<field id="7" name="TITLE_ROLE_DEATH" label="时间,ServerID,副本ID,地图,等级,职业,凶手类型,凶手等级,凶手ID" />
+	<field id="8" name="TITLE_RECOVERY_EQUIP" label="序号,备份时间,唯一ID,物品描述" />
+	<field id="9" name="TITLE_MAIL" label="序号,发送时间,发件人,收件人,标题,附件物品,附件金钱,过期时间,收件人支付" />
+	<field id="10" name="TITLE_ROLE_TASK" label="时间,ServerID,副本ID,地图,等级,操作,任务ID,任务名称" />
+	<field id="11" name="TITLE_ONLINE_IP" label="IP,账号个数,省份" />
+	<field id="12" name="TITLE_ONLINE_PLAYER" label="IP,账号,角色,等级,职业,登陆时间,阵营,地图,MAC,GameID" />
+	<field id="13" name="TITLE_OFFLINE_IP" label="IP,离开次数,离开角色数" />
+	<field id="14" name="TITLE_STOCK_LOG1" label="单号,挂单角色,类型,状态,元宝单价,挂单数量,交易数量,挂单时间,结束时间,税金" />
+	<field id="15" name="TITLE_STOCK_LOG2" label="交易时间,成交元宝数,买家名称,成交价格,卖家名称,卖单单价,买家单号,卖家单号" />
+	<field id="16" name="TITLE_STOCK_LOG3" label="交易时间,成交元宝数,卖家名称,成交价格,买家名称,买单单价,买家单号,卖家单号" />
+	<field id="17" name="TITLE_YB_STALL" label="流水号,交易时间,卖家名称,买家名称,交易总金额,交易物品,交易数量,交易单价,手续费,物品GUID" />
+</proto>
+
+<proto id="86" name="UMS_FAMILY">
+	<field id="1" name="family_id" label="家族ID"  />
+	<field id="2" name="family_name" label="家族名称"  />
+	<field id="3" name="family_money" label="家族金库"  />
+	<field id="4" name="family_status" label="家族状态"  />
+	<field id="5" name="create_role_id" label="创建人ID"  />
+	<field id="6" name="create_role_name" label="创建人名称"  />
+	<field id="7" name="country_id" label="所属阵营"  domain="ECamp"/>
+	<field id="8" name="corps_id" label="所属军团ID"  />
+	<field id="9" name="npc_id" label="占领NPC"  />
+	<field id="10" name="bid_money" label="竞价金钱"  />
+	<field id="11" name="bid_time" label="竞价时间" format="1" />
+	<field id="12" name="disband_time" label="解散时间" format="1" />
+	<field id="13" name="war_rank" label="未知"  />
+	<field id="14" name="war_winnum" label="获胜次数"  />
+	<field id="15" name="war_lostnum" label="战败次数"  />
+	<field id="16" name="family_starlevel" label="家族星级"  />
+	<field id="17" name="war_exp" label="战争积分"  />
+	<field id="18" name="family_glory" label="家族经验"  />
+	<field id="19" name="war_status" label="战争状态"  />
+	<field id="20" name="family_npcmoney" label="未知"  />
+	<field id="21" name="family_npcglory" label="未知"  />
+	<field id="22" name="family_npcwelfaretime" label="上次领取NPC福利时间" format="1" />
+	<field id="23" name="family_level" label="家族等级"  />
+	<field id="24" name="family_creattime" label="家族创建时间" format="1" />
+	<field id="25" name="family_repetionopendate" label="上次家族副本开启时间" format="1" />
+	<field id="26" name="family_repetionopentimes" label="家族副本开启次数"  />
+	<field id="27" name="family_repetionscore" label="家族副本战绩"  />
+</proto>
+
+<proto id="87" name="UMS_WORLD">
+	<field id="1" name="world_id" label="阵营ID"  />
+	<field id="2" name="country_id" label="国家ID"  />
+	<field id="3" name="king_power" label="国王声望"  />
+	<field id="4" name="people_num" label="国家人口"  />
+	<field id="5" name="wizard0" label="兵法才华值"  />
+	<field id="6" name="wizard1" label="文采才华值"  />
+	<field id="7" name="wizard2" label="修养才华值"  />
+	<field id="8" name="wizard3" label="政治才华值"  />
+	<field id="9" name="wizard4" label="谋略才华值"  />
+	<field id="10" name="wizard5" label="武力才华值"  />
+	<field id="11" name="convalue0+conwizard0" label="吏部建设度"  />
+	<field id="12" name="convalue1+conwizard1" label="户部建设度"  />
+	<field id="13" name="convalue2+conwizard2" label="礼部建设度"  />
+	<field id="14" name="convalue3+conwizard3" label="兵部建设度"  />
+	<field id="15" name="convalue4+conwizard4" label="刑部建设度"  />
+	<field id="16" name="convalue5+conwizard5" label="工部建设度"  />
+	<field id="17" name="conlevel0" label="吏部建设等级"  />
+	<field id="18" name="conlevel1" label="户部等级等级"  />
+	<field id="19" name="conlevel2" label="礼部建设等级"  />
+	<field id="20" name="conlevel3" label="兵部建设等级"  />
+	<field id="21" name="conlevel4" label="刑部建设等级"  />
+	<field id="22" name="conlevel5" label="工部建设等级"  />
+</proto>
+
+
+<proto id="88" name="UMS_CORPS">
+	<field id="01" name="corps_id" label="军团ID" />
+	<field id="02" name="corps_name" label="军团名称" />
+	<field id="03" name="create_role_id" label="大将军ID" />
+	<field id="04" name="create_role_name" label="大将军名称" />
+	<field id="05" name="corps_level" label="等级" />
+	<field id="06" name="corps_money" label="军团资金" />
+	<field id="07" name="family_info" label="家族信息" />
+	<field id="08" name="country_id" label="阵营ID" domain="ECamp" />
+	<field id="09" name="disband_time" label="解散时间" format="1"/>
+	<field id="10" name="corps_status" label="军团状态" />
+	<field id="11" name="corps_glory" label="军团积分" />
+	<field id="12" name="war_winnum" label="获胜次数" />
+	<field id="13" name="war_lostnum" label="失败次数" />
+	<field id="14" name="war_score" label="战争积分" />
+	<field id="15" name="war_starlevel" label="军团星级" />
+	<field id="16" name="war_bindnpcid" label="竞价NPCID" />
+	<field id="17" name="war_bindmoney" label="竞价金钱" />
+	<field id="18" name="war_battlestatus" label="战争状态" />
+	<field id="19" name="war_campid" label="谁查谁知道" />
+	<field id="20" name="war_battlecity" label="谁查谁知道" />
+	<field id="21" name="war_battlekey" label="谁查谁知道" />
+	<field id="22" name="war_welfaregettime" label="上次福利领取时间" format="1" />
+	<field id="23" name="corps_roommoney" label="谁查谁知道" />
+	<field id="24" name="war_battleinfo" label="谁查谁知道" />
+	<field id="25" name="corps_creattime" label="军团创建时间" format="1" />
+	<field id="26" name="corps_color" label="军团颜色" />
+	<field id="27" name="corps_shopinfo" label="军团商店" />
+</proto>
+
+<proto id="88" name="UMS_UNION">
+	<field id="01" name="union_head" label="军盟ID" />
+	<field id="02" name="union_name" label="军盟名称" />
+	<field id="03" name="corps0" label="军团ID" />
+	<field id="04" name="corps1" label="军团ID" />
+	<field id="05" name="corps2" label="军团ID" />
+	<field id="06" name="corps3" label="军团ID" />
+	<field id="07" name="corps4" label="军团ID" />
+	<field id="08" name="corps5" label="军团ID" />
+	<field id="09" name="corps6" label="军团ID" />
+	<field id="10" name="corps7" label="军团ID" />
+	<field id="11" name="corps8" label="军团ID" />
+</proto>
+
+
+<proto id="89" name="PBCorpsBattle">
+	<field id="01" name="NpcID" label="竞价NPC" domain="ENpcID2Name" />
+	<field id="02" name="NpcStatus" label="NPC状态" />
+	<field id="03" name="WarStatus" label="战争状态" />
+	<field id="04" name="DesCorpsName" label="对战军团名称" />
+	<field id="05" name="Type" label="主城战、野外战" />
+	<field id="06" name="BidMoney" label="竞价金钱" />
+	<field id="07" name="DesCorpsID" label="对战军团ID" />
+	<field id="08" name="MapID" label="地图ID" domain="EMapName" />
+	<field id="09" name="Time" label="占领时间" format="1" />
+	<field id="10" name="CorpsID" label="占领军团ID" />
+	<field id="11" name="CorpsName" label="占领军团名称" />
+	<field id="12" name="RooterName" label="军团大将军" />
+</proto>
+
+<proto id="90" name="PBCorpsFamilyInfo">
+	<field id="01" name="Contribute" label="贡献" />
+	<field id="02" name="FamilyID" label="家族ID" />
+</proto>
+
+<proto id="91" name="PBGoodItemInfo">
+	<field id="01" name="ItemID" label="物品ID" domain="EItemID2Name"/>
+	<field id="02" name="ItemNum" label="剩余数量" />
+	<field id="03" name="ComposeID" label="谁查谁知道" />
+	<field id="04" name="PurcharseTime" label="购买时间" format="1"/>
+</proto>
+
+
+<proto id="92" name="PBLeagueShopInfo">
+	<field id="01" name="ShopID" label="商店ID" />
+	<field id="02" name="ShopType" label="商店类型" />
+	<field id="02" name="ItemInfo" label="商店物品信息" />
+</proto>
+
+
+<proto id="93" name="PBOfficialData">
+	<field id="01" name="CharID" label="官员CharID" />
+	<field id="02" name="CharName" label="官员名称" />
+	<field id="03" name="OfficialLevel" label="等级" />
+	<field id="04" name="OfficialOrder" label="排位" />
+	<field id="05" name="UseTimes" label="权力的使用次数" />
+	<field id="06" name="UseX" label="x" />
+	<field id="07" name="UseY" label="y" />
+</proto>
+
+<enum id="94" name="EFamilyAction">
+	<field id="144" name="EM_ORGAN_BID_" label="成员$OPER对NPC($OP_PARAM1)竞价$OP_PARAM2金，扣减了$OP_PARAM3家族金锭"/>
+	<field id="204" name="EM_ORGAN_CONFIRM" label="NPC($OP_PARAM2)的竞价结束，我为守方，对战的攻方$OP_PARAM1竞价$OP_PARAM3金"/>
+	<field id="164" name="EM_ORGAN_JOIN_BATTLE" label="NPC($OP_PARAM2)的争夺战开始，对战的攻方为$OP_PARAM1"/>
+	<field id="154" name="EM_ORGAN_SUBMIT" label="成员$OPER为参战人员报名，报名人数为$OP_PARAM3，对战家族$OP_PARAM1，争夺NPC($OP_PARAM2)"/>
+	<field id="224" name="EM_ORGAN_ABORT" label="成员$OPER放弃对NPC($OP_PARAM1)的占领"/>
+	<field id="244" name="EM_ORGAN_BATTLEVICTORY" label="本家族在NPC($OP_PARAM2)的争夺战中击败家族$OP_PARAM1获胜，占领NPC($OP_PARAM2)"/>
+	<field id="103" name="EM_ORGAN_OPEN_ROOM" label="成员$OPER开设挑战赛房间，消耗$OP_PARAM1金"/>
+	<field id="113" name="EM_ORGAN_CLOSE_ROOM" label="成员$OPER关闭挑战赛房间，返还$OP_PARAM1金"/>
+	<field id="123" name="EM_ORGAN_SEND_CHALLEGE" label="成员$OPER对家族$OP_PARAM1发起挑战"/>
+	<field id="163" name="EM_ORGAN_JOIN_BATTLE" label="成员$OPER接受家族$OP_PARAM1发起的挑战，对方被扣减$OP_PARAM2金"/>
+	<field id="223" name="EM_ORGAN_ABORT" label="成员$OPER放弃对家族$OP_PARAM1发起的挑战"/>
+	<field id="243" name="EM_ORGAN_BATTLEVICTORY" label="本家族在挑战赛中击败家族$OP_PARAM1，获得胜利"/>
+	<field id="260" name="EM_ORGAN_REDSTONE" label="玩家$OPER完成领取家族内丹"/>
+	<field id="179" name="EM_ORGAN_GETNPCWELFARE" label="成员$OPER从NPC($OP_PARAM3)领取占领福利，家族经验从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="172" name="EM_ORGAN_GETNPCWELFARE" label="成员$OPER从NPC($OP_PARAM3)领取占领福利，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="182" name="EM_ORGAN_TASK" label="成员$OPER完成家族任务，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="052" name="EM_ORGAN_GETMONEY" label="成员$OPER消耗金钱，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="062" name="EM_ORGAN_CONTRIBUTEMONEY" label="成员$OPER为家族贡献金钱，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="072" name="EM_ORGAN_BUYITEM" label="成员$OPER购买家族公用特产，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="066" name="EM_ORGAN_CONTRIBUTEMONEY" label="成员$OPER捐献金钱，贡献度从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="186" name="EM_ORGAN_TASK" label="成员$OPER完成家族任务，贡献度从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="196" name="EM_ORGAN_EXCHANGE" label="成员$OPER进行家族兑换，贡献度从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="031" name="EM_ORGAN_CREATE" label="玩家$OPER创建家族"/>
+	<field id="041" name="EM_ORGAN_DISBAND" label="玩家$OPER解散家族"/>
+	<field id="011" name="EM_ORGAN_MEMBERJOIN" label="成员$OPER成功地[$OP_PARAM2](0：邀请/1：批准)玩家$OP_PARAM1加入家族，目前成员玩家数为$OP_PARAM3"/>
+	<field id="021" name="EM_ORGAN_MEMBERLEAVE" label="玩家$OP_PARAM1离开家族，原因[$OP_PARAM2](0：被踢出/1：主动离开)"/>
+	<field id="087" name="EM_ORGAN_LEVELUP" label="家族长$OPER升级家族，等级从$OP_PARAM2升级到$OP_PARAM1"/>
+	<field id="082" name="EM_ORGAN_LEVELUP" label="家族长$OPER升级家族，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="098" name="EM_ORGAN_SETPOST" label="家族长$OPER将成员玩家$OP_PARAM1的职位从$OP_PARAM3调整为$OP_PARAM2"/>
+	<field id="189" name="EM_ORGAN_TASK" label="玩家$OPER完成家族任务，家族经验从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="239" name="EM_ORGAN_REPETION" label="成员$OPER开启家族副本，家族经验从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="232" name="EM_ORGAN_REPETION" label="成员$OPER开启家族副本，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="282" name="EM_ORGAN_USEFUNCITEM" label="成员$OPER使用功能性物品，家族金锭从$OP_PARAM2变为$OP_PARAM1"/>
+</enum>
+
+<enum id="95" name="EMLeaveReason">
+	<field id="01" name="EM_LEAVE_REDIRECT" 	label="跨副本离开" />
+	<field id="02" name="EM_LEAVE_RETURN2GATE" 	label="返回角色" />
+	<field id="03" name="EM_LEAVE_LEAVEGAME" 	label="离开游戏" />
+	<field id="04" name="EM_LEAVE_KICKOUT" 		label="被踢下线" />
+	<field id="05" name="EM_LEAVE_CLOSESOCKET" 		label="玩家断开网络" />
+</enum>
+
+<enum id="96" name="EMSaveResult">
+	<field id="00" name="EM_SAVE2DB" 	label="正常" />
+	<field id="01" name="EM_SAVE2FILE" 	label="写文件" />
+	<field id="02" name="EM_NOSAVE" 	label="不存盘" />
+</enum>
+
+<enum id="97" name="EMSaveReason">
+	<field id="01" name="SAVE_REDIRECT" 	label="跨服" />
+	<field id="02" name="SAVE_RETURN2GATE" 	label="返回角色" />
+	<field id="03" name="SAVE_LEAVEGAME" 	label="离开" />
+	<field id="04" name="SAVE_KICKOUT" 	label="被踢" />
+	<field id="05" name="SAVE_TIMETRIGER" 	label="定时" />
+	<field id="06" name="SAVE_FORCEEXIT" 	label="强退" />
+	<field id="07" name="SAVE_FILE" 	label="保存文件" />
+</enum>
+
+<enum id="98" name="EEntityType">
+	<field id="00" name="ENTITYTYPE_NONE"		label="无" />
+	<field id="01" name="ENTITYTYPE_PLAYER"		label="被玩家杀死" />
+	<field id="02" name="ENTITYTYPE_OGRE"		label="被怪物杀死" />
+	<field id="03" name="ENTITYTYPE_FUNCNPC"	label="被功能NPC杀死" />
+	<field id="04" name="ENTITYTYPE_PEDAL"		label="被陷阱杀死" />
+	<field id="05" name="ENTITYTYPE_ITEM"		label="物品" />
+	<field id="06" name="ENTITYTYPE_COLLECT"	label="采集NPC" />
+	<field id="07" name="ENTITYTYPE_MONEY"		label="金币" />
+	<field id="08" name="ENTITYTYPE_PET"		label="被宠物杀死" />
+	<field id="09" name="ENTITYTYPE_TASKNPC"	label="被任务NPC杀死" />
+	<field id="10" name="ENTITYTYPE_BOX"		label="Store Box" />
+	<field id="11" name="ENTITYTYPE_REDSTONE" 	label="内丹" />
+	<field id="12" name="ENTITYTYPE_BLOCK"		label="阻挡" />
+	<field id="13" name="ENTITYTYPE_MAGICWEAPON"	label="法宝" />
+	<field id="27" name="RELIVE_ACTION"		label="玩家复活 " />
+	<field id="28" name="RELIVE_SKILL"		label="技能复活" />
+	<field id="29" name="RELIVE_WEAKGRAVE"		label="虚弱复活" />
+	<field id="30" name="RELIVE_NORMAL"		label="原地复活" />
+	<field id="31" name="RELIVE_SYSTEM"		label="系统复活" />
+</enum>
+
+<proto id="99" name="SocialInfoType">
+	<field id="01" name="FriendList" label="好友角色ID列表" />
+	<field id="02" name="SpouseID" label="配偶角色ID" />
+	<field id="02" name="MarriageID" label="结婚标识ID" />
+	<field id="03" name="MarriageTime" label="结婚时间" />
+	<field id="04" name="WeddingModule" label="婚礼规模" />
+	<field id="05" name="WeddingTime" label="婚礼举行时间" />
+	<field id="06" name="Familyname" label="家族名称" />
+	<field id="07" name="CorpsName" label="军团名称" />	
+	<field id="08" name="MasterID" label="师父的角色ID列表" />	
+	<field id="09" name="SlaveID" label="徒弟的角色ID列表" />	
+	<field id="10" name="SlaveValue" label="仙缘值列表" />	
+	<field id="11" name="SlavePoint" label="仙缘积分" />	
+	<field id="12" name="MasterPoint" label="我的师德" />	
+	<field id="13" name="SlaveTotal" label="仙缘累计" />	
+	<field id="14" name="MasterTotal" label="师德累计" />	
+	<field id="15" name="MasterPercent" label="感恩比例" />	
+	<field id="16" name="MasterTimes" label="拜师次数" />	
+	<field id="17" name="SlaveNum" label="出师数量" />	
+	<field id="18" name="MasterGive" label="总计给出师德" />	
+	<field id="19" name="BeginnerNum" label="正式弟子数量" />	
+	<field id="20" name="FormalNum" label="记名弟子数量" />	
+</proto>
+<enum id="100" name="EEquipResist">
+	<field id="01" name="ERESIST_BLADE"		label="炽焰抗性" />
+	<field id="02" name="ERESIST_ICE"		label="玄冰抗性" />
+	<field id="03" name="ERESIST_TEMPEST"		label="风雷抗性" />
+	<field id="04" name="ERESIST_UNIVERSE"		label="乾坤抗性" />
+	<field id="05" name="ERESIST_SUN"		label="纯阳抗性" />
+	<field id="06" name="ERESIST_SHADE"		label="寒阴抗性" />
+</enum>
+
+<enum id="101" name="EEquipAttack">
+	<field id="01" name="EATTACK_BLADE"		label="炽焰精通" />
+	<field id="02" name="EATTACK_ICE"		label="玄冰精通" />
+	<field id="03" name="EATTACK_TEMPEST"		label="风雷精通" />
+	<field id="04" name="EATTACK_UNIVERSE"		label="乾坤精通" />
+	<field id="05" name="EATTACK_SUN"		label="纯阳精通" />
+	<field id="06" name="EATTACK_SHADE"		label="寒阴精通" />
+</enum>
+
+<enum id="102" name="EBindStatus">
+	<field id="00" name="ITEM_BINDSTATUS_FREE"	label="未绑" />
+	<field id="01" name="ITEM_BINDSTATUS_BINDED"	label="绑定" />
+	<field id="02" name="ITEM_LOCK_FREE"		label="锁定(未绑)" />
+	<field id="03" name="ITEM_LOCK_BINDED"		label="锁定(绑定)" />
+	<field id="04" name="ITEM_UNLOCK_FREE"		label="解锁中(未绑)" />
+	<field id="05" name="ITEM_UNLOCK_BINDED"	label="解锁中(绑定)" />
+</enum>
+
+<enum id="103" name="EJudgeResult">
+	<field id="00" name="JUDGE_COMMON"		label="未鉴定" />
+	<field id="01" name="JUDGE_COMMON"		label="普通1" />
+	<field id="02" name="JUDGE_COMMON"		label="普通2" />
+	<field id="03" name="JUDGE_COMMON"		label="普通3" />
+	<field id="04" name="JUDGE_GOOD"		label="优秀1" />
+	<field id="05" name="JUDGE_GOOD"		label="优秀2"/>
+	<field id="06" name="JUDGE_GOOD"		label="优秀3"/>
+	<field id="07" name="JUDGE_GREAT"		label="精良1"/>
+	<field id="08" name="JUDGE_GREAT"		label="精良2"/>
+	<field id="09" name="JUDGE_GREAT"		label="精良3"/>
+	<field id="10" name="JUDGE_EXCELLENT"		label="卓越1"/>
+	<field id="11" name="JUDGE_EXCELLENT"		label="卓越2"/>
+	<field id="12" name="JUDGE_EXCELLENT"		label="卓越3"/>
+	<field id="13" name="JUDGE_PERFECT"		label="极品1"/>
+	<field id="14" name="JUDGE_PERFECT"		label="极品2"/>
+	<field id="15" name="JUDGE_PERFECT"		label="极品3"/>
+	<field id="16" name="JUDGE_PERFECT"		label="极品4"/>
+	<field id="17" name="JUDGE_PERFECT"		label="极品5"/>
+	<field id="18" name="JUDGE_PERFECT"		label="极品6"/>
+	<field id="19" name="JUDGE_PERFECT"		label="极品7"/>
+	<field id="20" name="JUDGE_PERFECT"		label="极品8"/>
+	<field id="21" name="JUDGE_PERFECT"		label="极品9"/>
+	<field id="22" name="JUDGE_PERFECT"		label="极品10"/>
+	<field id="23" name="JUDGE_PERFECT"		label="极品11"/>
+	<field id="24" name="JUDGE_PERFECT"		label="极品12"/>
+</enum>
+
+<enum id="104" name="EEquipFixAttr">
+	<field id="00" name="PROPERTYINC_NULL"		label="无"/>
+	<field id="05" name="PROPERTYINC_PATTACKFIX"	label="物理攻击"/>
+	<field id="06" name="PROPERTYINC_MATTACKFIX"	label="法术攻击"/>
+	<field id="07" name="PROPERTYINC_PDEFENCEFIX"	label="物理防御"/>
+	<field id="08" name="PROPERTYINC_MDEFENCEFIX"	label="法术防御"/>
+	<field id="09" name="PROPERTYINC_STA"		label="耐力"/>
+	<field id="10" name="PROPERTYINC_WIS"		label="智力"/>
+	<field id="11" name="PROPERTYINC_CON"		label="敏捷"/>
+	<field id="12" name="PROPERTYINC_SPR"		label="精神"/>
+	<field id="13" name="PROPERTYINC_STR"		label="力量"/>
+	<field id="25" name="PROPERTYINC_NORMALHITRATE"	label="命中"/>
+	<field id="26" name="PROPERTYINC_NORMALDUCK"	label="闪避"/>
+	<field id="54" name="PROPERTYFUNC_IGNOREDUCK"	label="忽视闪避"/>
+</enum>
+
+<enum id="105" name="EElemLevel">
+	<field id="00" name="PROPERTYINC_NULL"		label="下下阶"/>
+	<field id="01" name="PROPERTYINC_NULL"		label="下阶"/>
+	<field id="02" name="PROPERTYINC_NULL"		label="中下阶"/>
+	<field id="03" name="PROPERTYINC_NULL"		label="中阶"/>
+	<field id="04" name="PROPERTYINC_NULL"		label="中上阶"/>
+	<field id="05" name="PROPERTYINC_NULL"		label="上阶"/>
+	<field id="06" name="PROPERTYINC_NULL"		label="上上阶"/>
+</enum>
+
+<enum id="106" name="EEquipDescribe">
+	<field id="00" name="EEQUIP_SIMPLE"		label="$COLOR $REQUIRE级 +$LEVEL $BIND $MARK $RUNNE $JEWEL $MAGIC"/>
+	<field id="01" name="EEQUIP_TPL_ATTR"		label="[白]$TPL_ATTR($JUDGE)"/>
+	<field id="02" name="EEQUIP_LOCK_ATTR"		label="(黄金锁+%2)"/>
+	<field id="03" name="EEQUIP_ELEM_ATTACK"	label="[白]$ELEM_ATTACK($ELEM_LEVEL)"/>
+	<field id="04" name="EEQUIP_ELEM_RESIST"	label="[白]$ELEM_RESIST($ELEM_LEVEL)"/>
+	<field id="05" name="EEQUIP_BLUE_ATTR"		label="[蓝]$VALUE"/>
+	<field id="06" name="EEQUIP_JEWEL"		label="[孔]$VALUE"/>
+	<field id="07" name="EEQUIP_GREEN_ATTR"		label="[绿]$VALUE"/>
+	<field id="08" name="EEQUIP_DIANJIN_ATTR"	label="[点金]$VALUE($DIAN_LEVEL)"/>
+	<field id="09" name="EEQUIP_MARK_ATTR"		label="[$VALUE]"/>
+	<field id="10" name="EEQUIP_BIND_ATTR"		label="[$VALUE]"/>
+	<field id="11" name="EEQUIP_EMPTY_SLOT"		label="[未镶嵌的凹槽]"/>
+	<field id="12" name="EEQUIP_STAR"		label="[星]$LEVEL"/>
+	<field id="13" name="EEQUIP_SIMPLE_MARK"	label="印"/>
+	<field id="14" name="EEQUIP_SIMPLE_RUNNE"	label="符"/>
+	<field id="15" name="EEQUIP_SIMPLE_JEWEL"	label="镶"/>
+	<field id="16" name="EEQUIP_SIMPLE_MAGIC"	label="点"/>
+</enum>
+
+<enum id="107" name="EColor">
+	<field id="01" name="ECOLOR_WHITE"		label="白"/>
+	<field id="02" name="ECOLOR_BLUE"		label="蓝"/>
+	<field id="03" name="ECOLOR_PURPLE"		label="紫"/>
+	<field id="04" name="ECOLOR_GOLDEN"		label="金"/>
+</enum>
+
+<enum id="108" name="EMagicLevel">
+	<field id="01" name="EMAGIC_ONE"		label="一阶"/>
+	<field id="02" name="EMAGIC_TWO"		label="二阶"/>
+	<field id="03" name="EMAGIC_THREE"		label="三阶"/>
+	<field id="04" name="EMAGIC_FOUR"		label="四阶"/>
+	<field id="05" name="EMAGIC_FIVE"		label="五阶"/>
+</enum>
+
+<enum id="109" name="EMarkLabel">
+	<field id="01" name="EMARK_ONE"			label="青铜印"/>
+	<field id="02" name="EMARK_TWO"			label="炫金印"/>
+</enum>
+
+<enum id="110" name="EMWDescribe">
+	<field id="00" name="EMW_SIMPLE"		label="$COLOR $REQUIRE级 +$LEVEL $BIND "/>
+	<field id="01" name="EMW_LEVEL" 		label="等级:$LEVEL" />
+	<field id="02" name="EMW_EXP" 			label="法宝经验:$VALUE" />
+	<field id="03" name="EMW_MP" 			label="法力值:$MP/$MAXMP" />
+	<field id="04" name="EMW_HP" 			label="灵气值:$HP/$MAXHP" />
+	<field id="05" name="EMW_KEENPOINTS" 		label="锐力:$VALUE" />
+	<field id="06" name="EMW_CALMPOINTS" 		label="定力:$VALUE" />
+	<field id="07" name="EMW_MAGICPOINTS" 		label="法力:$VALUE" />
+	<field id="08" name="EMW_BIERPOINTS" 		label="灵力:$VALUE" />
+	<field id="09" name="EMW_IMMORTALPOINTS" 	label="仙力:$VALUE" />
+	<field id="10" name="EMW_LEFTPOINTS" 		label="潜能:$VALUE" />
+	<field id="11" name="EMW_PROBASE" 		label="修炼值:$PROBASE-$PROUP" />
+	<field id="12" name="EMW_PROEFF" 		label="修炼强度:$VALUE($JUDGE)" />
+	<field id="13" name="EMW_PROSPIR" 		label="法宝灵性:$VALUE($JUDGE)" />
+	<field id="14" name="EMW_PROCESSVAL" 		label="技能槽开启进度$VALUE" />
+	<field id="15" name="EMW_LEFTSKILLPOINTS" 	label="法宝技能点:$VALUE" />
+	<field id="16" name="EMW_SKILLBOX" 		label="法宝技能$SKILL_NAME($SKILL_LEVEL)级" />
+</enum>
+
+<enum id="111" name="ETaskAction">
+	<field id="01" name="ETASK_ACCEPT"		label="接受任务"/>
+	<field id="02" name="ETASK_END"			label="交付任务"/>
+	<field id="03" name="ETASK_CANCEL"		label="放弃任务"/>
+</enum>
+
+<enum id="112" name="ECorpsAction">
+	<field id="144" name="EM_ORGAN_BID_" label="成员$OPER对NPC($OP_PARAM1)竞价$OP_PARAM2金，扣减了$OP_PARAM3军团金锭"/>
+	<field id="204" name="EM_ORGAN_CONFIRM" label="NPC($OP_PARAM2)的竞价结束，我为守方，对战的攻方$OP_PARAM1竞价$OP_PARAM3金"/>
+	<field id="164" name="EM_ORGAN_JOIN_BATTLE" label="NPC($OP_PARAM2)的争夺战开始，对战的攻方为$OP_PARAM1"/>
+	<field id="154" name="EM_ORGAN_SUBMIT" label="成员$OPER为参战人员报名，报名人数为$OP_PARAM1"/>
+	<field id="224" name="EM_ORGAN_ABORT" label="成员$OPER放弃对NPC($OP_PARAM1)的占领"/>
+	<field id="244" name="EM_ORGAN_BATTLEVICTORY" label="本军团在NPC($OP_PARAM2)的争夺战中击败军团$OP_PARAM1获胜，占领地图($OP_PARAM3)"/>
+	<field id="103" name="EM_ORGAN_OPEN_ROOM" label="成员$OPER开设挑战赛房间，消耗$OP_PARAM1金"/>
+	<field id="113" name="EM_ORGAN_CLOSE_ROOM" label="成员$OPER关闭挑战赛房间，返还$OP_PARAM1金"/>
+	<field id="123" name="EM_ORGAN_SEND_CHALLEGE" label="成员$OPER对军团$OP_PARAM1发起挑战"/>
+	<field id="163" name="EM_ORGAN_JOIN_BATTLE" label="成员$OPER接受军团$OP_PARAM1发起的挑战，对方被扣减$OP_PARAM2金"/>
+	<field id="223" name="EM_ORGAN_ABORT" label="成员$OPER放弃对军团$OP_PARAM1发起的挑战"/>
+	<field id="243" name="EM_ORGAN_BATTLEVICTORY" label="本军团在挑战赛中击败军团$OP_PARAM1，获得胜利"/>
+	<field id="179" name="EM_ORGAN_GETNPCWELFARE" label="成员$OPER从NPC($OP_PARAM3)领取占领福利，军团经验从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="172" name="EM_ORGAN_GETNPCWELFARE" label="成员$OPER从NPC($OP_PARAM3)领取占领福利，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="182" name="EM_ORGAN_TASK" label="成员$OPER完成军团任务，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="052" name="EM_ORGAN_GETMONEY" label="成员$OPER消耗金钱，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="272" name="EM_ORGAN_TAX" label="成员$OPER为军团领税，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="062" name="EM_ORGAN_CONTRIBUTEMONEY" label="成员$OPER为军团贡献金钱，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="072" name="EM_ORGAN_BUYITEM" label="成员$OPER购买军团公用特产，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="066" name="EM_ORGAN_CONTRIBUTEMONEY" label="成员$OPER捐献金钱，贡献度从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="186" name="EM_ORGAN_TASK" label="成员$OPER完成军团任务，贡献度从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="196" name="EM_ORGAN_EXCHANGE" label="成员$OPER进行军团兑换，贡献度从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="031" name="EM_ORGAN_CREATE" label="玩家$OPER创建军团"/>
+	<field id="041" name="EM_ORGAN_DISBAND" label="玩家$OPER解散军团"/>
+	<field id="011" name="EM_ORGAN_MEMBERJOIN" label="成员$OPER成功地[$OP_PARAM2](0：邀请/1：批准)家族$OP_PARAM1加入军团，目前成员家族数为$OP_PARAM3"/>
+	<field id="021" name="EM_ORGAN_MEMBERLEAVE" label="家族$OP_PARAM1离开军团，原因[$OP_PARAM2](0：被踢出/1：主动离开)"/>
+	<field id="087" name="EM_ORGAN_LEVELUP" label="军团长$OPER升级军团，等级从$OP_PARAM2升级到$OP_PARAM1"/>
+	<field id="082" name="EM_ORGAN_LEVELUP" label="军团长$OPER升级军团，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="098" name="EM_ORGAN_SETPOST" label="军团长$OPER将成员玩家$OP_PARAM1的职位从$OP_PARAM3调整为$OP_PARAM2"/>
+	<field id="189" name="EM_ORGAN_TASK" label="玩家$OPER完成军团任务，军团经验从$OP_PARAM2变为$OP_PARAM1"/>
+	<field id="282" name="EM_ORGAN_USEFUNCITEM" label="成员$OPER使用功能性物品，军团金锭从$OP_PARAM2变为$OP_PARAM1"/>
+</enum>
+
+<enum id="113" name="EStockTrade">
+	<field id="0" name="EM_STOCK_BUY" label="买单"/>
+	<field id="1" name="EM_STOCK_SELL" label="卖单"/>
+</enum>
+
+<enum id="114" name="EStockStatus">
+	<field id="0" name="EM_STOCK_GOINGON" label="进行中"/>
+	<field id="1" name="EM_STOCK_COMPLETED" label="完成"/>
+	<field id="2" name="EM_STOCK_CANCELED" label="撤销"/>
+</enum>
+
+<enum id="115" name="EMailStatus">
+	<field id="0" name="EM_MAIL_UNREAD" label="未读"/>
+	<field id="1" name="EM_MAIL_NULL" label="带附件"/>
+	<field id="2" name="EM_MAIL_LOCK" label="加锁"/>
+	<field id="3" name="EM_MAIL_PAY" label="已付费"/>
+</enum>
+
+<enum id="116" name="EMKickReason">
+	<field id="0" name="EM_NORMAL" label="是"/>
+	<field id="56100" name="EM_KICKOUT_ANTIBOT" label="反外挂踢人"/>
+	<field id="56099" name="EM_KICKOUT_LOCKDATA" label="玩家数据存盘异常"/>
+	<field id="56098" name="EM_KICKOUT_TIMEOUT" label="客户端连接超时"/>
+	<field id="56097" name="EM_KICKOUT_SERVERMAINTANCE" label="服务器停机维护"/>
+	<field id="56096" name="EM_KICKOUT_GM" label="GM踢人"/>
+	<field id="56095" name="EM_KICKOUT_ACCOUNTTRUSTEE" label="帐号被托管"/>
+	<field id="56094" name="EM_KICKOUT_UNKOWNACTION" label="玩家行为异常"/>
+	<field id="56093" name="EM_KICKOUT_RELOGIN" label="玩家重复登录踢人"/>
+	<field id="56092" name="EM_KICKOUT_NOTINGATE" label="玩家的网关数据不存在"/>
+	<field id="56091" name="EM_KICKOUT_SAVETIMEOUT" label="存盘超时踢人"/>
+	<field id="56090" name="EM_KICKOUT_ACCOUNTFROZEN" label="冻结帐号踢人"/>
+	<field id="56089" name="EM_KICKOUT_ANTIBOT_MULTICLIENT" label="反外挂踢人：客户端多开（大于3个）"/>
+	<field id="56088" name="EM_KICKOUT_ANTIBOT_VM" label="反外挂踢人：虚拟桌面"/>
+	<field id="56087" name="EM_KICKOUT_ANTIBOT_MULTIUSER" label="反外挂踢人：多用户"/>
+	<field id="56086" name="EM_KICKOUT_ANTIADDICTION" label="防沉迷踢人"/>
+	<field id="56085" name="EM_KICKOUT_SPEEDCHEATING" label="移动速度异常"/>
+	<field id="56084" name="EM_KICKOUT_SPEEDCHEATING2" label="移动速度异常2"/>
+	<field id="56083" name="EM_KICKOUT_MULTICLIENT" label="单IP登陆玩家过多"/>
+	<field id="56082" name="EM_KICKOUT_DATACRASH" label="玩家数据与模板不一致"/>
+</enum>
+
+<proto id="117" name="PBActivityStateInf">
+	<field id="1" name="ActivityID" label="活动ID" />
+	<field id="2" name="CurState" label="当前状态" />
+	<field id="3" name="StateParam" label="状态参数" />
+	<field id="4" name="ChgTm" label="时间戳" format="1" />
+	<field id="5" name="RealLastedTime" label="真实的本状态持续时间" format="4" />
+</proto>
+
+<proto id="118" name="PBMatrixInfo">
+	<field id="1" name="MasterID" label="师傅ID扩充为3个" />
+	<field id="2" name="SlaveID" label="弟子个数" />
+	<field id="3" name="SlaveValue" label="档的仙缘值" />
+	<field id="4" name="SlavePoint" label="仙缘点数" />
+	<field id="5" name="MasterPoint" label="师德点数" />
+	<field id="6" name="SlaveTotal" label="仙缘累计" />
+	<field id="7" name="MasterTotal" label="师德累计" />
+	<field id="8" name="MasterPercent" label="感恩比例" />
+	<field id="9" name="MasterTimes" label="拜师次数" />
+	<field id="10" name="SlaveNum" label="出师数量" />
+	<field id="11" name="MasterGive" label="总计给出师德" />
+	<field id="12" name="BeginnerNum" label="新手弟子数量" />
+	<field id="13" name="FormalNum" label="高级弟子数量" />
+</proto>
+
+</helper>

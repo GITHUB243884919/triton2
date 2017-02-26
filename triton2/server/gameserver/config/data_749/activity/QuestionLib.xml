@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- 客户端的题目配置应只包含全部题库所涵盖的内容 -->
+<LIBRARY_LIST>
+<LIBRARY_QUESTIONLIB>
+	<LIBRARY ID="1" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+		<QUESTION ID="407" Answer="A" />
+		<QUESTION ID="1" Answer="A" />
+		<QUESTION ID="2" Answer="B" />
+		<QUESTION ID="3" Answer="C" />
+		<QUESTION ID="4" Answer="A" />
+		<QUESTION ID="5" Answer="B" />
+	</LIBRARY>
+	<LIBRARY ID="2" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+		<QUESTION ID="66" Answer="D" />
+		<QUESTION ID="6" Answer="D" />
+		<QUESTION ID="7" Answer="C" />
+		<QUESTION ID="8" Answer="C" />
+		<QUESTION ID="15" Answer="A" />
+		<QUESTION ID="9" Answer="A" />
+		<QUESTION ID="10" Answer="D" />
+	</LIBRARY>
+	<LIBRARY ID="3" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="11" Answer="A" />
+	  <QUESTION ID="12" Answer="D" />
+	  <QUESTION ID="13" Answer="A" />
+	  <QUESTION ID="14" Answer="A" />
+	  <QUESTION ID="407" Answer="A" />
+	</LIBRARY>
+	<LIBRARY ID="4" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  	  <QUESTION ID="16" Answer="D"/>
+	  <QUESTION ID="17" Answer="D"/>
+      <QUESTION ID="18" Answer="C"/>
+	  <QUESTION ID="19" Answer="B"/>
+	  <QUESTION ID="20" Answer="B"/>
+	</LIBRARY>
+  <LIBRARY ID="5" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="15" Answer="A" />
+	  <QUESTION ID="21" Answer="A"/>
+	  <QUESTION ID="22" Answer="D"/>
+	  <QUESTION ID="23" Answer="B"/>
+	  <QUESTION ID="24" Answer="C"/>
+	  <QUESTION ID="25" Answer="D"/>
+	</LIBRARY>
+	<LIBRARY ID="6" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="70" Answer="D"/>			     	  
+	</LIBRARY>
+	<LIBRARY ID="7" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="58" Answer="A"/>
+	  <QUESTION ID="52" Answer="C"/>
+	  <QUESTION ID="53" Answer="A"/>
+	  <QUESTION ID="61" Answer="D"/>
+	  <QUESTION ID="62" Answer="A"/>
+	</LIBRARY>
+	<LIBRARY ID="8" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="60" Answer="B"/>
+	  <QUESTION ID="57" Answer="D"/>	  	  
+	  <QUESTION ID="65" Answer="C"/>  	  
+  </LIBRARY>
+  <LIBRARY ID="9" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	</LIBRARY>
+	<LIBRARY ID="10" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="61" Answer="D"/>
+  </LIBRARY>
+  <LIBRARY ID="11" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	</LIBRARY>
+	<LIBRARY ID="12" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="13" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="68" Answer="C"/>
+	</LIBRARY>
+	<LIBRARY ID="14" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="15" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	</LIBRARY>
+	<LIBRARY ID="16" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="17" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+ 	</LIBRARY>
+	<LIBRARY ID="18" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="60" Answer="B"/>
+  </LIBRARY>
+  <LIBRARY ID="19" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="69" Answer="B"/>
+	</LIBRARY>
+	<LIBRARY ID="20" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="21" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+    <QUESTION ID="67" Answer="D"/>
+	</LIBRARY>
+	<LIBRARY ID="22" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY>
+  <LIBRARY ID="23" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  	  <QUESTION ID="63" Answer="C"/>
+	</LIBRARY>
+	<LIBRARY ID="24" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="25" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+	<LIBRARY ID="26" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="27" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+      <QUESTION ID="68" Answer="C"/>
+		</LIBRARY>
+	<LIBRARY ID="28" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="29" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	</LIBRARY>
+	<LIBRARY ID="30" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="31" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	</LIBRARY>
+	<LIBRARY ID="32" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="65" Answer="C"/>
+	  <QUESTION ID="58" Answer="A"/>
+  </LIBRARY>
+  <LIBRARY ID="33" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="1" Answer="A"/>
+	  <QUESTION ID="2" Answer="B"/>
+	  <QUESTION ID="59" Answer="B"/>
+	  <QUESTION ID="55" Answer="B"/>
+  </LIBRARY>
+  <LIBRARY ID="34" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="51" Answer="C"/>
+	  <QUESTION ID="59" Answer="B"/>
+	  <QUESTION ID="67" Answer="D"/>
+  </LIBRARY>
+  <LIBRARY ID="35" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="36" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="37" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="62" Answer="A"/>
+	  <QUESTION ID="54" Answer="D"/>
+	  <QUESTION ID="70" Answer="D"/>
+	  <QUESTION ID="56" Answer="D"/>
+  </LIBRARY>
+  <LIBRARY ID="38" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="9" Answer="A"/>
+	  <QUESTION ID="10" Answer="D"/>
+  </LIBRARY>
+  <LIBRARY ID="39" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="40" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="41" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="42" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="43" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="411" Answer="D"/>
+  </LIBRARY>
+  <LIBRARY ID="44" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="66" Answer="A"/>
+  </LIBRARY>
+  <LIBRARY ID="45" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="412" Answer="A"/> 
+  </LIBRARY>
+  <LIBRARY ID="46" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="69" Answer="B"/>
+  </LIBRARY>
+  <LIBRARY ID="47" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="48" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="49" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+  <LIBRARY ID="50" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  </LIBRARY>
+   <LIBRARY ID="51" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY> 
+   <LIBRARY ID="52" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="59" Answer="B"/> 
+	  <QUESTION ID="70" Answer="D"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="53" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+	  <QUESTION ID="59" Answer="B"/>
+	  <QUESTION ID="406" Answer="A"/>
+	  <QUESTION ID="70" Answer="D"/>
+  </LIBRARY>
+   <LIBRARY ID="54" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->   
+	  <QUESTION ID="59" Answer="B"/>
+	  <QUESTION ID="406" Answer="A"/> 
+	  <QUESTION ID="70" Answer="D"/>
+  </LIBRARY>
+   <LIBRARY ID="55" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="69" Answer="B"/> 
+	  <QUESTION ID="60" Answer="B"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="56" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="57" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="69" Answer="B"/> 
+	  <QUESTION ID="60" Answer="B"/>
+	</LIBRARY>
+   <LIBRARY ID="58" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY> 
+   <LIBRARY ID="59" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="410" Answer="D"/>
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="69" Answer="B"/> 
+	  <QUESTION ID="60" Answer="B"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="60" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+	  <QUESTION ID="60" Answer="B"/>
+	  <QUESTION ID="68" Answer="C"/>
+	  <QUESTION ID="65" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="61" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+	  <QUESTION ID="60" Answer="B"/>
+	  <QUESTION ID="68" Answer="C"/> 
+	  <QUESTION ID="65" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="62" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="26" Answer="A"/>
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="68" Answer="C"/> 
+	  <QUESTION ID="65" Answer="C"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="63" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="64" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="26" Answer="A"/>
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="68" Answer="C"/> 
+	  <QUESTION ID="61" Answer="D"/>
+	</LIBRARY>
+	 <LIBRARY ID="65" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="410" Answer="D"/>
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY> 
+   <LIBRARY ID="66" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="68" Answer="C"/> 
+	  <QUESTION ID="58" Answer="A"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="67" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+	  <QUESTION ID="26" Answer="A"/>
+	  <QUESTION ID="60" Answer="B"/>
+	  <QUESTION ID="68" Answer="C"/>
+	  <QUESTION ID="61" Answer="D"/>
+  </LIBRARY>
+   <LIBRARY ID="68" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+	  <QUESTION ID="59" Answer="B"/>
+	  <QUESTION ID="61" Answer="D"/> 
+	  <QUESTION ID="58" Answer="A"/>
+  </LIBRARY>
+   <LIBRARY ID="69" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="26" Answer="A"/>
+  	  <QUESTION ID="406" Answer="A"/>
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="58" Answer="A"/> 
+	  <QUESTION ID="407" Answer="A"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="70" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="409" Answer="E"/>
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="71" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+  	  <QUESTION ID="410" Answer="D"/>
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="58" Answer="A"/> 
+	  <QUESTION ID="62" Answer="A"/>
+	</LIBRARY>
+   <LIBRARY ID="72" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="409" Answer="E"/>
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY> 
+   <LIBRARY ID="73" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="26" Answer="A"/>
+	  <QUESTION ID="408" Answer="E"/>
+	  <QUESTION ID="65" Answer="C"/>  
+	  <QUESTION ID="58" Answer="A"/> 
+	  <QUESTION ID="62" Answer="A"/>	  	  
+  </LIBRARY> 
+   <LIBRARY ID="74" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+  	  <QUESTION ID="409" Answer="E"/>
+	  <QUESTION ID="62" Answer="A"/>
+	  <QUESTION ID="65" Answer="C"/>
+	  <QUESTION ID="61" Answer="D"/>
+  </LIBRARY>
+   <LIBRARY ID="75" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->  
+	  <QUESTION ID="412" Answer="A"/>  
+  	  <QUESTION ID="66" Answer="D" />
+	  <QUESTION ID="62" Answer="A"/>
+	  <QUESTION ID="61" Answer="D"/> 
+	  <QUESTION ID="65" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="76" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="411" Answer="D"/>
+	  <QUESTION ID="64" Answer="D"/>  
+	  <QUESTION ID="61" Answer="D"/> 
+	  <QUESTION ID="66" Answer="D" />	  	  
+  </LIBRARY> 
+   <LIBRARY ID="77" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="411" Answer="D"/>
+	  <QUESTION ID="403" Answer="C"/>
+	  <QUESTION ID="412" Answer="A"/>
+	  <QUESTION ID="63" Answer="C"/>
+  </LIBRARY>
+   <LIBRARY ID="78" AppType="Ab">	<!-- A：表示每日问答，B：表示答题卷，C：表示活动 -->
+	  <QUESTION ID="408" Answer="E"/>
+	  <QUESTION ID="66" Answer="D" /> 
+	</LIBRARY>
+</LIBRARY_QUESTIONLIB>
+<NpcPrize>
+	<Item ID="61376"  Num="1" />
+</NpcPrize>
+</LIBRARY_LIST>

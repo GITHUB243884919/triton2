@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+   <!-- Group Define -->
+   <Groups>
+      <!-- TangSeng -->
+      <Group id='0' name='a'>
+         <Option id='0'  resource='000.dat'/>
+         <Option id='1'  resource='001.dat'/>
+         <Option id='2'  resource='002.dat'/>
+         <Option id='3'  resource='003.dat'/>
+         <Option id='4'  resource='004.dat'/>
+         <Option id='5'  resource='005.dat'/>
+         <Option id='6'  resource='006.dat'/>
+         <Option id='7'  resource='007.dat'/>
+         <Option id='8'  resource='008.dat'/>
+         <Option id='9'  resource='009.dat'/>
+         <Option id='10' resource='010.dat'/>
+         <Option id='11' resource='011.dat'/>
+         <Option id='12' resource='012.dat'/>
+         <Option id='13' resource='013.dat'/>
+         <Option id='14' resource='014.dat'/>
+         <Option id='15' resource='015.dat'/>
+         <Option id='16' resource='016.dat'/>
+         <Option id='17' resource='017.dat'/>
+         <Option id='18' resource='018.dat'/>
+         <Option id='19' resource='019.dat'/>
+         <Option id='20' resource='020.dat'/>
+      </Group>
+      <!-- SunWuKong -->
+      <Group id='1' name='b'>
+         <Option id='0'  resource='000.dat'/>
+         <Option id='1'  resource='001.dat'/>
+         <Option id='2'  resource='002.dat'/>
+         <Option id='3'  resource='003.dat'/>
+         <Option id='4'  resource='004.dat'/>
+         <Option id='5'  resource='005.dat'/>
+         <Option id='6'  resource='006.dat'/>
+         <Option id='7'  resource='007.dat'/>
+         <Option id='8'  resource='008.dat'/>
+         <Option id='9'  resource='009.dat'/>
+         <Option id='10' resource='010.dat'/>
+         <Option id='11' resource='011.dat'/>
+         <Option id='12' resource='012.dat'/>
+         <Option id='13' resource='013.dat'/>
+         <Option id='14' resource='014.dat'/>
+         <Option id='15' resource='015.dat'/>
+         <Option id='16' resource='016.dat'/>
+         <Option id='17' resource='017.dat'/>
+         <Option id='18' resource='018.dat'/>
+         <Option id='19' resource='019.dat'/>
+         <Option id='20' resource='020.dat'/>
+      </Group>
+      <!-- ZhuBaJie -->
+      <Group id='2' name='c'>
+         <Option id='0' resource='000.dat'/>
+      </Group>
+      <!-- ShaSeng -->
+      <Group id='3' name='d'>
+         <Option id='0'  resource='000.dat'/>
+         <Option id='1'  resource='001.dat'/>
+         <Option id='2'  resource='002.dat'/>
+         <Option id='3'  resource='003.dat'/>
+         <Option id='4'  resource='004.dat'/>
+         <Option id='5'  resource='005.dat'/>
+         <Option id='6'  resource='006.dat'/>
+         <Option id='7'  resource='007.dat'/>
+         <Option id='8'  resource='008.dat'/>
+         <Option id='9'  resource='009.dat'/>
+         <Option id='10' resource='010.dat'/>
+         <Option id='11' resource='011.dat'/>
+         <Option id='12' resource='012.dat'/>
+         <Option id='13' resource='013.dat'/>
+         <Option id='14' resource='014.dat'/>
+         <Option id='15' resource='015.dat'/>
+         <Option id='16' resource='016.dat'/>
+         <Option id='17' resource='017.dat'/>
+         <Option id='18' resource='018.dat'/>
+         <Option id='19' resource='019.dat'/>
+         <Option id='20' resource='020.dat'/>
+         <Option id='21' resource='021.dat'/>
+         <Option id='22' resource='022.dat'/>
+         <Option id='23' resource='023.dat'/>
+         <Option id='24' resource='024.dat'/>
+         <Option id='25' resource='025.dat'/>
+         <Option id='26' resource='026.dat'/>
+         <Option id='27' resource='027.dat'/>
+         <Option id='28' resource='028.dat'/>
+         <Option id='29' resource='029.dat'/>
+         <Option id='30' resource='030.dat'/>
+         <Option id='31' resource='031.dat'/>
+         <Option id='32' resource='032.dat'/>
+         <Option id='33' resource='033.dat'/>
+         <Option id='34' resource='034.dat'/>
+         <Option id='35' resource='035.dat'/>
+      </Group>
+   </Groups>
+   <!-- Type Define -->
+   <Types>
+      <Type id='0' description='equals'/>
+      <Type id='1' description='not equals'/>
+      <Type id='2' description='not equals all'/>
+   </Types>
+   <!-- Question Define -->
+   <Questions use_flag='1' random_range='8' retry_count='1' talent_tableid="70800" >
+      <Question id='0' type='0' result='0' description='0'/>
+      <Question id='1' type='1' result='0' description='1'/>
+      <Question id='2' type='0' result='1' description='2'/>
+      <Question id='3' type='1' result='1' description='3'/>
+      <Question id='4' type='0' result='2' description='4'/>
+      <Question id='5' type='1' result='2' description='5'/>
+      <Question id='6' type='0' result='3' description='6'/>
+      <Question id='7' type='1' result='3' description='7'/>
+      <Question id='8' type='2' result='0' description='8'/>
+   </Questions>
+</Configuration>

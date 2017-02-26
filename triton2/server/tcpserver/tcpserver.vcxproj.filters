@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{b8bb5174-d369-40e4-8fe1-f072cab9243c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\inc">
+      <UniqueIdentifier>{5b231917-67a9-42f2-9283-410cf1c3487a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src">
+      <UniqueIdentifier>{24b22f51-0f2c-4439-942d-0ac455051e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tcpserver">
+      <UniqueIdentifier>{b33a9cdf-1ae8-4acc-a78f-1589469dc3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tcpserver\src">
+      <UniqueIdentifier>{d2ef48dd-d5ff-4842-a948-4a0eb1ab0286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tcpserver\inc">
+      <UniqueIdentifier>{b5331631-693a-4d13-b225-90073d28cc38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\servercommon\makefile">
+      <Filter>common</Filter>
+    </None>
+    <None Include="makefile">
+      <Filter>tcpserver</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\servercommon\inc\array_list.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\bidir_queue.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\clock.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\code_queue.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\config.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\dbinterface.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\encoder.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\equal_function.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\file_lock.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\hash_function.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\lk_assert.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\lk_hashmap.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\lk_random.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\lk_string.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\lk_vector.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\log.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\memorymanager.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\msg_item.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\net_head.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\object.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\objmanager.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\oi_dirty.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\performance.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\servermessage.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\servertool.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\shm.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\tcp_conn.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\servercommon\inc\westserver.h">
+      <Filter>common\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\tcpctrl.h">
+      <Filter>tcpserver\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\tcpdef.h">
+      <Filter>tcpserver\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\servercommon\src\clock.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\code_queue.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\config.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\dbinterface.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\encoder.c">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\file_lock.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\lk_random.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\log.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\memorymanager.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\msg_item.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\net_head.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\oi_dirty.c">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\performance.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\servertool.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\shm.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\servercommon\src\tcp_conn.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcpctrl.cpp">
+      <Filter>tcpserver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcpsvrd.cpp">
+      <Filter>tcpserver\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

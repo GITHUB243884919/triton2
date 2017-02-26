@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2505">
+    <Map MapName="天王殿" MapID="11" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="1">
+        <Size cx="76" cy="94" />
+        <OgreData>
+            <Ogre OgreIndex="10015" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="13" PosY="2" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate>
+                    <Refresh RefreshDate="20100808170000" />
+                    <Refresh RefreshDate="20100815170000" />
+                    <Refresh RefreshDate="20100822170000" />
+                    <Refresh RefreshDate="20100829170000" />
+                    <Refresh RefreshDate="20100807150000" />
+                    <Refresh RefreshDate="20100814150000" />
+                    <Refresh RefreshDate="20100821150000" />
+                    <Refresh RefreshDate="20100828150000" />
+                    <Refresh RefreshDate="20100806160000" />
+                    <Refresh RefreshDate="20100813160000" />
+                    <Refresh RefreshDate="20100820160000" />
+                    <Refresh RefreshDate="20100827160000" />
+                    <Refresh RefreshDate="20100910160000" />
+                    <Refresh RefreshDate="20100911150000" />
+                    <Refresh RefreshDate="20100912170000" />
+                    <Refresh RefreshDate="20101015160000" />
+                    <Refresh RefreshDate="20101022160000" />
+                    <Refresh RefreshDate="20101029160000" />
+                    <Refresh RefreshDate="20101016150000" />
+                    <Refresh RefreshDate="20101023150000" />
+                    <Refresh RefreshDate="20101030150000" />
+                    <Refresh RefreshDate="20101017170000" />
+                    <Refresh RefreshDate="20101024170000" />
+                    <Refresh RefreshDate="20101031170000" />
+                    <Refresh RefreshDate="20110527160000" />
+                    <Refresh RefreshDate="20110528150000" />
+                    <Refresh RefreshDate="20110529170000" />
+                    <Refresh RefreshDate="20110603160000" />
+                    <Refresh RefreshDate="20110604150000" />
+                    <Refresh RefreshDate="20110605170000" />
+                    <Refresh RefreshDate="20110724150000" />
+                    <Refresh RefreshDate="20110723160000" />
+                    <Refresh RefreshDate="20110731160000" />
+                    <Refresh RefreshDate="20110730170000" />
+                </RefreshDate>
+                <DeadRefresh>
+                    <NewOgre ID="69517" Name="天王殿门派内丹,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="69517" Time="900000" NewID="0" NewName="" OldName="天王殿门派内丹,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="10000" NpcID="36076" NpcName="李天王" NpcInit="1" Disappear="3000" Direction="-1" Relife="300" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="29" y="56" />
+            </Npc>
+            <Npc NpcIndex="10001" NpcID="36079" NpcName="巨灵神" NpcInit="1" Disappear="3000" Direction="-1" Relife="300" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="59" y="63" />
+            </Npc>
+            <Npc NpcIndex="10002" NpcID="36078" NpcName="侍卫长" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="23" y="67" />
+            </Npc>
+            <Npc NpcIndex="10003" NpcID="36077" NpcName="哪吒" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="10" y="76" />
+            </Npc>
+            <Npc NpcIndex="10004" NpcID="40080" NpcName="魔礼骑" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="36" y="66" />
+            </Npc>
+            <Npc NpcIndex="10005" NpcID="54874" NpcName="魔礼红" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="51" y="73" />
+            </Npc>
+            <Npc NpcIndex="10006" NpcID="54873" NpcName="魔礼青" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="57" y="78" />
+            </Npc>
+            <Npc NpcIndex="10012" NpcID="67749" NpcName="魔礼寿" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="10" y="29" />
+            </Npc>
+            <Npc NpcIndex="10013" NpcID="67750" NpcName="魔礼灵" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="14" y="25" />
+            </Npc>
+            <Npc NpcIndex="10014" NpcID="67784" NpcName="昭云将军" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="26" y="34" />
+            </Npc>
+            <Collect NpcIndex="10007" NpcID="39909" NpcName="七里香" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="72" y="66" />
+            </Collect>
+            <Collect NpcIndex="10008" NpcID="39909" NpcName="七里香" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="64" y="59" />
+            </Collect>
+            <Collect NpcIndex="10009" NpcID="39909" NpcName="七里香" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="67" y="72" />
+            </Collect>
+            <Collect NpcIndex="10010" NpcID="39909" NpcName="七里香" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="54" y="58" />
+            </Collect>
+            <Collect NpcIndex="10011" NpcID="39909" NpcName="七里香" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="46" y="59" />
+            </Collect>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

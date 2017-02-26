@@ -1,0 +1,570 @@
+
+####### Compiler, tools and options
+COMMONPATH	= ../../common# common file include path
+CC		= gcc
+CXX		= distcc g++
+LEX		= flex
+YACC     	= yacc
+CFLAGS   	= -g
+CXXFLAGS 	= -g -O2 -pipe -Werror  -D_ANTIBOT_ -DENCODING_UTF8 -DCHARSET_SHOW_GBK \
+			-DUSE_LOG4CPP -DGAMESERVER -DUSE_SHM -DLINUX -DUSE_LK_ASSERT  \
+			-DWEST_SERVER -D_USE_MESSAGE_BUFF_  -D_USE_TIMER_ -DNDEBUG   -DUSE_COREDUMPER \
+			 -Winvalid-pch -DDEBUG_NEW_NO_NEW_REDEFINITION   -DUSE_PERF_FUN \
+			-DLEAK_CHK_DEBUG_NEW  -DMEMPOOL -D_DEBUG_ -D_GATE_CTRL_CORPS_ # -D_FB_
+
+
+####### third party objects, that may be not need -g to make .o much smaller 
+CXXFLAGS_3RD = -pipe -Wall  -DLEAK_CHK_DEBUG_NEW -DLINUX -DUSE_LK_ASSERT -DNDEBUG
+
+LEXFLAGS 	= 
+YACCFLAGS	= -d
+INCPATH  	= -I/usr/local/gcc4.3.3/include/  -I./inc -I./$(COMMONPATH)/tiny -I./$(COMMONPATH)/comm \
+			-I./$(COMMONPATH)/comm/linux -I./$(COMMONPATH)/inc -I../logic/inc  \
+			-I../servercommon/inc -I../logic/inc -I./$(COMMONPATH)/interface \
+			-I./$(COMMONPATH)/log4cpp/include  -I./$(COMMONPATH)/lua -I./$(COMMONPATH)/protobuf/include \
+			-I../logic/pb/  -I./$(COMMONPATH)/coredumper/include -I./$(COMMONPATH)/Apex/Server
+			
+LINK     	= g++
+LFLAGS   	= 
+LIBS     	= -lpthread -L/usr/local/gcc4.3.3/lib -L./$(COMMONPATH)/log4cpp/lib -llog4cpp \
+			-L./$(COMMONPATH)/lua/ -llua -L./$(COMMONPATH)/protobuf/lib -lprotobuf \
+			-L./$(COMMONPATH)/coredumper/lib -lcoredumper -rdynamic -L./bin/lib -ldl#-lGP_Client -ldl
+DEL_FILE 	= rm -f
+PCH_X_H = inc/stdafx.hpp
+PCH_X = inc/stdafx.hpp.gch
+
+####### Files
+
+OBJECTS	 = ./debug/main.o ./debug/scenelogic.o ./debug/dbinterface.o ./debug/creator.o \
+	 ./debug/servertool.o ./debug/tinyxml.o ./debug/tinystr.o ./debug/lk_md5.o\
+	./debug/tinyxmlerror.o ./debug/tinyxmlparser.o \
+	./debug/propertymodule.o ./debug/mapmodule.o ./debug/mapobjmanager.o \
+	./debug/maptplmanager.o ./debug/proclient_svr.o ./debug/template.o ./debug/modulemanager.o \
+	./debug/npcpolicy.o  ./debug/npcmodule.o ./debug/log.o ./debug/clock.o ./debug/object.o\
+	./debug/performance.o ./debug/shm.o ./debug/code_queue.o ./debug/scenecfg_manager.o \
+	./debug/sharemem.o ./debug/sceneobj_manager.o ./debug/sceneobj_manager_imp.o ./debug/message_dispatcher.o \
+	./debug/message_queue.o ./debug/base.o ./debug/dirtyword.o ./debug/client_comm_engine.o ./debug/clienthandle.o \
+	./debug/message_factory.o ./debug/servermessage_in.o ./debug/property.o ./debug/entity.o \
+	./debug/creature_refresher.o  ./debug/container.o ./debug/entity_searcher.o ./debug/message_maker.o\
+	./debug/timermanager.o ./debug/oi_tea.o ./debug/timerinterface.o ./debug/repetionmodule.o \
+	./debug/gmmessage_pb.hxx.pb.o  ./debug/observer.o  ./debug/event.o ./debug/charset.o ./debug/command.o \
+	./debug/debug_new.o ./debug/servercore.o ./debug/worldmodule.o ./debug/Gp_Load.o \
+	./debug/boursemodule.o ./debug/lk_proto.o ./debug/speedup_checker.o \
+	./debug/activityyqs.o ./debug/activityyqscfg.o ./debug/playerinfo_yqs.o 
+	
+
+ANTIBOT_OBJS = ./debug/ApexProxy.o ./debug/ahthunk.o
+TARGET   	= ./bin/sceneserver
+
+MSG_OBJS = ./debug/message_pb.hxx.pb.o ./debug/coremessage_pb.hxx.pb.o ./debug/promessage_pb.hxx.pb.o \
+	./debug/servermessage_pb.hxx.pb.o ./debug/proxymessage_pb.hxx.pb.o ./debug/property_pb.hxx.pb.o \
+	./debug/mapmessage_pb.hxx.pb.o ./debug/teammessage_pb.hxx.pb.o ./debug/chatmessage_pb.hxx.pb.o \
+	./debug/taskmessage_pb.hxx.pb.o ./debug/db_msg_pb.hxx.pb.o ./debug/trademessage_pb.hxx.pb.o \
+	./debug/mailmessage_pb.hxx.pb.o ./debug/friendmessage_pb.hxx.pb.o ./debug/stallmessage_pb.hxx.pb.o \
+	./debug/repetionmessage_pb_hxx.pb.o ./debug/activitymessag_pb.hxx.pb.o ./debug/template_pb.hxx.pb.o \
+	./debug/log_msg_pb.hxx.pb.o ./debug/familymessage_pb.hxx.pb.o ./debug/familydbinfo_pb.hxx.pb.o \
+	./debug/ibstore_pb.hxx.pb.o ./debug/corpsinfo_pb.hxx.pb.o ./debug/corpsmessage_pb.hxx.pb.o \
+	./debug/rankmessage_pb.hxx.pb.o ./debug/judgemessage_pb.hxx.pb.o ./debug/achievemessage_pb.hxx.pb.o \
+	./debug/countrymessage_pb.hxx.pb.o ./debug/privilege_pb.hxx.pb.o ./debug/boursemessage_pb.hxx.pb.o \
+	 ./debug/marriagemessage_pb.hxx.pb.o \
+	 ./debug/baggage.o ./debug/buffer.o ./debug/globalserver_pb.hxx.pb.o  \
+	 ./debug/DamageList.o ./debug/equipment.o ./debug/itembox.o ./debug/ItemProp.o \
+	 ./debug/playerRepetion.o ./debug/shortcutlist.o ./debug/storage.o
+
+_LOGIC_OBJECTS_ = ./debug/team.o ./debug/teammodule.o ./debug/chat.o \
+	./debug/chatmanager.o ./debug/chatmodule.o ./debug/taskmodule.o ./debug/taskmanager.o \
+	./debug/trade.o ./debug/trademanager.o ./debug/trademodule.o ./debug/friendmodule.o \
+	./debug/friendmanager.o ./debug/mail.o ./debug/mailmodule.o ./debug/mailmanager.o  \
+	./debug/maildboperate.o ./debug/stall.o ./debug/stallmodule.o ./debug/gmmodule.o \
+	./debug/activity.o ./debug/activitymodule.o ./debug/ibstoremodule.o ./debug/rankmodule.o \
+	 ./debug/familyInfo.o ./debug/familymodule.o ./debug/corpsmodule.o ./debug/skill.o ./debug/judgemodule.o\
+	./debug/logmodule.o ./debug/achieve.o ./debug/achievemodule.o ./debug/marriagemodule.o \
+	./debug/marriagemanager.o ./debug/teammodule_message.o ./debug/trademodule_message.o \
+	./debug/taskmodule_message.o ./debug/weakprotect.o  ./debug/globalmodule.o
+
+
+SCENE_OBJS = $(OBJECTS) $(_LOGIC_OBJECTS_)  $(ANTIBOT_OBJS) $(MSG_OBJS)  
+
+#_TARGET_OBJECTS_= $(foreach OBJECT, $(_LOGIC_OBJECTS_), ../logic/src/$(OBJECT).o )
+#_SRC_OBJECTS_	= $(foreach OBJECT, $(_LOGIC_OBJECTS_), ../logic/src/$(OBJECT).cpp )
+
+#MSG_OBJECTS = $(foreach OBJECT, $(MSG_OBJ), ../../common/src/$(OBJECT).o )
+#MSG_SRC	= $(foreach OBJECT, $(MSG_OBJ), ../../common/src/$(OBJECT).cpp )
+
+first: all
+####### Compile
+
+#../../common/lua/lua_tiner.o : ../../common/lua/lua_tinker.cpp
+#	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/activityyqscfg.o : ../logic/src/ActivityYqsCfg.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/activityyqs.o : ../logic/src/ActivityYqs.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/playerinfo_yqs.o : src/playerinfo_yqs.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/speedup_checker.o : src/speedup_checker.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/boursemodule.o : ../logic/src/boursemodule.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/repetionmodule.o : ../logic/src/repetionmodule.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/npcmodule.o : ../logic/src/npcmodule.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/npcpolicy.o : ../logic/src/npcpolicy.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/propertymodule.o : ../logic/src/propertymodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/mapmodule.o : ../logic/src/mapmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/property.o : ../logic/src/property.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/mapobjmanager.o : ../logic/src/mapobjmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/maptplmanager.o : ../logic/src/maptplmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/proclient_svr.o : ../logic/src/proclient_svr.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/baggage.o : ../logic/src/baggage.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/buffer.o : ../logic/src/buffer.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/DamageList.o : ../logic/src/DamageList.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/equipment.o : ../logic/src/equipment.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/itembox.o : ../logic/src/itembox.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/ItemProp.o : ../logic/src/ItemProp.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/playerRepetion.o : ../logic/src/playerRepetion.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/shortcutlist.o : ../logic/src/shortcutlist.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/storage.o : ../logic/src/storage.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/template.o : $(COMMONPATH)/src/template.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinyxml.o : $(COMMONPATH)/tiny/tinyxml.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinystr.o : $(COMMONPATH)/tiny/tinystr.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinyxmlerror.o : $(COMMONPATH)/tiny/tinyxmlerror.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinyxmlparser.o : $(COMMONPATH)/tiny/tinyxmlparser.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/scenelogic.o : src/scenelogic.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/lk_proto.o : src/lk_proto.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/scenecfg_manager.o : src/scenecfg_manager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/creator.o : src/creator.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/main.o : src/main.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/modulemanager.o : src/modulemanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/dbinterface.o : ../servercommon/src/dbinterface.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/servertool.o : ../servercommon/src/servertool.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/log.o : ../servercommon/src/log.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/clock.o : ../servercommon/src/clock.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/object.o : ../servercommon/src/object.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/performance.o : ../servercommon/src/performance.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/lk_md5.o : ../servercommon/src/lk_md5.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/shm.o : ../servercommon/src/shm.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/code_queue.o : ../servercommon/src/code_queue.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/clienthandle.o : src/clienthandle.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/sharemem.o : ../servercommon/src/sharemem.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/sceneobj_manager.o : src/sceneobj_manager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/servercore.o : src/servercore.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/sceneobj_manager_imp.o : src/sceneobj_manager_imp.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/message_dispatcher.o : src/message_dispatcher.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/message_queue.o : src/message_queue.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/base.o : ../servercommon/src/base.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/dirtyword.o : ../servercommon/src/dirtyword.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/client_comm_engine.o : $(COMMONPATH)/comm/client_comm_engine.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $< 
+	
+./debug/message_pb.hxx.pb.o : $(COMMONPATH)/inc/message_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+	
+./debug/coremessage_pb.hxx.pb.o : $(COMMONPATH)/inc/coremessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/activitymessag_pb.hxx.pb.o : $(COMMONPATH)/inc/activitymessag_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/familydbinfo_pb.hxx.pb.o : $(COMMONPATH)/inc/familydbinfo_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/corpsmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/corpsmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/corpsinfo_pb.hxx.pb.o : $(COMMONPATH)/inc/corpsinfo_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/ibstore_pb.hxx.pb.o : $(COMMONPATH)/inc/ibstore_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/familymessage_pb.hxx.pb.o : $(COMMONPATH)/inc//familymessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/promessage_pb.hxx.pb.o : $(COMMONPATH)/inc/promessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/servermessage_pb.hxx.pb.o : ../servercommon/inc/servermessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+	
+./debug/proxymessage_pb.hxx.pb.o : ../servercommon/inc/proxymessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/property_pb.hxx.pb.o : $(COMMONPATH)/inc/property_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+	
+./debug/mapmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/mapmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<		
+	
+./debug/teammessage_pb.hxx.pb.o : $(COMMONPATH)/inc/teammessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+
+./debug/chatmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/chatmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+
+./debug/mailmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/mailmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+
+./debug/repetionmessage_pb_hxx.pb.o : $(COMMONPATH)/inc/repetionmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+
+./debug/trademessage_pb.hxx.pb.o : $(COMMONPATH)/inc/trademessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/taskmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/taskmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+
+./debug/friendmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/friendmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $< 
+
+./debug/stallmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/stallmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/template_pb.hxx.pb.o : $(COMMONPATH)/inc/template_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/judgemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/judgemessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/countrymessage_pb.hxx.pb.o : $(COMMONPATH)/inc/countrymessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/privilege_pb.hxx.pb.o : $(COMMONPATH)/inc/privilege_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/achievemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/achievemessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+	
+./debug/marriagemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/marriagemessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<	
+
+./debug/message_factory.o : $(COMMONPATH)/src/message_factory.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/db_msg_pb.hxx.pb.o : ../servercommon/inc/db_msg_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/gmmessage_pb.hxx.pb.o : ../servercommon/inc/gmmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/log_msg_pb.hxx.pb.o : ../servercommon/inc/log_msg_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/servermessage_in.o : ../servercommon/src/servermessage_in.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/entity.o : src/entity.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/creature_refresher.o : ../logic/src/creature_refresher.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/container.o : ../logic/src/container.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/entity_searcher.o : ../logic/src/entity_searcher.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/message_maker.o : ../logic/src/message_maker.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/timermanager.o : ../servercommon/src/timermanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/oi_tea.o : $(COMMONPATH)/comm/oi_tea.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/timerinterface.o : ../servercommon/src/timerinterface.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/observer.o : ../logic/src/observer.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/event.o : ./src/event.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/team.o : ../logic/src/team.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/teammodule.o : ../logic/src/teammodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/teammodule_message.o : ../logic/src/teammodule_message.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/chat.o : ../logic/src/chat.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/chatmanager.o : ../logic/src/chatmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/chatmodule.o : ../logic/src/chatmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/taskmodule.o : ../logic/src/taskmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/taskmanager.o : ../logic/src/taskmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/taskmodule_message.o : ../logic/src/taskmodule_message.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/trade.o : ../logic/src/trade.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/trademanager.o : ../logic/src/trademanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/trademodule.o : ../logic/src/trademodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/trademodule_message.o : ../logic/src/trademodule_message.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/friendmodule.o : ../logic/src/friendmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/friendmanager.o : ../logic/src/friendmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/mail.o : ../logic/src/mail.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/mailmodule.o : ../logic/src/mailmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/mailmanager.o : ../logic/src/mailmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/maildboperate.o : ../logic/src/maildboperate.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/stall.o : ../logic/src/stall.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/stallmodule.o : ../logic/src/stallmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/gmmodule.o : ../logic/src/gmmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/ibstoremodule.o : ../logic/src/ibstoremodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/activity.o : ../logic/src/activity.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/activitymodule.o : ../logic/src/activitymodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/ApexProxy.o : $(COMMONPATH)/Apex/Server/ApexProxy.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/familymodule.o : ../logic/src/familymodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/familyInfo.o : ../logic/src/familyInfo.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/ahthunk.o : src/ahthunk.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/corpsmodule.o : ../logic/src/corpsmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/rankmodule.o : ../logic/src/rankmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/judgemodule.o : ../logic/src/judgemodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/achievemodule.o : ../logic/src/achievemodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/boursemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/boursemessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+
+./debug/achieve.o : ../logic/src/achieve.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/logmodule.o : ../logic/src/logmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/worldmodule.o : ../logic/src/worldmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/marriagemodule.o : ../logic/src/marriagemodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/marriagemanager.o : ../logic/src/marriagemanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/rankmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/rankmessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/weakprotect.o : ../logic/src/weakprotect.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/charset.o : ../servercommon/src/charset.c
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/command.o : src/command.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/debug_new.o: ../servercommon/src/debug_new.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/skill.o : ../logic/src/skill.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/Gp_Load.o : ./src/Gp_Load.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+ ./debug/globalmodule.o : ../logic/src/globalmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/globalserver_pb.hxx.pb.o : ../servercommon/inc/globalserver_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+.cpp.o:; $(CXX) -c -DLINUX  $(CXXFLAGS) $(INCPATH)  $< -o $@
+
+.cc.o:; $(CXX) -c -DLINUX  $(CXXFLAGS) $(INCPATH)  $< -o $@
+
+.c.o:; $(CXX) -c -DLINUX  $(CXXFLAGS) $(INCPATH)  $< -o $@
+
+##$(_TARGET_OBJECTS_) : 
+##	$(CXX) -c -DLINUX  $(CXXFLAGS) $(INCPATH) $(foreach name, $(basename $(notdir $@) ), ../logic/src/$(name).cpp) $< -o $@
+
+
+####### Build rules
+echo:
+	echo hello
+
+all:  $(TARGET)
+#	cp $(TARGET) ../scene/bin/
+#	cp $(TARGET) ../fb/bin/
+	
+$(TARGET): $(SCENE_OBJS)
+	$(LINK) $(LFLAGS) -o $(TARGET) $(SCENE_OBJS) $(LIBS)
+
+$(SCENE_OBJS): $(PCH_X)
+
+$(PCH_X): $(PCH_X_H)
+	$(CXX) $(CXXFLAGS) $(INCPATH) -x c++-header $> $^
+
+
+install:all
+	cp $(TARGET) $(TRITON_BIN)
+
+clean:
+	-$(DEL_FILE)  
+	-$(DEL_FILE) *~ core *.core
+	rm -f ./debug/*.o
+	rm -f ../logic/src/*.o
+	rm -f $(TARGET)
+	rm -f $(PCH_X)
+#	touch $(TRITON_HOME)/
+
+
+

@@ -1,0 +1,78 @@
+
+SWAP=_MYSQL_CONN_ _GM_SERVER_PORT_ _PROXY_SERVER_IP_ _PROXY_SERVER_PORT_ _ERATING_SERVER_IP_ _ERATING_SERVER_PORT_\
+		_VALIDATE_SERVER_IP_ _VALIDATE_SERVER_PORT_ _CHARGE_SERVER_PORT_ _LOGIN_SERVER_PORT_ _GATE_SERVER_IP_\
+		_GAME1_SERVER_IP_ _GAME1_SERVER_PORT_ _DB_SERVER_IP_ _GATE_SERVER_PORT_ _GAME1_SERVER_ID_\
+		_FB1_SERVER_ID_ _FB1_SERVER_IP_ _FB1_SERVER_PORT_ _LOGIN_SERVER_IP_ _GAME2_SERVER_IP_ _GAME2_SERVER_PORT_ \
+		_GAME2_SERVER_ID_ _ERATING_GAMEID_ _ERATING_WORLDID_ _ERATING_GATE_CODE_ _ERATING_GATE_PASSWORD_ \
+		_ERATING_GATE_MAC_ _GAME5_SERVER_ID_ _GAME5_SERVER_PORT_ _GAME5_SERVER_IP_
+
+command= $(foreach src, $(SWAP), -e 's/$(src)/$(strip $($(src)))/g')
+
+
+define make_config
+	@echo make_config form $1 to $2
+	@sed $(command) $1 > $2
+endef
+
+
+_MYSQL_CONN_=10.10.41.211;3306;1fdddc61f037a5208ff1c4b8a1d5b386;8df4c7bd2e34fc97d268d0da78236dd8;GameDB_214
+_GM_SERVER_PORT_=10001   
+_PROXY_SERVER_IP_=10.10.41.214
+_PROXY_SERVER_PORT_=10008
+_ERATING_SERVER_IP_=10.10.41.225
+_ERATING_SERVER_PORT_=6005
+_VALIDATE_SERVER_IP_=10.10.41.214
+_VALIDATE_SERVER_PORT_=32222
+_CHARGE_SERVER_PORT_=15159
+_LOGIN_SERVER_PORT_=10000
+_LOGIN_SERVER_IP_=10.10.41.214
+_GATE_SERVER_IP_=10.10.41.214
+_GATE_SERVER_PORT_=10005
+_GAME1_SERVER_IP_=10.10.41.214
+_GAME1_SERVER_PORT_=10006
+_GAME1_SERVER_ID_=1
+_DB_SERVER_IP_=10.10.41.214
+_FB1_SERVER_IP_=10.10.41.214
+_FB1_SERVER_PORT_=10007
+_FB1_SERVER_ID_=10
+_FB2_SERVER_IP_=10.10.41.214
+_FB2_SERVER_PORT_=10010
+_FB2_SERVER_ID_=10
+_GAME2_SERVER_IP_=10.10.41.214
+_GAME2_SERVER_PORT_=10009
+_GAME2_SERVER_ID_=6
+_ERATING_GAMEID_=504
+_ERATING_WORLDID_=106
+_ERATING_GATE_CODE_=gw1006
+_ERATING_GATE_PASSWORD_=489ab824e73ee3ce6aa3b0d500905fea
+_ERATING_GATE_MAC_=000000000000
+_GAME5_SERVER_IP_=10.10.41.214
+_GAME5_SERVER_PORT_=10010
+_GAME5_SERVER_ID_=5
+
+	
+all_config:
+	cd ../loginserver/config/; make config;
+	cd ../dbserver/config/; make config;
+	cd ../proxyserver/config/; make config;
+	cd ../gateserver/config/; make config;
+	cd ../gameserver/config/; make config;
+	cd ../gameserver2/config/; make config;
+	cd ../gameserver5/config/; make config;
+	cd ../dungeongameserver/config/; make config;
+
+
+#	ifneq ($(_FB1_SERVER_ID_), $(_FB1_SERVER_ID_))
+#		echo he
+#	endif
+
+#	ifneq (../loginserver, $(wildcard ../loginserver))
+#		echo he
+#	endif
+
+#make_config:
+#	@echo $(INPUT) $(OUTPUT)
+#	@echo $(_DB_SERVER_IP_)
+#	@echo $(USER)
+
+

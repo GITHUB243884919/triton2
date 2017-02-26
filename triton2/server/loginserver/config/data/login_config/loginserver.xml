@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<limit>
+		<max_login_player_once_timer value = "30" />
+		<max_world_player_num value = "30" />
+		<local_verify_force value="false" />
+	</limit>
+	<timeout>
+		<login_timer_interval    value = "1000"/>
+		<ping_proxy_interval     value = "20000"/> 
+		<erating_handset_interval value = "150000"/>
+		<clienthanle_idle_sleep  value = "1000"/>
+		<erating_session_timeout value = "100000"/>
+		<server_session_timeout  value = "30000"/>
+		<connect_erating_timeout value = "2000"/>
+		<ibpay_retry_first_interval value= "30"/>
+		<ibpay_retry_first_times value= "30"/>
+		<ibpay_retry_second_interval value= "120" />
+		<ibpay_retry_second_times value= "24"/>
+		<connect_validate_second_times value= "10"/>
+		<connect_validate_usecond_times value= "0"/>	
+	</timeout>
+	<LOG>
+		<LOG_INFO KEY="default"	FILE="../log/loginserver.log" LEVEL="700" />
+		<LOG_INFO KEY="echarge"	FILE="../log/echarge.log" LEVEL="700" />
+		<LOG_INFO KEY="gm"	FILE="../log/gm.log" LEVEL="700" />
+	</LOG>
+</config>
+

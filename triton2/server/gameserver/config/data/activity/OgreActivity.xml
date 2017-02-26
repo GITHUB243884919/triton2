@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GBK" ?> 
+<ActivityConfig>
+<!--                npcid  0普通怪物，1boss  1开始，2结束    存活时间  0自然死亡，1被怪物杀死，2自然死亡/怪物杀死 提示信息id-->
+	<OgreInfo TempID="64100" BossOgre="1" ActivityType="1" LiveTime="280" KillerID="0" ErrCode="-69594" DeathErrcode= "-47986"/><!--九尾仙狐刷出开始提示，刷出倒计时-->
+	<OgreInfo TempID="69997" BossOgre="1" ActivityType="2" LiveTime="0" KillerID= "1" ErrCode="0" DeathErrcode= "0" /><!--仙草种子死亡结束提示-->
+	<OgreInfo TempID="64101" BossOgre="1" ActivityType="2" LiveTime="300" KillerID= "0" ErrCode="-69592" DeathErrcode= "-47985"/><!--威风元帅被系统干掉结束提示，威风元帅倒计时-->
+	<OgreInfo TempID="64114" BossOgre="1" ActivityType="2" LiveTime="1500" KillerID= "2" ErrCode="-69591" DeathErrcode= "0"/><!--仙草2死亡结束提示，刷出倒计时-->
+	<OgreInfo TempID="64113" BossOgre="1" ActivityType="0" LiveTime="300" KillerID= "1" ErrCode="-69593" DeathErrcode= "0"/><!--仙草1刷出倒计时-->
+	<OgreInfo TempID="64102" BossOgre="1" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0"/><!--夺宝大王-->
+	<OgreInfo TempID="64103" BossOgre="1" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0"/><!--夺宝大王真身-->
+	<OgreInfo TempID="64105" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0"/><!--威武天兵-->
+	<OgreInfo TempID="64106" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0"/><!--威武天将-->
+	<OgreInfo TempID="64107" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0"/><!--七耳猕猴-->
+	<OgreInfo TempID="64108" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0"/><!--白猴大王-->
+	<OgreInfo TempID="64109" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0" /><!--黑猴大王-->
+	<OgreInfo TempID="64111" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0" /><!--白霞仙子-->
+	<OgreInfo TempID="64110" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0" /><!--天仙夫人-->
+	<OgreInfo TempID="64112" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0" DeathErrcode= "0" /><!--红霞仙子-->
+	<OgreInfo TempID="64104" BossOgre="0" ActivityType="0" LiveTime="0" KillerID= "0" ErrCode="0"DeathErrcode= "0" /><!--护宝仙子-->
+</ActivityConfig>

@@ -1,0 +1,1 @@
+alter table UMS_FAMILY add column family_weeknum int default 0;

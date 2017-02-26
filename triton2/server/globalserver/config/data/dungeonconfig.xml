@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<DungeonConfig>
+	<MaxWarAliveTime DataValue="3600" />
+	<WarTimeInterval DataValue="300" />
+	<TimeInterval 	 DataValue="300" />
+	<WarProtectTime  DataValue="60" />
+	<ActivityTime    DataValue="36000" />
+	<MaxOffLineTime  DataValue="60" />
+	<MaxWaitTime	   DataValue="30" />
+</DungeonConfig>

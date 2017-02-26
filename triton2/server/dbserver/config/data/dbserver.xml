@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBSERVER_CONFIG>
+	<LOG>
+		<LOG_INFO KEY="default"	FILE="../log/dbsvrd.log" LEVEL="700" />
+		<LOG_INFO KEY="dbctrl"	FILE="../log/dbsvrd.log" LEVEL="700" />
+		<LOG_INFO KEY="Perf"  FILE="../log/perf.log" LEVEL="700" />
+	</LOG>
+	<HANDLE_THREAD Level="700"> </HANDLE_THREAD>
+</DBSERVER_CONFIG>
+
+

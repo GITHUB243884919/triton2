@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="GBK" ?> 
+<HydrangeaCongfig>
+	<NpcConfig>
+		<NpcInfo NpcTempID="63507" MapID="62" ActivityID="1" >
+			<Path x="119" y="292" />
+			<Path x="119" y="292" />
+			<Path x="119" y="292" />
+			<Path x="119" y="292" />
+			<Path x="130" y="301" />
+			<Path x="146" y="318" />
+			<Path x="169" y="342" />
+		    <Path x="182" y="355" />
+			<Path x="193" y="366" />
+			<Path x="188" y="371" />
+			<Path x="184" y="378" />
+			<Path x="193" y="388" />
+			<Path x="201" y="401" />
+			<Path x="213" y="384" />
+			<Path x="217" y="388" />
+			<Path x="230" y="405" />
+			<Path x="248" y="422" />
+			<Path x="268" y="443" />
+			<Path x="280" y="454" />
+			<Path x="284" y="459" />
+			<Path x="284" y="459" />
+			<Path x="284" y="459" />
+			<Path x="284" y="459" />				
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64046" MapID="62"  ActivityID="1" >
+			<Path x="119" y="290" />
+			<Path x="119" y="290" />
+			<Path x="119" y="290" />	
+			<Path x="119" y="290" />
+			<Path x="132" y="303" />
+			<Path x="148" y="318" />
+			<Path x="171" y="342" />
+		    <Path x="184" y="355" />
+			<Path x="195" y="365" />
+			<Path x="190" y="371" />
+			<Path x="186" y="376" />
+			<Path x="195" y="387" />
+			<Path x="203" y="400" />
+			<Path x="215" y="384" />
+			<Path x="219" y="387" />
+			<Path x="232" y="404" />
+			<Path x="250" y="422" />
+			<Path x="270" y="442" />
+			<Path x="282" y="454" />
+			<Path x="286" y="458" />
+			<Path x="286" y="458" />
+			<Path x="286" y="458" />
+			<Path x="286" y="458" />
+		</NpcInfo>	
+		<NpcInfo NpcTempID="64047" MapID="62" ActivityID="1" >
+			<Path x="117" y="292" />
+			<Path x="117" y="292" />
+			<Path x="117" y="292" />
+			<Path x="117" y="292" />
+			<Path x="130" y="305" />
+			<Path x="146" y="321" />
+			<Path x="169" y="345" />
+		    <Path x="182" y="357" />
+			<Path x="192" y="368" />
+			<Path x="187" y="373" />
+			<Path x="184" y="379" />
+			<Path x="193" y="390" />
+			<Path x="201" y="402" />
+			<Path x="212" y="386" />
+			<Path x="216" y="389" />
+			<Path x="229" y="407" />
+			<Path x="248" y="424" />
+			<Path x="268" y="445" />
+			<Path x="280" y="456" />
+			<Path x="286" y="461" />
+			<Path x="286" y="461" />
+			<Path x="286" y="461" />
+			<Path x="286" y="461" />
+		</NpcInfo>
+		    <NpcInfo NpcTempID="64048" MapID="62" ActivityID="1" >
+			<Path x="119" y="294" />
+			<Path x="119" y="294" />
+			<Path x="119" y="294" />
+			<Path x="119" y="294" />
+			<Path x="127" y="302" />
+			<Path x="143" y="319" />
+			<Path x="166" y="342" />	
+			<Path x="179" y="354" />
+		    <Path x="189" y="365" />
+			<Path x="185" y="371" />
+			<Path x="181" y="377" />
+			<Path x="190" y="387" />
+			<Path x="198" y="399" />
+			<Path x="210" y="386" />
+			<Path x="214" y="387" />
+			<Path x="227" y="404" />
+			<Path x="245" y="422" />
+			<Path x="265" y="442" />
+			<Path x="278" y="454" />
+			<Path x="281" y="459" />
+			<Path x="281" y="459" />
+			<Path x="281" y="459" />
+			<Path x="281" y="459" />	
+		</NpcInfo>
+		    <NpcInfo NpcTempID="64049" MapID="62" ActivityID="1" >
+			<Path x="118" y="298" />
+			<Path x="118" y="298" />
+			<Path x="118" y="298" />
+			<Path x="118" y="298" />			
+			<Path x="130" y="300" />
+			<Path x="145" y="316" />
+			<Path x="169" y="339" />
+		    <Path x="181" y="352" />
+			<Path x="192" y="363" />
+			<Path x="188" y="368" />
+			<Path x="183" y="374" />
+			<Path x="192" y="385" />
+			<Path x="200" y="396" />
+			<Path x="212" y="384" />
+			<Path x="217" y="384" />
+			<Path x="229" y="402" />
+			<Path x="247" y="419" />
+			<Path x="267" y="440" />
+			<Path x="280" y="452" />
+			<Path x="284" y="456" />
+			<Path x="284" y="456" />
+			<Path x="284" y="456" />
+			<Path x="284" y="456" />
+		</NpcInfo>
+
+
+
+		<NpcInfo NpcTempID="64045" MapID="70" ActivityID="2" >
+			<Path x="90" y="199" />
+			<Path x="90" y="199" />
+			<Path x="90" y="199" />
+			<Path x="90" y="199" />
+			<Path x="111" y="177" />
+			<Path x="133" y="156" />
+			<Path x="155" y="134" />
+			<Path x="168" y="121" />
+			<Path x="182" y="106" />
+			<Path x="182" y="106" />
+			<Path x="164" y="125" />
+			<Path x="146" y="143" />
+			<Path x="122" y="167" />
+			<Path x="104" y="185" />
+			<Path x="90" y="199" />
+			<Path x="90" y="199" />
+			<Path x="90" y="199" />
+			<Path x="90" y="199" />			
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64050" MapID="70" ActivityID="2" >
+			<Path x="91" y="194" />
+			<Path x="91" y="194" />
+			<Path x="91" y="194" />
+			<Path x="91" y="194" />
+			<Path x="112" y="172" />
+			<Path x="134" y="151" />
+			<Path x="156" y="129" />
+			<Path x="170" y="115" />
+			<Path x="182" y="103" />
+			<Path x="178" y="107" />
+			<Path x="161" y="125" />
+			<Path x="142" y="143" />
+			<Path x="119" y="167" />
+			<Path x="101" y="185" />
+			<Path x="88" y="198" />
+			<Path x="88" y="198" />
+			<Path x="88" y="198" />
+			<Path x="88" y="198" />			
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64050" MapID="70" ActivityID="2" >
+			<Path x="94" y="198" />
+			<Path x="94" y="198" />
+			<Path x="94" y="198" />
+			<Path x="94" y="198" />
+			<Path x="116" y="175" />
+			<Path x="138" y="154" />
+			<Path x="159" y="132" />
+			<Path x="173" y="118" />
+			<Path x="185" y="106" />
+			<Path x="181" y="110" />
+			<Path x="164" y="127" />
+			<Path x="146" y="147" />
+			<Path x="122" y="170" />
+			<Path x="104" y="188" />
+			<Path x="91" y="202" />
+			<Path x="91" y="202" />
+			<Path x="91" y="202" />
+			<Path x="91" y="202" />			
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64046" MapID="70" ActivityID="2" >
+			<Path x="90" y="196" />
+			<Path x="90" y="196" />
+			<Path x="90" y="196" />
+			<Path x="90" y="196" />
+			<Path x="111" y="173" />
+			<Path x="135" y="152" />
+			<Path x="156" y="131" />
+			<Path x="169" y="117" />
+			<Path x="180" y="105" />
+			<Path x="180" y="105" />
+			<Path x="163" y="122" />
+			<Path x="144" y="142" />
+			<Path x="120" y="164" />
+			<Path x="103" y="183" />
+			<Path x="90" y="196" />
+			<Path x="90" y="196" />
+			<Path x="90" y="196" />
+			<Path x="90" y="196" />			
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64047" MapID="70" ActivityID="2" >
+			<Path x="93" y="199" />
+			<Path x="93" y="199" />
+			<Path x="93" y="199" />
+			<Path x="93" y="199" />
+			<Path x="115" y="178" />
+			<Path x="137" y="155" />
+			<Path x="158" y="133" />
+			<Path x="172" y="120" />
+			<Path x="183" y="108" />
+			<Path x="183" y="108" />
+			<Path x="166" y="126" />
+			<Path x="147" y="145" />
+			<Path x="124" y="168" />
+			<Path x="106" y="186" />
+			<Path x="93" y="199" />
+			<Path x="93" y="199" />
+			<Path x="93" y="199" />
+			<Path x="93" y="199" />			
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64048" MapID="70" ActivityID="2" >
+			<Path x="88" y="198" />
+			<Path x="88" y="198" />
+			<Path x="88" y="198" />
+			<Path x="88" y="198" />
+			<Path x="110" y="175" />
+			<Path x="132" y="153" />
+			<Path x="155" y="132" />
+			<Path x="168" y="119" />
+			<Path x="178" y="107" />
+			<Path x="182" y="103" />
+			<Path x="166" y="119" />
+			<Path x="146" y="140" />
+			<Path x="124" y="162" />
+			<Path x="106" y="180" />
+			<Path x="91" y="194" />
+			<Path x="91" y="194" />
+			<Path x="91" y="194" />
+			<Path x="91" y="194" />			
+        </NpcInfo>	
+		<NpcInfo NpcTempID="64049" MapID="70" ActivityID="2" >
+			<Path x="91" y="202" />
+			<Path x="91" y="202" />
+			<Path x="91" y="202" />
+			<Path x="91" y="202" />
+			<Path x="114" y="179" />
+			<Path x="135" y="156" />
+			<Path x="157" y="135" />
+			<Path x="170" y="121" />
+			<Path x="181" y="110" />
+			<Path x="185" y="106" />
+			<Path x="170" y="122" />
+			<Path x="149" y="143" />
+			<Path x="127" y="165" />
+			<Path x="110" y="184" />
+			<Path x="94" y="198" />
+			<Path x="94" y="198" />
+			<Path x="94" y="198" />
+			<Path x="94" y="198" />			
+        </NpcInfo>	
+	</NpcConfig>
+	<TimeConfig> 
+		<Time WeekDay="6" Hour="21"  Minute="15" ActivityID="1" />
+		<Time WeekDay="2" Hour="21"  Minute="15" ActivityID="2" />
+		<Time WeekDay="4" Hour="21"  Minute="15" ActivityID="2" />
+	</TimeConfig>
+</HydrangeaCongfig>

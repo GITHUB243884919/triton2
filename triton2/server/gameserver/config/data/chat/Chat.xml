@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<UserConfig>
+	<UserType Type="2" >
+		<UserFlag FlagID="56696" Priority="98" />
+		<UserFlag FlagID="57514" Priority="98" />
+	</UserType>
+
+	<UserType Type="3" >
+			<UserFlag FlagID="298" Priority="99" />
+			<UserFlag FlagID="299" Priority="99" />
+			<UserFlag FlagID="300" Priority="99" />
+			<UserFlag FlagID="22" Priority="99" />
+			<UserFlag FlagID="37" Priority="97" />
+	</UserType>
+	<UserType Type="4" >
+			<UserFlag FlagID="0" Priority="100" />
+	</UserType>
+</UserConfig>

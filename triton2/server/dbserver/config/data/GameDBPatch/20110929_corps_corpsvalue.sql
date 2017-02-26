@@ -1,0 +1,1 @@
+alter table UMS_CORPS add column corps_refinevalue int default 0;

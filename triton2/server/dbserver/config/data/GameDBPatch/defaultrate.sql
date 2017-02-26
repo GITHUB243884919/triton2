@@ -1,0 +1,1 @@
+alter table UMS_WORLDGLOBAL modify column tax_setrate int not null default -1;

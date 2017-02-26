@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<limit>
+		<player_count_per_scene	 value = "60" />
+		<login_count_once_timer value = "10" />
+	</limit>
+	<service>
+		<fcm_service turn_on="false" warning_timer="600" />
+	</service>
+	<default>
+		<player_default camp="0" lineid="1" mapid="22" />
+	</default>
+	<timeout>
+		<gate_timer_interval     value = "1000"/>
+		<report2erating_interval value = "15000"/>
+		<ping_proxy_interval     value = "30000"/>
+		<clienthanle_idle_sleep  value = "1000"/>
+		<game_heartbeat_timeout  value = "90000"/>
+		<erating_session_timeout value = "10000"/>
+		<server_session_timeout  value = "1800000"/>
+		<player_state_check_interval  value = "5000"/>
+		<player_wait_connect_timeout  value = "60000"/>
+		<player_idle_ingate_timeout   value = "180000"/>
+		<player_wait_kickoff_timeout  value = "60000"/>
+		<player_wait_redirect_timeout value = "60000"/>
+		<player_ongame_state_timeout  value = "60000"/>
+		<team_pro_syn_timeout	value = "3000"/>
+		<onlineno_timeout	value = "30000" />
+		<player_active_timeout value = "180000"/>
+	</timeout>
+	<LOG>
+		<LOG_INFO KEY="stat" FILE="../log/stat.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="gateserver" FILE="../log/gateserver.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="default" FILE="../log/gateserver.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="gateteam" FILE="../log/gateteam.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="rank" FILE="../log/rank.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="ibtrans" FILE="../log/ibtrans.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="erating" FILE="../log/erating.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="gm" FILE="../log/gm.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="Perf" FILE="../log/perf.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="family" FILE="../log/family.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="corps"  FILE="../log/corps.log"  LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="world"  FILE="../log/world.log"  LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="bourse" FILE="../log/bourse.log" LEVEL="700" MAXNUM = "100" />
+		<LOG_INFO KEY="YaoQianShu" FILE="../log/YaoQianShu.log" LEVEL="700" MAXNUM = "100" />
+	</LOG>
+	 <DeleteInfo>
+                <TimeInfo deleteprotecttime="72" deleteallowedtime="168" deletecooltime="336" protectLevel="20" defaultprotecttime="120"  deletelevel="0" />
+     </DeleteInfo>
+	 <MailInfo>
+		<DeleteMailTime Hour="2" Minute="0"  />
+		<BackMailTime >
+			<TimeInfo Hour="2" Minute="10" TableID="1" />
+ 			<TimeInfo Hour="2" Minute="20" TableID="2" />
+			<TimeInfo Hour="2" Minute="30" TableID="3" />
+			<TimeInfo Hour="2" Minute="40" TableID="4" />
+		</BackMailTime>
+	 </MailInfo>
+	<Repetion>
+		<CorpsBattle Number="50" />
+	</Repetion>
+	<InternalIP>
+		<IPInfo IPAddr="203.86.88.177" />
+		<IPInfo IPAddr="218.240.145.49" />
+		<IPInfo IPAddr="218.240.145.50" />
+		<IPInfo IPAddr="218.240.145.56" />
+		<IPInfo IPAddr="218.240.145.248" />
+	</InternalIP>
+	<Bourse>
+		<Use Value="1" />
+	</Bourse>
+	<MultiClient default="20" timer="60000" active="1" permac="3" >
+		<IPInfo IPAddr="10.10.42.150" Client="-1"/>
+	</MultiClient>
+</config>
+

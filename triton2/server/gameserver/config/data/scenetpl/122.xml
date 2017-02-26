@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2354">
+    <Map MapName="云霄塔之四" MapID="122" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="2" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="40" cy="60" />
+        <RelivePos MapID="128" x="18" y="34" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="121000" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="14" PosY="25" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67908" Name="黄金物攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121001" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="17" PosY="25" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67908" Name="黄金物攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121002" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="14" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67908" Name="黄金物攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121004" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="17" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67908" Name="黄金物攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121005" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="15" PosY="18" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67903" Name="黄金法攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121006" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="21" PosY="20" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67903" Name="黄金法攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121007" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="25" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67903" Name="黄金法攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121008" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="13" PosY="36" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67903" Name="黄金法攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121009" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="7" PosY="30" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67903" Name="黄金法攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121010" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="10" PosY="23" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67903" Name="黄金法攻小怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121011" CountDelay="0" CountNum="0" OgreInit="0" Disappear="10000" Relife="0" PosX="15" PosY="21" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67881" Name="黄金金角督军,0" Rand="2000" />
+                    <NewOgre ID="67882" Name="黄金银角督军,0" Rand="2000" />
+                    <NewOgre ID="67883" Name="黄金无常督军,0" Rand="1500" />
+                    <NewOgre ID="67884" Name="黄金鹿力督军,0" Rand="1500" />
+                    <NewOgre ID="67885" Name="黄金蛇精督军,0" Rand="1500" />
+                    <NewOgre ID="67901" Name="黄金这是…什么督军,0" Rand="1500" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121012" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="20" PosY="23" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67886" Name="黄金羊力督军,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121013" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="20" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67887" Name="黄金虎力督军,0" Rand="5000" />
+                    <NewOgre ID="67888" Name="黄金黄风督军,0" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121014" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="14" PosY="32" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67889" Name="黄金独角督军,0" Rand="5000" />
+                    <NewOgre ID="67890" Name="黄金巨钳督军,0" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121015" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="10" PosY="28" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67891" Name="黄金金毛火牛怪,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="121016" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="11" PosY="23" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="67892" Name="黄金地灵谛听兽,0" Rand="1250" />
+                    <NewOgre ID="67893" Name="黄金九尾督军,0" Rand="1250" />
+                    <NewOgre ID="67894" Name="黄金黑龙督军,0" Rand="1250" />
+                    <NewOgre ID="67895" Name="黄金圣婴督军,0" Rand="1250" />
+                    <NewOgre ID="67897" Name="黄金狮精督军,0" Rand="1250" />
+                    <NewOgre ID="67898" Name="黄金九头督军,0" Rand="1250" />
+                    <NewOgre ID="67899" Name="黄金白骨督军,0" Rand="1250" />
+                    <NewOgre ID="67900" Name="黄金黄眉督军,0" Rand="1250" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData>
+            <Teleport TeleportIndex="121003" NpcID="" LineID="" MapID="123" MinLevel="" Init="0" MaxActive="0" ExistTime="0">
+                <SrcRect x="4" y="21" cx="3" cy="4" />
+                <DesPos x="19" y="29" />
+            </Teleport>
+        </TeleportData>
+        <NpcData>
+            <Npc NpcIndex="121017" NpcID="70083" NpcName="5层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121018" NpcID="70084" NpcName="10层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121019" NpcID="70085" NpcName="15层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121020" NpcID="70086" NpcName="20层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121021" NpcID="70087" NpcName="25层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121022" NpcID="70088" NpcName="30层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121023" NpcID="70089" NpcName="35层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121024" NpcID="70090" NpcName="40层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121025" NpcID="70091" NpcName="45层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121026" NpcID="70092" NpcName="50层奖励NPC" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+            <Npc NpcIndex="121027" NpcID="72835" NpcName="弥勒佛" NpcInit="0" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="5" y="29" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

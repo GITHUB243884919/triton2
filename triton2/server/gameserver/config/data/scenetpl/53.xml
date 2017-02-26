@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2263">
+    <Map MapName="监狱" MapID="53" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="1" PKMode="0" TeleItem="1" NoNation="0" AbsSafe="1" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="48" cy="60" />
+        <RelivePos MapID="53" x="23" y="28" LineID="0" Border="0" />
+        <OgreData />
+        <TeleportData />
+        <NpcData />
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2477">
+    <Map MapName="大雷音寺" MapID="164" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="1" NoNation="0" AbsSafe="1" ConSafe="0" Type="5" NationProt="0" MinLevel="0" MaxLevel="200" FlyRide="1">
+        <Size cx="80" cy="100" />
+        <RelivePos MapID="164" x="42" y="58" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="163000" CountDelay="0" CountNum="0" OgreInit="1" Disappear="0" Relife="0" PosX="61" PosY="34" Dir="0" Rand="0" InitBuffID="76065" TimeBuffID="76065" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="76048" Name="讲经童子,120" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="163001" NpcID="75713" NpcName="观音菩萨" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="14" y="33" />
+            </Npc>
+            <Npc NpcIndex="163002" NpcID="75714" NpcName="文殊菩萨" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="22" y="25" />
+            </Npc>
+            <Npc NpcIndex="163003" NpcID="75733" NpcName="普贤菩萨" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="17" y="38" />
+            </Npc>
+            <Npc NpcIndex="163004" NpcID="75732" NpcName="灵吉菩萨" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="25" y="30" />
+            </Npc>
+            <Npc NpcIndex="163006" NpcID="76047" NpcName="弥勒小童" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="17" y="78" />
+            </Npc>
+            <Npc NpcIndex="163005" NpcID="75715" NpcName="弥勒佛" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="19" y="76" />
+            </Npc>
+            <Npc NpcIndex="163008" NpcID="76049" NpcName="讲经童女" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="63" y="32" />
+            </Npc>
+            <Npc NpcIndex="163009" NpcID="75718" NpcName="罗汉甲" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="7" y="58" />
+            </Npc>
+            <Npc NpcIndex="163010" NpcID="75719" NpcName="罗汉乙" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="41" y="24" />
+            </Npc>
+            <Npc NpcIndex="163015" NpcID="75717" NpcName="迦叶" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="38" y="59" />
+            </Npc>
+            <Npc NpcIndex="163016" NpcID="75712" NpcName="如来佛祖" NpcInit="1" Disappear="" Direction="6" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="18" y="29" />
+            </Npc>
+            <Collect NpcIndex="163011" NpcID="76093" NpcName="佛照荷花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="31" y="87" />
+            </Collect>
+            <Collect NpcIndex="163012" NpcID="76093" NpcName="佛照荷花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="33" y="85" />
+            </Collect>
+            <Collect NpcIndex="163013" NpcID="76093" NpcName="佛照荷花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="36" y="85" />
+            </Collect>
+            <Collect NpcIndex="163014" NpcID="76093" NpcName="佛照荷花" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="29" y="89" />
+            </Collect>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

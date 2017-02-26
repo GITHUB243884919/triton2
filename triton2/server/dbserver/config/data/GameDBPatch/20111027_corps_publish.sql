@@ -1,0 +1,1 @@
+alter table UMS_CORPS add column corps_publish blob DEFAULT NULL;

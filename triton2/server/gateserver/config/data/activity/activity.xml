@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+	<menus>
+		<!-- menu_id 即活动编码, 不超过10位长，整数可以描述  -->
+		<activity menu_id="1310030319" desc="新手礼包" begin_time="2010-01-14 08:00:00" end_time="2016-05-31 23:59:59" />
+		<activity menu_id="1210030319" desc="充值促销" begin_time="2010-01-14 08:00:00" end_time="2016-05-31 23:59:59" />
+		<activity menu_id="1510030319" desc="活动奖励" begin_time="2010-01-14 08:00:00" end_time="2016-05-31 23:59:59" />
+		<activity menu_id="1610030319" desc="系统补偿" begin_time="2010-01-29 08:00:00" end_time="2016-05-31 23:59:59" />
+		<activity menu_id="1310102001" desc="天宏大礼包" begin_time="2010-01-14 08:00:00" end_time="2016-05-31 23:59:59" />
+	</menus>
+	<items>
+		<!-- s-money-0 金钱, s-money-1  绑定金钱, s-silver-1  银元宝  -->
+		<!-- 如果是包裹类，系统中必须有包裹物品的模板 -->
+		<!-- 个性化的物品，建议配置模板, 使用后删除 ； 不再通过这个配置 -->
+		<product code="i-1845" item_id="1845" />
+		<product code="p-125" item_id="125" />
+		<product code="a-08010100-010-020-1-0" item_id="3947" />
+		<package code="a-08010100-010-020-2-0" item_id="3953" />
+		<package code="a-08010100-010-020-3-0" item_id="3959" />
+	</items>
+</activities>
+

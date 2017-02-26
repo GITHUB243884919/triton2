@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2211">
+    <Map MapName="白骨迷宫北" MapID="32" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="0" ConSafe="0" Type="1" NationProt="0" MinLevel="30" MaxLevel="160" FlyRide="0">
+        <Size cx="48" cy="60" />
+        <RelivePos MapID="70" x="118" y="135" LineID="0" Border="0" />
+        <OgreData>
+            <Ogre OgreIndex="31000" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="22" PosY="24" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45231" Name="野猪小王,57" Rand="5000" />
+                    <NewOgre ID="45230" Name="野猪小王,56" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31001" CountDelay="0" CountNum="0" OgreInit="1" Disappear="5000" Relife="8000" PosX="26" PosY="27" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31002" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="23" PosY="29" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31003" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="8000" PosX="20" PosY="36" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31004" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="27" PosY="35" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31005" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="18" PosY="27" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31006" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="29" PosY="37" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45231" Name="野猪小王,57" Rand="5000" />
+                    <NewOgre ID="45230" Name="野猪小王,56" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31007" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="20" PosY="30" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45231" Name="野猪小王,57" Rand="5000" />
+                    <NewOgre ID="45230" Name="野猪小王,56" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31008" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="24" PosY="32" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31009" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="24" PosY="42" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="45225" Name="鬼奴,51" Rand="5000" />
+                    <NewOgre ID="45226" Name="鬼奴,52" Rand="5000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31013" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="20" PosY="22" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="57582" Name="巡逻刀锤鬼奴,50" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31014" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="16" PosY="33" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="57582" Name="巡逻刀锤鬼奴,50" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31015" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="30" PosY="31" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="57582" Name="巡逻刀锤鬼奴,50" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+            <Ogre OgreIndex="31016" CountDelay="0" CountNum="0" OgreInit="1" Disappear="8000" Relife="8000" PosX="24" PosY="39" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="0" Activity="0" MaxEnmity="0">
+                <RefreshDate />
+                <DeadRefresh>
+                    <NewOgre ID="57582" Name="巡逻刀锤鬼奴,50" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh />
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData>
+            <Teleport TeleportIndex="31010" NpcID="" LineID="0" MapID="33" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="37" y="44" cx="1" cy="4" />
+                <DesPos x="17" y="24" />
+            </Teleport>
+            <Teleport TeleportIndex="31011" NpcID="" LineID="" MapID="36" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="30" y="19" cx="2" cy="2" />
+                <DesPos x="11" y="33" />
+            </Teleport>
+            <Teleport TeleportIndex="31012" NpcID="" LineID="" MapID="38" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="8" y="42" cx="2" cy="4" />
+                <DesPos x="29" y="25" />
+            </Teleport>
+        </TeleportData>
+        <NpcData>
+            <Collect NpcIndex="31017" NpcID="45714" NpcName="人参果" NpcInit="1" Disappear="1000" Direction="-1" Relife="119000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="25" y="30" />
+                <Pos x="26" y="40" />
+                <Pos x="20" y="16" />
+            </Collect>
+            <Collect NpcIndex="31018" NpcID="45710" NpcName="木棉" NpcInit="1" Disappear="1000" Direction="-1" Relife="119000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="24" y="18" />
+                <Pos x="12" y="25" />
+                <Pos x="33" y="25" />
+            </Collect>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

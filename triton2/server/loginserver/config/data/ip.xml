@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<server>
+		<login_server id="1" />
+		<gm_server port="_GM_SERVER_PORT_" />
+		<proxy_server address="_PROXY_SERVER_IP_:_PROXY_SERVER_PORT_" />
+		<erating_server address="_ERATING_SERVER_IP_:_ERATING_SERVER_PORT_"/>
+		<charge_server port="_CHARGE_SERVER_PORT_" 
+					   echarge_id = "_ECHARGE_ID_"
+					   echarge_code = "_ECHARGE_CODE_"
+					   echarge_psw = "_ECHARGE_PWD_"
+		/>
+		<black_list>
+            <ip value="218.240.145.56" />
+    </black_list>
+	</server>
+</config>
+
+

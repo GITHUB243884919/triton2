@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2502">
+    <Map MapName="狮驼岭" MapID="8" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="1">
+        <Size cx="50" cy="114" />
+        <OgreData>
+            <Ogre OgreIndex="7015" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="3" PosY="99" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate>
+                    <Refresh RefreshDate="20101015170000" />
+                    <Refresh RefreshDate="20101022170000" />
+                    <Refresh RefreshDate="20101029170000" />
+                    <Refresh RefreshDate="20101016160000" />
+                    <Refresh RefreshDate="20101023160000" />
+                    <Refresh RefreshDate="20101030160000" />
+                    <Refresh RefreshDate="20101017150000" />
+                    <Refresh RefreshDate="20101024150000" />
+                    <Refresh RefreshDate="20101031150000" />
+                    <Refresh RefreshDate="20110528160000" />
+                    <Refresh RefreshDate="20110527170000" />
+                    <Refresh RefreshDate="20110529150000" />
+                    <Refresh RefreshDate="20110603170000" />
+                    <Refresh RefreshDate="20110604160000" />
+                    <Refresh RefreshDate="20110605150000" />
+                    <Refresh RefreshDate="20110730150000" />
+                    <Refresh RefreshDate="20110724160000" />
+                    <Refresh RefreshDate="20110723170000" />
+                    <Refresh RefreshDate="20110731170000" />
+                </RefreshDate>
+                <DeadRefresh>
+                    <NewOgre ID="69516" Name="狮驼岭门派内丹,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="69516" Time="900000" NewID="0" NewName="" OldName="狮驼岭门派内丹,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="7000" NpcID="36092" NpcName="大鹏金雕" NpcInit="1" Disappear="3000" Direction="-1" Relife="300" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="43" y="77" />
+            </Npc>
+            <Npc NpcIndex="7001" NpcID="36093" NpcName="圣感大王" NpcInit="1" Disappear="3000" Direction="-1" Relife="1" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="10" y="23" />
+            </Npc>
+            <Npc NpcIndex="7002" NpcID="36095" NpcName="仙感大王" NpcInit="1" Disappear="3000" Direction="-1" Relife="300" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="40" y="50" />
+            </Npc>
+            <Npc NpcIndex="7003" NpcID="40083" NpcName="无相" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="37" y="76" />
+            </Npc>
+            <Npc NpcIndex="7004" NpcID="36094" NpcName="通感大王" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="14" y="52" />
+            </Npc>
+            <Npc NpcIndex="7005" NpcID="54881" NpcName="贪狼" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="12" y="84" />
+            </Npc>
+            <Npc NpcIndex="7006" NpcID="54882" NpcName="傲熊" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="18" y="93" />
+            </Npc>
+            <Npc NpcIndex="7012" NpcID="67748" NpcName="腾龙" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="17" y="80" />
+            </Npc>
+            <Npc NpcIndex="7013" NpcID="67747" NpcName="舞凤" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="22" y="85" />
+            </Npc>
+            <Npc NpcIndex="7014" NpcID="67783" NpcName="踏云护法" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="33" y="46" />
+            </Npc>
+            <Collect NpcIndex="7007" NpcID="39908" NpcName="毒龙草" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="9" y="30" />
+            </Collect>
+            <Collect NpcIndex="7008" NpcID="39908" NpcName="毒龙草" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="14" y="22" />
+            </Collect>
+            <Collect NpcIndex="7009" NpcID="39908" NpcName="毒龙草" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="17" y="53" />
+            </Collect>
+            <Collect NpcIndex="7010" NpcID="39908" NpcName="毒龙草" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="20" y="60" />
+            </Collect>
+            <Collect NpcIndex="7011" NpcID="39908" NpcName="毒龙草" NpcInit="1" Disappear="3000" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="16" y="25" />
+            </Collect>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

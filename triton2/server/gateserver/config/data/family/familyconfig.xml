@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FamilyConfig>
+	<LevelConfig>	
+		<ConfigInfo Level="1" MemberLimit="10" GloryLimit="2000" PresbyterNumLimit ="1" GloryLevelUPNeeded="2000" PVPScoreLimit="300" 
+			MoneyLevelUpNeeded="20" InitialStability="400" ReduceStability="40" />
+		<ConfigInfo Level="2" MemberLimit="15" GloryLimit="10000" PresbyterNumLimit ="2" GloryLevelUPNeeded="10000" PVPScoreLimit="800" 
+			MoneyLevelUpNeeded="50" InitialStability="1200" ReduceStability="60" />
+		<ConfigInfo Level="3" MemberLimit="20" GloryLimit="15000" PresbyterNumLimit ="3" GloryLevelUPNeeded="15000" PVPScoreLimit="1700" 
+			MoneyLevelUpNeeded="100" InitialStability="2400" ReduceStability="80" />
+		<ConfigInfo Level="4" MemberLimit="25" GloryLimit="40000" PresbyterNumLimit ="3" GloryLevelUPNeeded="-1" PVPScoreLimit="3000" 
+			MoneyLevelUpNeeded="100" InitialStability="4000" ReduceStability="100" />
+		<ConfigInfo Level="5" MemberLimit="20" GloryLimit="5000" PresbyterNumLimit ="2" GloryLevelUPNeeded="-1" PVPScoreLimit="4500" 
+			MoneyLevelUpNeeded="100" InitialStability="2000" ReduceStability="100"/>
+		<ConfigInfo Level="6" MemberLimit="20" GloryLimit="6000" PresbyterNumLimit ="2" GloryLevelUPNeeded="-1" PVPScoreLimit="6000" 
+			MoneyLevelUpNeeded="100" InitialStability="2000" ReduceStability="100" />
+		<ConfigInfo Level="7" MemberLimit="20" GloryLimit="6000" PresbyterNumLimit ="2" GloryLevelUPNeeded="-1" PVPScoreLimit="7500" 
+			MoneyLevelUpNeeded="100" InitialStability="2000" ReduceStability="100" />
+		<ConfigInfo Level="8" MemberLimit="20" GloryLimit="6000" PresbyterNumLimit ="2" GloryLevelUPNeeded="-1" PVPScoreLimit="9000" 
+			MoneyLevelUpNeeded="100" InitialStability="2000" ReduceStability="100" />
+		<ConfigInfo Level="9" MemberLimit="20" GloryLimit="6000" PresbyterNumLimit ="2" GloryLevelUPNeeded="-1" PVPScoreLimit="11000" 
+			MoneyLevelUpNeeded="100" InitialStability="2000" ReduceStability="100" />
+		<ConfigInfo Level="10" MemberLimit="20" GloryLimit="6000" PresbyterNumLimit ="2" GloryLevelUPNeeded="-1" PVPScoreLimit="13000" 
+			MoneyLevelUpNeeded="100" InitialStability="2000" ReduceStability="100" />
+	</LevelConfig>
+	<PropertyConfig>
+		<PropertInfo  ContributePerGold="10" ScorePerFight="5" Hour="12" Minute = "0" GloryPerFight="10" NpcMoney="5" 
+	NpcGlory="50" ExpPerGlory="100000" ExploitPerGlory="30" RepetionMoney = "1" RepetionGlory="50" ShopRefreshTimeLength ="48" 
+	BasicTime="3600"  WarNpcSellTableID="0" ChallangeMoney="1" ChallangeTimeOfDay="3" RepetionStability="20" />
+	</PropertyConfig>
+	<NpcWelfare>
+		<Welfare NpcTmpID="7364"  NpcMoney="1"  NpcGlory="100" />
+   		<Welfare NpcTmpID="7369"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="7361"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="7356"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="43160"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="7370"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="57052"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="39363"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="39361"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="39362"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="39357"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="46939"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="46937"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="46930"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="46933"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="39371"  NpcMoney="1"  NpcGlory="100" />
+		<Welfare NpcTmpID="34181"  NpcMoney="1"  NpcGlory="100" />
+
+
+		<Welfare NpcTmpID="51198"  NpcMoney="2"  NpcGlory="100" />
+		<Welfare NpcTmpID="46907"  NpcMoney="2"  NpcGlory="100" />
+		<Welfare NpcTmpID="36779"  NpcMoney="4"  NpcGlory="100" />
+		<Welfare NpcTmpID="34183"  NpcMoney="2"  NpcGlory="100" />
+		<Welfare NpcTmpID="40229"  NpcMoney="3"  NpcGlory="100" />
+		<Welfare NpcTmpID="46893"  NpcMoney="5"  NpcGlory="100" />	
+		<Welfare NpcTmpID="39338"  NpcMoney="8"  NpcGlory="100" />
+		<Welfare NpcTmpID="7373"   NpcMoney="10"  NpcGlory="100"  />	
+		
+		<Welfare NpcTmpID="60669"  NpcMoney="2"  NpcGlory="100" />
+		<Welfare NpcTmpID="42675"  NpcMoney="4"  NpcGlory="100" />
+		<Welfare NpcTmpID="46877"  NpcMoney="5"  NpcGlory="100" />	
+		<Welfare NpcTmpID="42681"  NpcMoney="8"  NpcGlory="100" />	
+
+		<Welfare NpcTmpID="65282"  NpcMoney="2"  NpcGlory="100" />	
+		<Welfare NpcTmpID="65279"  NpcMoney="4"  NpcGlory="100" />	
+	</NpcWelfare>
+	<RepetionConfig>
+		<WeekNum Number="2" />
+		<TimeInfo WeeKday="1" BeginTime="0" EndTime="23" OpenTimes="1" />
+		<TimeInfo WeeKday="2" BeginTime="0" EndTime="23" OpenTimes="1" />
+		<TimeInfo WeeKday="3" BeginTime="0" EndTime="23" OpenTimes="1" />
+		<TimeInfo WeeKday="4" BeginTime="0" EndTime="23" OpenTimes="1" />
+		<TimeInfo WeeKday="5" BeginTime="0" EndTime="23" OpenTimes="1" />
+		<TimeInfo WeeKday="6" BeginTime="0" EndTime="23" OpenTimes="1" />
+		<TimeInfo WeeKday="7" BeginTime="0" EndTime="23" OpenTimes="1" />
+	</RepetionConfig>
+	<StabilityConfig TaskStability="10" MoneyStability="10" DisbandMailID="60" HeaderMailID="60" UseStability="0"  >			
+			<LevelInfo Level="20" >
+				<Time Value="1" Stability="1" />
+				<Time Value="2" Stability="2" />
+				<Time Value="3" Stability="3" />
+			</LevelInfo>
+
+			<LevelInfo Level="40" >
+				<Time Value="1" Stability="2" />			
+				<Time Value="2" Stability="2" />		
+				<Time Value="3" Stability="2" />		
+			</LevelInfo>
+
+			<LevelInfo Level="60" >
+				<Time Value="1" Stability="2" />			
+				<Time Value="2" Stability="2" />		
+				<Time Value="3" Stability="3" />		
+			</LevelInfo>
+			
+			<LevelInfo Level="80" >
+				<Time Value="1" Stability="3" />			
+				<Time Value="2" Stability="3" />		
+				<Time Value="3" Stability="3" />		
+			</LevelInfo>
+		
+			<LevelInfo Level="95">
+				<Time Value="1" Stability="3" />			
+				<Time Value="2" Stability="3" />		
+				<Time Value="3" Stability="4" />		
+			</LevelInfo>
+			
+			<LevelInfo Level="100" >
+				<Time Value="1" Stability="3" />			
+				<Time Value="2" Stability="4" />		
+				<Time Value="3" Stability="4" />		
+			</LevelInfo>
+	</StabilityConfig>
+	<MailConfig>
+		<MailInfo ID="60" >
+			<Item ID="40132" Num="15" />
+		</MailInfo>		
+	</MailConfig>
+	<RedstoneConfig>
+		<LevelConfig FamilyLevel="1" >
+			<StabilityConfig Stablitity="400" RedStoneID="52401" ExtraExp="100" />	
+			<StabilityConfig Stablitity="600" RedStoneID="75021" ExtraExp="125" />	
+			<StabilityConfig Stablitity="800" RedStoneID="75022" ExtraExp="150" />	
+			<StabilityConfig Stablitity="1200" RedStoneID="75023" ExtraExp="175" />	
+			<StabilityConfig Stablitity="1400" RedStoneID="75024" ExtraExp="200" />	
+		</LevelConfig>
+		<LevelConfig FamilyLevel="2" >
+			<StabilityConfig Stablitity="1200" RedStoneID="52401" ExtraExp="100" />
+			<StabilityConfig Stablitity="1500" RedStoneID="75021" ExtraExp="125" />
+			<StabilityConfig Stablitity="1800" RedStoneID="75022" ExtraExp="150" />
+			<StabilityConfig Stablitity="2400" RedStoneID="75023" ExtraExp="175" />			
+			<StabilityConfig Stablitity="2600" RedStoneID="75024" ExtraExp="200" />			
+		</LevelConfig>
+		<LevelConfig FamilyLevel="3" >
+			<StabilityConfig Stablitity="2400" RedStoneID="52401" ExtraExp="100" />			
+			<StabilityConfig Stablitity="2800" RedStoneID="75021" ExtraExp="125" />			
+			<StabilityConfig Stablitity="3200" RedStoneID="75022" ExtraExp="150" />			
+			<StabilityConfig Stablitity="4000" RedStoneID="75023" ExtraExp="175" />			
+			<StabilityConfig Stablitity="4100" RedStoneID="75024" ExtraExp="200" />			
+		</LevelConfig>
+		<LevelConfig FamilyLevel="4" >
+			<StabilityConfig Stablitity="4000" RedStoneID="52401" ExtraExp="100" />			
+			<StabilityConfig Stablitity="4500" RedStoneID="75021" ExtraExp="125" />			
+			<StabilityConfig Stablitity="5000" RedStoneID="75022" ExtraExp="150" />			
+			<StabilityConfig Stablitity="6000" RedStoneID="75023" ExtraExp="175" />			
+			<StabilityConfig Stablitity="6100" RedStoneID="75024" ExtraExp="200" />	
+		</LevelConfig>		
+	</RedstoneConfig>
+</FamilyConfig>

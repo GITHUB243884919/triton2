@@ -1,0 +1,169 @@
+
+####### Compiler, tools and options
+COMMONPATH	= ../../common# common file include path
+CC		= gcc
+CXX		= g++
+LEX		= flex
+YACC     	= yacc
+CFLAGS   	= -g
+CXXFLAGS 	= -g -DOTHERSERVER -O2 -DENCODING_UTF8 -D_POSIX_MT_ -D_ASYNC_SQL_ -DUSE_LOG4CPP -DUSE_SHM -DLINUX -DUSE_LK_ASSERT  -DWEST_SERVER -DNDEBUG
+LEXFLAGS 	= 
+YACCFLAGS	= -d
+INCPATH		= -I./inc -I./$(COMMONPATH)/tiny -I./$(COMMONPATH)/comm -I./$(COMMONPATH)/comm/linux -I./$(COMMONPATH)/inc \
+	-I../logic/inc -I../servercommon/inc -I../logic/inc -I./$(COMMONPATH)/interface -I./$(COMMONPATH)/log4cpp/include \
+	-I./$(COMMONPATH)/lua -I $(COMMONPATH)/mysql/inc/ -I./$(COMMONPATH)/protobuf/include -I./$(COMMONPATH)/coredumper/include
+LINK     	= g++
+LFLAGS   	= 
+LIBS     	= -lpthread -L./$(COMMONPATH)/log4cpp/lib -llog4cpp -L $(COMMONPATH)/mysql/lib/ -lmysqlclient \
+			-L./$(COMMONPATH)/tiny -ltinyxml -L./$(COMMONPATH)/protobuf/lib -lprotobuf -L./$(COMMONPATH)/coredumper/lib -lcoredumper -lz -dl
+DEL_FILE 	= rm -f
+
+####### Files
+
+OBJECTS = ./debug/asqlexe.o ./debug/Database.o ./debug/DatabaseMysql.o ./debug/QueryResultMysql.o ./debug/dbhandle.o \
+	./debug/dbctrl.o ./debug/dbsvrd.o ./debug/sock_stream.o ./debug/thread.o \
+	./debug/code_queue.o ./debug/log.o ./debug/base.o ./debug/Field.o ./debug/shm.o ./debug/sharemem.o ./debug/object.o \
+	./debug/proxymessage_pb.hxx.pb.o ./debug/message_pb.hxx.pb.o ./debug/servermessage_in.o ./debug/message_factory.o \
+	./debug/servermessage_pb.hxx.pb.o ./debug/coremessage_pb.hxx.pb.o ./debug/db_msg_pb.hxx.pb.o \
+	./debug/gmmessage_pb.hxx.pb.o ./debug/property_pb.hxx.pb.o ./debug/log_msg_pb.hxx.pb.o ./debug/ibstore_pb.hxx.pb.o \
+	./debug/rankmessage_pb.hxx.pb.o ./debug/charset.o  ./debug/oi_tea.o ./debug/client_comm_engine.o \
+	./debug/clock.o ./debug/performance.o
+	
+TARGET = ./bin/dbsvrd
+
+
+first: all
+####### Compile
+./debug/asqlexe.o : ./src/asqlexe.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+		
+./debug/Database.o : ./src/Database.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/DatabaseMysql.o : ./src/DatabaseMysql.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/QueryResultMysql.o : ./src/QueryResultMysql.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/dbhandle.o : ./src/dbhandle.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/dbctrl.o : ./src/dbctrl.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/dbsvrd.o : ./src/dbsvrd.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/sock_stream.o : ../servercommon/src/sock_stream.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/thread.o : ../servercommon/src/thread.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/clock.o : ../servercommon/src/clock.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/performance.o : ../servercommon/src/performance.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/code_queue.o : ../servercommon/src/code_queue.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/log.o : ../servercommon/src/log.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/base.o : ../servercommon/src/base.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/Field.o : ./src/Field.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/shm.o : ../servercommon/src/shm.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+			
+./debug/sharemem.o : ../servercommon/src/sharemem.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+
+./debug/object.o : ../servercommon/src/object.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+	
+./debug/proxymessage_pb.hxx.pb.o : ../servercommon/inc/proxymessage_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<	
+				
+./debug/message_pb.hxx.pb.o : $(COMMONPATH)/inc/message_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<					
+
+./debug/servermessage_in.o : ../servercommon/src/servermessage_in.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<		
+
+./debug/message_factory.o : $(COMMONPATH)/src/message_factory.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/servermessage_pb.hxx.pb.o : ../servercommon/inc/servermessage_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/coremessage_pb.hxx.pb.o : $(COMMONPATH)/inc/coremessage_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+ 
+./debug/db_msg_pb.hxx.pb.o : ../servercommon/inc/db_msg_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+	
+./debug/gmmessage_pb.hxx.pb.o : ../servercommon/inc/gmmessage_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+ 
+./debug/property_pb.hxx.pb.o : $(COMMONPATH)/inc/property_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/log_msg_pb.hxx.pb.o : ../servercommon/inc/log_msg_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/ibstore_pb.hxx.pb.o : $(COMMONPATH)/inc/ibstore_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+
+./debug/rankmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/rankmessage_pb.hxx.pb.cc
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/charset.o : ../servercommon/src/charset.c
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/oi_tea.o : $(COMMONPATH)/comm/oi_tea.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/dbgen.o : ./src/dbgen.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/dbproto.o : ./src/dbproto.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/client_comm_engine.o : $(COMMONPATH)/comm/client_comm_engine.cpp
+	$(CXX) -c -DWEST_SERVER $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+.cpp.o:; $(CXX) -c -DLINUX -DWEST_SERVER $(CXXFLAGS) $(INCPATH)  $< -o $@
+.cc.o:; $(CXX) -c -DLINUX -DWEST_SERVER $(CXXFLAGS) $(INCPATH)  $< -o $@
+.c.o:; $(CXX) -c -DLINUX -DWEST_SERVER $(CXXFLAGS) $(INCPATH)  $< -o $@
+
+####### Build rules
+
+all: $(TARGET) ./bin/dbgen ./bin/dbproto
+
+$(TARGET): $(OBJECTS)
+	$(LINK)	$(LFLAGS) -o $(TARGET) $(OBJECTS) $(LIBS)
+
+./bin/dbgen: ./debug/dbgen.o ./debug/oi_tea.o
+	$(LINK)	$(LFLAGS) -o ./bin/dbgen ./debug/dbgen.o ./debug/oi_tea.o $(LIBS)
+
+./bin/dbproto: ./debug/dbproto.o ./debug/property_pb.hxx.pb.o ./debug/charset.o ./debug/oi_tea.o 
+	$(LINK)	$(LFLAGS) -o ./bin/dbproto ./debug/dbproto.o ./debug/property_pb.hxx.pb.o ./debug/charset.o ./debug/oi_tea.o $(LIBS)
+
+install:all
+	cp $(TARGET) ../bin
+	cp $(TARGET) $(TRITON_BIN)
+
+clean:
+	-$(DEL_FILE)  
+	-$(DEL_FILE) *~ core *.core
+	rm -f ./debug/*.o
+	rm -f ../logic/src/*.o
+	rm -f $(TARGET)

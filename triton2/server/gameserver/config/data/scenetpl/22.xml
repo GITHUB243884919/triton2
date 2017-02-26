@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2237">
+    <Map MapName="花果山" MapID="22" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="0" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="32" cy="56" />
+        <OgreData />
+        <TeleportData>
+            <Teleport TeleportIndex="21000" NpcID="" LineID="100" MapID="1" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="5" y="32" cx="2" cy="3" />
+                <DesPos x="212" y="254" />
+            </Teleport>
+        </TeleportData>
+        <NpcData>
+            <Npc NpcIndex="21001" NpcID="39625" NpcName="孙悟空" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="16" y="14" />
+            </Npc>
+            <Npc NpcIndex="21002" NpcID="39626" NpcName="猪八戒" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="10" y="20" />
+            </Npc>
+            <Npc NpcIndex="21003" NpcID="39628" NpcName="沙僧" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="22" y="31" />
+            </Npc>
+            <Npc NpcIndex="21004" NpcID="39627" NpcName="唐僧" NpcInit="1" Disappear="3000" Direction="-1" Relife="20000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="2" y="38" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

@@ -1,0 +1,35 @@
+//
+//1.当前路径是,AHNetServer所在得路径;
+//
+//
+//
+<Server> 
+	<AHNetServer>
+		<Port>15306</Port>						//AHNetServer 的监听端口 ;AHNetServer做了一定的ip策略限制
+		<LogFile>./hook_log/NetServer</LogFile>				//log路径,文件名; 系统会自动加上时间后缀.
+		<Console>0</Console>						//是否在console 显示log
+		<AHLoadServer_FileName>./AHLoadServer</AHLoadServer_FileName>	//指定AHLoadServer的文件名,默认window 是.dll后缀,linux 是.so后缀,注意大小写;
+		<In_IP_List>							//ThunkServer(也就是GameServer)的ip列表,除了以下ip,其它的ip,不允许访问
+			<IP-1>127.0.0.1</IP-1>
+			<IP-2>222.73.241.25</IP-2>
+		</In_IP_List>
+		<MaxCheckConnectionInterval>50000</MaxCheckConnectionInterval>	//给ThunkSever 发送保活信息的周期; 这个周期不需要太小;
+		<m_nBind0000>1</m_nBind0000>			//是否绑定到,本地0.0.0.0 ,否则只绑定到,127.0.0.1
+		<m_bAutoKeepLive>0</m_bAutoKeepLive>				//向某个ip保持活动状态
+		<m_nKeepLiveInterval>5000</m_nKeepLiveInterval>		//保持活动间隔
+		<m_IP_KeepLive>127.0.0.1</m_IP_KeepLive>			//保持活动 Ip
+		<m_Port_KeepLive>15304</m_Port_KeepLive>			//保持活动 Port		
+	</AHNetServer>
+	<AHLoadServer>
+		<Port>15304</Port>						//控制端口
+		<LogFile>./hook_log/LoadServer</LogFile>			//log路径
+		<AHMainServerStart>1</AHMainServerStart> 			//是否加载AHMainServer
+		<m_bOpenCtrlPort>0</m_bOpenCtrlPort> 			//是否打开控制断开;
+		<Ctrl_IP_List>							//控制端的ip列表;
+			<IP-1>127.0.0.1</IP-1>
+		</Ctrl_IP_List>
+		<Console>0</Console>						//是否在console 显示log
+		<AHMainServer_FileName>./AHMainServer</AHMainServer_FileName>	//指定AMainServer的文件名,默认window 是.dll后缀,linux 是.so后缀,注意大小写;
+		<m_nReadUpdateVerInterval>30000</m_nReadUpdateVerInterval>			//检测,更新控制文件的间隔;
+	</AHLoadServer>
+</Server>

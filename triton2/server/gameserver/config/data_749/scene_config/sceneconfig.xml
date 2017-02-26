@@ -1,0 +1,647 @@
+<?xml version = "1.0" encoding = "gb2312"?>
+<!--
+	配置使用说明：
+	1、一个Module节点，在CScenecfgManager类中对应一个结构体，叶子节点对应
+		结构体成员变量；
+	2、各模块需要配置的数据请在节点***_cfg中添加，前n个**_log节点，专为日志文件
+		配置，请不要修改**_log的结构，可以修改其变量值(根据您的需要)；
+	3、修改数据结构，需要运行同级目录下的MakeConfig.exe生成相应源码，路径为
+		/gameserver/inc/scenecfg_manager.h, /gameserver/src/scenecfg_manager.cpp
+	4、获取数据的方法：比如xml中配置的节点名"Default_log"， CScenecfgManager类中
+		为DEFAULT_LOG结构体名(忽略大小写，自动转为全大写)，在您需要的地方，如下使用
+		DEFAULT_LOG* tpLog = CScenecfgManager::GetSingleton().GetDefault_log();
+		然后使用结构体指针直接操作成员变量，获得的指针在使用过程中可以不用判空，
+		请放心使用!
+	5、成员变量忽略大小写，如"identifier"在DEFAULT_LOG中为mIdentifier；
+-->
+<!--
+	日志级别：
+	NOTSET <  DEBUG < INFO  < WARN < ERROR  < FATAL
+	LEVEL_FATAL	 = 0,	
+	LEVEL_ERROR  = 300,	
+	LEVEL_WARN   = 400,
+	LEVEL_INFO   = 600,
+	LEVEL_DEBUG  = 700,
+	LEVEL_NOTSET = 800,
+-->
+<SceneConfig>
+		<Module name = "Default_Log" id = "0" >
+			<Item name = "identifier" value = "default" type = "string"/>
+			<Item name = "directory" value = "../log/sceneserver.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--场景服务-->
+		<Module name = "Scene_Log" id = "1" >
+			<Item name = "identifier" value = "sceneserver" type = "string"/>
+			<Item name = "directory" value = "../log/sceneserver.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--属性模块-->
+		<Module name = "property_Log" id = "2" >
+			<Item name = "identifier" value = "pro" type = "string"/>
+			<Item name = "directory" value = "../log/property.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--任务模块-->
+		<Module name = "task_Log" id = "3" >
+			<Item name = "identifier" value = "TASK" type = "string"/>
+			<Item name = "directory" value = "../log/task.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--组队模块-->
+		<Module name = "team_Log" id = "4" >
+			<Item name = "identifier" value = "team" type = "string"/>
+			<Item name = "directory" value = "../log/team.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--邮件模块-->
+		<Module name = "mail_Log" id = "5" >
+			<Item name = "identifier" value = "mail" type = "string"/>
+			<Item name = "directory" value = "../log/mail.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+   <!--家族模块-->
+    <Module name = "family_Log" id = "5" >
+     <Item name = "identifier" value = "family" type = "string"/>
+     <Item name = "directory" value = "../log/family.log" type = "string"/>
+     <Item name = "priority" value = "700" type = "int"/>
+     <Item name = "maxfilesize" value = "10485760" type = "int"/>
+     <Item name = "maxbackupindex" value = "60" type = "int"/>
+     <Item name = "append" value = "1" type = "bool"/>
+    </Module>
+   <!--军团模块-->
+   <Module name = "corps_Log" id = "5" >
+    <Item name = "identifier" value = "corps" type = "string"/>
+    <Item name = "directory" value = "../log/corps.log" type = "string"/>
+    <Item name = "priority" value = "700" type = "int"/>
+    <Item name = "maxfilesize" value = "10485760" type = "int"/>
+    <Item name = "maxbackupindex" value = "60" type = "int"/>
+    <Item name = "append" value = "1" type = "bool"/>
+   </Module>
+
+  <!--聊天模块-->
+		<Module name = "chat_Log" id = "6" >
+			<Item name = "identifier" value = "chat" type = "string"/>
+			<Item name = "directory" value = "../log/chat.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>			
+		</Module>
+		<!--交易模块-->
+		<Module name = "trade_Log" id = "7" >
+			<Item name = "identifier" value = "trade" type = "string"/>
+			<Item name = "directory" value = "../log/trade.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--好友模块-->
+		<Module name = "friend_Log" id = "8" >
+			<Item name = "identifier" value = "FRIEND" type = "string"/>
+			<Item name = "directory" value = "../log/FRIEND.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--地图模块-->
+		<Module name = "map_Log" id = "9" >
+			<Item name = "identifier" value = "map" type = "string"/>
+			<Item name = "directory" value = "../log/map.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--摆摊模块-->
+		<Module name = "stall_Log" id = "10" >
+			<Item name = "identifier" value = "stall" type = "string"/>
+			<Item name = "directory" value = "../log/stall.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--摆摊模块-->
+		<Module name = "stat_Log" id = "11" >
+			<Item name = "identifier" value = "stat" type = "string"/>
+			<Item name = "directory" value = "../log/stat.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "100" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<!--国家模块-->
+		<Module name = "Nation_Log" id = "12" >
+			<Item name = "identifier" value = "Nation" type = "string"/>
+			<Item name = "directory" value = "../log/Nation.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+			
+		<!--TaskLua-->
+		<Module name = "tasklua_Log" id = "13" >
+			<Item name = "identifier" value = "TASK_LUA" type = "string"/>
+			<Item name = "directory" value = "../log/tasklua.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+  
+		<!--活动模块-->
+		<Module name = "Activity_Log" id = "14" >
+			<Item name = "identifier" value = "Activity" type = "string"/>
+			<Item name = "directory" value = "../log/activity.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<Module name = "GM_Log" id = "15" >
+			<Item name = "identifier" value = "gm" type = "string"/>
+			<Item name = "directory" value = "../log/gm.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<Module name = "IbTrans_Log" id = "16" >
+			<Item name = "identifier" value = "ibtrans" type = "string"/>
+			<Item name = "directory" value = "../log/ibtrans.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<Module name = "Achieve_Log" id = "17" >
+			<Item name = "identifier" value = "achieve" type = "string"/>
+			<Item name = "directory" value = "../log/achieve.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<Module name = "Rank_Log" id = "17" >
+			<Item name = "identifier" value = "rank" type = "string"/>
+			<Item name = "directory" value = "../log/rank.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+
+		<!--结婚模块-->
+		<Module name = "Marriage_Log" id = "19" >
+			<Item name = "identifier" value = "marriage" type = "string"/>
+			<Item name = "directory" value = "../log/marriage.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+
+		<Module name = "Repe_Log" id = "20" >
+			<Item name = "identifier" value = "repeion" type = "string"/>
+			<Item name = "directory" value = "../log/repetion.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<Module name = "Bour_Log" id = "20" >
+			<Item name = "identifier" value = "bourse" type = "string"/>
+			<Item name = "directory" value = "../log/bourse.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+		<Module name = "YQSACTIVITY_Log" id = "20" >
+			<Item name = "identifier" value = "YaoQianShu" type = "string"/>
+			<Item name = "directory" value = "../log/YaoQianShu.log" type = "string"/>
+			<Item name = "priority" value = "700" type = "int"/>
+			<Item name = "maxfilesize" value = "10485760" type = "int"/>
+			<Item name = "maxbackupindex" value = "60" type = "int"/>
+			<Item name = "append" value = "1" type = "bool"/>
+		</Module>
+
+<!--
+	请各位将各模块所需的配置数据，在以下各节点内，按规则填写即可。
+	其上的配置为日志，请大家不要改变其结构，按需要修改value即可！
+-->
+	<!-- 模块配置数据-->
+		<!--属性模块-->
+		<Module name = "property_cfg" >
+			<!--Item name = "" value = "" type = "string"/-->
+			<!--请添加模块需要的配置数据-->
+			<!--服务器怪物经验赔率-->
+			<Item name = "EXP_AWARD" value = "10000" type = "int"/>
+			<!--服务器任务经验赔率-->
+			<Item name = "EXP_TASK" value = "10000" type = "int"/>
+			<!--服务器刷新时间:星期:0为周日,1,2,3,4,5,6为其他-->
+			<Item name = "REFRESH_WEEK" value = "1" type = "int" />
+			<!--服务器刷新时间——小时-->
+			<Item name = "REFRESH_HOUR" value = "0" type = "int"/>
+			<!--服务器刷新时间——分钟-->
+			<Item name = "REFRESH_MINUTE" value = "0" type = "int"/>
+			<!--一级元气蛋ID-->
+			<Item name = "YUAN_ID" value = "33305" type = "int"/>
+			<!--玩家杀怪获正义值的等级上限-->
+			<Item name = "JusticeLevelLimit" value = "10" type = "int"/>
+			 <!--每N点经验获得1点修为-->
+			<Item name = "TALENTEXP" value = "100" type = "int"/>
+			<!--创建军团物品ID-->
+			<Item name = "CREATEUNION_ID" value = "57501" type = "int"/>
+			<!-- 
+				洗点相关内容配置!
+			-->
+			<!--本次活动重置技能点INDEX-->
+			<Item name = "RESETSP_INDEX" value = "20090604" type = "int"/>
+			<!--本次活动重置属性点INDEX-->
+			<Item name = "RESETPP_INDEX" value = "20090604" type = "int"/>
+			<!--本次活动最大洗点次数-->
+			<Item name = "RESETSP_NUM" value = "3" type = "int"/>
+			<!--当前最大洗点次数-->
+			<Item name = "RESETPP_NUM" value = "3" type = "int"/>
+
+			<!--
+				VIP 玩家配置:
+				双倍奖励单位：小时
+			-->
+			<Item name = "VIP_NORMAL" value = "2" type = "int"/>
+			<Item name = "VIP_MIDDLE" value = "4" type = "int"/>
+			<Item name = "VIP_SENIOR" value = "6" type = "int"/>
+			<Item name = "FCM_BUFF" value = "63852" type = "int"/>
+			<!--鲜花限制类型 0-使用次数  1-获得经验（目前越南使用）-->
+			<Item name = "FLOWER_LMT_TYPE" value = "0" type = "int"/>
+			<!--每天限制鲜花次数-->
+			<Item name = "FLOWER_LMT_PERDAY" value = "20" type = "int"/>
+			<!--新手卡礼包： 以‘lk’开头，且不以‘lkt’开头的是新手卡帐号-->
+			<Item name = "NewUserPkgID" value="0" type = "int"/>
+		</Module>
+		<!--任务模块-->
+		<Module name = "task_cfg" >
+			<!--不能放弃字段是否有用-->
+			<Item name = "IsCanAbort" value = "1" type = "int" />
+			<!--门派任务每轮子任务个数-->
+			<Item name = "LoopTaskSubNum" value = "10" type = "int" />
+			<!--刷新库任务库的时间（秒）-->
+			<Item name = "RefreshStorageTime" value = "300" type = "int" />
+
+			<!--主线任务搜索 根据玩家等级向下搜索X级（含）-->
+			<Item name = "SearchMainDownLevel" value = "20" type = "int" />
+			<!--主线任务搜索 根据玩家等级向上搜索X级（含）-->
+			<Item name = "SearchMainUpLevel" value = "10" type = "int" />
+
+			<!--支线任务搜索 根据玩家等级向下搜索X级（含）-->
+			<Item name = "SearchZhiDownLevel" value = "5" type = "int" />
+			<!--支线任务搜索 根据玩家等级向上搜索X级（含）-->
+			<Item name = "SearchZhiUpLevel" value = "10" type = "int" />
+
+			<!--西游任务搜索 根据玩家等级向下搜索X级（含）-->
+			<Item name = "SearchxyDownLevel" value = "2" type = "int" />
+			<!--西游任务搜索 根据玩家等级向上搜索X级（含）-->
+			<Item name = "SearchxyUpLevel" value = "0" type = "int" />
+
+
+		</Module>
+		<!--组队模块-->
+		<Module name = "team_cfg" >
+			<!--队员之间的有效距离-->
+			<Item name = "ValidDistance" value = "15" type = "int" />
+			<!--每页显示的最多信息条数-->
+			<Item name = "SheetPage" value = "10" type = "int" />
+			<!--队员血量更新间隔(毫秒)-->
+			<Item name = "UpdateTime" value = "3000" type = "int" />
+			<!--求组、招募搜索冷却时间(秒),策划要求20秒，开发过程中可调为1-3秒-->
+			<Item name = "CoolTime" value = "1" type = "int" />
+		</Module>
+    <!--家族模块-->
+    <Module name = "family_cfg" >
+      <!--每点家族荣耀值需要的经验值-->
+      <Item name = "ExpPerGlory" value = "100000" type = "int" />
+      <!--每点家族荣耀值需要的功勋值-->
+      <Item name = "ExploitPerGlory" value = "20" type = "int" />   
+    </Module>
+    <!--法宝模块-->
+    <Module name = "mw_cfg" >
+      <!--等级影响加的数值-->
+      <Item name = "LevelExtraEff" value = "100" type = "int" />
+    </Module>
+  
+		<!--好友模块-->
+		<Module name = "friend_cfg" >
+			<!--Item name = "" value = "" type = "string"/-->
+			<!--请添加模块需要的配置数据-->
+			<!--从gate取回状态等 每条消息最多好友个数【警告】修改要同时改gate-->
+			<Item name = "MaxOnceFriends" value = "30" type = "int" />
+			<!--最长允许刷新好友时间间隔(秒钟)-->
+			<Item name = "MaxRefreshTime" value = "30" type = "int" />
+		</Module>
+		<!--聊天模块-->
+		<Module name = "chat_cfg" >
+			<!--Item name = "" value = "" type = "string"/-->
+			<Item name = "ChatLimitTime"       value="1"     type = "int" />
+			<Item name = "MsgLimitTime"        value="6"     type = "int" />
+			<Item name = "WorldLevelLimit"     value="20" 	 type = "int" />
+			<Item name = "WorldApLimit"        value="20"    type = "int" />
+			<Item name = "MaxAutoChatTime"     value="300"   type = "int" />
+			<Item name = "CommonAutoChatTime"  value="3"     type = "int" />
+			<Item name = "WorldAutoChatTime"   value="180"   type = "int" />
+			<Item name = "BugleTime"           value="8"     type = "int" />
+			<Item name = "CountryTime"         value="20"    type = "int" />
+			<Item name = "FamilyTime"          value="1"     type = "int" />
+			<Item name = "CorpsTime"           value="3"     type = "int" />
+			<Item name = "BugleLevelLimit"     value="20"	 type = "int" />
+			<Item name = "CampVipTime"		   value="15"	 type = "int" />
+		</Module>
+		<!--摆摊模块-->
+		<Module name = "stall_cfg" >
+			<!--玩家等级限制-->
+			<Item name = "LevelLimit" value = "30" type = "int" />
+			<!--安全保护期时限(秒),默认3分钟-->
+			<Item name = "SaftyTime" value = "10" type = "int" />
+			<!--摊名最多字符，默认18个字符-->
+			<Item name = "MaxNameLen" value = "27" type = "int" />
+			<!--广告内容最多字符，默认60个字符-->
+			<Item name = "MaxAdContent" value = "90" type = "int" />
+			<!--商品单价上限，20000000单位是铜-->
+			<Item name = "MaxPrice" value = "20000000" type = "int" />
+            <!-- 元宝摆摊手续费费率 千分-->
+            <Item name = "FeeRate" value = "30" type = "int" />
+            <!-- 元宝摆摊手续费IB道具ID-->
+            <Item name = "FeeIBID" value = "67726" type = "int"/>
+            <!-- 是否允许元宝摆摊 0 不允许；1 允许-->
+            <Item name = "StallFlag" value = "1" type = "int" />
+            <!-- 允许的最低元宝单价 -->
+            <Item name = "MinYBPrice" value = "1" type = "int" />
+		</Module>	
+		<!--交易模块-->
+		<Module name = "trade_cfg">
+			<!--上线安全保护时间，单位：秒-->
+			<Item name = "SaftyTime" value = "10" type = "int" />
+		</Module>
+		<!--NPC模块-->
+		<Module name = "npc_cfg" >
+			<Item name = "PetAttackInstance" value = "1500" type = "int"/>
+			<!--请添加模块需要的配置数据-->
+		</Module>
+		<!--军团模块-->
+		<Module name = "corps_cfg" >
+			<Item name = "BidBeginWeek" value = "0" type = "int"/>
+			<Item name = "BidEndWeek" value = "6" type = "int"/>
+			<Item name = "BidBeginHour" value = "1" type = "int"/>
+			<Item name = "BidBeginMin" value = "0" type = "int"/>
+			<Item name = "BidEndHour" value = "23" type = "int"/>
+			<Item name = "BidEndMin" value = "59" type = "int"/>
+			<Item name = "BattleBeginWeek" value = "5" type = "int"/>
+			<Item name = "BattleBeginHour" value = "19" type = "int"/>
+			<!--单位为金-->
+			<Item name = "MinBidMoney" value = "5" type = "int" />
+			<Item name = "MendHpValue" value = "10" type = "int" />
+			<!--开展等待时间单位为分钟-->
+			<Item name = "BattleWaitingTime" value = "15" type = "int" />			
+      <!--每点家族荣耀值需要的经验值-->
+      <Item name = "ExpPerGlory" value = "100000" type = "int" />
+      <!--每点家族荣耀值需要的功勋值-->
+      <Item name = "ExploitPerGlory" value = "20" type = "int" />
+      <!--军团战，火线驰援buff-->
+      <Item name = "EnterBattleBuffID" value = "64000" type = "int" />
+		</Module>
+		<!--SceneLogic-->
+		<Module name = "scenelogic_cfg" >
+			<!--KickNonActivityPlayerTime， 单位是秒，长时间不活跃踢人间隔  /-->
+			<Item name = "KickNonActivityPlayerTime" value = "120" type = "int"/>
+			<!--PlayerSaveDBTime 单位是秒 , 玩家存盘时间间隔 /-->
+			<Item name = "PlayerSaveDBTime" value = "60" type = "int"/>
+			<!--PlayerRedirectTimeout 单位是秒 , 玩家跨场景超时时间 /-->
+			<Item name = "PlayerRedirectTimeout" value = "30" type = "int"/>
+			<!--请添加模块需要的配置数据-->
+			<!--移动限制 /-->
+			<MoveCheck  name = "MoveCheckDistance" value = "30" type = "int" />
+			<MoveCheck  name = "MoveCheckTimeSpace" value = "60000" type = "int" />
+			<!--是否严格验证数据库数据完整性-->
+			<Item name = "ValidateDataIntegrity" value = "0" type = "int" />
+      <!--消息频率检查的消息数量上限-->
+      <Item name ="MsgCheckCountLimit"    value="400" type ="int" />    
+      <!--每秒消息上限，每秒超过多少条踢人-->
+      <Item name ="MsgLimitPerSec"      value="40" type ="int" />
+      <!--和网关的心跳，秒-->   
+      <item name ="ToGateHeartBeatSec"		value="20" type ="int" />  
+      <!--和proxy的心跳，秒-->   
+      <item name ="ToProxyHeartBeatSec"		value="10" type ="int" />               
+      <!--和LogDB的统计信息，秒-->   
+      <item name ="ToLogStatInfoSec"		value="300" type ="int" />               
+		<!-- Ping包检查速度, 0为关闭， 非0开启 -->
+		<item name = "PingCheck"	value="1" type = "int" />
+		</Module>
+    <Module name = "formula_cfg">
+      <!--命中率初始调整系数-->
+      <Item name = "HitParam1" value = "8500" type = "int" />
+      <!--命中率等级调整系数-->
+      <Item name = "HitParam2" value = "50" type = "int" />
+      <!--命中率分子调整系数-->
+      <Item name = "HitParam3" value = "11500" type = "int" />
+      <!--命中率分母调整系数-->
+      <Item name = "HitParam4" value = "10000" type = "int" />
+      <!--命中率固定调整值-->
+      <Item name = "HitParam5" value = "10000000" type = "int" />
+      <!--命中率防御方等级次方数-->
+      <Item name = "HitParam6" value = "15600" type = "int" />
+      <!--防御方等级调整系数-->
+      <Item name = "HitParam7" value = "90000" type = "int" />
+      <!--闪避率初始调整系数-->
+      <Item name = "DuckParam1" value = "200" type = "int" />
+      <!--闪避率分子调整系数-->
+      <Item name = "DuckParam2" value = "10000" type = "int" />
+      <!--闪避率分母调整系数-->
+      <Item name = "DuckParam3" value = "10000" type = "int" />
+      <!--闪避率固定调整值-->
+      <Item name = "DuckParam4" value = "2000000" type = "int" />
+      <!--闪避率攻击方等级次方数-->
+      <Item name = "DuckParam5" value = "15000" type = "int" />
+      <!--攻击方等级调整系数-->
+      <Item name = "DuckParam6" value = "50000" type = "int" />
+      <!--致命防御系数-->
+      <Item name = "DeathParam1" value = "10000" type = "int" />
+      <!--致命率分母调整系数-->
+      <Item name = "DeathParam2" value = "22000000" type = "int" />
+      <!--致命率防御方等级底数-->
+      <Item name = "DeathParam3" value = "10200" type = "int" />
+      <!--致命率防御方等级调整系数-->
+      <Item name = "DeathParam4" value = "300000" type = "int" />
+      <!--致命率防御方倍数调整系数-->
+      <Item name = "DeathParam5" value = "20000" type = "int" />
+      <!--致命防御转换系数-->
+      <Item name = "DeathParam6" value = "100" type = "int" />
+      <!--抗性减伤分子系数-->
+      <Item name = "ResParam1" value = "50000" type = "int" />
+      <!--抗性减伤分母系数-->
+      <Item name = "ResParam2" value = "10000" type = "int" />
+      <!--抗性减伤固定调整值-->
+      <Item name = "ResParam3" value = "500000" type = "int" />
+      <!--抗性减伤攻击方等级倍数-->
+      <Item name = "ResParam4" value = "20000" type = "int" />
+      <!--抗性减伤攻击方等级次方数-->
+      <Item name = "ResParam5" value = "18300" type = "int" />
+      <!--HOT初始调整系数-->
+      <Item name = "HotParam1" value = "4500" type = "int" />
+      <!--HOT技能等级底数-->
+      <Item name = "HotParam2" value = "12000" type = "int" />
+      <!--治疗量初始调整系数-->
+      <Item name = "CureParam1" value = "3500" type = "int" />
+      <!--治疗量技能等级底数-->
+      <Item name = "CureParam2" value = "12000" type = "int" />
+      <!--DOT初始调整系数-->
+      <Item name = "DotParam1" value = "2000" type = "int" />
+      <!--DOT技能等级底数-->
+      <Item name = "DotParam2" value = "12000" type = "int" />
+      <!--伤害量初始调整系数-->
+      <Item name = "DamageParam1" value = "6000" type = "int" />
+      <!--伤害量技能等级底数-->
+      <Item name = "DamageParam2" value = "10000" type = "int" />
+      <!--魔法盾初始调整系数-->
+      <Item name = "ShieldParam1" value = "5000" type = "int" />
+      <!--魔法盾技能等级底数-->
+      <Item name = "ShieldParam2" value = "11000" type = "int" />
+      <!--致命防御转换系数-->
+      <Item name = "DeathChangeParam" value = "30" type = "int" />
+    </Module>
+    <!--排行榜模块-->
+		<Module name = "rank_cfg">
+			<!--计算蟠桃积分的地图ID1-->
+			<Item name = "PantaoMap1" value = "10" type = "int" />
+			<!--计算蟠桃积分的地图ID2-->
+			<Item name = "PantaoMap2" value = "11" type = "int" />
+			<!--计算蟠桃积分的地图ID3-->
+			<Item name = "PantaoMap3" value = "12" type = "int" />
+			<!--计算龙宫积分的地图ID1-->
+			<Item name = "LonggongMap1" value = "7" type = "int" />
+			<!--计算龙宫积分的地图ID2-->
+			<Item name = "LonggongMap2" value = "8" type = "int" />
+			<!--计算龙宫积分的地图ID3-->
+			<Item name = "LonggongMap3" value = "9" type = "int" />
+		</Module>
+		<Module name = "map_cfg">
+			<!-- 移动检查开启开关, 0为关闭， 非0开启 -->
+			<Item name = "MoveCheck"	value = "0" type = "int" />
+		</Module>	
+	<!-- 进入副本限制检查开关 -->
+	<Module name = "repetion_cfg">	
+		<!-- 每日次数检查, 0 为不检查， 非0为检查 -->
+		<Item name = "NumCheck"    value = "1" type = "int" />
+		<!-- 进入时间检查, 0 为不检查， 非0为检查 -->
+		<Item name = "TimeCheck"	value = "1" type = "int" />
+		<!-- 进入人数检查, 0 为不检查， 非0为检查 -->
+		<Item name = "PlayerCheck" value = "1" type = "int" />
+		<!-- 副本答题验证时间长度下限 -->
+		<Item name = "TimeHighLimit" value = "300" type = "int" />
+		<!-- 副本答题验证时间长度上限 -->
+		<Item name = "TimeLowLimit" value = "30" type = "int" />
+		<!-- 副本答题最大允许答错次数 -->
+		<Item name = "WrongTimes" value = "3" type = "int" />
+		<!-- 答题超时时间 -->
+		<Item name = "QuestionAnswerTime" value = "30" type = "int" />
+		<!-- 进入副本多久后进行答题验证 -->
+		<Item name = "RepetionVerifyTime" value = "10" type = "int" />
+		<!-- 验证错误后多久踢玩家下线 -->
+		<Item name = "RepetionKickOutTime" value = "10" type = "int" />
+	</Module>
+	<!--元宝交易所税费-->
+	<Module name = "bourse_cfg">	
+		<!-- 元宝税( 千分数 ) -->
+		<Item name = "YbTax" value = "1" type = "int" />
+		<!-- 金钱税( 千分数 ) -->
+		<Item name = "MoneyTax" value = "1" type = "int" />
+		<!-- 充当元宝税费的虚拟消耗物品ID -->
+		<Item name = "TaxID" value = "67726" type = "int" />
+		<!-- 元宝交易所限制 1 开 0关 -->
+		<Item name = "Use" value = "1" type = "int"/>
+		<!-- 元宝交易卖单 全服务器通知 -->
+		<Item name = "BuyNotify" value = "3000" type="int" />
+		<!-- 元宝交易买单 全服务器通知 -->
+		<Item name = "SellNotify" value = "3000" type = "int" />
+	</Module>
+	<Module name = "logevent_cfg">
+		<Item name = "log_role_task"    value = "1" type = "int" />
+		<Item name = "log_role_item"    value = "1" type = "int" />
+		<Item name = "log_role_logout"    value = "1" type = "int" />
+		<Item name = "log_role_exp"    value = "1" type = "int" />
+		<Item name = "log_mw_exp"    value = "1" type = "int" />
+		<Item name = "log_talent_exp"    value = "1" type = "int" />
+		<Item name = "log_produce_exp"    value = "1" type = "int" />
+		<Item name = "log_life_exp"    value = "1" type = "int" />
+		<Item name = "log_role_money"    value = "1" type = "int" />
+		<Item name = "log_role_levelup"    value = "1" type = "int" />
+		<Item name = "log_role_killed"    value = "1" type = "int" />
+		<Item name = "log_npc_drop"    value = "1" type = "int" />
+		<Item name = "log_item_dispear"    value = "1" type = "int" />
+		<Item name = "log_item_levelup"    value = "1" type = "int" />
+		<Item name = "role_exp_limit"    value = "200" type = "int" />
+		<Item name = "talent_exp_limit"    value = "100" type = "int" />
+		<Item name = "mw_exp_limit"    value = "1000" type = "int" />
+		<Item name = "produce_exp_limit"    value = "100" type = "int" />
+	</Module>
+	<Module name = "apex" >
+		<Item name = "identifier" value = "apex" type = "string"/>
+		<Item name = "directory" value = "../log/apex.log" type = "string"/>
+		<Item name = "priority" value = "600" type = "int"/>
+		<Item name = "maxfilesize" value = "10485760" type = "int"/>
+		<Item name = "maxbackupindex" value = "50" type = "int"/>
+		<Item name = "append" value = "1" type = "bool"/>
+		<Item name = "multi_client"    value = "47001" type = "int" />
+		<Item name = "vm"    value = "47011" type = "int" />
+		<Item name = "multi_user"    value = "47011" type = "int" />
+	</Module>
+	<!-- 速度检测模块 -->
+    	<Module name = "SpeedChecker_cfg" >
+    		<!-- 是否使用加速检查，1为使用检测，0为不使用检测 -->
+    		<Item name = "UseSpeedCheckerForCSTimeDiff" value = "1" type = "bool"  />
+		<!-- 是否使客户端发包检查，1为使用检测，0为不使用检测 -->
+		<Item name = "UseSpeedCheckerForClientSpeed" value = "1" type = "bool"  />
+		<!-- 加速检测的同步频率(客户端发包数)，为防止由于客户端与服务器在产生时间戳的频率上存在误差，导致时间戳在误差上产生累积，故设置次值在接收到一定数量客户端包数后对时间戳进行同步 -->
+		<Item name = "TimeSynCountForCSTimeDiff" value = "1000" type = "int" />
+		<!-- 加速检测的同步频率(时间)， 默认五分钟同步一次-->
+		<Item name = "TimeSynIntervalForCSTimeDiff" value = "300000" type = "int" />
+		<!-- 加速检测中最大可容忍的误差值（以毫秒为单位），若客户端与服务器时间误差超过此值时，客户端数据将被视为非法数据 -->  
+		<Item name = "MaxTimeErrorForCSTimeDiff" value = "10000" type = "int" />
+		<!-- 加速检测中最小误差值（以毫秒为单位），若客户端与服务器时间误差小于此值时，对客户端时间进行补偿 -->
+		<Item name = "MinTimeErrorForCSTimeDiff" value = "20" type="int" />
+		<!-- 加速检测中标准可容忍的误差值（以毫秒为单位），若客户端与服务器时间误差超过此值时，客户端数据将被视为非法数据 -->  
+        	<Item name = "TimeErrorForCSTimeDiff" value = "1000" type = "int" />
+        	<!-- 加速检测中最大容忍非法数据接入的次数，若客户端数据在检测中被视为非法数据的次数操作次值，则客户端将被视为使用加速软件 -->    
+		<Item name = "MaxAbideCountsForCSTimeDiff" value = "15" type = "int" />
+		<!-- 客户端发包数据检测中数据同步频率 -->
+		<Item name = "TimeSynCountForClientSpeed" value = "30" type = "int" />
+		<!-- 客户端发包速度检测中最大可容忍的时间误差 -->
+		<Item name = "MaxTimeErrorForClientSpeed" value = "15" type = "int" />
+		<!-- 速度检测中最大可容忍的客户端非法接入次数 -->
+		<Item name = "MaxAbideCountsForClientSpeed" value = "10" type = "int" />
+		<!-- 速度检测中当客户端减速时忽然的数据包数-->
+		<Item name = "MaxErrorCountForClientSpeed" value = "100" type = "int" />
+
+	</Module>
+</SceneConfig>

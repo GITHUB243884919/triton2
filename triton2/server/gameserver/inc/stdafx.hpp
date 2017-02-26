@@ -1,0 +1,77 @@
+
+#ifndef _STDAFX_H_
+#define _STDAFX_H_
+
+// system
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <string>
+#include <time.h>
+#include <errno.h>
+#include <signal.h>
+#include <netinet/in.h>
+#include <unistd.h>
+#include <sys/time.h>
+#include <sys/file.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <dlfcn.h>
+#include <pthread.h>
+#include <stdarg.h>
+#include <bits/stl_algo.h>
+#include <netinet/if_ether.h>
+#include <net/if.h>
+#include <sys/ioctl.h>
+#include <assert.h>
+#include <set>
+#include <vector>
+#include <map>
+#include <math.h>
+#include <iconv.h>
+#include <execinfo.h>
+
+// our logic
+#include "array_list.h"
+#include "lk_vector.h"
+#include "lk_string.h"
+#include "lk_hashmap.h"
+#include "lk_queue.h"
+#include "lk_set.h"
+#include "lk_assert.h"
+#include "lk_sharedvector.h"
+#include "lk_sharedhashmap.h"
+#include "lk_md5.h"
+#include "hash_function.h"
+#include "config.h"
+#include "file_lock.h"
+#include "equal_function.h"
+#include "code_queue.h"
+#include "charset.h"
+#include "clock.h"
+#include "objmanager.h"
+#include "log.h"
+#include "object.h"
+#include "log4cpp/Category.hh"
+#include "log4cpp/RollingFileAppender.hh"
+#include "log4cpp/LinekongLayout.hh"
+#include "tinystr.h"
+#include "tinyxml.h"
+#include <google/protobuf/descriptor.h>
+#include <google/protobuf/descriptor.pb.h>
+#include "performance.h"
+#include "thread.h"
+#include "sock_stream.h"
+#include "sharemem.h"
+#include "shm.h"
+#include "oi_tea.h"
+#include "client_comm_engine.h"
+#include "network.h"
+#include "macro.h"
+#include "dirtyword.h"
+//#include "debug_new.h"
+#endif
+

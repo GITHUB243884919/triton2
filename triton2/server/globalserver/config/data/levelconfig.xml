@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LevelConfig MaxLevel="120" >
+	<LevelSection MinLevel="60" LevelID="1"  MaxWarNum="30" />
+	<LevelSection MinLevel="65" LevelID="2" MaxWarNum="30" />
+	<LevelSection MinLevel="70" LevelID="3" MaxWarNum="30" />
+	<LevelSection MinLevel="75" LevelID="4" MaxWarNum="30" />
+	<LevelSection MinLevel="80" LevelID="5" MaxWarNum="30" />
+	<LevelSection MinLevel="85" LevelID="6" MaxWarNum="30" />
+	<LevelSection MinLevel="90" LevelID="7" MaxWarNum="30" />
+	<LevelSection MinLevel="95" LevelID="8" MaxWarNum="30" />
+	<LevelSection MinLevel="100" LevelID="9" MaxWarNum="30" />
+	<LevelSection MinLevel="105" LevelID="10" MaxWarNum="30" />
+</LevelConfig>

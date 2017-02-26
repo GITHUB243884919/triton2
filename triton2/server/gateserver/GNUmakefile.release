@@ -1,0 +1,313 @@
+
+####### Compiler, tools and options
+COMMONPATH	= ../../common# common file include path
+CC       	= gcc
+CXX      	= g++
+LEX      	= flex
+YACC     	= yacc
+CFLAGS   	= -g
+
+CXXFLAGS 	= -g -Wall -O2 -DUSE_LK_ASSERT  -DUSE_PERF_FUN -DENCODING_UTF8 -DUSE_LOG4CPP -DLINUX -DUSE_SHM -DNDEBUG -DUSING_ERATING  -D_USE_MESSAGE_BUFF_ -DCHARSET_SHOW_GBK -DUSE_COREDUMPER -D_PVP_ -D_MORE_ -DUSE_LONG_CONNECTION -DDIRECT_DEL_ROLE -D_GLOBAL_NAME_
+
+####### third party objects, that may be not need -g to make .o much smaller 
+CXXFLAGS_3RD = -pipe -Wall -O2 -DLINUX -DUSE_LK_ASSERT -DNDEBUG
+
+LEXFLAGS 	= 
+YACCFLAGS	= -d
+INCPATH  	= -I./$(COMMONPATH)/tiny -I./$(COMMONPATH)/comm -I./$(COMMONPATH)/comm/linux -I./$(COMMONPATH)/inc -I../servercommon/inc -I./$(COMMONPATH)/inc -I./$(COMMONPATH)/interface -I./inc -I../servercommon/inc  -I./$(COMMONPATH)/protobuf/include -I./$(COMMONPATH)/log4cpp/include -I./worldlogic/inc/  -I../loginserver/erating/EBase -I../loginserver/erating/EProtocol -I../loginserver/erating/EAlgorithm  -I./$(COMMONPATH)/coredumper/include -I$(COMMONPATH)/mysql/inc/
+LINK     	= g++
+LFLAGS  	= 
+LIBS     	= -lpthread  -L$(COMMONPATH)/protobuf/lib -lprotobuf -L./$(COMMONPATH)/log4cpp/lib -llog4cpp -L../loginserver/lib -lEProtocol -lEAlgorithm -lEBase -L./$(COMMONPATH)/coredumper/lib -lcoredumper -rdynamic -L $(COMMONPATH)/mysql/lib/ -lmysqlclient  -lz
+DEL_FILE 	= rm -f
+
+PCH_X_H = inc/stdafx.hpp
+PCH_X = inc/stdafx.hpp.gch
+
+
+####### Files
+MSG_OBJ = #../comm/msg ../comm/encoder ../src/coremessage
+#MSG_OBJ
+
+OBJECTS =	./debug/gatelogic.o ./debug/dbinterface.o ./debug/servertool.o ./debug/db_msg_pb.hxx.pb.o \
+			./debug/tinyxml.o ./debug/tinystr.o ./debug/tinyxmlerror.o ./debug/tinyxmlparser.o \
+			./debug/coremessage_pb.hxx.pb.o ./debug/message_pb.hxx.pb.o ./debug/core_service.o\
+			./debug/proxymessage_pb.hxx.pb.o ./debug/servermessage_pb.hxx.pb.o ./debug/log_msg_pb.hxx.pb.o \
+			./debug/message_factory.o ./debug/main.o \
+			./debug/client_comm_engine.o ./debug/log.o ./debug/property_pb.hxx.pb.o ./debug/mapmessage_pb.hxx.pb.o \
+			./debug/teammessage_pb.hxx.pb.o ./debug/chatmessage_pb.hxx.pb.o ./debug/taskmessage_pb.hxx.pb.o \
+			./debug/promessage_pb.hxx.pb.o ./debug/servermessage_in.o ./debug/base.o ./debug/message_queue.o\
+			./debug/gateobj_manager.o ./debug/gateobj_manager_imp.o ./debug/shm.o ./debug/code_queue.o \
+			./debug/message_dispatcher.o ./debug/sharemem.o ./debug/clienthandle.o ./debug/object.o \
+			./debug/trademessage_pb.hxx.pb.o ./debug/mailmessage_pb.hxx.pb.o ./debug/friendmessage_pb.hxx.pb.o \
+			./debug/oi_tea.o ./debug/module_manager.o ./debug/stallmessage_pb.hxx.pb.o ./debug/dirtyword.o \
+			./debug/gmmessage_pb.hxx.pb.o ./debug/repetionmessage_pb.hxx.pb.o ./debug/activitymessag_pb.hxx.pb.o \
+			./debug/familymessage_pb.hxx.pb.o ./debug/familydbinfo_pb.hxx.pb.o ./debug/family.o ./debug/familyservice.o \
+			./debug/family_manager.o ./debug/ibstore_pb.hxx.pb.o ./debug/corpsinfo_pb.hxx.pb.o ./debug/corpsmessage_pb.hxx.pb.o \
+			./debug/corps.o ./debug/coprsmanager.o ./debug/corpservice.o ./debug/rankmodule.o ./debug/rankmessage_pb.hxx.pb.o ./debug/charset.o \
+			./debug/chatmodule.o ./debug/clock.o ./debug/performance.o \
+			./debug/judgemessage_pb.hxx.pb.o ./debug/judgemodule.o \
+			./debug/achievemessage_pb.hxx.pb.o	./debug/world.o ./debug/countrymessage_pb.hxx.pb.o ./debug/template.o ./debug/template_pb.hxx.pb.o ./debug/log_tools.o \
+			./debug/privilege_pb.hxx.pb.o ./debug/marriagemessage_pb.hxx.pb.o 
+
+MSG_OBJECTS = $(foreach OBJECT, $(MSG_OBJ), ../../common/src/$(OBJECT).o )
+MSG_SRC	= $(foreach OBJECT, $(MSG_OBJ), ../../common/src/$(OBJECT).cpp )
+
+LOGIC_OBJECTS = gateteam gateteammanager nameservice repetionmodule gmservice friendmodule \
+			mailservice fcmservice activity ibstoremodule 
+
+_TARGET_OBJECTS_ = $(foreach OBJECT, $(LOGIC_OBJECTS), ./worldlogic/src/$(OBJECT).o )
+_SRC_OBJECT_ = $(foreach OBJECT, $(LOGIC_OBJECTS), ./worldlogic/src/$(OBJECT).cpp )
+
+#TARGET          = $(TRITON_BIN)/gateserver
+TARGET          = ./bin/gateserver
+
+first: all
+####### Compile
+
+./debug/base.o : ../servercommon/src/base.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/dirtyword.o : ../servercommon/src/dirtyword.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+#./debug/gateteammanager.o : worldlogic/src/gateteammanager.cpp
+#	$(CXX) -c -DLINUX  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/family.o :  worldlogic/src/family.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/family_manager.o : worldlogic/src/family_manager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/familyservice.o : worldlogic/src/familyservice.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/corps.o :  worldlogic/src/corps.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/coprsmanager.o :  worldlogic/src/corpsmanager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/chatmodule.o :  worldlogic/src/chatmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/corpservice.o : worldlogic/src/corpservice.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/judgemodule.o : worldlogic/src/judgemodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/module_manager.o : src/module_manager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/clienthandle.o : src/clienthandle.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/core_service.o : src/core_service.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/gatelogic.o : src/gatelogic.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/log_tools.o : src/log_tools.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+./debug/main.o : src/main.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/message_dispatcher.o : src/message_dispatcher.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/message_queue.o : src/message_queue.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/shm.o : ../servercommon/src/shm.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/code_queue.o : ../servercommon/src/code_queue.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $< 
+
+./debug/gateobj_manager.o : src/gateobj_manager.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/gateobj_manager_imp.o : src/gateobj_manager_imp.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/dbinterface.o : ../servercommon/src/dbinterface.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/servertool.o : ../servercommon/src/servertool.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinyxml.o : $(COMMONPATH)/tiny/tinyxml.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinystr.o : $(COMMONPATH)/tiny/tinystr.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinyxmlerror.o : $(COMMONPATH)/tiny/tinyxmlerror.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/tinyxmlparser.o : $(COMMONPATH)/tiny/tinyxmlparser.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/message_pb.hxx.pb.o : $(COMMONPATH)/inc/message_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/coremessage_pb.hxx.pb.o : $(COMMONPATH)/inc/coremessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/log_msg_pb.hxx.pb.o : ../servercommon/inc/log_msg_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/performance.o : ../servercommon/src/performance.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/clock.o : ../servercommon/src/clock.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/message_factory.o : $(COMMONPATH)/src/message_factory.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/servermessage_in.o : ../servercommon/src/servermessage_in.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/proxymessage_pb.hxx.pb.o : ../servercommon/inc/proxymessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/servermessage_pb.hxx.pb.o : ../servercommon/inc/servermessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/db_msg_pb.hxx.pb.o : ../servercommon/inc/db_msg_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/client_comm_engine.o : $(COMMONPATH)/comm/client_comm_engine.cpp
+	$(CXX) -c -DLINUX $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/log.o : ../servercommon/src/log.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/promessage_pb.hxx.pb.o : $(COMMONPATH)/inc/promessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/property_pb.hxx.pb.o : $(COMMONPATH)/inc/property_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/mapmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/mapmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/teammessage_pb.hxx.pb.o : $(COMMONPATH)/inc/teammessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/chatmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/chatmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/taskmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/taskmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/trademessage_pb.hxx.pb.o : $(COMMONPATH)/inc/trademessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+	
+./debug/friendmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/friendmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/mailmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/mailmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/stallmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/stallmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/gmmessage_pb.hxx.pb.o : ../servercommon/inc/gmmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/sharemem.o : ../servercommon/src/sharemem.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/object.o : ../servercommon/src/object.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/oi_tea.o :  $(COMMONPATH)/comm/oi_tea.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/repetionmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/repetionmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/activitymessag_pb.hxx.pb.o : $(COMMONPATH)/inc/activitymessag_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/familydbinfo_pb.hxx.pb.o : $(COMMONPATH)/inc/familydbinfo_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/ibstore_pb.hxx.pb.o : $(COMMONPATH)/inc/ibstore_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/familymessage_pb.hxx.pb.o : $(COMMONPATH)/inc/familymessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/corpsinfo_pb.hxx.pb.o : $(COMMONPATH)/inc/corpsinfo_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/corpsmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/corpsmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/rankmodule.o : worldlogic/src/rankmodule.cpp
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/rankmessage_pb.hxx.pb.o : $(COMMONPATH)/inc/rankmessage_pb.hxx.pb.cc
+	$(CXX) -c  $(CXXFLAGS_3RD) $(INCPATH) -o $@ $<
+
+./debug/charset.o : ../servercommon/src/charset.c
+	$(CXX) -c  $(CXXFLAGS) $(INCPATH) -o $@ $<
+
+./debug/judgemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/judgemessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/achievemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/achievemessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+	
+./debug/countrymessage_pb.hxx.pb.o : $(COMMONPATH)/inc/countrymessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+	
+./debug/world.o : worldlogic/src/world.cpp
+	$(CXX) -c $(CXXFLAGS)  $(INCPATH) -o $@ $<
+	
+./debug/template.o : $(COMMONPATH)/src/template.cpp
+	$(CXX) -c $(CXXFLAGS)  $(INCPATH) -o $@ $<
+	
+./debug/template_pb.hxx.pb.o : $(COMMONPATH)/inc/template_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS)  $(INCPATH) -o $@ $<
+	
+./debug/privilege_pb.hxx.pb.o : $(COMMONPATH)/inc/privilege_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+
+./debug/marriagemessage_pb.hxx.pb.o : $(COMMONPATH)/inc/marriagemessage_pb.hxx.pb.cc
+	$(CXX) -c $(CXXFLAGS_3RD)  $(INCPATH) -o $@ $<
+	
+####### Build rules
+.cpp.o:; $(CXX) -c  $(INCPATH) $(CXXFLAGS)  -o $@ $<
+.cc.o:; $(CXX) -c  $(INCPATH) $(CXXFLAGS)  -o $@ $<
+.c.o:; $(CXX) -c  $(INCPATH) $(CXXFLAGS)  -o $@ $<   
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS) $(MSG_OBJECTS) $(_TARGET_OBJECTS_)
+	mkdir -p debug
+	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(_TARGET_OBJECTS_) $(MSG_OBJECTS) $(LIBS)
+
+$(OBJECTS): $(PCH_X)
+$(MSG_OBJECTS): $(PCH_X)
+$(_TARGET_OBJECTS_): $(PCH_X)
+
+$(PCH_X): $(PCH_X_H)
+	$(CXX) $(CXXFLAGS) $(INCPATH) -x c++-header $> $^
+
+install: all
+	-cp $(TARGET) $(TRITON_BIN)
+
+clean:
+	-$(DEL_FILE) $(OBJECTS) $(_TARGET_OBJECTS_) $(MSG_OBJECTS)
+	-$(DEL_FILE) *~ core *.core
+	rm -f $(TARGET) $(PCH_X)
+
+
+
+

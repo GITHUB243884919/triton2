@@ -1,0 +1,1 @@
+insert into UMS_ONLINENO(server_id) values(14);

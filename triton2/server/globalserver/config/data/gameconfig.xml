@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GameConfig>
+	<Game WorldID="106" ServerListID="0" />
+	<Game WorldID="116" ServerListID="0" />
+	<Game WorldID="107" ServerListID="0" />
+	<Game WorldID="109" ServerListID="0" />
+	<Game WorldID="999" ServerListID="0" />
+</GameConfig>

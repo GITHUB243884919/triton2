@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FriendConfig>
+	<FriendBlessConfig LevelInterval="10" OgreNum="50" OgreExpTableID="75646" LevelLimit="30" >
+		<BlessInfo Times="10" OgreNum="40" />
+		<BlessInfo Times="30" OgreNum="20" />
+		<BlessInfo Times="50" OgreNum="5" />
+		<BlessInfo Times="200" OgreNum="1" />
+	</FriendBlessConfig>
+	<IntimacyConfig>
+		<OffLineDays DataValue="3" />
+		<DayReduced DataValue="10" />		
+		<KillReduced DataValue="30" />		
+		<DisbandReduced DataValue="20" />		
+		<LeaveReduced DataValue="20" />		
+		<KickReduced DataValue="20" />				
+		<SwornIntimacy DataValue="200" />			
+		<TeamIntimacyTime	DataValue="600" />
+		<MaxIntimacy	DataValue="5000" />
+		<DivorceReduced	DataValue="200" />	
+		<MarriageIntimacy>
+			<DataValue Intimacy="400" ItemReduced="66" />			
+		</MarriageIntimacy>
+		<SwornTitleID	DataValue="332" />	
+		<ItemCreateSworn	DataValue="76615" />	
+		<ItemDisbandSworn	DataValue="76616" />	
+		<ItemKickMember	DataValue="76617" />	
+		<ItemChangeName	DataValue="76618" />				
+		<MaxDailyDegree	DataValue="30" />			
+		<RebuildItemID	DataValue="77210" />			
+	</IntimacyConfig>
+</FriendConfig>

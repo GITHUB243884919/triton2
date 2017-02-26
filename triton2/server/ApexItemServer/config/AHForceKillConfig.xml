@@ -1,0 +1,18 @@
+<ForceKill>
+	<m_bForceKillAllZone>0</m_bForceKillAllZone>			//是否监视所有地区;
+	<m_ForceKillZoneList>								//如果不监视所有地区,请知道,地图编号里表;
+		<Zone-1>2</Zone-1>
+	</m_ForceKillZoneList>	
+	<m_ForceKillLockedTimeList>			//锁定用户,解冻时间列表,(毫秒);	
+		<Num-1>120000</Num-1>			//第一次,锁定,30分钟,
+		<Num-2>900000</Num-2>			//第一次,锁定,30分钟,
+		<Num-3>7200000</Num-3>			//第二次,锁定,20分钟;  其实,复制主要出现在,第二次登陆,所以这个时间基本上确保数据完全保存了
+    <Num-4>1800000</Num-4>		
+	</m_ForceKillLockedTimeList>
+	<m_ForkillLockedTimeOutList>
+		<Num-1>1200000</Num-1>			//第一次,锁定,30分钟,
+		<Num-2>1000000</Num-2>			//第一次,保护时间是,30分钟;
+		<Num-3>7200000</Num-3>			//第二次,保护时间是,40分钟;
+    <Num-4>1800000</Num-4>	
+	</m_ForkillLockedTimeOutList>
+</ForceKill>

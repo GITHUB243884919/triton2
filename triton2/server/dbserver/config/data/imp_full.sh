@@ -1,0 +1,42 @@
+#!/bin/bash
+#
+# 1. 导入备份点的所有数据
+#    - 除UMS_ROLE_DETAIL_XX之外的所有表      PART_YYYYMMDDHH24MISS.SQL 
+#    - 当天变化的 UMS_ROLE_DETAIL_XX 数据	 PART_UMS_ROLE_DETAIL.SQL
+#
+# 2. 导入备份点未备份点角色数据
+#    - 当天未变化的UMS_ROLE_DETAIL_XX数据  	 FULL_UMS_ROLE_DETAIL_XX.SQL
+#
+#
+# usage: dbrecovery.sh -p PART_YYYYMMDDHH24MISS.SQL  -c FULL_YYYYMMDD_XX.SQL
+#
+# FULL_YYYYMMDD_XX.SQL should be UMS_ROLE_DETAIL_00.SQL ~ UMS_ROLE_DETAIL_16.SQL
+
+
+USERNAME=root
+PASSWD=game
+DBNAME=GameDB
+
+MYSQL_HOME=/usr/local/mysql/
+MYSQL_BIN=$MYSQL_HOME/bin/mysql
+MYSQL_DUMP=$MYSQL_HOME/bin/mysqldump
+MYSQL_EXEC=$MYSQL_BIN -u$USERNAME -p$PASSWD -s -vv -D$DBNAME -e
+
+PAER_ROLE_DETAIL=
+PART_REMAIN=
+FULL_ROLE_DETAIL=
+
+# 导入除UMS_ROLE_DETAIL之外的所有表
+MYSQL_EXEC "$PART_REMAIN" > $PART_REMAIN.LOG
+
+# 导入发生变化的UMS_ROLE_DETAIL表
+MYSQL_EXEC "$PART_ROLE_DETAIL" > $PART_ROLE_DETAIL.LOG
+
+# 导入所有角色表, 重复的插入不成功
+MYSQL_EXEC "$FULL_ROLE_DETAIL" > $FULL_ROLE_DETAIL.LOG
+
+# 删除从全备的时间点到恢复的时间点之间，已经被删除的角色; 避免DETAIL中存在垃圾数据
+# TODO
+
+# 从$FULL_ROLE_DETAIL.LOG中, 输出结论
+# TODO:

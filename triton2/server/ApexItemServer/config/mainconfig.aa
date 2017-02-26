@@ -1,0 +1,40 @@
+
+--主配置
+function AddMainConfig()
+	var = {};
+	var.nClearFiles 					= 0;
+	var.uCltVer							= 249;				-- 客户端版本号，是8位的
+	var.uSendDataMaxSize 				= 2048;				-- 向客户端发送包的最大限制 32位的
+	var.uLoginTimeout     				= 360000;			-- 客户端启动极限时间，如果大于这个时间，会根据错误号情况处理 
+	var.u8HelTickFlag					= 1;				-- 检测hellotick控制变量 0为不检测 ，1为检测
+	var.u8ClientLimit					= 3;				-- 1 防止多开开关，客户端数量限制，根据客户端数量限制替人
+	var.u8MachineCheck					= 0;				-- 1 防止多开开关，一个机器不能多开
+	var.u32ResetInterval				= 3600*6*1000;      --限定踢人次数清零的时间
+	var.u32CltCountIni					= 0;                --玩家id的初始值
+	var.u8KillOneTime					= 0;
+	var.u8Apex2Verify					= 1;                --Apex2客户端校验开关
+	var.u8DelayKill						= 0;
+	LuaData( "MainConfig", var );
+end;
+AddMainConfig();
+
+--------------公共文件-----------------
+Load( "./misc.lua" );
+Load( "./scanner.lua" );
+Load( "./errno.lua" );
+
+------------- 魏建亮任务-----------------
+
+LoadRunTimeFile("./runtime.lua");
+--Load( "./task_ApexProtect.lua");
+--Load( "./Apex2_LockComputerConfig.lua");
+
+
+------------- 徐亮任务---------------
+--Load( "./countinfo.lua");
+
+-----------------------------------------------
+OpenHelloTickLua();
+--OpenAxpe();							              --打开 Axpe系统;
+--loadaxpe(uint8 nID,char*pFileName);		--nID,加载 Axpe系统到配置里;
+svr_load_axmulfile("./cltax.xmf");

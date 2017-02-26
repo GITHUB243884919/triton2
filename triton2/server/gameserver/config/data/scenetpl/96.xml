@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2306">
+    <Map MapName="火云洞一层" MapID="96" SrcMapID="0" PKPunish="0" BasRide="0" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="0" ConSafe="0" Type="1" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="0">
+        <Size cx="26" cy="40" />
+        <RelivePos MapID="68" x="251" y="95" LineID="0" Border="0" />
+        <OgreData />
+        <TeleportData>
+            <Teleport TeleportIndex="95002" NpcID="" LineID="" MapID="68" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="20" y="29" cx="2" cy="3" />
+                <DesPos x="9" y="20" />
+            </Teleport>
+            <Teleport TeleportIndex="95001" NpcID="" LineID="" MapID="72" MinLevel="" Init="1" MaxActive="0" ExistTime="0">
+                <SrcRect x="18" y="16" cx="2" cy="2" />
+                <DesPos x="74" y="100" />
+            </Teleport>
+        </TeleportData>
+        <NpcData>
+            <Npc NpcIndex="95000" NpcID="56297" NpcName="圣婴大王" NpcInit="1" Disappear="1000" Direction="-1" Relife="2000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="9" y="16" />
+            </Npc>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

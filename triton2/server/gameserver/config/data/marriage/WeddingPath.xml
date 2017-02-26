@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="GBK" ?> 
+<WeddingCongfig>
+        <!-- NPC模板ID     地图ID     婚礼规模 同步标志 0是不同步，其他数字是同步点（必须所有NPC都配上）   -->
+	<!-- 普通花轿第一批舞狮（内丹） -->
+	<NpcInfo NpcTempID="64042" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="137" y="299" synmark="0" />
+		<Path x="137" y="300" synmark="1" />
+        <Path x="137" y="310" synmark="2" />  <!-- 第一个转弯点 -->
+        <Path x="139" y="312" synmark="3" />
+		<Path x="141" y="314" synmark="4" />
+		<Path x="142" y="315" synmark="5" />
+		<Path x="143" y="316" synmark="6" />
+		<Path x="144" y="317" synmark="7" />
+		<Path x="187" y="360" synmark="8" />
+		<Path x="192" y="365" synmark="9" />
+		<Path x="194" y="365" synmark="10" />
+		<Path x="196" y="365" synmark="11" />
+		<Path x="198" y="365" synmark="12" />
+		<Path x="206" y="365" synmark="13" />
+		<Path x="208" y="367" synmark="14" />
+		<Path x="210" y="369" synmark="15" />
+		<Path x="211" y="370" synmark="16" />
+		<Path x="213" y="372" synmark="17" />
+		<Path x="214" y="373" synmark="18" />
+		<Path x="214" y="375" synmark="19" />
+		<Path x="214" y="377" synmark="20" />
+		<Path x="214" y="379" synmark="21" />
+		<Path x="214" y="389" synmark="22" />
+		<Path x="216" y="391" synmark="23" />
+		<Path x="218" y="393" synmark="24" />
+		<Path x="219" y="394" synmark="25" />
+		<Path x="221" y="396" synmark="26" />
+        <Path x="273" y="448" synmark="27" />
+		<Path x="275" y="448" synmark="28" />
+		<Path x="277" y="448" synmark="29" />
+		<Path x="279" y="448" synmark="30" />
+		<Path x="289" y="448" synmark="0" />								
+	</NpcInfo>
+
+	<!-- 普通花轿第二批骑马新郎 -->
+	<NpcInfo NpcTempID="61262" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="137" y="297" synmark="0" />
+		<Path x="137" y="298" synmark="1" />
+        <Path x="137" y="308" synmark="2" />
+        <Path x="137" y="310" synmark="3" />
+        <Path x="139" y="312" synmark="4" />
+		<Path x="140" y="313" synmark="5" />
+		<Path x="141" y="314" synmark="6" />
+		<Path x="142" y="315" synmark="7" />
+		<Path x="185" y="358" synmark="8" />
+		<Path x="190" y="363" synmark="9" />
+		<Path x="192" y="365" synmark="10" />
+		<Path x="194" y="365" synmark="11" />
+		<Path x="196" y="365" synmark="12" />
+		<Path x="204" y="365" synmark="13" />
+		<Path x="206" y="365" synmark="14" />
+		<Path x="208" y="367" synmark="15" />
+		<Path x="209" y="368" synmark="16" />
+		<Path x="211" y="370" synmark="17" />
+		<Path x="212" y="371" synmark="18" />
+		<Path x="214" y="373" synmark="19" />
+		<Path x="214" y="375" synmark="20" />
+		<Path x="214" y="377" synmark="21" />
+		<Path x="214" y="387" synmark="22" />
+		<Path x="214" y="389" synmark="23" />
+		<Path x="216" y="391" synmark="24" />
+		<Path x="217" y="392" synmark="25" />
+		<Path x="219" y="394" synmark="26" />
+		<Path x="271" y="446" synmark="27" />
+		<Path x="273" y="448" synmark="28" />
+		<Path x="275" y="448" synmark="29" />
+		<Path x="277" y="448" synmark="30" />
+		<Path x="289" y="448" synmark="0" />
+	</NpcInfo>
+
+	<!-- 普通花轿第三批左敲锣家丁 -->
+	<NpcInfo NpcTempID="62180" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="139" y="295" synmark="0" />
+		<Path x="139" y="296" synmark="1" />
+		<Path x="139" y="306" synmark="2" />
+        <Path x="139" y="308" synmark="3" />
+		<Path x="139" y="310" synmark="4" />
+		<Path x="139" y="310" synmark="5" />
+        <Path x="140" y="311" synmark="6" />
+		<Path x="141" y="312" synmark="7" />
+		<Path x="184" y="355" synmark="8" />
+		<Path x="189" y="360" synmark="9" />
+		<Path x="191" y="362" synmark="10" />
+		<Path x="192" y="363" synmark="11" />
+		<Path x="194" y="363" synmark="12" />
+		<Path x="202" y="363" synmark="13" />
+		<Path x="204" y="363" synmark="14" />
+		<Path x="206" y="363" synmark="15" />
+		<Path x="208" y="365" synmark="16" />
+		<Path x="210" y="367" synmark="17" />
+		<Path x="211" y="368" synmark="18" />
+		<Path x="213" y="370" synmark="19" />
+		<Path x="216" y="373" synmark="20" />
+		<Path x="216" y="375" synmark="21" />
+		<Path x="216" y="385" synmark="22" />
+		<Path x="216" y="387" synmark="23" />
+		<Path x="216" y="389" synmark="24" />
+		<Path x="216" y="389" synmark="25" />
+		<Path x="218" y="391" synmark="26" />
+		<Path x="270" y="443" synmark="27" />
+		<Path x="272" y="445" synmark="28" />
+		<Path x="273" y="446" synmark="29" />
+		<Path x="275" y="446" synmark="30" />
+		<Path x="287" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 普通花轿第三批媒婆 -->
+	<NpcInfo NpcTempID="61258" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="137" y="295" synmark="0" />
+		<Path x="137" y="296" synmark="1" />
+		<Path x="137" y="306" synmark="2" />
+        <Path x="137" y="308" synmark="3" />
+		<Path x="137" y="310" synmark="4" />
+        <Path x="138" y="311" synmark="5" />
+		<Path x="139" y="312" synmark="6" />
+		<Path x="140" y="313" synmark="7" />
+		<Path x="183" y="356" synmark="8" />
+		<Path x="188" y="361" synmark="9" />
+		<Path x="190" y="363" synmark="10" />
+		<Path x="192" y="365" synmark="11" />
+		<Path x="194" y="365" synmark="12" />
+		<Path x="202" y="365" synmark="13" />
+		<Path x="204" y="365" synmark="14" />
+		<Path x="206" y="365" synmark="15" />
+		<Path x="207" y="366" synmark="16" />
+		<Path x="209" y="368" synmark="17" />
+		<Path x="210" y="369" synmark="18" />
+		<Path x="212" y="371" synmark="19" />
+		<Path x="214" y="373" synmark="20" />
+		<Path x="214" y="375" synmark="21" />
+		<Path x="214" y="385" synmark="22" />
+		<Path x="214" y="387" synmark="23" />
+		<Path x="214" y="389" synmark="24" />
+		<Path x="215" y="390" synmark="25" />
+		<Path x="217" y="392" synmark="26" />
+		<Path x="269" y="444" synmark="27" />
+		<Path x="271" y="446" synmark="28" />
+		<Path x="273" y="448" synmark="29" />
+		<Path x="275" y="448" synmark="30" />   
+		<Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 普通花轿第三批右吹唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="135" y="295" synmark="0" />
+		<Path x="135" y="296" synmark="1" />
+		<Path x="135" y="306" synmark="2" />
+        <Path x="135" y="308" synmark="3" />
+		<Path x="135" y="310" synmark="4" />
+        <Path x="137" y="312" synmark="5" />
+		<Path x="138" y="313" synmark="6" />
+		<Path x="139" y="314" synmark="7" />
+		<Path x="182" y="357" synmark="8" />
+		<Path x="187" y="362" synmark="9" />
+		<Path x="189" y="364" synmark="10" />
+		<Path x="192" y="367" synmark="11" />
+		<Path x="194" y="367" synmark="12" />
+		<Path x="202" y="367" synmark="13" />
+		<Path x="204" y="367" synmark="14" />
+		<Path x="206" y="367" synmark="15" />
+		<Path x="206" y="367" synmark="16" />
+		<Path x="208" y="369" synmark="17" />
+		<Path x="209" y="370" synmark="18" />
+		<Path x="211" y="372" synmark="19" />
+		<Path x="212" y="373" synmark="20" />
+		<Path x="212" y="375" synmark="21" />
+		<Path x="212" y="385" synmark="22" />
+		<Path x="212" y="387" synmark="23" />
+		<Path x="212" y="389" synmark="24" />
+		<Path x="214" y="391" synmark="25" />
+		<Path x="216" y="393" synmark="26" />
+		<Path x="268" y="445" synmark="27" />
+		<Path x="270" y="447" synmark="28" />
+		<Path x="273" y="450" synmark="29" />
+		<Path x="275" y="450" synmark="30" />					
+		<Path x="287" y="450" synmark="0" />
+	</NpcInfo>
+
+    <!-- 普通花轿第四批左击钹家丁 -->
+	<NpcInfo NpcTempID="62182" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="138" y="293" synmark="0" />
+		<Path x="139" y="294" synmark="1" />
+		<Path x="139" y="304" synmark="2" />
+		<Path x="139" y="306" synmark="3" />
+        <Path x="139" y="308" synmark="4" />
+		<Path x="139" y="308" synmark="5" />
+		<Path x="139" y="309" synmark="6" />
+		<Path x="139" y="310" synmark="7" />
+		<Path x="182" y="353" synmark="8" />
+		<Path x="187" y="358" synmark="9" />
+		<Path x="189" y="360" synmark="10" />
+		<Path x="190" y="361" synmark="11" />
+		<Path x="192" y="363" synmark="12" />
+		<Path x="200" y="363" synmark="13" />
+		<Path x="202" y="363" synmark="14" />
+		<Path x="204" y="363" synmark="15" />
+		<Path x="206" y="363" synmark="16" />
+		<Path x="208" y="365" synmark="17" />
+		<Path x="209" y="366" synmark="18" />
+		<Path x="211" y="368" synmark="19" />
+		<Path x="214" y="371" synmark="20" />
+		<Path x="216" y="373" synmark="21" />
+		<Path x="216" y="383" synmark="22" />
+		<Path x="216" y="385" synmark="23" />
+		<Path x="216" y="387" synmark="24" />
+		<Path x="216" y="387" synmark="25" />
+		<Path x="216" y="389" synmark="26" />
+		<Path x="268" y="441" synmark="27" />
+		<Path x="270" y="443" synmark="28" />
+		<Path x="271" y="444" synmark="29" />
+		<Path x="273" y="446" synmark="30" />
+		<Path x="287" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 普通花轿第四批骑象新娘 -->
+	<NpcInfo NpcTempID="63859" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="137" y="293" synmark="0" />
+		<Path x="137" y="294" synmark="1" />
+		<Path x="137" y="304" synmark="2" />
+		<Path x="137" y="306" synmark="3" />
+        <Path x="137" y="308" synmark="4" />
+		<Path x="137" y="309" synmark="5" />
+		<Path x="137" y="310" synmark="6" />
+        <Path x="138" y="311" synmark="7" />
+        <Path x="181" y="354" synmark="8" />
+		<Path x="186" y="359" synmark="9" />
+		<Path x="188" y="361" synmark="10" />
+		<Path x="190" y="363" synmark="11" />
+		<Path x="192" y="365" synmark="12" />
+		<Path x="200" y="365" synmark="13" />
+		<Path x="202" y="365" synmark="14" />
+		<Path x="204" y="365" synmark="15" />
+		<Path x="205" y="365" synmark="16" />
+		<Path x="207" y="366" synmark="17" />
+		<Path x="208" y="367" synmark="18" />
+		<Path x="210" y="369" synmark="19" />
+		<Path x="212" y="371" synmark="20" />
+		<Path x="214" y="373" synmark="21" />
+		<Path x="214" y="383" synmark="22" />
+		<Path x="214" y="385" synmark="23" />
+		<Path x="214" y="387" synmark="24" />
+		<Path x="214" y="388" synmark="25" />
+		<Path x="215" y="390" synmark="26" />
+		<Path x="267" y="442" synmark="27" />
+		<Path x="269" y="444" synmark="28" />
+		<Path x="271" y="446" synmark="29" />
+		<Path x="273" y="448" synmark="30" />
+		<Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 普通花轿第四批右击钹家丁 -->
+	<NpcInfo NpcTempID="62182" MapID="62" WeddingModule="0" MapIndex="152" >
+		<Path x="136" y="293" synmark="0" />
+		<Path x="135" y="294" synmark="1" />
+		<Path x="135" y="304" synmark="2" />
+		<Path x="135" y="306" synmark="3" />
+        <Path x="135" y="308" synmark="4" />
+		<Path x="135" y="310" synmark="5" />
+		<Path x="136" y="311" synmark="6" />
+        <Path x="137" y="312" synmark="7" />		
+		<Path x="180" y="355" synmark="8" />
+		<Path x="185" y="360" synmark="9" />
+		<Path x="187" y="362" synmark="10" />
+		<Path x="190" y="365" synmark="11" />
+		<Path x="192" y="367" synmark="12" />
+		<Path x="200" y="367" synmark="13" />
+		<Path x="202" y="367" synmark="14" />
+		<Path x="204" y="367" synmark="15" />
+		<Path x="204" y="367" synmark="16" />
+		<Path x="206" y="367" synmark="17" />
+		<Path x="207" y="368" synmark="18" />
+		<Path x="209" y="370" synmark="19" />
+		<Path x="210" y="371" synmark="20" />
+		<Path x="212" y="373" synmark="21" />
+		<Path x="212" y="383" synmark="22" />
+		<Path x="212" y="385" synmark="23" />
+		<Path x="212" y="387" synmark="24" />
+		<Path x="212" y="389" synmark="25" />
+		<Path x="214" y="391" synmark="26" />
+		<Path x="266" y="443" synmark="27" />
+		<Path x="268" y="445" synmark="28" />
+		<Path x="271" y="448" synmark="29" />
+		<Path x="273" y="450" synmark="30" />			
+		<Path x="287" y="450" synmark="0" />
+	</NpcInfo>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 富贵花轿第一批左舞狮 -->
+	<NpcInfo NpcTempID="61259" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="138" y="301" synmark="0" />
+        <Path x="138" y="309" synmark="1" />
+		<Path x="139" y="310" synmark="2" />
+		<Path x="140" y="311" synmark="3" />
+		<Path x="141" y="312" synmark="4" />
+		<Path x="143" y="314" synmark="5" />
+		<Path x="145" y="316" synmark="6" />
+		<Path x="146" y="317" synmark="7" />
+        <Path x="192" y="363" synmark="8" />
+		<Path x="193" y="363" synmark="9" />
+		<Path x="195" y="363" synmark="10" />
+		<Path x="197" y="363" synmark="11" />
+		<Path x="198" y="363" synmark="12" />
+		<Path x="200" y="363" synmark="13" />
+		<Path x="204" y="363" synmark="14" />
+		<Path x="206" y="363" synmark="15" />
+		<Path x="208" y="365" synmark="16" />
+		<Path x="210" y="367" synmark="17" />
+		<Path x="212" y="369" synmark="18" />
+		<Path x="214" y="371" synmark="19" />
+		<Path x="215" y="372" synmark="20" />
+		<Path x="215" y="375" synmark="21" />
+		<Path x="215" y="377" synmark="22" />
+		<Path x="215" y="379" synmark="23" />
+		<Path x="215" y="380" synmark="24" />
+		<Path x="215" y="382" synmark="25" />
+		<Path x="215" y="388" synmark="26" />
+		<Path x="216" y="389" synmark="27" />
+		<Path x="217" y="390" synmark="28" />
+		<Path x="219" y="392" synmark="29" />
+		<Path x="221" y="394" synmark="30" />
+		<Path x="223" y="396" synmark="31" />
+        <Path x="274" y="447" synmark="32" />
+		<Path x="275" y="447" synmark="33" />
+		<Path x="277" y="447" synmark="34" />
+		<Path x="279" y="447" synmark="35" />
+		<Path x="280" y="447" synmark="36" />
+		<Path x="282" y="447" synmark="37" />
+		<Path x="287" y="447" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第一批右舞狮（内丹） -->
+	<NpcInfo NpcTempID="64043" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="136" y="301" synmark="0" />
+        <Path x="136" y="309" synmark="1" />
+		<Path x="136" y="311" synmark="2" />
+		<Path x="138" y="313" synmark="3" />
+		<Path x="139" y="314" synmark="4" />
+		<Path x="141" y="316" synmark="5" />
+		<Path x="143" y="318" synmark="6" />
+		<Path x="144" y="319" synmark="7" />
+		<Path x="190" y="365" synmark="8" />
+		<Path x="193" y="365" synmark="9" />
+		<Path x="195" y="365" synmark="10" />
+		<Path x="197" y="365" synmark="11" />
+		<Path x="198" y="365" synmark="12" />
+		<Path x="200" y="365" synmark="13" />
+		<Path x="204" y="365" synmark="14" />
+		<Path x="205" y="366" synmark="15" />
+		<Path x="206" y="367" synmark="16" />
+		<Path x="208" y="369" synmark="17" />
+		<Path x="210" y="371" synmark="18" />
+		<Path x="212" y="373" synmark="19" />
+		<Path x="213" y="374" synmark="20" />
+		<Path x="213" y="375" synmark="21" />
+		<Path x="213" y="377" synmark="22" />
+		<Path x="213" y="379" synmark="23" />
+		<Path x="213" y="380" synmark="24" />
+		<Path x="213" y="382" synmark="25" />
+		<Path x="213" y="388" synmark="26" />
+		<Path x="213" y="390" synmark="27" />
+		<Path x="215" y="392" synmark="28" />
+		<Path x="217" y="394" synmark="29" />
+		<Path x="219" y="396" synmark="30" />
+		<Path x="221" y="398" synmark="31" />
+		<Path x="272" y="449" synmark="32" />
+		<Path x="275" y="449" synmark="33" />
+		<Path x="277" y="449" synmark="34" />
+		<Path x="279" y="449" synmark="35" />
+		<Path x="280" y="449" synmark="36" />
+		<Path x="282" y="449" synmark="37" />
+		<Path x="288" y="449" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第二批骑马新郎 -->
+	<NpcInfo NpcTempID="61262" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="137" y="299" synmark="0" />
+        <Path x="137" y="307" synmark="1" />
+		<Path x="137" y="309" synmark="2" />
+		<Path x="137" y="310" synmark="3" />
+		<Path x="138" y="311" synmark="4" />
+		<Path x="140" y="313" synmark="5" />
+		<Path x="142" y="315" synmark="6" />
+		<Path x="143" y="316" synmark="7" />
+		<Path x="189" y="362" synmark="8" />
+		<Path x="191" y="364" synmark="9" />
+		<Path x="193" y="364" synmark="10" />
+		<Path x="195" y="364" synmark="11" />
+		<Path x="196" y="364" synmark="12" />
+		<Path x="198" y="364" synmark="13" />
+		<Path x="202" y="364" synmark="14" />
+		<Path x="204" y="364" synmark="15" />
+		<Path x="205" y="364" synmark="16" />
+		<Path x="207" y="366" synmark="17" />
+		<Path x="209" y="368" synmark="18" />
+		<Path x="211" y="370" synmark="19" />
+		<Path x="212" y="371" synmark="20" />
+		<Path x="214" y="373" synmark="21" />
+		<Path x="214" y="375" synmark="22" />
+		<Path x="214" y="377" synmark="23" />
+		<Path x="214" y="378" synmark="24" />
+		<Path x="214" y="380" synmark="25" />
+		<Path x="214" y="386" synmark="26" />
+        <Path x="214" y="388" synmark="27" />
+		<Path x="214" y="389" synmark="28" />
+		<Path x="216" y="391" synmark="29" />
+		<Path x="218" y="393" synmark="30" />
+		<Path x="220" y="395" synmark="31" />
+		<Path x="271" y="446" synmark="32" />
+		<Path x="273" y="448" synmark="33" />
+		<Path x="275" y="448" synmark="34" />
+		<Path x="277" y="448" synmark="35" />
+		<Path x="278" y="448" synmark="36" />
+		<Path x="280" y="448" synmark="37" />
+		<Path x="289" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第三批左吹唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="139" y="297" synmark="0" />
+        <Path x="139" y="305" synmark="1" />
+        <Path x="139" y="307" synmark="2" />
+		<Path x="139" y="308" synmark="3" />
+		<Path x="139" y="309" synmark="4" />
+		<Path x="139" y="310" synmark="5" />
+		<Path x="141" y="312" synmark="6" />
+		<Path x="142" y="313" synmark="7" />
+		<Path x="188" y="359" synmark="8" />
+		<Path x="190" y="361" synmark="9" />
+		<Path x="191" y="362" synmark="10" />
+		<Path x="193" y="362" synmark="11" />
+		<Path x="194" y="362" synmark="12" />
+		<Path x="196" y="362" synmark="13" />
+		<Path x="200" y="362" synmark="14" />
+		<Path x="202" y="362" synmark="15" />
+		<Path x="203" y="362" synmark="16" />
+		<Path x="205" y="362" synmark="17" />
+		<Path x="208" y="365" synmark="18" />
+		<Path x="210" y="367" synmark="19" />
+		<Path x="211" y="368" synmark="20" />
+		<Path x="213" y="370" synmark="21" />
+		<Path x="216" y="373" synmark="22" />
+		<Path x="216" y="375" synmark="23" />
+		<Path x="216" y="376" synmark="24" />
+		<Path x="216" y="378" synmark="25" />
+		<Path x="216" y="384" synmark="26" />
+		<Path x="216" y="386" synmark="27" />
+		<Path x="216" y="387" synmark="28" />
+		<Path x="216" y="389" synmark="29" />
+		<Path x="217" y="390" synmark="30" />
+		<Path x="219" y="392" synmark="31" />
+		<Path x="270" y="443" synmark="32" />
+		<Path x="272" y="445" synmark="33" />
+		<Path x="273" y="446" synmark="34" />
+		<Path x="275" y="446" synmark="35" />
+		<Path x="276" y="446" synmark="36" />
+		<Path x="278" y="446" synmark="37" />
+		<Path x="288" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第三批媒婆 -->
+	<NpcInfo NpcTempID="61258" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="137" y="297" synmark="0" />
+        <Path x="137" y="305" synmark="1" />
+		<Path x="137" y="307" synmark="2" />
+		<Path x="137" y="308" synmark="3" />
+		<Path x="137" y="309" synmark="4" />
+		<Path x="138" y="311" synmark="5" />
+		<Path x="140" y="313" synmark="6" />
+		<Path x="141" y="314" synmark="7" />
+		<Path x="187" y="360" synmark="8" />
+		<Path x="189" y="362" synmark="9" />
+		<Path x="191" y="364" synmark="10" />
+		<Path x="193" y="364" synmark="11" />
+		<Path x="194" y="364" synmark="12" />
+		<Path x="196" y="364" synmark="13" />
+		<Path x="200" y="364" synmark="14" />
+		<Path x="202" y="364" synmark="15" />
+		<Path x="203" y="364" synmark="16" />
+		<Path x="205" y="364" synmark="17" />
+		<Path x="207" y="366" synmark="18" />
+		<Path x="209" y="368" synmark="19" />
+		<Path x="210" y="369" synmark="20" />
+		<Path x="212" y="371" synmark="21" />
+		<Path x="214" y="373" synmark="22" />
+		<Path x="214" y="375" synmark="23" />
+		<Path x="214" y="376" synmark="24" />
+		<Path x="214" y="378" synmark="25" />
+		<Path x="214" y="384" synmark="26" />
+		<Path x="214" y="386" synmark="27" />
+		<Path x="214" y="387" synmark="28" />
+		<Path x="214" y="389" synmark="29" />
+		<Path x="216" y="391" synmark="30" />
+		<Path x="218" y="393" synmark="31" />
+		<Path x="269" y="444" synmark="32" />
+		<Path x="271" y="446" synmark="33" />
+		<Path x="273" y="448" synmark="34" />
+		<Path x="275" y="448" synmark="35" />
+		<Path x="276" y="448" synmark="36" />
+		<Path x="278" y="448" synmark="37" />
+		<Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第三批右吹唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="135" y="297" synmark="0" />
+        <Path x="135" y="305" synmark="1" />
+		<Path x="135" y="307" synmark="2" />
+		<Path x="135" y="309" synmark="3" />
+		<Path x="135" y="310" synmark="4" />
+		<Path x="137" y="312" synmark="5" />
+		<Path x="139" y="314" synmark="6" />
+		<Path x="140" y="315" synmark="7" />
+		<Path x="186" y="361" synmark="8" />
+		<Path x="188" y="363" synmark="9" />
+		<Path x="191" y="366" synmark="10" />
+		<Path x="193" y="366" synmark="11" />
+		<Path x="194" y="366" synmark="12" />
+		<Path x="196" y="366" synmark="13" />
+		<Path x="200" y="366" synmark="14" />
+		<Path x="202" y="366" synmark="15" />
+		<Path x="203" y="366" synmark="16" />
+		<Path x="205" y="366" synmark="17" />
+		<Path x="206" y="367" synmark="18" />
+		<Path x="208" y="369" synmark="19" />
+		<Path x="209" y="370" synmark="20" />
+		<Path x="211" y="372" synmark="21" />
+		<Path x="212" y="373" synmark="22" />
+		<Path x="212" y="375" synmark="23" />
+		<Path x="212" y="376" synmark="24" />
+		<Path x="212" y="378" synmark="25" />
+		<Path x="212" y="384" synmark="26" />
+		<Path x="212" y="386" synmark="27" />
+		<Path x="212" y="387" synmark="28" />
+		<Path x="212" y="389" synmark="29" />
+		<Path x="215" y="392" synmark="30" />
+		<Path x="217" y="394" synmark="31" />
+		<Path x="268" y="445" synmark="32" />
+		<Path x="270" y="447" synmark="33" />
+		<Path x="273" y="450" synmark="34" />
+		<Path x="275" y="450" synmark="35" />
+		<Path x="276" y="450" synmark="36" />
+		<Path x="278" y="450" synmark="37" />
+		<Path x="288" y="450" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第四批左敲锣家丁 -->
+	<NpcInfo NpcTempID="62180" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="139" y="295" synmark="0" />
+        <Path x="139" y="303" synmark="1" />
+		<Path x="139" y="305" synmark="2" />
+		<Path x="139" y="306" synmark="3" />
+		<Path x="139" y="307" synmark="4" />
+		<Path x="139" y="308" synmark="5" />
+		<Path x="139" y="310" synmark="6" />
+		<Path x="140" y="311" synmark="7" />
+		<Path x="186" y="357" synmark="8" />
+		<Path x="188" y="359" synmark="9" />
+		<Path x="189" y="360" synmark="10" />
+		<Path x="191" y="362" synmark="11" />
+		<Path x="192" y="362" synmark="12" />
+		<Path x="194" y="362" synmark="13" />
+		<Path x="198" y="362" synmark="14" />
+		<Path x="200" y="362" synmark="15" />
+		<Path x="201" y="362" synmark="16" />
+		<Path x="203" y="362" synmark="17" />
+		<Path x="205" y="362" synmark="18" />
+		<Path x="208" y="365" synmark="19" />
+		<Path x="209" y="366" synmark="20" />
+		<Path x="211" y="368" synmark="21" />
+		<Path x="214" y="371" synmark="22" />
+		<Path x="216" y="373" synmark="23" />
+		<Path x="216" y="374" synmark="24" />
+		<Path x="216" y="376" synmark="25" />
+		<Path x="216" y="382" synmark="26" />
+		<Path x="216" y="384" synmark="27" />
+		<Path x="216" y="385" synmark="28" />
+		<Path x="216" y="387" synmark="29" />
+		<Path x="216" y="389" synmark="30" />
+		<Path x="217" y="390" synmark="31" />
+		<Path x="268" y="441" synmark="32" />
+		<Path x="270" y="443" synmark="33" />
+		<Path x="272" y="445" synmark="34" />
+		<Path x="273" y="446" synmark="35" />
+		<Path x="274" y="446" synmark="36" />
+		<Path x="276" y="446" synmark="37" />
+		<Path x="288" y="446" synmark="0" />
+	</NpcInfo>
+    <!-- 富贵花轿第四批骑象新娘 -->
+	<NpcInfo NpcTempID="63859" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="137" y="295" synmark="0" />
+        <Path x="137" y="303" synmark="1" />
+		<Path x="137" y="305" synmark="2" />
+		<Path x="137" y="306" synmark="3" />
+		<Path x="137" y="307" synmark="4" />
+		<Path x="137" y="309" synmark="5" />
+		<Path x="138" y="311" synmark="6" />
+		<Path x="139" y="312" synmark="7" />
+		<Path x="185" y="358" synmark="8" />
+		<Path x="187" y="360" synmark="9" />
+		<Path x="189" y="362" synmark="10" />
+		<Path x="191" y="364" synmark="11" />
+		<Path x="192" y="364" synmark="12" />
+		<Path x="194" y="364" synmark="13" />
+		<Path x="198" y="364" synmark="14" />
+		<Path x="200" y="364" synmark="15" />
+		<Path x="201" y="364" synmark="16" />
+		<Path x="203" y="364" synmark="17" />
+		<Path x="205" y="364" synmark="18" />
+		<Path x="207" y="366" synmark="19" />
+		<Path x="208" y="367" synmark="20" />
+		<Path x="210" y="369" synmark="21" />
+		<Path x="212" y="371" synmark="22" />
+		<Path x="214" y="373" synmark="23" />
+		<Path x="214" y="374" synmark="24" />
+		<Path x="214" y="376" synmark="25" />
+		<Path x="214" y="382" synmark="26" />
+		<Path x="214" y="384" synmark="27" />
+		<Path x="214" y="385" synmark="28" />
+		<Path x="214" y="387" synmark="29" />
+		<Path x="214" y="389" synmark="30" />
+		<Path x="216" y="391" synmark="31" />
+		<Path x="267" y="442" synmark="32" />
+		<Path x="269" y="444" synmark="33" />
+		<Path x="271" y="446" synmark="34" />
+		<Path x="273" y="448" synmark="35" />
+		<Path x="274" y="448" synmark="36" />
+		<Path x="276" y="448" synmark="37" />
+		<Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第四批右敲锣家丁 -->
+	<NpcInfo NpcTempID="62180" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="135" y="295" synmark="0" />
+        <Path x="135" y="303" synmark="1" />
+		<Path x="135" y="305" synmark="2" />
+		<Path x="135" y="307" synmark="3" />
+		<Path x="135" y="308" synmark="4" />
+		<Path x="135" y="310" synmark="5" />
+		<Path x="137" y="312" synmark="6" />
+		<Path x="138" y="313" synmark="7" />
+		<Path x="184" y="359" synmark="8" />
+		<Path x="186" y="361" synmark="9" />
+		<Path x="189" y="364" synmark="10" />
+		<Path x="191" y="366" synmark="11" />
+		<Path x="192" y="366" synmark="12" />
+		<Path x="194" y="366" synmark="13" />
+		<Path x="198" y="366" synmark="14" />
+		<Path x="200" y="366" synmark="15" />
+		<Path x="201" y="366" synmark="16" />
+		<Path x="203" y="366" synmark="17" />
+		<Path x="205" y="366" synmark="18" />
+		<Path x="206" y="367" synmark="19" />
+		<Path x="207" y="368" synmark="20" />
+		<Path x="209" y="370" synmark="21" />
+		<Path x="210" y="371" synmark="22" />
+		<Path x="212" y="373" synmark="23" />
+		<Path x="212" y="374" synmark="24" />
+		<Path x="212" y="376" synmark="25" />
+		<Path x="212" y="382" synmark="26" />
+		<Path x="212" y="384" synmark="27" />
+		<Path x="212" y="385" synmark="28" />
+		<Path x="212" y="387" synmark="29" />
+		<Path x="212" y="389" synmark="30" />
+		<Path x="215" y="392" synmark="31" />
+		<Path x="266" y="443" synmark="32" />
+		<Path x="268" y="445" synmark="33" />
+		<Path x="270" y="447" synmark="34" />
+		<Path x="273" y="450" synmark="35" />
+		<Path x="274" y="450" synmark="36" />
+		<Path x="276" y="450" synmark="37" />
+		<Path x="288" y="450" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第五批左击钹家丁 -->
+	<NpcInfo NpcTempID="62182" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="138" y="293" synmark="0" />
+        <Path x="138" y="301" synmark="1" />
+		<Path x="138" y="303" synmark="2" />
+		<Path x="138" y="304" synmark="3" />
+		<Path x="138" y="305" synmark="4" />
+		<Path x="138" y="306" synmark="5" />
+		<Path x="138" y="308" synmark="6" />
+		<Path x="138" y="309" synmark="7" />
+		<Path x="184" y="355" synmark="8" />
+		<Path x="186" y="357" synmark="9" />
+		<Path x="187" y="358" synmark="10" />
+		<Path x="189" y="360" synmark="11" />
+		<Path x="190" y="361" synmark="12" />
+		<Path x="192" y="363" synmark="13" />
+		<Path x="196" y="363" synmark="14" />
+		<Path x="198" y="363" synmark="15" />
+		<Path x="199" y="363" synmark="16" />
+		<Path x="201" y="363" synmark="17" />
+		<Path x="203" y="363" synmark="18" />
+		<Path x="206" y="363" synmark="19" />
+		<Path x="207" y="364" synmark="20" />
+		<Path x="209" y="366" synmark="21" />
+		<Path x="212" y="369" synmark="22" />
+		<Path x="214" y="371" synmark="23" />
+		<Path x="215" y="372" synmark="24" />
+		<Path x="215" y="374" synmark="25" />
+		<Path x="215" y="380" synmark="26" />
+		<Path x="215" y="382" synmark="27" />
+		<Path x="215" y="383" synmark="28" />
+		<Path x="215" y="385" synmark="29" />
+		<Path x="215" y="387" synmark="30" />
+		<Path x="215" y="388" synmark="31" />
+		<Path x="266" y="439" synmark="32" />
+		<Path x="268" y="441" synmark="33" />
+		<Path x="270" y="443" synmark="34" />
+		<Path x="272" y="445" synmark="35" />
+		<Path x="272" y="445" synmark="36" />
+		<Path x="274" y="447" synmark="37" />
+		<Path x="287" y="447" synmark="0" />
+	</NpcInfo>
+	<!-- 富贵花轿第五批右击钹家丁 -->
+	<NpcInfo NpcTempID="62182" MapID="62" WeddingModule="1" MapIndex="152" >
+		<Path x="136" y="293" synmark="0" />
+        <Path x="136" y="301" synmark="1" />
+		<Path x="136" y="303" synmark="2" />
+		<Path x="136" y="304" synmark="3" />
+		<Path x="136" y="305" synmark="4" />
+		<Path x="136" y="307" synmark="5" />
+		<Path x="136" y="309" synmark="6" />
+		<Path x="136" y="311" synmark="7" />
+		<Path x="182" y="357" synmark="8" />
+		<Path x="184" y="359" synmark="9" />
+		<Path x="187" y="362" synmark="10" />
+		<Path x="189" y="364" synmark="11" />
+		<Path x="190" y="365" synmark="12" />
+		<Path x="192" y="365" synmark="13" />
+		<Path x="196" y="365" synmark="14" />
+		<Path x="198" y="365" synmark="15" />
+		<Path x="199" y="365" synmark="16" />
+		<Path x="201" y="365" synmark="17" />
+		<Path x="203" y="365" synmark="18" />
+		<Path x="204" y="365" synmark="19" />
+		<Path x="205" y="366" synmark="20" />
+		<Path x="207" y="368" synmark="21" />
+		<Path x="208" y="369" synmark="22" />
+		<Path x="210" y="371" synmark="23" />
+		<Path x="211" y="372" synmark="24" />
+		<Path x="213" y="374" synmark="25" />
+		<Path x="213" y="380" synmark="26" />
+		<Path x="213" y="382" synmark="27" />
+		<Path x="213" y="383" synmark="28" />
+		<Path x="213" y="385" synmark="29" />
+		<Path x="213" y="387" synmark="30" />
+		<Path x="213" y="390" synmark="31" />
+		<Path x="264" y="441" synmark="32" />
+		<Path x="266" y="443" synmark="33" />
+		<Path x="268" y="445" synmark="34" />
+		<Path x="271" y="448" synmark="35" />
+		<Path x="272" y="449" synmark="36" />
+		<Path x="274" y="449" synmark="37" />
+		<Path x="287" y="449" synmark="0" />
+	</NpcInfo>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 豪华花轿第一批左舞狮 -->
+	<NpcInfo NpcTempID="61259" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="138" y="300" synmark="0" />
+		<Path x="138" y="302" synmark="1" />
+		<Path x="138" y="309" synmark="2" />
+		<Path x="140" y="311" synmark="3" />
+		<Path x="141" y="312" synmark="4" />
+		<Path x="143" y="314" synmark="5" />
+		<Path x="145" y="316" synmark="6" />
+		<Path x="147" y="318" synmark="7" />
+        <Path x="191" y="362" synmark="8" />
+		<Path x="191" y="362" synmark="9" />
+		<Path x="193" y="362" synmark="10" />
+		<Path x="195" y="362" synmark="11" />
+		<Path x="197" y="362" synmark="12" />
+		<Path x="199" y="362" synmark="13" />
+		<Path x="200" y="362" synmark="14" />
+		<Path x="202" y="362" synmark="15" />
+		<Path x="205" y="362" synmark="16" />
+		<Path x="208" y="365" synmark="17" />
+		<Path x="210" y="367" synmark="18" />
+		<Path x="212" y="369" synmark="19" />
+		<Path x="214" y="371" synmark="20" />
+		<Path x="216" y="373" synmark="21" />
+		<Path x="216" y="375" synmark="22" />
+		<Path x="216" y="377" synmark="23" />
+		<Path x="216" y="379" synmark="24" />
+		<Path x="216" y="381" synmark="25" />
+		<Path x="216" y="383" synmark="26" />
+		<Path x="216" y="384" synmark="27" />
+		<Path x="216" y="389" synmark="28" />
+        <Path x="218" y="391" synmark="29" />
+		<Path x="219" y="392" synmark="30" />
+		<Path x="221" y="394" synmark="31" />
+		<Path x="223" y="396" synmark="32" />
+		<Path x="225" y="398" synmark="33" />
+		<Path x="273" y="446" synmark="34" />
+		<Path x="273" y="446" synmark="35" />
+		<Path x="275" y="446" synmark="36" />
+		<Path x="277" y="446" synmark="37" />
+		<Path x="279" y="446" synmark="38" />
+		<Path x="281" y="446" synmark="39" />
+		<Path x="284" y="446" synmark="40" />
+		<Path x="288" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第一批中舞狮（内丹） -->
+	<NpcInfo NpcTempID="64044" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="136" y="300" synmark="0" />
+		<Path x="136" y="302" synmark="1" />
+		<Path x="136" y="309" synmark="2" />
+		<Path x="139" y="312" synmark="3" />
+		<Path x="140" y="313" synmark="4" />
+		<Path x="142" y="315" synmark="5" />
+		<Path x="144" y="317" synmark="6" />
+		<Path x="146" y="319" synmark="7" />
+		<Path x="190" y="363" synmark="8" />
+		<Path x="191" y="364" synmark="9" />
+		<Path x="193" y="364" synmark="10" />
+		<Path x="195" y="364" synmark="11" />
+		<Path x="197" y="364" synmark="12" />
+		<Path x="199" y="364" synmark="13" />
+		<Path x="200" y="364" synmark="14" />
+		<Path x="202" y="364" synmark="15" />
+		<Path x="205" y="364" synmark="16" />
+		<Path x="207" y="366" synmark="17" />
+		<Path x="209" y="368" synmark="18" />
+		<Path x="211" y="370" synmark="19" />
+		<Path x="213" y="372" synmark="20" />
+		<Path x="214" y="373" synmark="21" />
+		<Path x="214" y="375" synmark="22" />
+		<Path x="214" y="377" synmark="23" />
+		<Path x="214" y="379" synmark="24" />
+		<Path x="214" y="381" synmark="25" />
+		<Path x="214" y="383" synmark="26" />
+		<Path x="214" y="384" synmark="27" />
+		<Path x="214" y="389" synmark="28" />
+		<Path x="217" y="392" synmark="29" />
+		<Path x="218" y="393" synmark="30" />
+		<Path x="220" y="395" synmark="31" />
+		<Path x="222" y="397" synmark="32" />
+		<Path x="224" y="399" synmark="33" />
+		<Path x="272" y="447" synmark="34" />
+		<Path x="273" y="448" synmark="35" />
+		<Path x="275" y="448" synmark="36" />
+		<Path x="277" y="448" synmark="37" />
+		<Path x="279" y="448" synmark="38" />
+		<Path x="281" y="448" synmark="39" />
+		<Path x="284" y="448" synmark="40" />
+        <Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第一批右舞狮 -->
+	<NpcInfo NpcTempID="61259" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="134" y="300" synmark="0" />
+		<Path x="134" y="302" synmark="1" />
+		<Path x="134" y="309" synmark="2" />
+		<Path x="138" y="313" synmark="3" />
+		<Path x="139" y="314" synmark="4" />
+		<Path x="141" y="316" synmark="5" />
+		<Path x="143" y="318" synmark="6" />
+		<Path x="145" y="320" synmark="7" />
+		<Path x="189" y="364" synmark="8" />
+		<Path x="191" y="366" synmark="9" />
+		<Path x="193" y="366" synmark="10" />
+		<Path x="195" y="366" synmark="11" />
+		<Path x="197" y="366" synmark="12" />
+		<Path x="199" y="366" synmark="13" />
+		<Path x="200" y="366" synmark="14" />
+		<Path x="202" y="366" synmark="15" />
+		<Path x="205" y="366" synmark="16" />
+		<Path x="206" y="367" synmark="17" />
+		<Path x="208" y="369" synmark="18" />
+		<Path x="210" y="371" synmark="19" />
+		<Path x="212" y="373" synmark="20" />
+		<Path x="212" y="373" synmark="21" />
+		<Path x="212" y="375" synmark="22" />
+		<Path x="212" y="377" synmark="23" />
+		<Path x="212" y="379" synmark="24" />
+		<Path x="212" y="381" synmark="25" />
+		<Path x="212" y="383" synmark="26" />
+		<Path x="212" y="384" synmark="27" />
+		<Path x="212" y="389" synmark="28" />
+		<Path x="216" y="393" synmark="29" />
+		<Path x="217" y="394" synmark="30" />
+		<Path x="219" y="396" synmark="31" />
+		<Path x="221" y="398" synmark="32" />
+		<Path x="223" y="400" synmark="33" />
+		<Path x="271" y="448" synmark="34" />
+		<Path x="273" y="450" synmark="35" />
+		<Path x="275" y="450" synmark="36" />
+		<Path x="277" y="450" synmark="37" />
+		<Path x="279" y="450" synmark="38" />
+		<Path x="281" y="450" synmark="39" />
+		<Path x="284" y="450" synmark="40" />
+		<Path x="288" y="450" synmark="0" />
+	</NpcInfo>
+    <!-- 豪华花轿第二批左吹唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="138" y="298" synmark="0" />
+		<Path x="138" y="300" synmark="1" />
+		<Path x="138" y="307" synmark="2" />
+		<Path x="138" y="309" synmark="3" />
+		<Path x="139" y="310" synmark="4" />
+		<Path x="141" y="312" synmark="5" />
+		<Path x="143" y="314" synmark="6" />
+		<Path x="145" y="316" synmark="7" />
+		<Path x="189" y="360" synmark="8" />
+		<Path x="189" y="360" synmark="9" />
+		<Path x="191" y="362" synmark="10" />
+		<Path x="193" y="362" synmark="11" />
+		<Path x="195" y="362" synmark="12" />
+		<Path x="197" y="362" synmark="13" />
+		<Path x="198" y="362" synmark="14" />
+		<Path x="200" y="362" synmark="15" />
+		<Path x="203" y="362" synmark="16" />
+		<Path x="205" y="362" synmark="17" />
+		<Path x="208" y="365" synmark="18" />
+		<Path x="210" y="367" synmark="19" />
+		<Path x="212" y="369" synmark="20" />
+		<Path x="214" y="371" synmark="21" />
+		<Path x="216" y="373" synmark="22" />
+		<Path x="216" y="375" synmark="23" />
+		<Path x="216" y="377" synmark="24" />
+		<Path x="216" y="379" synmark="25" />
+		<Path x="216" y="381" synmark="26" />
+		<Path x="216" y="382" synmark="27" />
+		<Path x="216" y="387" synmark="28" />
+		<Path x="216" y="389" synmark="29" />
+		<Path x="217" y="390" synmark="30" />
+		<Path x="219" y="392" synmark="31" />
+		<Path x="221" y="394" synmark="32" />
+		<Path x="223" y="396" synmark="33" />
+		<Path x="271" y="444" synmark="34" />
+		<Path x="271" y="444" synmark="35" />
+		<Path x="273" y="446" synmark="36" />
+		<Path x="275" y="446" synmark="37" />
+		<Path x="277" y="446" synmark="38" />
+		<Path x="279" y="446" synmark="39" />
+		<Path x="282" y="446" synmark="40" />	
+		<Path x="288" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第二批骑马新郎 -->
+	<NpcInfo NpcTempID="61262" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="136" y="298" synmark="0" />
+		<Path x="136" y="300" synmark="1" />
+		<Path x="136" y="307" synmark="2" />
+		<Path x="136" y="309" synmark="3" />
+		<Path x="138" y="311" synmark="4" />
+		<Path x="140" y="313" synmark="5" />
+		<Path x="142" y="315" synmark="6" />
+		<Path x="144" y="317" synmark="7" />
+		<Path x="188" y="361" synmark="8" />
+		<Path x="189" y="362" synmark="9" />
+		<Path x="191" y="364" synmark="10" />
+		<Path x="193" y="364" synmark="11" />
+		<Path x="195" y="364" synmark="12" />
+		<Path x="197" y="364" synmark="13" />
+		<Path x="198" y="364" synmark="14" />
+		<Path x="200" y="364" synmark="15" />
+		<Path x="203" y="364" synmark="16" />
+		<Path x="205" y="364" synmark="17" />
+		<Path x="207" y="366" synmark="18" />
+		<Path x="209" y="368" synmark="19" />
+		<Path x="211" y="370" synmark="20" />
+		<Path x="212" y="371" synmark="21" />
+		<Path x="214" y="373" synmark="22" />
+		<Path x="214" y="375" synmark="23" />
+		<Path x="214" y="377" synmark="24" />
+		<Path x="214" y="379" synmark="25" />
+		<Path x="214" y="381" synmark="26" />
+		<Path x="214" y="382" synmark="27" />
+		<Path x="214" y="387" synmark="28" />
+		<Path x="214" y="389" synmark="29" />
+		<Path x="216" y="391" synmark="30" />
+		<Path x="218" y="393" synmark="31" />
+		<Path x="220" y="395" synmark="32" />
+		<Path x="222" y="397" synmark="33" />
+		<Path x="270" y="445" synmark="34" />
+		<Path x="271" y="446" synmark="35" />
+		<Path x="273" y="448" synmark="36" />
+		<Path x="275" y="448" synmark="37" />
+		<Path x="277" y="448" synmark="38" />
+		<Path x="279" y="448" synmark="39" />
+		<Path x="282" y="448" synmark="40" />
+		<Path x="289" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第二批右吹唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="134" y="298" synmark="0" />
+		<Path x="134" y="300" synmark="1" />
+		<Path x="134" y="307" synmark="2" />
+		<Path x="134" y="309" synmark="3" />
+		<Path x="137" y="312" synmark="4" />
+		<Path x="139" y="314" synmark="5" />
+		<Path x="141" y="316" synmark="6" />
+		<Path x="143" y="318" synmark="7" />
+		<Path x="187" y="362" synmark="8" />
+		<Path x="189" y="364" synmark="9" />
+		<Path x="191" y="366" synmark="10" />
+		<Path x="193" y="366" synmark="11" />
+		<Path x="195" y="366" synmark="12" />
+		<Path x="197" y="366" synmark="13" />
+		<Path x="198" y="366" synmark="14" />
+		<Path x="200" y="366" synmark="15" />
+		<Path x="203" y="366" synmark="16" />
+		<Path x="205" y="366" synmark="17" />
+		<Path x="206" y="367" synmark="18" />
+		<Path x="208" y="369" synmark="19" />
+		<Path x="210" y="371" synmark="20" />
+		<Path x="210" y="371" synmark="21" />
+		<Path x="212" y="373" synmark="22" />
+		<Path x="212" y="375" synmark="23" />
+		<Path x="212" y="377" synmark="24" />
+		<Path x="212" y="379" synmark="25" />
+		<Path x="212" y="381" synmark="26" />
+		<Path x="212" y="382" synmark="27" />
+		<Path x="212" y="387" synmark="28" />
+		<Path x="212" y="389" synmark="29" />
+		<Path x="215" y="392" synmark="30" />
+		<Path x="217" y="394" synmark="31" />
+		<Path x="219" y="396" synmark="32" />
+		<Path x="221" y="398" synmark="33" />
+		<Path x="269" y="446" synmark="34" />
+		<Path x="271" y="448" synmark="35" />
+		<Path x="273" y="450" synmark="36" />
+		<Path x="275" y="450" synmark="37" />
+		<Path x="277" y="450" synmark="38" />
+		<Path x="279" y="450" synmark="39" />
+		<Path x="282" y="450" synmark="40" />
+		<Path x="288" y="450" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第三批打鼓家丁 -->
+	<NpcInfo NpcTempID="62181" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="136" y="296" synmark="0" />
+		<Path x="136" y="298" synmark="1" />
+		<Path x="136" y="305" synmark="2" />
+		<Path x="136" y="307" synmark="3" />
+		<Path x="136" y="309" synmark="4" />
+		<Path x="138" y="311" synmark="5" />
+		<Path x="140" y="313" synmark="6" />
+		<Path x="142" y="315" synmark="7" />
+		<Path x="186" y="359" synmark="8" />
+		<Path x="187" y="360" synmark="9" />
+		<Path x="189" y="362" synmark="10" />
+		<Path x="191" y="364" synmark="11" />
+		<Path x="193" y="364" synmark="12" />
+		<Path x="195" y="364" synmark="13" />
+		<Path x="196" y="364" synmark="14" />
+		<Path x="198" y="364" synmark="15" />
+		<Path x="201" y="364" synmark="16" />
+		<Path x="203" y="364" synmark="17" />
+		<Path x="205" y="364" synmark="18" />
+		<Path x="207" y="366" synmark="19" />
+		<Path x="209" y="368" synmark="20" />
+		<Path x="210" y="369" synmark="21" />
+		<Path x="212" y="371" synmark="22" />
+		<Path x="214" y="373" synmark="23" />
+		<Path x="214" y="375" synmark="24" />
+		<Path x="214" y="377" synmark="25" />
+		<Path x="214" y="379" synmark="26" />
+		<Path x="214" y="380" synmark="27" />
+		<Path x="214" y="385" synmark="28" />
+		<Path x="214" y="387" synmark="29" />
+		<Path x="214" y="389" synmark="30" />
+		<Path x="216" y="391" synmark="31" />
+		<Path x="218" y="393" synmark="32" />
+		<Path x="220" y="395" synmark="33" />
+		<Path x="268" y="443" synmark="34" />
+		<Path x="269" y="444" synmark="35" />
+		<Path x="271" y="446" synmark="36" />
+		<Path x="273" y="448" synmark="37" />
+		<Path x="275" y="448" synmark="38" />
+		<Path x="277" y="448" synmark="39" />
+		<Path x="280" y="448" synmark="40" />
+		<Path x="287" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第四批左唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="138" y="295" synmark="0" />
+		<Path x="138" y="296" synmark="1" />
+		<Path x="138" y="303" synmark="2" />
+		<Path x="138" y="305" synmark="3" />
+		<Path x="138" y="307" synmark="4" />
+		<Path x="138" y="309" synmark="5" />
+		<Path x="139" y="310" synmark="6" />
+		<Path x="141" y="312" synmark="7" />
+		<Path x="185" y="356" synmark="8" />
+		<Path x="186" y="357" synmark="9" />
+		<Path x="188" y="359" synmark="10" />
+		<Path x="189" y="360" synmark="11" />
+		<Path x="191" y="362" synmark="12" />
+		<Path x="193" y="362" synmark="13" />
+		<Path x="194" y="362" synmark="14" />
+		<Path x="196" y="362" synmark="15" />
+		<Path x="199" y="362" synmark="16" />
+		<Path x="201" y="362" synmark="17" />
+		<Path x="203" y="362" synmark="18" />
+		<Path x="205" y="362" synmark="19" />
+		<Path x="208" y="365" synmark="20" />
+		<Path x="209" y="366" synmark="21" />
+		<Path x="211" y="368" synmark="22" />
+		<Path x="213" y="370" synmark="23" />
+		<Path x="216" y="373" synmark="24" />
+		<Path x="216" y="375" synmark="25" />
+		<Path x="216" y="377" synmark="26" />
+		<Path x="216" y="378" synmark="27" />
+		<Path x="216" y="383" synmark="28" />
+		<Path x="216" y="385" synmark="29" />
+		<Path x="216" y="387" synmark="30" />
+		<Path x="216" y="389" synmark="31" />
+		<Path x="217" y="390" synmark="32" />
+		<Path x="219" y="392" synmark="33" />
+		<Path x="267" y="440" synmark="34" />
+		<Path x="268" y="441" synmark="35" />
+		<Path x="270" y="443" synmark="36" />
+		<Path x="272" y="445" synmark="37" />
+		<Path x="273" y="446" synmark="38" />
+		<Path x="275" y="446" synmark="39" />
+		<Path x="278" y="446" synmark="40" />
+		<Path x="288" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第四批媒婆 -->
+	<NpcInfo NpcTempID="61258" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="136" y="295" synmark="0" />
+		<Path x="136" y="296" synmark="1" />
+		<Path x="136" y="303" synmark="2" />
+		<Path x="136" y="305" synmark="3" />
+		<Path x="136" y="307" synmark="4" />
+		<Path x="136" y="309" synmark="5" />
+		<Path x="138" y="311" synmark="6" />
+		<Path x="140" y="313" synmark="7" />
+		<Path x="184" y="357" synmark="8" />
+		<Path x="185" y="358" synmark="9" />
+		<Path x="187" y="360" synmark="10" />
+		<Path x="189" y="362" synmark="11" />
+		<Path x="191" y="364" synmark="12" />
+		<Path x="193" y="364" synmark="13" />
+		<Path x="194" y="364" synmark="14" />
+		<Path x="196" y="364" synmark="15" />
+		<Path x="199" y="364" synmark="16" />
+		<Path x="201" y="364" synmark="17" />
+		<Path x="203" y="364" synmark="18" />
+		<Path x="205" y="364" synmark="19" />
+		<Path x="207" y="366" synmark="20" />
+		<Path x="208" y="367" synmark="21" />
+		<Path x="210" y="369" synmark="22" />
+		<Path x="212" y="371" synmark="23" />
+		<Path x="214" y="373" synmark="24" />
+		<Path x="214" y="375" synmark="25" />
+		<Path x="214" y="377" synmark="26" />
+		<Path x="214" y="378" synmark="27" />
+		<Path x="214" y="383" synmark="28" />
+		<Path x="214" y="385" synmark="29" />
+		<Path x="214" y="387" synmark="30" />
+		<Path x="214" y="389" synmark="31" />
+		<Path x="216" y="391" synmark="32" />
+		<Path x="218" y="393" synmark="33" />
+		<Path x="266" y="441" synmark="34" />
+		<Path x="267" y="442" synmark="35" />
+		<Path x="269" y="444" synmark="36" />
+		<Path x="271" y="446" synmark="37" />
+		<Path x="273" y="448" synmark="38" />
+		<Path x="275" y="448" synmark="39" />
+		<Path x="278" y="448" synmark="40" />
+		<Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第四批右唢呐家丁 -->
+	<NpcInfo NpcTempID="62179" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="134" y="295" synmark="0" />
+		<Path x="134" y="296" synmark="1" />
+		<Path x="134" y="303" synmark="2" />
+		<Path x="134" y="305" synmark="3" />
+		<Path x="134" y="307" synmark="4" />
+		<Path x="134" y="309" synmark="5" />
+		<Path x="137" y="312" synmark="6" />
+		<Path x="139" y="314" synmark="7" />
+		<Path x="183" y="358" synmark="8" />
+		<Path x="184" y="359" synmark="9" />
+		<Path x="186" y="361" synmark="10" />
+		<Path x="189" y="364" synmark="11" />
+		<Path x="191" y="366" synmark="12" />
+		<Path x="193" y="366" synmark="13" />
+		<Path x="194" y="366" synmark="14" />
+		<Path x="196" y="366" synmark="15" />
+		<Path x="199" y="366" synmark="16" />
+		<Path x="201" y="366" synmark="17" />
+		<Path x="203" y="366" synmark="18" />
+		<Path x="205" y="366" synmark="19" />
+		<Path x="206" y="367" synmark="20" />
+		<Path x="207" y="368" synmark="21" />
+		<Path x="209" y="370" synmark="22" />
+		<Path x="211" y="372" synmark="23" />
+		<Path x="212" y="373" synmark="24" />
+		<Path x="212" y="375" synmark="25" />
+		<Path x="212" y="377" synmark="26" />
+		<Path x="212" y="378" synmark="27" />
+		<Path x="212" y="383" synmark="28" />
+		<Path x="212" y="385" synmark="29" />
+		<Path x="212" y="387" synmark="30" />
+		<Path x="212" y="389" synmark="31" />
+		<Path x="215" y="392" synmark="32" />
+		<Path x="217" y="394" synmark="33" />
+		<Path x="265" y="442" synmark="34" />
+		<Path x="266" y="443" synmark="35" />
+		<Path x="268" y="445" synmark="36" />
+		<Path x="270" y="447" synmark="37" />
+		<Path x="273" y="450" synmark="38" />
+		<Path x="275" y="450" synmark="39" />
+		<Path x="278" y="450" synmark="40" />
+		<Path x="288" y="450" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第五批左击钹家丁 -->
+	<NpcInfo NpcTempID="62182" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="138" y="293" synmark="0" />
+		<Path x="138" y="294" synmark="1" />
+		<Path x="138" y="301" synmark="2" />
+		<Path x="138" y="303" synmark="3" />
+		<Path x="138" y="305" synmark="4" />
+		<Path x="138" y="307" synmark="5" />
+		<Path x="138" y="309" synmark="6" />
+		<Path x="139" y="310" synmark="7" />
+		<Path x="183" y="354" synmark="8" />
+		<Path x="184" y="355" synmark="9" />
+		<Path x="186" y="357" synmark="10" />
+		<Path x="188" y="359" synmark="11" />
+		<Path x="189" y="360" synmark="12" />
+		<Path x="191" y="362" synmark="13" />
+		<Path x="192" y="362" synmark="14" />
+		<Path x="194" y="362" synmark="15" />
+		<Path x="197" y="362" synmark="16" />
+		<Path x="199" y="362" synmark="17" />
+		<Path x="201" y="362" synmark="18" />
+		<Path x="203" y="362" synmark="19" />
+		<Path x="205" y="362" synmark="20" />
+		<Path x="206" y="363" synmark="21" />
+		<Path x="209" y="366" synmark="22" />
+		<Path x="211" y="368" synmark="23" />
+		<Path x="213" y="370" synmark="24" />
+		<Path x="216" y="373" synmark="25" />
+		<Path x="216" y="375" synmark="26" />
+		<Path x="216" y="376" synmark="27" />
+		<Path x="216" y="381" synmark="28" />
+		<Path x="216" y="383" synmark="29" />
+		<Path x="216" y="385" synmark="30" />
+		<Path x="216" y="387" synmark="31" />
+		<Path x="216" y="389" synmark="32" />
+		<Path x="217" y="390" synmark="33" />
+		<Path x="265" y="438" synmark="34" />
+		<Path x="266" y="439" synmark="35" />
+		<Path x="268" y="441" synmark="36" />
+		<Path x="270" y="443" synmark="37" />
+		<Path x="272" y="445" synmark="38" />
+		<Path x="273" y="446" synmark="39" />
+		<Path x="276" y="446" synmark="40" />
+		<Path x="288" y="446" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第五批骑象新娘 --> 
+	<NpcInfo NpcTempID="63859" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="136" y="293" synmark="0" />
+		<Path x="136" y="294" synmark="1" />
+		<Path x="136" y="301" synmark="2" />
+		<Path x="136" y="303" synmark="3" />
+		<Path x="136" y="305" synmark="4" />
+		<Path x="136" y="307" synmark="5" />
+		<Path x="136" y="309" synmark="6" />
+		<Path x="138" y="311" synmark="7" />
+		<Path x="182" y="355" synmark="8" />
+		<Path x="183" y="356" synmark="9" />
+		<Path x="185" y="358" synmark="10" />
+		<Path x="187" y="360" synmark="11" />
+		<Path x="189" y="362" synmark="12" />
+		<Path x="191" y="364" synmark="13" />
+		<Path x="192" y="364" synmark="14" />
+		<Path x="194" y="364" synmark="15" />
+		<Path x="197" y="364" synmark="16" />
+		<Path x="199" y="364" synmark="17" />
+		<Path x="201" y="364" synmark="18" />
+		<Path x="203" y="364" synmark="19" />
+		<Path x="205" y="364" synmark="20" />
+		<Path x="206" y="365" synmark="21" />
+		<Path x="208" y="367" synmark="22" />
+		<Path x="210" y="369" synmark="23" />
+		<Path x="212" y="371" synmark="24" />
+		<Path x="214" y="373" synmark="25" />
+		<Path x="214" y="375" synmark="26" />
+		<Path x="214" y="376" synmark="27" />
+		<Path x="214" y="381" synmark="28" />
+		<Path x="214" y="383" synmark="29" />
+		<Path x="214" y="385" synmark="30" />
+		<Path x="214" y="387" synmark="31" />
+		<Path x="214" y="389" synmark="32" />
+		<Path x="216" y="391" synmark="33" />
+		<Path x="264" y="439" synmark="34" />
+		<Path x="265" y="440" synmark="35" />
+		<Path x="267" y="442" synmark="36" />
+		<Path x="269" y="444" synmark="37" />
+		<Path x="271" y="446" synmark="38" />
+		<Path x="273" y="448" synmark="39" />
+		<Path x="276" y="448" synmark="40" />
+		<Path x="288" y="448" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第五批右击钹家丁 -->
+	<NpcInfo NpcTempID="62182" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="134" y="293" synmark="0" />
+		<Path x="134" y="294" synmark="1" />
+		<Path x="134" y="301" synmark="2" />
+		<Path x="134" y="303" synmark="3" />
+		<Path x="134" y="305" synmark="4" />
+		<Path x="134" y="307" synmark="5" />
+		<Path x="134" y="309" synmark="6" />
+		<Path x="137" y="312" synmark="7" />
+		<Path x="181" y="356" synmark="8" />
+		<Path x="182" y="357" synmark="9" />
+		<Path x="184" y="359" synmark="10" />
+		<Path x="186" y="361" synmark="11" />
+		<Path x="189" y="364" synmark="12" />
+		<Path x="191" y="366" synmark="13" />
+		<Path x="192" y="366" synmark="14" />
+		<Path x="194" y="366" synmark="15" />
+		<Path x="197" y="366" synmark="16" />
+		<Path x="199" y="366" synmark="17" />
+		<Path x="201" y="366" synmark="18" />
+		<Path x="203" y="366" synmark="19" />
+		<Path x="205" y="366" synmark="20" />
+		<Path x="206" y="367" synmark="21" />
+		<Path x="207" y="368" synmark="22" />
+		<Path x="209" y="370" synmark="23" />
+		<Path x="211" y="372" synmark="24" />
+		<Path x="212" y="373" synmark="25" />
+		<Path x="212" y="375" synmark="26" />
+		<Path x="212" y="376" synmark="27" />
+		<Path x="212" y="381" synmark="28" />
+		<Path x="212" y="383" synmark="29" />
+		<Path x="212" y="385" synmark="30" />
+		<Path x="212" y="387" synmark="31" />
+		<Path x="212" y="389" synmark="32" />
+		<Path x="215" y="392" synmark="33" />
+		<Path x="263" y="440" synmark="34" />
+		<Path x="264" y="441" synmark="35" />
+		<Path x="266" y="443" synmark="36" />
+		<Path x="268" y="445" synmark="37" />
+		<Path x="270" y="447" synmark="38" />
+		<Path x="273" y="450" synmark="39" />
+		<Path x="276" y="450" synmark="40" />
+		<Path x="288" y="450" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第六批左敲锣家丁 -->
+	<NpcInfo NpcTempID="62180" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="137" y="292" synmark="0" />
+		<Path x="137" y="292" synmark="1" />
+		<Path x="137" y="299" synmark="2" />
+		<Path x="137" y="301" synmark="3" />
+		<Path x="137" y="303" synmark="4" />
+		<Path x="137" y="305" synmark="5" />
+		<Path x="137" y="307" synmark="6" />
+		<Path x="137" y="308" synmark="7" />
+		<Path x="181" y="352" synmark="8" />
+		<Path x="182" y="353" synmark="9" />
+		<Path x="184" y="355" synmark="10" />
+		<Path x="186" y="357" synmark="11" />
+		<Path x="188" y="359" synmark="12" />
+		<Path x="189" y="360" synmark="13" />
+		<Path x="190" y="361" synmark="14" />
+		<Path x="192" y="363" synmark="15" />
+		<Path x="195" y="363" synmark="16" />
+		<Path x="197" y="363" synmark="17" />
+		<Path x="199" y="363" synmark="18" />
+		<Path x="201" y="363" synmark="19" />
+		<Path x="203" y="363" synmark="20" />
+		<Path x="204" y="363" synmark="21" />
+		<Path x="207" y="364" synmark="22" />
+		<Path x="209" y="366" synmark="23" />
+		<Path x="211" y="368" synmark="24" />
+		<Path x="213" y="370" synmark="25" />
+		<Path x="215" y="372" synmark="26" />
+		<Path x="215" y="374" synmark="27" />
+		<Path x="215" y="379" synmark="28" />
+		<Path x="215" y="381" synmark="29" />
+		<Path x="215" y="383" synmark="30" />
+		<Path x="215" y="385" synmark="31" />
+		<Path x="215" y="387" synmark="32" />
+		<Path x="215" y="388" synmark="33" />
+		<Path x="263" y="436" synmark="34" />
+		<Path x="264" y="437" synmark="35" />
+		<Path x="266" y="439" synmark="36" />
+		<Path x="268" y="441" synmark="37" />
+		<Path x="270" y="443" synmark="38" />
+		<Path x="271" y="444" synmark="39" />
+		<Path x="274" y="447" synmark="40" />
+		<Path x="287" y="447" synmark="0" />
+	</NpcInfo>
+	<!-- 豪华花轿第六批右敲锣家丁 -->
+	<NpcInfo NpcTempID="62180" MapID="62" WeddingModule="2" MapIndex="152" >
+		<Path x="135" y="292" synmark="0" />
+		<Path x="135" y="292" synmark="1" />
+		<Path x="135" y="299" synmark="2" />
+		<Path x="135" y="301" synmark="3" />
+		<Path x="135" y="303" synmark="4" />
+		<Path x="135" y="305" synmark="5" />
+		<Path x="135" y="307" synmark="6" />
+		<Path x="135" y="310" synmark="7" />
+		<Path x="179" y="354" synmark="8" />
+		<Path x="180" y="355" synmark="9" />
+		<Path x="182" y="357" synmark="10" />
+		<Path x="184" y="359" synmark="11" />
+		<Path x="186" y="361" synmark="12" />
+		<Path x="189" y="364" synmark="13" />
+		<Path x="190" y="365" synmark="14" />
+		<Path x="192" y="365" synmark="15" />
+		<Path x="195" y="365" synmark="16" />
+		<Path x="197" y="365" synmark="17" />
+		<Path x="199" y="365" synmark="18" />
+		<Path x="201" y="365" synmark="19" />
+		<Path x="203" y="365" synmark="20" />
+		<Path x="204" y="365" synmark="21" />
+		<Path x="205" y="366" synmark="22" />
+		<Path x="207" y="368" synmark="23" />
+		<Path x="209" y="370" synmark="24" />
+		<Path x="211" y="372" synmark="25" />
+		<Path x="212" y="373" synmark="26" />
+		<Path x="213" y="374" synmark="27" />
+		<Path x="213" y="379" synmark="28" />
+		<Path x="213" y="381" synmark="29" />
+		<Path x="213" y="383" synmark="30" />
+		<Path x="213" y="385" synmark="31" />
+		<Path x="213" y="387" synmark="32" />
+		<Path x="213" y="390" synmark="33" />
+		<Path x="261" y="438" synmark="34" />
+		<Path x="262" y="439" synmark="35" />
+		<Path x="264" y="441" synmark="36" />
+		<Path x="266" y="443" synmark="37" />
+		<Path x="268" y="445" synmark="38" />
+		<Path x="271" y="448" synmark="39" />
+		<Path x="274" y="449" synmark="40" />
+		<Path x="287" y="449" synmark="0" />
+	</NpcInfo>
+</WeddingCongfig>

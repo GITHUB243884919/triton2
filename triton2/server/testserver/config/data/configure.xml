@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configure>
+   <GlobalServer host='127.0.0.1' port='12200'/>
+   <DataServer host='10.10.42.205' port='3306' passport='root' password='game' database='GameDB_MCY'/>
+</Configure>

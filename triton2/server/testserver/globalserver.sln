@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "globalserver", "globalserver.vcproj", "{D2ED316D-7B1A-435A-AF8A-5724B9FD0A6F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loginserver", "..\loginserver\loginserver.vcproj", "{C2AFCE6F-C8FB-4346-8A16-BAB2AF844AB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sceneserver", "..\..\server\gameserver\sceneserver.vcproj", "{91424D2D-5F26-4595-BD6A-CEA53AD41A07}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gateserver", "..\..\server\gateserver\gateserver.vcproj", "{0022A3F3-6144-4D0D-9364-1AACB235A866}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dbserver", "..\..\server\dbserver\dbserver.vcproj", "{E8449D82-5FF3-4B24-A322-CD5819C19E8B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tcpserver", "..\..\server\tcpserver\tcpserver.vcproj", "{06942B7D-872B-4C1A-81EE-5D20A3C3DF11}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2ED316D-7B1A-435A-AF8A-5724B9FD0A6F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2ED316D-7B1A-435A-AF8A-5724B9FD0A6F}.Debug|Win32.Build.0 = Debug|Win32
+		{D2ED316D-7B1A-435A-AF8A-5724B9FD0A6F}.Release|Win32.ActiveCfg = Release|Win32
+		{D2ED316D-7B1A-435A-AF8A-5724B9FD0A6F}.Release|Win32.Build.0 = Release|Win32
+		{C2AFCE6F-C8FB-4346-8A16-BAB2AF844AB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2AFCE6F-C8FB-4346-8A16-BAB2AF844AB2}.Debug|Win32.Build.0 = Debug|Win32
+		{C2AFCE6F-C8FB-4346-8A16-BAB2AF844AB2}.Release|Win32.ActiveCfg = Release|Win32
+		{C2AFCE6F-C8FB-4346-8A16-BAB2AF844AB2}.Release|Win32.Build.0 = Release|Win32
+		{91424D2D-5F26-4595-BD6A-CEA53AD41A07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91424D2D-5F26-4595-BD6A-CEA53AD41A07}.Debug|Win32.Build.0 = Debug|Win32
+		{91424D2D-5F26-4595-BD6A-CEA53AD41A07}.Release|Win32.ActiveCfg = Release|Win32
+		{91424D2D-5F26-4595-BD6A-CEA53AD41A07}.Release|Win32.Build.0 = Release|Win32
+		{0022A3F3-6144-4D0D-9364-1AACB235A866}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0022A3F3-6144-4D0D-9364-1AACB235A866}.Debug|Win32.Build.0 = Debug|Win32
+		{0022A3F3-6144-4D0D-9364-1AACB235A866}.Release|Win32.ActiveCfg = Release|Win32
+		{0022A3F3-6144-4D0D-9364-1AACB235A866}.Release|Win32.Build.0 = Release|Win32
+		{E8449D82-5FF3-4B24-A322-CD5819C19E8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8449D82-5FF3-4B24-A322-CD5819C19E8B}.Debug|Win32.Build.0 = Debug|Win32
+		{E8449D82-5FF3-4B24-A322-CD5819C19E8B}.Release|Win32.ActiveCfg = Release|Win32
+		{E8449D82-5FF3-4B24-A322-CD5819C19E8B}.Release|Win32.Build.0 = Release|Win32
+		{06942B7D-872B-4C1A-81EE-5D20A3C3DF11}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06942B7D-872B-4C1A-81EE-5D20A3C3DF11}.Debug|Win32.Build.0 = Debug|Win32
+		{06942B7D-872B-4C1A-81EE-5D20A3C3DF11}.Release|Win32.ActiveCfg = Release|Win32
+		{06942B7D-872B-4C1A-81EE-5D20A3C3DF11}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

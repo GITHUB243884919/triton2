@@ -1,0 +1,67 @@
+<server>
+	//**********************************************************
+	//是否启用,调试用户列表; 1,有效;0,无效;以下用户永远不被踢;
+	
+	
+	<m_bValidDebugUser>1</m_bValidDebugUser>
+	
+	
+	//**********************************************************
+				
+	//**********************************************************
+	//调试用户列表;以下用户,就永远不会被踢; 
+	//格式:  <user-1>oa2046007</user-1>
+	//	 <user-2>oa2046008</user-2>
+	
+	
+ 	<m_DebugUsers>
+ 		<user-1>ijnmko9011</user-1>
+ 		<user-2>ijnmko9012</user-2>
+ 		<user-3>ijnmko9013</user-3>
+ 		<user-4>ijnmko9014</user-4>
+ 		<user-5>ijnmko9015</user-5>
+ 		<user-6>ijnmko9016</user-6>
+ 		<user-7>ijnmko9017</user-7>
+ 		<user-8>ijnmko9018</user-8>
+ 		<user-9>ijnmko9019</user-9> 		
+	</m_DebugUsers>	
+	//**********************************************************
+	
+	//**********************************************************
+	//是否启用,诚心用户列表; 1,有效;0,无效;以下用户永远不启动反外挂客户端;
+	
+	
+	<m_bValidTrustUser>1</m_bValidTrustUser>
+	
+	
+	//**********************************************************
+				
+	//**********************************************************
+	//调试用户列表;以下用户,就永远不会被踢; 
+	//格式:  <user-1>oa2046007</user-1>
+	//	 <user-2>oa2046008</user-2>
+	
+	
+ 	<m_TrustUsers>
+ 		<user-2>zngg123411</user-2>
+ 		<user-3>bxcm123456</user-3>
+ 		<user-4>oa2046001</user-4>
+ 		<user-5>oa2046002</user-5>
+ 		<user-6>ijnmko9001</user-6>
+ 		<user-6>ijnmko9002</user-6>
+ 		<user-7>ijnmko9003</user-7>
+ 		<user-8>ijnmko9004</user-8>
+ 		<user-9>ijnmko9005</user-9>
+ 		<user-10>ijnmko9006</user-10>
+	</m_TrustUsers>	
+	//**********************************************************
+	
+		//是否开启,服务器测试模式;
+	<m_bOpenServerTestModel>0</m_bOpenServerTestModel>
+	
+	//只有以下用户,被监控;
+	<m_TestUsers>
+ 		<user-2>oa2046008</user-2>
+ 		<user-3>Test0.user2</user-3>		
+	</m_TestUsers>
+</server>

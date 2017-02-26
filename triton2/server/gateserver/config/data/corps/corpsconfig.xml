@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CorpsConfig>
+	<LevelConfig>
+
+	<ConfigInfo Level="1"  FamilyLimit="3" GloryLimit="7500"  GeneralNumLimit= "1" 	CounSellorNumLimit = "1"  PvPStarScore="300" GloryLevelupNeeded="7500" MoneyLevelUpNeeded="50"  BossRefineValueLimit="1000" BossCDLimit="1200"/>
+	<ConfigInfo Level="2"  FamilyLimit="5" GloryLimit="36000"  GeneralNumLimit= "1" CounSellorNumLimit = "2"  PvPStarScore="800" GloryLevelupNeeded="36000" MoneyLevelUpNeeded="150" BossRefineValueLimit="1300" BossCDLimit="1200"/>
+	<ConfigInfo Level="3"  FamilyLimit="7" GloryLimit="150000"  GeneralNumLimit= "2" CounSellorNumLimit = "2"  PvPStarScore="1700" GloryLevelupNeeded="-1" MoneyLevelUpNeeded="300" BossRefineValueLimit="1600" BossCDLimit="1200"/>
+	<ConfigInfo Level="4"  FamilyLimit="9" GloryLimit="500000"  GeneralNumLimit= "2" CounSellorNumLimit = "1"  PvPStarScore="3000" GloryLevelupNeeded="-1" MoneyLevelUpNeeded="1000" BossRefineValueLimit="1900" BossCDLimit="1200"/>
+	<ConfigInfo Level="5"  FamilyLimit="12" GloryLimit="2000000"  GeneralNumLimit= "3" CounSellorNumLimit = "2"  PvPStarScore="4500" GloryLevelupNeeded="-1"  MoneyLevelUpNeeded="100" BossRefineValueLimit="2200" BossCDLimit="1200"/>	
+	<ConfigInfo Level="6"  FamilyLimit="12" GloryLimit="7000"  GeneralNumLimit= "3" CounSellorNumLimit = "2"  PvPStarScore="6000" GloryLevelupNeeded="-1"  MoneyLevelUpNeeded="100" BossRefineValueLimit="2000" BossCDLimit="1200"/>	
+	<ConfigInfo Level="7"  FamilyLimit="12" GloryLimit="7000"  GeneralNumLimit= "3" CounSellorNumLimit = "2"  PvPStarScore="7500" GloryLevelupNeeded="-1"  MoneyLevelUpNeeded="100" BossRefineValueLimit="1000" BossCDLimit="1200"/>	
+	<ConfigInfo Level="8"  FamilyLimit="12" GloryLimit="7000"  GeneralNumLimit= "3" CounSellorNumLimit = "2"  PvPStarScore="9000" GloryLevelupNeeded="-1"  MoneyLevelUpNeeded="100" BossRefineValueLimit="1000" BossCDLimit="1200"/>	
+	<ConfigInfo Level="9"  FamilyLimit="12" GloryLimit="7000"  GeneralNumLimit= "3" CounSellorNumLimit = "2"  PvPStarScore="11000" GloryLevelupNeeded="-1"  MoneyLevelUpNeeded="100" BossRefineValueLimit="1000" BossCDLimit="1200"/>	
+	<ConfigInfo Level="10"  FamilyLimit="12" GloryLimit="7000"  GeneralNumLimit= "3" CounSellorNumLimit = "2"  PvPStarScore="13000" GloryLevelupNeeded="-1"  MoneyLevelUpNeeded="100" BossRefineValueLimit="1000" BossCDLimit="1200"/>	
+	</LevelConfig>
+	
+	<PropertyConfig>	
+		<PropertyInfo ContributePerGold = "10" ScorePerFight="5" GloryPerFight="10" ExpPerGlory="100000" ExploitPerGlory="25" NpcMoney="10" NpcGlory="100"  
+			ChallangeMoney = "1" ChallangeTimesOfDay = "3" />
+	</PropertyConfig>
+</CorpsConfig>

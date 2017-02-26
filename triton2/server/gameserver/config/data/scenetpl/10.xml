@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Scene_Conf Version="2504">
+    <Map MapName="五庄观" MapID="10" SrcMapID="0" PKPunish="0" BasRide="1" AdvRide="1" PKMode="0" TeleItem="0" NoNation="0" AbsSafe="1" ConSafe="0" Type="0" NationProt="0" MinLevel="0" MaxLevel="0" FlyRide="1">
+        <Size cx="68" cy="104" />
+        <OgreData>
+            <Ogre OgreIndex="9015" CountDelay="0" CountNum="0" OgreInit="0" Disappear="0" Relife="0" PosX="32" PosY="2" Dir="0" Rand="0" InitBuffID="0" TimeBuffID="0" IsFuncNpc="1" Activity="0" MaxEnmity="0" Notify="0">
+                <RefreshDate>
+                    <Refresh RefreshDate="20100808150000" />
+                    <Refresh RefreshDate="20100815150000" />
+                    <Refresh RefreshDate="20100822150000" />
+                    <Refresh RefreshDate="20100829150000" />
+                    <Refresh RefreshDate="20100807170000" />
+                    <Refresh RefreshDate="20100814170000" />
+                    <Refresh RefreshDate="20100821170000" />
+                    <Refresh RefreshDate="20100828170000" />
+                    <Refresh RefreshDate="20100806160000" />
+                    <Refresh RefreshDate="20100813160000" />
+                    <Refresh RefreshDate="20100820160000" />
+                    <Refresh RefreshDate="20100827160000" />
+                    <Refresh RefreshDate="20100910160000" />
+                    <Refresh RefreshDate="20100911170000" />
+                    <Refresh RefreshDate="20100912150000" />
+                    <Refresh RefreshDate="20101015160000" />
+                    <Refresh RefreshDate="20101022160000" />
+                    <Refresh RefreshDate="20101029160000" />
+                    <Refresh RefreshDate="20101016170000" />
+                    <Refresh RefreshDate="20101023170000" />
+                    <Refresh RefreshDate="20101030170000" />
+                    <Refresh RefreshDate="20101017150000" />
+                    <Refresh RefreshDate="20101024150000" />
+                    <Refresh RefreshDate="20101031150000" />
+                    <Refresh RefreshDate="20110527160000" />
+                    <Refresh RefreshDate="20110528170000" />
+                    <Refresh RefreshDate="20110529150000" />
+                    <Refresh RefreshDate="20110603160000" />
+                    <Refresh RefreshDate="20110604170000" />
+                    <Refresh RefreshDate="20110605150000" />
+                    <Refresh RefreshDate="20110730150000" />
+                    <Refresh RefreshDate="20110723160000" />
+                    <Refresh RefreshDate="20110731160000" />
+                    <Refresh RefreshDate="20110724170000" />
+                </RefreshDate>
+                <DeadRefresh>
+                    <NewOgre ID="69518" Name="五庄观门派内丹,0" Rand="10000" />
+                </DeadRefresh>
+                <OccurRefresh>
+                    <NewOgre OldID="69518" Time="900000" NewID="0" NewName="" OldName="五庄观门派内丹,0" />
+                </OccurRefresh>
+                <RandRefresh />
+                <CountRefresh />
+                <CrossRefresh />
+                <RefreshByDead />
+                <RefreshByLive />
+                <Path />
+            </Ogre>
+        </OgreData>
+        <TeleportData />
+        <NpcData>
+            <Npc NpcIndex="9000" NpcID="36080" NpcName="镇元子" NpcInit="1" Disappear="3000" Direction="-1" Relife="300" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="16" y="25" />
+            </Npc>
+            <Npc NpcIndex="9001" NpcID="36100" NpcName="三师兄" NpcInit="1" Disappear="3000" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="47" y="26" />
+            </Npc>
+            <Npc NpcIndex="9002" NpcID="36082" NpcName="师兄" NpcInit="1" Disappear="3000" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="31" y="48" />
+            </Npc>
+            <Npc NpcIndex="9003" NpcID="35951" NpcName="二师姐" NpcInit="1" Disappear="3000" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="39" y="86" />
+            </Npc>
+            <Npc NpcIndex="9004" NpcID="40079" NpcName="袁鹤" NpcInit="1" Disappear="3000" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="3000" UseControl="0">
+                <Pos x="27" y="37" />
+            </Npc>
+            <Npc NpcIndex="9005" NpcID="54876" NpcName="清风" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="48" y="33" />
+            </Npc>
+            <Npc NpcIndex="9006" NpcID="54875" NpcName="明月" NpcInit="1" Disappear="3000" Direction="-1" Relife="6000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="41" y="23" />
+            </Npc>
+            <Npc NpcIndex="9012" NpcID="67743" NpcName="丹丘子" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="9" y="62" />
+            </Npc>
+            <Npc NpcIndex="9013" NpcID="67744" NpcName="玉玑子" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="13" y="68" />
+            </Npc>
+            <Npc NpcIndex="9014" NpcID="67781" NpcName="流云道长" NpcInit="1" Disappear="" Direction="-1" Relife="" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="38" y="60" />
+            </Npc>
+            <Collect NpcIndex="9007" NpcID="39910" NpcName="丁子茶" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="66" y="78" />
+            </Collect>
+            <Collect NpcIndex="9008" NpcID="39910" NpcName="丁子茶" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="62" y="88" />
+            </Collect>
+            <Collect NpcIndex="9009" NpcID="39910" NpcName="丁子茶" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="61" y="74" />
+            </Collect>
+            <Collect NpcIndex="9010" NpcID="39910" NpcName="丁子茶" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="45" y="66" />
+            </Collect>
+            <Collect NpcIndex="9011" NpcID="39910" NpcName="丁子茶" NpcInit="1" Disappear="" Direction="-1" Relife="3000" TacticID="" Rate="0" Cycle="0" Life="" UseControl="0">
+                <Pos x="42" y="53" />
+            </Collect>
+        </NpcData>
+        <BoxData />
+        <BlockData />
+    </Map>
+</Scene_Conf>

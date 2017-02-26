@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<dungeonserver id="1" >       
+        <global_server Address = "10.10.42.205:30608" serverid="1" />
+</dungeonserver>

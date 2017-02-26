@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<login_service turned_on="true">
+		<except_account value="lyderek2007" />
+		<except_account value="simmy_200" />
+		<except_account value="g00g11" />
+		<except_account value="zhaojun" />
+		<except_account value="zhaofine" />
+		<except_account value="fuckzhaojun" />
+		<except_account value="lkd0000056" />
+		<except_account value="riverjava" />
+		<except_account value="limner1025" />
+		<except_account value="honglz" />
+		<except_account value="zhanghl" />
+		<except_account value="catlost" />
+		<except_account value="xinqingxiaojuan" />
+		<except_account value="crazy1492" />
+		<except_account value="wangyu560" />
+		<except_account value="irya_feng" />
+		<except_account value="yangfenggruby" />
+		<except_account value="Lynn_Fu" />
+		<except_account value="784214120" />
+		<except_account value="xinlamianzw" />
+		<except_account value="magicpoint" />
+		<except_account value="shinss" />
+		<except_account value="linyuge" />
+		<except_account value="kimcat" />
+		<except_account value="baobaorr" />
+		<except_account value="feitianbingk" />
+		<except_account value="pleiades" />
+		<except_account value="ljylyh" />
+		<except_account value="danqingman" />
+		<except_account value="wq0354" />
+		<except_account value="pengjunchao0052" />
+		<except_account value="liangyi0662" />
+		<except_account value="tianjingrong123" />
+		<except_account value="yuemei330" />
+	</login_service>
+</config>
+

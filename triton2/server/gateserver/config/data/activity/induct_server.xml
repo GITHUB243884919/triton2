@@ -1,0 +1,2189 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<InductList>
+    <Induct ID="3" LevelLimit="20" LevelUp="200" TotalTimes="2" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1000" EndTime="1300" />
+        <Time StartTime="2100" EndTime="2359" />
+        <DropEx MapID="59" DropTableID="77187" DropType="0" />
+    </Induct>
+    <Induct ID="4" LevelLimit="20" LevelUp="200" TotalTimes="2" WeekTotalTimes="7" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="6" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="4" DataType="0">
+        <Time StartTime="1300" EndTime="1500" />
+        <Time StartTime="1800" EndTime="2100" />
+    </Induct>
+    <Induct ID="7" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1200" EndTime="1230" />
+        <Time StartTime="1330" EndTime="1400" />
+        <Time StartTime="2000" EndTime="2030" />
+        <Time StartTime="2130" EndTime="2200" />
+    </Induct>
+    <Induct ID="8" LevelLimit="50" LevelUp="200" TotalTimes="1" WeekTotalTimes="2" DataType="1">
+        <Date WeekDay="6" />
+        <Date WeekDay="7" />
+        <Date WeekDay="5" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Date Date="20101003" />
+        <Date Date="20101010" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20101107" />
+        <Date Date="20101114" />
+        <Date Date="20101121" />
+        <Date Date="20101128" />
+        <Date Date="20101205" />
+        <Date Date="20101212" />
+        <Date Date="20101219" />
+        <Date Date="20101226" />
+        <Time StartTime="5" EndTime="2355" />
+    </Induct>
+    <Induct ID="9" LevelLimit="60" LevelUp="200" TotalTimes="2" WeekTotalTimes="7" DataType="0">
+        <Time StartTime="5" EndTime="2355" />
+    </Induct>
+    <Induct ID="11" LevelLimit="30" LevelUp="101" TotalTimes="1" WeekTotalTimes="2" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="12" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="1" />
+        <Date WeekDay="2" />
+        <Date WeekDay="3" />
+        <Date WeekDay="4" />
+        <Date Date="20101004" />
+        <Date Date="20101011" />
+        <Date Date="20101018" />
+        <Date Date="20101025" />
+        <Date Date="20101101" />
+        <Date Date="20101108" />
+        <Date Date="20101115" />
+        <Date Date="20101122" />
+        <Date Date="20101129" />
+        <Date Date="20101206" />
+        <Date Date="20101213" />
+        <Date Date="20101220" />
+        <Date Date="20101227" />
+        <Date Date="20101005" />
+        <Date Date="20101012" />
+        <Date Date="20101019" />
+        <Date Date="20101026" />
+        <Date Date="20101102" />
+        <Date Date="20101109" />
+        <Date Date="20101116" />
+        <Date Date="20101123" />
+        <Date Date="20101130" />
+        <Date Date="20101207" />
+        <Date Date="20101214" />
+        <Date Date="20101221" />
+        <Date Date="20101228" />
+        <Date Date="20101006" />
+        <Date Date="20101013" />
+        <Date Date="20101020" />
+        <Date Date="20101027" />
+        <Date Date="20101103" />
+        <Date Date="20101110" />
+        <Date Date="20101117" />
+        <Date Date="20101124" />
+        <Date Date="20101201" />
+        <Date Date="20101208" />
+        <Date Date="20101215" />
+        <Date Date="20101222" />
+        <Date Date="20101229" />
+        <Date Date="20101007" />
+        <Date Date="20101014" />
+        <Date Date="20101021" />
+        <Date Date="20101028" />
+        <Date Date="20101104" />
+        <Date Date="20101111" />
+        <Date Date="20101118" />
+        <Date Date="20101125" />
+        <Date Date="20101202" />
+        <Date Date="20101209" />
+        <Date Date="20101216" />
+        <Date Date="20101223" />
+        <Date Date="20101230" />
+        <Date Date="20100928" />
+        <Date Date="20100929" />
+        <Date Date="20100930" />
+        <Time StartTime="2100" EndTime="2130" />
+    </Induct>
+    <Induct ID="14" LevelLimit="30" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="16" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="1" />
+        <Date WeekDay="2" />
+        <Date WeekDay="3" />
+        <Date WeekDay="4" />
+        <Date WeekDay="5" />
+        <Date Date="20101011" />
+        <Date Date="20101018" />
+        <Date Date="20101025" />
+        <Date Date="20101101" />
+        <Date Date="20101108" />
+        <Date Date="20101115" />
+        <Date Date="20101122" />
+        <Date Date="20101129" />
+        <Date Date="20101206" />
+        <Date Date="20101213" />
+        <Date Date="20101220" />
+        <Date Date="20101227" />
+        <Date Date="20101005" />
+        <Date Date="20101012" />
+        <Date Date="20101019" />
+        <Date Date="20101026" />
+        <Date Date="20101102" />
+        <Date Date="20101109" />
+        <Date Date="20101116" />
+        <Date Date="20101123" />
+        <Date Date="20101130" />
+        <Date Date="20101207" />
+        <Date Date="20101214" />
+        <Date Date="20101221" />
+        <Date Date="20101228" />
+        <Date Date="20101006" />
+        <Date Date="20101013" />
+        <Date Date="20101020" />
+        <Date Date="20101027" />
+        <Date Date="20101103" />
+        <Date Date="20101110" />
+        <Date Date="20101117" />
+        <Date Date="20101124" />
+        <Date Date="20101201" />
+        <Date Date="20101208" />
+        <Date Date="20101215" />
+        <Date Date="20101222" />
+        <Date Date="20101229" />
+        <Date Date="20101007" />
+        <Date Date="20101014" />
+        <Date Date="20101021" />
+        <Date Date="20101028" />
+        <Date Date="20101104" />
+        <Date Date="20101111" />
+        <Date Date="20101118" />
+        <Date Date="20101125" />
+        <Date Date="20101202" />
+        <Date Date="20101209" />
+        <Date Date="20101216" />
+        <Date Date="20101223" />
+        <Date Date="20101230" />
+        <Date Date="20101001" />
+        <Date Date="20101008" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20101105" />
+        <Date Date="20101112" />
+        <Date Date="20101119" />
+        <Date Date="20101126" />
+        <Date Date="20101203" />
+        <Date Date="20101210" />
+        <Date Date="20101217" />
+        <Date Date="20101224" />
+        <Date Date="20101231" />
+        <Date Date="20100928" />
+        <Date Date="20100929" />
+        <Date Date="20100930" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="17" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="6" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="18" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="7" />
+        <Date Date="20101003" />
+        <Date Date="20101010" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20101107" />
+        <Date Date="20101114" />
+        <Date Date="20101121" />
+        <Date Date="20101128" />
+        <Date Date="20101205" />
+        <Date Date="20101212" />
+        <Date Date="20101219" />
+        <Date Date="20101226" />
+        <Time StartTime="2130" EndTime="2230" />
+    </Induct>
+    <Induct ID="19" LevelLimit="30" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="57" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="6" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="58" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="6" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="55" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="3" />
+        <Date Date="20101006" />
+        <Date Date="20101013" />
+        <Date Date="20101020" />
+        <Date Date="20101027" />
+        <Date Date="20101103" />
+        <Date Date="20101110" />
+        <Date Date="20101117" />
+        <Date Date="20101124" />
+        <Date Date="20101201" />
+        <Date Date="20101208" />
+        <Date Date="20101215" />
+        <Date Date="20101222" />
+        <Date Date="20101229" />
+        <Date Date="20100929" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="56" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="5" />
+        <Date Date="20101001" />
+        <Date Date="20101008" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20101105" />
+        <Date Date="20101112" />
+        <Date Date="20101119" />
+        <Date Date="20101126" />
+        <Date Date="20101203" />
+        <Date Date="20101210" />
+        <Date Date="20101217" />
+        <Date Date="20101224" />
+        <Date Date="20101231" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="60" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="4" DataType="0">
+        <Time StartTime="5" EndTime="2355" />
+    </Induct>
+    <Induct ID="71" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="6" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="2130" EndTime="2215" />
+    </Induct>
+    <Induct ID="79" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="3" DataType="0">
+        <Time StartTime="1300" EndTime="1500" />
+        <Time StartTime="1800" EndTime="2100" />
+    </Induct>
+    <Induct ID="90" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="113" LevelLimit="50" LevelUp="200" TotalTimes="1" WeekTotalTimes="1" DataType="1">
+        <Date WeekDay="6" />
+        <Date WeekDay="7" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="5" EndTime="2355" />
+    </Induct>
+    <Induct ID="154" LevelLimit="80" LevelUp="200" TotalTimes="1" WeekTotalTimes="1" DataType="1">
+        <Date WeekDay="7" />
+        <Date WeekDay="6" />
+        <Time StartTime="5" EndTime="2355" />
+    </Induct>
+    <Induct ID="20" LevelLimit="20" LevelUp="200" TotalTimes="10" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="21" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="23" LevelLimit="10" LevelUp="200" TotalTimes="10" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="24" LevelLimit="20" LevelUp="200" TotalTimes="10" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="52" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="26" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="32" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="41" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="51" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="27" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1800" EndTime="2200" />
+    </Induct>
+    <Induct ID="28" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="29" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="30" LevelLimit="30" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1800" EndTime="2200" />
+    </Induct>
+    <Induct ID="198" LevelLimit="0" LevelUp="0" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1245" EndTime="1300" />
+        <Time StartTime="1345" EndTime="1400" />
+        <Time StartTime="1445" EndTime="1500" />
+        <Time StartTime="1545" EndTime="1600" />
+        <Time StartTime="1645" EndTime="1700" />
+        <Time StartTime="1745" EndTime="1800" />
+        <Time StartTime="1845" EndTime="1900" />
+        <Time StartTime="1945" EndTime="2000" />
+        <Time StartTime="2045" EndTime="2100" />
+        <Time StartTime="2145" EndTime="2200" />
+        <OgreIndex Value="60564" />
+        <OgreIndex Value="60565" />
+        <OgreIndex Value="60566" />
+        <OgreIndex Value="60567" />
+        <OgreIndex Value="60568" />
+        <OgreIndex Value="60569" />
+        <OgreIndex Value="60570" />
+        <OgreIndex Value="60571" />
+        <OgreIndex Value="60572" />
+        <OgreIndex Value="60573" />
+        <OgreIndex Value="60574" />
+        <OgreIndex Value="60575" />
+        <OgreIndex Value="60576" />
+        <OgreIndex Value="60577" />
+        <OgreIndex Value="60578" />
+        <OgreIndex Value="60579" />
+        <OgreIndex Value="60580" />
+        <OgreIndex Value="60581" />
+        <OgreIndex Value="60582" />
+        <OgreIndex Value="60583" />
+        <OgreIndex Value="60584" />
+        <OgreIndex Value="60585" />
+        <OgreIndex Value="60586" />
+        <OgreIndex Value="60587" />
+        <OgreIndex Value="60588" />
+        <OgreIndex Value="60589" />
+        <OgreIndex Value="60590" />
+        <OgreIndex Value="60591" />
+        <OgreIndex Value="60592" />
+        <OgreIndex Value="60593" />
+        <OgreIndex Value="60594" />
+        <OgreIndex Value="60595" />
+        <OgreIndex Value="60596" />
+        <OgreIndex Value="60597" />
+        <OgreIndex Value="60598" />
+        <OgreIndex Value="60599" />
+        <OgreIndex Value="60600" />
+        <OgreIndex Value="60601" />
+        <OgreIndex Value="60602" />
+        <OgreIndex Value="60603" />
+        <OgreIndex Value="60604" />
+        <OgreIndex Value="60605" />
+        <OgreIndex Value="60606" />
+        <OgreIndex Value="60607" />
+        <OgreIndex Value="60608" />
+        <OgreIndex Value="60609" />
+        <OgreIndex Value="60610" />
+        <OgreIndex Value="60611" />
+        <OgreIndex Value="60612" />
+        <OgreIndex Value="60613" />
+        <OgreIndex Value="60614" />
+        <OgreIndex Value="60615" />
+        <OgreIndex Value="60616" />
+        <OgreIndex Value="60617" />
+        <OgreIndex Value="60618" />
+        <OgreIndex Value="60619" />
+        <OgreIndex Value="60620" />
+        <OgreIndex Value="60621" />
+        <OgreIndex Value="60622" />
+        <OgreIndex Value="60623" />
+        <OgreIndex Value="60624" />
+        <OgreIndex Value="60625" />
+        <OgreIndex Value="60626" />
+        <OgreIndex Value="60627" />
+        <OgreIndex Value="60628" />
+        <OgreIndex Value="60629" />
+        <OgreIndex Value="60630" />
+        <OgreIndex Value="60631" />
+        <OgreIndex Value="60632" />
+        <OgreIndex Value="60633" />
+        <OgreIndex Value="60634" />
+        <OgreIndex Value="60635" />
+        <OgreIndex Value="60636" />
+        <OgreIndex Value="60637" />
+        <OgreIndex Value="60638" />
+        <OgreIndex Value="60639" />
+        <OgreIndex Value="60640" />
+        <OgreIndex Value="60641" />
+        <OgreIndex Value="60642" />
+        <OgreIndex Value="60643" />
+        <OgreIndex Value="60644" />
+    </Induct>
+    <Induct ID="53" LevelLimit="25" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="31" LevelLimit="25" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="33" LevelLimit="25" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="59" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="35" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1400" EndTime="1800" />
+    </Induct>
+    <Induct ID="36" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1400" EndTime="1800" />
+    </Induct>
+    <Induct ID="34" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="72" LevelLimit="40" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="73" LevelLimit="40" LevelUp="200" TotalTimes="5" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="77" LevelLimit="40" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="76" LevelLimit="40" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="126" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="22" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="64" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100408" />
+        <Date Date="20100409" />
+        <Date Date="20100410" />
+        <Date Date="20100411" />
+        <Date Date="20100412" />
+        <Date Date="20100413" />
+        <Date Date="20100414" />
+        <Date Date="20100415" />
+        <Date Date="20100416" />
+        <Date Date="20100417" />
+        <Date Date="20100418" />
+        <Date Date="20100419" />
+        <Date Date="20100420" />
+        <Date Date="20100421" />
+        <Date Date="20100422" />
+        <Date Date="20100423" />
+        <Date Date="20100424" />
+        <Date Date="20100425" />
+        <Date Date="20100426" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="68" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100408" />
+        <Date Date="20100409" />
+        <Date Date="20100410" />
+        <Date Date="20100411" />
+        <Date Date="20100412" />
+        <Time StartTime="1900" EndTime="2200" />
+    </Induct>
+    <Induct ID="156" LevelLimit="50" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1000" EndTime="2355" />
+    </Induct>
+    <Induct ID="186" LevelLimit="1" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="187" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="37" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="61" LevelLimit="40" LevelUp="101" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="39" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="1">
+        <Time StartTime="1800" EndTime="2300" />
+    </Induct>
+    <Induct ID="43" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1120" EndTime="1150" />
+        <Time StartTime="1920" EndTime="1950" />
+        <Time StartTime="2120" EndTime="2150" />
+        <Time StartTime="320" EndTime="350" />
+    </Induct>
+    <Induct ID="44" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1500" EndTime="1530" />
+        <Time StartTime="1900" EndTime="1930" />
+        <Time StartTime="2200" EndTime="2230" />
+        <Time StartTime="400" EndTime="430" />
+    </Induct>
+    <Induct ID="45" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1000" EndTime="1300" />
+        <Time StartTime="1800" EndTime="2200" />
+    </Induct>
+    <Induct ID="46" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="47" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1030" EndTime="1100" />
+        <Time StartTime="1530" EndTime="1600" />
+        <Time StartTime="1830" EndTime="1900" />
+        <Time StartTime="2330" EndTime="2359" />
+    </Induct>
+    <Induct ID="48" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1130" EndTime="1200" />
+        <Time StartTime="1630" EndTime="1700" />
+        <Time StartTime="2230" EndTime="2300" />
+        <Time StartTime="130" EndTime="200" />
+    </Induct>
+    <Induct ID="49" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1330" EndTime="1400" />
+        <Time StartTime="1930" EndTime="2000" />
+        <Time StartTime="2130" EndTime="2200" />
+        <Time StartTime="1430" EndTime="1500" />
+    </Induct>
+    <Induct ID="50" LevelLimit="0" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="54" LevelLimit="30" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="1300" EndTime="1315" />
+        <Time StartTime="1700" EndTime="1715" />
+        <Time StartTime="2000" EndTime="2015" />
+    </Induct>
+    <Induct ID="62" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100403" />
+        <Date Date="20100404" />
+        <Date Date="20100405" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="65" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="1" />
+        <Date Date="20101004" />
+        <Date Date="20101011" />
+        <Date Date="20101018" />
+        <Date Date="20101025" />
+        <Date Date="20101101" />
+        <Date Date="20101108" />
+        <Date Date="20101115" />
+        <Date Date="20101122" />
+        <Date Date="20101129" />
+        <Date Date="20101206" />
+        <Date Date="20101213" />
+        <Date Date="20101220" />
+        <Date Date="20101227" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="66" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="3" />
+        <Date Date="20101006" />
+        <Date Date="20101013" />
+        <Date Date="20101020" />
+        <Date Date="20101027" />
+        <Date Date="20101103" />
+        <Date Date="20101110" />
+        <Date Date="20101117" />
+        <Date Date="20101124" />
+        <Date Date="20101201" />
+        <Date Date="20101208" />
+        <Date Date="20101215" />
+        <Date Date="20101222" />
+        <Date Date="20101229" />
+        <Date Date="20100929" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="67" LevelLimit="20" LevelUp="200" TotalTimes="0" WeekTotalTimes="1" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+        <OgreIndex Value="670" />
+    </Induct>
+    <Induct ID="74" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100422" />
+        <Date Date="20100423" />
+        <Date Date="20100424" />
+        <Date Date="20100425" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="63" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="6" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="2115" EndTime="2135" />
+    </Induct>
+    <Induct ID="75" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="2" />
+        <Date WeekDay="4" />
+        <Date Date="20101005" />
+        <Date Date="20101012" />
+        <Date Date="20101019" />
+        <Date Date="20101026" />
+        <Date Date="20101102" />
+        <Date Date="20101109" />
+        <Date Date="20101116" />
+        <Date Date="20101123" />
+        <Date Date="20101130" />
+        <Date Date="20101207" />
+        <Date Date="20101214" />
+        <Date Date="20101221" />
+        <Date Date="20101228" />
+        <Date Date="20101007" />
+        <Date Date="20101014" />
+        <Date Date="20101021" />
+        <Date Date="20101028" />
+        <Date Date="20101104" />
+        <Date Date="20101111" />
+        <Date Date="20101118" />
+        <Date Date="20101125" />
+        <Date Date="20101202" />
+        <Date Date="20101209" />
+        <Date Date="20101216" />
+        <Date Date="20101223" />
+        <Date Date="20101230" />
+        <Date Date="20100928" />
+        <Date Date="20100930" />
+        <Time StartTime="2115" EndTime="2135" />
+    </Induct>
+    <Induct ID="80" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100517" />
+        <Date Date="20100518" />
+        <Date Date="20100519" />
+        <Date Date="20100520" />
+        <Date Date="20100521" />
+        <Date Date="20100522" />
+        <Date Date="20100523" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="81" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100520" />
+        <Date Date="20100521" />
+        <Date Date="20100522" />
+        <Date Date="20100523" />
+        <Date Date="20100524" />
+        <Date Date="20100525" />
+        <Date Date="20100526" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="82" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100616" />
+        <Date Date="20100617" />
+        <Date Date="20100618" />
+        <Date Date="20100619" />
+        <Date Date="20100620" />
+        <Date Date="20110604" />
+        <Date Date="20110605" />
+        <Date Date="20110606" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="84" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100618" />
+        <Date Date="20100619" />
+        <Date Date="20100620" />
+        <Date Date="20100621" />
+        <Date Date="20100622" />
+        <Date Date="20100623" />
+        <Date Date="20100624" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="85" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100616" />
+        <Date Date="20100617" />
+        <Date Date="20100618" />
+        <Date Date="20100619" />
+        <Date Date="20100620" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="86" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100805" />
+        <Date Date="20100806" />
+        <Date Date="20100807" />
+        <Date Date="20100808" />
+        <Date Date="20100809" />
+        <Date Date="20100810" />
+        <Date Date="20100811" />
+        <Date Date="20100812" />
+        <Date Date="20100813" />
+        <Date Date="20100814" />
+        <Date Date="20100815" />
+        <Date Date="20100816" />
+        <Date Date="20100817" />
+        <Date Date="20100818" />
+        <Date Date="20100819" />
+        <Date Date="20100820" />
+        <Date Date="20100822" />
+        <Date Date="20100821" />
+        <Date Date="20101012" />
+        <Date Date="20101013" />
+        <Date Date="20101014" />
+        <Date Date="20101015" />
+        <Date Date="20101016" />
+        <Date Date="20101017" />
+        <Date Date="20101018" />
+        <Date Date="20101019" />
+        <Date Date="20101020" />
+        <Date Date="20101021" />
+        <Date Date="20101022" />
+        <Date Date="20101023" />
+        <Date Date="20101024" />
+        <Date Date="20101025" />
+        <Date Date="20101026" />
+        <Date Date="20101027" />
+        <Date Date="20101028" />
+        <Date Date="20101029" />
+        <Date Date="20101030" />
+        <Date Date="20101031" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="98" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110527" />
+        <Date Date="20110528" />
+        <Date Date="20110529" />
+        <Date Date="20110603" />
+        <Date Date="20110604" />
+        <Date Date="20110605" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="58,59,14" DropTableID="73049" DropType="0" />
+        <DropEx MapID="56,57,21" DropTableID="73050" DropType="0" />
+    </Induct>
+    <Induct ID="88" LevelLimit="0" LevelUp="200" TotalTimes="50" WeekTotalTimes="0" DataType="1">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="89" LevelLimit="0" LevelUp="200" TotalTimes="8" WeekTotalTimes="0" DataType="1">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="139" LevelLimit="0" LevelUp="200" TotalTimes="50" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110112" />
+        <Date Date="20110113" />
+        <Date Date="20110114" />
+        <Date Date="20110115" />
+        <Date Date="20110116" />
+        <Date Date="20110117" />
+        <Date Date="20110118" />
+        <Date Date="20110119" />
+        <Date Date="20110120" />
+        <Date Date="20110121" />
+        <Date Date="20110122" />
+        <Date Date="20110125" />
+        <Date Date="20110123" />
+        <Date Date="20110124" />
+        <Date Date="20101229" />
+        <Date Date="20110527" />
+        <Date Date="20110528" />
+        <Date Date="20110529" />
+        <Date Date="20110530" />
+        <Date Date="20110531" />
+        <Date Date="20110601" />
+        <Date Date="20110602" />
+        <Date Date="20110603" />
+        <Date Date="20110604" />
+        <Date Date="20110605" />
+        <Date Date="20110606" />
+        <Date Date="20110607" />
+        <Date Date="20110608" />
+        <Date Date="20110609" />
+        <Date Date="20110610" />
+        <Date Date="20110611" />
+        <Date Date="20110612" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="140" LevelLimit="0" LevelUp="200" TotalTimes="6" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110112" />
+        <Date Date="20110113" />
+        <Date Date="20110114" />
+        <Date Date="20110115" />
+        <Date Date="20110116" />
+        <Date Date="20110117" />
+        <Date Date="20110118" />
+        <Date Date="20110119" />
+        <Date Date="20110120" />
+        <Date Date="20110121" />
+        <Date Date="20110122" />
+        <Date Date="20110125" />
+        <Date Date="20110123" />
+        <Date Date="20110124" />
+        <Date Date="20101229" />
+        <Date Date="20110527" />
+        <Date Date="20110528" />
+        <Date Date="20110529" />
+        <Date Date="20110530" />
+        <Date Date="20110531" />
+        <Date Date="20110601" />
+        <Date Date="20110602" />
+        <Date Date="20110603" />
+        <Date Date="20110604" />
+        <Date Date="20110605" />
+        <Date Date="20110606" />
+        <Date Date="20110607" />
+        <Date Date="20110608" />
+        <Date Date="20110609" />
+        <Date Date="20110610" />
+        <Date Date="20110611" />
+        <Date Date="20110612" />
+        <Time StartTime="0" EndTime="2359" />
+        <Drop OgreID="55638" DropTableID="73025" />
+        <Drop OgreID="55639" DropTableID="73025" />
+        <Drop OgreID="55640" DropTableID="73025" />
+        <Drop OgreID="55641" DropTableID="73025" />
+        <Drop OgreID="55642" DropTableID="73025" />
+        <Drop OgreID="55643" DropTableID="73025" />
+        <Drop OgreID="55674" DropTableID="73025" />
+        <Drop OgreID="60748" DropTableID="73025" />
+        <Drop OgreID="60740" DropTableID="73025" />
+        <Drop OgreID="60749" DropTableID="73025" />
+        <Drop OgreID="60945" DropTableID="73025" />
+        <Drop OgreID="60746" DropTableID="73025" />
+        <Drop OgreID="60747" DropTableID="73025" />
+        <Drop OgreID="60743" DropTableID="73025" />
+        <Drop OgreID="60744" DropTableID="73025" />
+        <Drop OgreID="60753" DropTableID="73025" />
+        <Drop OgreID="60741" DropTableID="73025" />
+        <Drop OgreID="60742" DropTableID="73025" />
+        <Drop OgreID="55644" DropTableID="73025" />
+        <DropEx MapID="5,6,7,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,62,63,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="73024" DropType="0" />
+        <DropEx MapID="92,80" DropTableID="73024" DropType="0" />
+    </Induct>
+    <Induct ID="91" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100806" />
+        <Date Date="20100813" />
+        <Date Date="20100820" />
+        <Date Date="20100827" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100910" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20110527" />
+        <Date Date="20110603" />
+        <Date Date="20110723" />
+        <Date Date="20110731" />
+        <Time StartTime="1500" EndTime="1515" />
+    </Induct>
+    <Induct ID="92" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100807" />
+        <Date Date="20100814" />
+        <Date Date="20100821" />
+        <Date Date="20100828" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100911" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20110528" />
+        <Date Date="20110604" />
+        <Date Date="20110724" />
+        <Time StartTime="1600" EndTime="1615" />
+    </Induct>
+    <Induct ID="93" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100808" />
+        <Date Date="20100815" />
+        <Date Date="20100822" />
+        <Date Date="20100829" />
+        <Date Date="20100912" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20110529" />
+        <Date Date="20110605" />
+        <Date Date="20110730" />
+        <Time StartTime="1700" EndTime="1715" />
+    </Induct>
+    <Induct ID="94" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100806" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100813" />
+        <Date Date="20100820" />
+        <Date Date="20100827" />
+        <Date Date="20100910" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20110527" />
+        <Date Date="20110603" />
+        <Date Date="20110723" />
+        <Date Date="20110731" />
+        <Time StartTime="1500" EndTime="1515" />
+    </Induct>
+    <Induct ID="95" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100808" />
+        <Date Date="20100815" />
+        <Date Date="20100822" />
+        <Date Date="20100829" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100912" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20110528" />
+        <Date Date="20110604" />
+        <Date Date="20110724" />
+        <Time StartTime="1700" EndTime="1715" />
+    </Induct>
+    <Induct ID="96" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100807" />
+        <Date Date="20100814" />
+        <Date Date="20100821" />
+        <Date Date="20100828" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100911" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20110529" />
+        <Date Date="20110605" />
+        <Date Date="20110730" />
+        <Time StartTime="1600" EndTime="1615" />
+    </Induct>
+    <Induct ID="99" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100807" />
+        <Date Date="20100814" />
+        <Date Date="20100821" />
+        <Date Date="20100828" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100911" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20110528" />
+        <Date Date="20110604" />
+        <Date Date="20110724" />
+        <Time StartTime="1500" EndTime="1515" />
+    </Induct>
+    <Induct ID="100" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100806" />
+        <Date Date="20100813" />
+        <Date Date="20100820" />
+        <Date Date="20100827" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100910" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20110527" />
+        <Date Date="20110603" />
+        <Date Date="20110723" />
+        <Date Date="20110731" />
+        <Time StartTime="1600" EndTime="1615" />
+    </Induct>
+    <Induct ID="101" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100808" />
+        <Date Date="20100815" />
+        <Date Date="20100822" />
+        <Date Date="20100829" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100912" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20110529" />
+        <Date Date="20110605" />
+        <Date Date="20110730" />
+        <Time StartTime="1700" EndTime="1715" />
+    </Induct>
+    <Induct ID="102" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100808" />
+        <Date Date="20100815" />
+        <Date Date="20100822" />
+        <Date Date="20100829" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100912" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20110529" />
+        <Date Date="20110605" />
+        <Date Date="20110730" />
+        <Time StartTime="1500" EndTime="1515" />
+    </Induct>
+    <Induct ID="103" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100807" />
+        <Date Date="20100814" />
+        <Date Date="20100821" />
+        <Date Date="20100828" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100911" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20110528" />
+        <Date Date="20110604" />
+        <Date Date="20110724" />
+        <Time StartTime="1600" EndTime="1615" />
+    </Induct>
+    <Induct ID="104" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100806" />
+        <Date Date="20100813" />
+        <Date Date="20100820" />
+        <Date Date="20100827" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100910" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20110527" />
+        <Date Date="20110603" />
+        <Date Date="20110723" />
+        <Date Date="20110731" />
+        <Time StartTime="1700" EndTime="1715" />
+    </Induct>
+    <Induct ID="105" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100807" />
+        <Date Date="20100814" />
+        <Date Date="20100821" />
+        <Date Date="20100828" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100911" />
+        <Date Date="20101016" />
+        <Date Date="20101030" />
+        <Date Date="20101023" />
+        <Date Date="20110528" />
+        <Date Date="20110604" />
+        <Date Date="20110724" />
+        <Time StartTime="1500" EndTime="1515" />
+    </Induct>
+    <Induct ID="106" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100808" />
+        <Date Date="20100815" />
+        <Date Date="20100822" />
+        <Date Date="20100829" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100912" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20110529" />
+        <Date Date="20110605" />
+        <Date Date="20110730" />
+        <Time StartTime="1600" EndTime="1615" />
+    </Induct>
+    <Induct ID="107" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100806" />
+        <Date Date="20100813" />
+        <Date Date="20100820" />
+        <Date Date="20100827" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100910" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20110527" />
+        <Date Date="20110603" />
+        <Date Date="20110723" />
+        <Date Date="20110731" />
+        <Time StartTime="1700" EndTime="1715" />
+    </Induct>
+    <Induct ID="108" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100808" />
+        <Date Date="20100815" />
+        <Date Date="20100822" />
+        <Date Date="20100829" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100912" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20110529" />
+        <Date Date="20110605" />
+        <Date Date="20110730" />
+        <Time StartTime="1500" EndTime="1515" />
+    </Induct>
+    <Induct ID="109" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100806" />
+        <Date Date="20100813" />
+        <Date Date="20100820" />
+        <Date Date="20100827" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100910" />
+        <Date Date="20101015" />
+        <Date Date="20101022" />
+        <Date Date="20101029" />
+        <Date Date="20110527" />
+        <Date Date="20110603" />
+        <Date Date="20110723" />
+        <Date Date="20110731" />
+        <Time StartTime="1600" EndTime="1615" />
+    </Induct>
+    <Induct ID="110" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100807" />
+        <Date Date="20100814" />
+        <Date Date="20100821" />
+        <Date Date="20100828" />
+        <Date Date="20100830" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20100903" />
+        <Date Date="20100904" />
+        <Date Date="20100905" />
+        <Date Date="20100911" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20110528" />
+        <Date Date="20110604" />
+        <Date Date="20110724" />
+        <Time StartTime="1700" EndTime="1715" />
+    </Induct>
+    <Induct ID="111" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101016" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Date Date="20101003" />
+        <Date Date="20101010" />
+        <Date Date="20101017" />
+        <Date Date="20101024" />
+        <Date Date="20101031" />
+        <Date Date="20101107" />
+        <Date Date="20101114" />
+        <Date Date="20101121" />
+        <Date Date="20101128" />
+        <Date Date="20101205" />
+        <Date Date="20101212" />
+        <Date Date="20101219" />
+        <Date Date="20101226" />
+        <Time StartTime="1420" EndTime="1500" />
+    </Induct>
+    <Induct ID="114" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100805" />
+        <Date Date="20100806" />
+        <Date Date="20100831" />
+        <Date Date="20100901" />
+        <Date Date="20100902" />
+        <Date Date="20101015" />
+        <Date Date="20101016" />
+        <Date Date="20101017" />
+        <Date Date="20110101" />
+        <Date Date="20110527" />
+        <Date Date="20110528" />
+        <Date Date="20110826" />
+        <Date Date="20110827" />
+        <Date Date="20111118" />
+        <Date Date="20111119" />
+        <Time StartTime="1900" EndTime="2230" />
+    </Induct>
+    <Induct ID="115" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110212" />
+        <Date Date="20110214" />
+        <Date Date="20110804" />
+        <Date Date="20110805" />
+        <Date Date="20110806" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="99,102,103,104" DropTableID="71651" DropType="0" />
+    </Induct>
+    <Induct ID="117" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100823" />
+        <Date Date="20100824" />
+        <Date Date="20100825" />
+        <Date Date="20100826" />
+        <Time StartTime="1900" EndTime="2100" />
+    </Induct>
+    <Induct ID="116" LevelLimit="20" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100823" />
+        <Date Date="20100824" />
+        <Date Date="20100825" />
+        <Date Date="20100826" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="119" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100920" />
+        <Date Date="20100921" />
+        <Date Date="20100922" />
+        <Date Date="20100923" />
+        <Date Date="20100924" />
+        <Date Date="20110912" />
+        <Date Date="20110913" />
+        <Date Date="20110914" />
+        <Date Date="20110915" />
+        <Date Date="20110916" />
+        <Time StartTime="1900" EndTime="2300" />
+    </Induct>
+    <Induct ID="120" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="1">
+        <Date Date="20100920" />
+        <Date Date="20100921" />
+        <Date Date="20100922" />
+        <Date Date="20100923" />
+        <Date Date="20100924" />
+        <Time StartTime="1730" EndTime="1930" />
+    </Induct>
+    <Induct ID="121" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110501" />
+        <Date Date="20110502" />
+        <Date Date="20110503" />
+        <Date Date="20110504" />
+        <Date Date="20110505" />
+        <Time StartTime="1000" EndTime="2320" />
+    </Induct>
+    <Induct ID="122" LevelLimit="20" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101001" />
+        <Date Date="20101002" />
+        <Date Date="20101003" />
+        <Date Date="20101004" />
+        <Date Date="20101005" />
+        <Date Date="20101006" />
+        <Date Date="20101007" />
+        <Date Date="20101008" />
+        <Date Date="20101009" />
+        <Date Date="20101010" />
+        <Date Date="20111001" />
+        <Date Date="20111002" />
+        <Date Date="20111003" />
+        <Date Date="20111004" />
+        <Date Date="20111005" />
+        <Date Date="20111006" />
+        <Date Date="20111007" />
+        <Time StartTime="1900" EndTime="2200" />
+    </Induct>
+    <Induct ID="125" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="1" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="127" LevelLimit="50" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111001" />
+        <Date Date="20111002" />
+        <Date Date="20111003" />
+        <Date Date="20111004" />
+        <Date Date="20111005" />
+        <Date Date="20111006" />
+        <Date Date="20111007" />
+        <Time StartTime="1800" EndTime="2300" />
+    </Induct>
+    <Induct ID="124" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="1" DataType="1">
+        <Date WeekDay="6" />
+        <Date Date="20100925" />
+        <Date Date="20101002" />
+        <Date Date="20101009" />
+        <Date Date="20101023" />
+        <Date Date="20101030" />
+        <Date Date="20101106" />
+        <Date Date="20101113" />
+        <Date Date="20101120" />
+        <Date Date="20101127" />
+        <Date Date="20101204" />
+        <Date Date="20101211" />
+        <Date Date="20101218" />
+        <Date Date="20101225" />
+        <Time StartTime="1400" EndTime="1730" />
+    </Induct>
+    <Induct ID="135" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="1" DataType="1">
+        <Date WeekDay="6" />
+        <Time StartTime="600" EndTime="1800" />
+        <DropEx MapID="6,7,42,45,46,47,48,49,50,51,67,68,69,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118,157,159,162" DropTableID="72791" DropType="0" />
+    </Induct>
+    <Induct ID="131" LevelLimit="20" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101015" />
+        <Date Date="20101016" />
+        <Date Date="20101017" />
+        <Date Date="20101013" />
+        <Date Date="20101014" />
+        <Date Date="20101018" />
+        <Date Date="20101019" />
+        <Time StartTime="1830" EndTime="2230" />
+    </Induct>
+    <Induct ID="132" LevelLimit="20" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101015" />
+        <Date Date="20101016" />
+        <Date Date="20101017" />
+        <Date Date="20101013" />
+        <Date Date="20101014" />
+        <Date Date="20101018" />
+        <Date Date="20101019" />
+        <Time StartTime="1830" EndTime="2230" />
+    </Induct>
+    <Induct ID="133" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101015" />
+        <Date Date="20101017" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="134" LevelLimit="20" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110326" />
+        <Date Date="20110327" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="5,6,7,42,45,60,62,63,64,65,67,68,69,70,71,100,101,105,106" DropTableID="72924" DropType="0" />
+    </Induct>
+    <Induct ID="129" LevelLimit="50" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="6" />
+        <Date WeekDay="7" />
+        <Time StartTime="1900" EndTime="1920" />
+    </Induct>
+    <Induct ID="130" LevelLimit="50" LevelUp="110" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Time StartTime="1330" EndTime="1430" />
+        <Time StartTime="1530" EndTime="1630" />
+        <Time StartTime="1730" EndTime="1830" />
+    </Induct>
+    <Induct ID="136" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101225" />
+        <Date Date="20101224" />
+        <Time StartTime="1900" EndTime="2230" />
+    </Induct>
+    <Induct ID="137" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20101225" />
+        <Date Date="20101226" />
+        <Date Date="20101227" />
+        <Date Date="20101228" />
+        <Date Date="20101229" />
+        <Date Date="20101230" />
+        <Date Date="20101231" />
+        <Date Date="20110101" />
+        <Date Date="20110102" />
+        <Date Date="20110103" />
+        <Time StartTime="0" EndTime="2359" />
+        <Drop OgreID="40341" DropTableID="72800" />
+        <Drop OgreID="50223" DropTableID="72800" />
+        <Drop OgreID="40340" DropTableID="72800" />
+        <Drop OgreID="40337" DropTableID="72800" />
+        <Drop OgreID="40336" DropTableID="72800" />
+        <Drop OgreID="50224" DropTableID="72800" />
+        <Drop OgreID="40338" DropTableID="72800" />
+        <Drop OgreID="40342" DropTableID="72800" />
+        <Drop OgreID="40334" DropTableID="72800" />
+        <Drop OgreID="50225" DropTableID="72800" />
+        <Drop OgreID="39782" DropTableID="72800" />
+        <Drop OgreID="39784" DropTableID="72800" />
+        <Drop OgreID="39783" DropTableID="72800" />
+        <Drop OgreID="50226" DropTableID="72800" />
+        <Drop OgreID="39785" DropTableID="72800" />
+        <Drop OgreID="40335" DropTableID="72800" />
+        <Drop OgreID="40077" DropTableID="72800" />
+        <Drop OgreID="50227" DropTableID="72800" />
+        <Drop OgreID="36884" DropTableID="72800" />
+        <Drop OgreID="36986" DropTableID="72800" />
+        <Drop OgreID="36935" DropTableID="72800" />
+        <Drop OgreID="50228" DropTableID="72800" />
+        <Drop OgreID="37037" DropTableID="72800" />
+        <Drop OgreID="40301" DropTableID="72800" />
+        <Drop OgreID="55680" DropTableID="72800" />
+        <Drop OgreID="55681" DropTableID="72800" />
+        <Drop OgreID="55679" DropTableID="72800" />
+        <Drop OgreID="55721" DropTableID="72800" />
+        <Drop OgreID="55722" DropTableID="72800" />
+        <Drop OgreID="55636" DropTableID="72800" />
+        <Drop OgreID="55635" DropTableID="72800" />
+        <Drop OgreID="55634" DropTableID="72800" />
+        <Drop OgreID="55637" DropTableID="72800" />
+        <Drop OgreID="55674" DropTableID="72800" />
+        <Drop OgreID="55639" DropTableID="72800" />
+        <Drop OgreID="55641" DropTableID="72800" />
+        <Drop OgreID="55642" DropTableID="72800" />
+        <Drop OgreID="55640" DropTableID="72800" />
+        <Drop OgreID="55638" DropTableID="72800" />
+        <Drop OgreID="39786" DropTableID="72802" />
+        <Drop OgreID="37088" DropTableID="72802" />
+        <Drop OgreID="40339" DropTableID="72802" />
+        <Drop OgreID="55683" DropTableID="72802" />
+        <Drop OgreID="55682" DropTableID="72802" />
+        <Drop OgreID="40324" DropTableID="72802" />
+        <Drop OgreID="40328" DropTableID="72802" />
+        <Drop OgreID="37445" DropTableID="72802" />
+        <OgreIndex Value="130699" />
+    </Induct>
+    <Induct ID="138" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110501" />
+        <Date Date="20110630" />
+        <Date Date="20110701" />
+        <Date Date="20110827" />
+        <Date Date="20111001" />
+        <Date Date="20111119" />
+        <Time StartTime="0" EndTime="2359" />
+        <OgreIndex Value="130700" />
+    </Induct>
+    <Induct ID="141" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date WeekDay="7" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="145" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110114" />
+        <Date Date="20110115" />
+        <Date Date="20110116" />
+        <Date Date="20110117" />
+        <Date Date="20110118" />
+        <Date Date="20110119" />
+        <Date Date="20110120" />
+        <Date Date="20110121" />
+        <Date Date="20110122" />
+        <Date Date="20110123" />
+        <Date Date="20110124" />
+        <Date Date="20110125" />
+        <Date Date="20110126" />
+        <Date Date="20110127" />
+        <Date Date="20110128" />
+        <Date Date="20110129" />
+        <Date Date="20110130" />
+        <Date Date="20110131" />
+        <Date Date="20110201" />
+        <Date Date="20110202" />
+        <Date Date="20110203" />
+        <Date Date="20110204" />
+        <Date Date="20110205" />
+        <Date Date="20110206" />
+        <Date Date="20110207" />
+        <Date Date="20110208" />
+        <Date Date="20110209" />
+        <Date Date="20110210" />
+        <Date Date="20110211" />
+        <Date Date="20110212" />
+        <Date Date="20110213" />
+        <Date Date="20110214" />
+        <Date Date="20110215" />
+        <Date Date="20110216" />
+        <Date Date="20110217" />
+        <Date Date="20110218" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="146" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110210" />
+        <Date Date="20110211" />
+        <Date Date="20110212" />
+        <Date Date="20110213" />
+        <Date Date="20110214" />
+        <Date Date="20110215" />
+        <Date Date="20110216" />
+        <Date Date="20110217" />
+        <Date Date="20110126" />
+        <Date Date="20110127" />
+        <Date Date="20110128" />
+        <Date Date="20110129" />
+        <Date Date="20110130" />
+        <Date Date="20110131" />
+        <Date Date="20110201" />
+        <Date Date="20110202" />
+        <Date Date="20110203" />
+        <Date Date="20110204" />
+        <Date Date="20110205" />
+        <Date Date="20110206" />
+        <Date Date="20110207" />
+        <Date Date="20110208" />
+        <Date Date="20110209" />
+        <Time StartTime="1730" EndTime="1930" />
+    </Induct>
+    <Induct ID="147" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110210" />
+        <Date Date="20110211" />
+        <Date Date="20110212" />
+        <Date Date="20110213" />
+        <Date Date="20110214" />
+        <Date Date="20110215" />
+        <Date Date="20110216" />
+        <Date Date="20110217" />
+        <Date Date="20110126" />
+        <Date Date="20110127" />
+        <Date Date="20110128" />
+        <Date Date="20110129" />
+        <Date Date="20110130" />
+        <Date Date="20110131" />
+        <Date Date="20110201" />
+        <Date Date="20110202" />
+        <Date Date="20110203" />
+        <Date Date="20110204" />
+        <Date Date="20110205" />
+        <Date Date="20110206" />
+        <Date Date="20110207" />
+        <Date Date="20110208" />
+        <Date Date="20110209" />
+        <Time StartTime="1900" EndTime="2300" />
+    </Induct>
+    <Induct ID="144" LevelLimit="20" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110202" />
+        <Date Date="20110203" />
+        <Date Date="20110204" />
+        <Date Date="20110206" />
+        <Date Date="20110207" />
+        <Date Date="20110208" />
+        <Date Date="20110205" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="5,6,7,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,62,63,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="73280" DropType="0" />
+    </Induct>
+    <Induct ID="150" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110215" />
+        <Date Date="20110216" />
+        <Date Date="20110217" />
+        <Date Date="20110218" />
+        <Date Date="20110219" />
+        <Date Date="20110220" />
+        <Time StartTime="0" EndTime="2359" />
+        <OgreIndex Value="130699" />
+        <DropEx MapID="5,6,7,42,45,60,62,63,64,65,67,68,69,70,71,100,101,105,106" DropTableID="75013" DropType="0" />
+    </Induct>
+    <Induct ID="149" LevelLimit="30" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110212" />
+        <Date Date="20110214" />
+        <Date Date="20110213" />
+        <Date Date="20110808" />
+        <Date Date="20110809" />
+        <Date Date="20110810" />
+        <Date Date="20110811" />
+        <Date Date="20110812" />
+        <Time StartTime="1000" EndTime="2359" />
+        <DropEx MapID="5,6,7,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,63,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="76575" DropType="0" />
+    </Induct>
+    <Induct ID="38" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110214" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="155" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110326" />
+        <Date Date="20110327" />
+        <Date Date="20110328" />
+        <Time StartTime="1200" EndTime="1400" />
+        <Time StartTime="1600" EndTime="1800" />
+        <Time StartTime="2000" EndTime="2200" />
+        <Time StartTime="2200" EndTime="2359" />
+    </Induct>
+    <Induct ID="157" LevelLimit="20" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110328" />
+        <Date Date="20110329" />
+        <Date Date="20110330" />
+        <Date Date="20110331" />
+        <Date Date="20110401" />
+        <Date Date="20110402" />
+        <Date Date="20110403" />
+        <Time StartTime="1900" EndTime="2200" />
+    </Induct>
+    <Induct ID="159" LevelLimit="20" LevelUp="200" TotalTimes="3" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110404" />
+        <Date Date="20110405" />
+        <Date Date="20110406" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="160" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110404" />
+        <Date Date="20110405" />
+        <Date Date="20110406" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="161" LevelLimit="20" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110404" />
+        <Date Date="20110405" />
+        <Date Date="20110406" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,43,44,46,47,48,49,50,51,72,73,74,75,76,77,96,107,108,114,115,116,117,118" DropTableID="75641" DropType="0" />
+    </Induct>
+    <Induct ID="163" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110416" />
+        <Date Date="20110419" />
+        <Date Date="20110421" />
+        <Date Date="20110423" />
+        <Date Date="20110426" />
+        <Date Date="20110428" />
+        <Date Date="20110430" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="164" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110415" />
+        <Date Date="20110416" />
+        <Date Date="20110417" />
+        <Date Date="20110418" />
+        <Date Date="20110419" />
+        <Date Date="20110420" />
+        <Date Date="20110421" />
+        <Date Date="20110422" />
+        <Date Date="20110423" />
+        <Date Date="20110424" />
+        <Time StartTime="1900" EndTime="2300" />
+    </Induct>
+    <Induct ID="165" LevelLimit="40" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110416" />
+        <Date Date="20110417" />
+        <Date Date="20110418" />
+        <Date Date="20110419" />
+        <Date Date="20110420" />
+        <Date Date="20110421" />
+        <Date Date="20110422" />
+        <Date Date="20110423" />
+        <Date Date="20110424" />
+        <Date Date="20110425" />
+        <Date Date="20110426" />
+        <Date Date="20110427" />
+        <Date Date="20110428" />
+        <Date Date="20110429" />
+        <Date Date="20110430" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="166" LevelLimit="20" LevelUp="200" TotalTimes="20" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110527" />
+        <Date Date="20110528" />
+        <Date Date="20110529" />
+        <Date Date="20110827" />
+        <Date Date="20110828" />
+        <Date Date="20110903" />
+        <Date Date="20110904" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="169" LevelLimit="20" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="170" LevelLimit="80" LevelUp="200" TotalTimes="2" WeekTotalTimes="3" DataType="0">
+        <Time StartTime="1" EndTime="2359" />
+    </Induct>
+    <Induct ID="171" LevelLimit="60" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="172" LevelLimit="60" LevelUp="200" TotalTimes="5" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="173" LevelLimit="60" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="174" LevelLimit="0" LevelUp="0" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="72,73,74,75,76,77,96,46,47,48,49,50,51,107,108,114,115,116,117,118" DropTableID="76217" DropType="0" />
+    </Induct>
+    <Induct ID="175" LevelLimit="60" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="177" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110604" />
+        <Date Date="20110605" />
+        <Date Date="20110606" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="176" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110604" />
+        <Date Date="20110605" />
+        <Date Date="20110606" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="5,6,7,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,62,63,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="76367" DropType="0" />
+    </Induct>
+    <Induct ID="178" LevelLimit="20" LevelUp="200" TotalTimes="4" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110630" />
+        <Date Date="20110701" />
+        <Date Date="20110702" />
+        <Date Date="20110703" />
+        <Date Date="20110704" />
+        <Date Date="20110705" />
+        <Date Date="20110706" />
+        <Date Date="20110707" />
+        <Date Date="20110708" />
+        <Date Date="20110709" />
+        <Date Date="20110710" />
+        <Date Date="20110711" />
+        <Date Date="20110712" />
+        <Date Date="20110713" />
+        <Date Date="20110714" />
+        <Date Date="20110715" />
+        <Date Date="20110716" />
+        <Date Date="20110717" />
+        <Date Date="20110718" />
+        <Date Date="20110719" />
+        <Date Date="20110720" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="179" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110629" />
+        <Date Date="20110701" />
+        <Date Date="20110703" />
+        <Date Date="20110705" />
+        <Date Date="20110707" />
+        <Date Date="20110709" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="180" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110629" />
+        <Date Date="20110630" />
+        <Time StartTime="1900" EndTime="2030" />
+    </Induct>
+    <Induct ID="181" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110715" />
+        <Date Date="20110716" />
+        <Date Date="20110719" />
+        <Date Date="20110720" />
+        <Date Date="20110721" />
+        <Date Date="20110722" />
+        <Date Date="20110723" />
+        <Date Date="20110724" />
+        <Date Date="20110725" />
+        <Date Date="20110826" />
+        <Date Date="20110827" />
+        <Date Date="20110828" />
+        <Date Date="20110829" />
+        <Date Date="20110830" />
+        <Date Date="20110831" />
+        <Time StartTime="0" EndTime="2359" />
+        <Drop OgreID="60765" DropTableID="76451" />
+        <Drop OgreID="60766" DropTableID="76451" />
+        <Drop OgreID="60767" DropTableID="76451" />
+        <Drop OgreID="60768" DropTableID="76451" />
+        <Drop OgreID="60770" DropTableID="76451" />
+        <Drop OgreID="60776" DropTableID="76451" />
+        <Drop OgreID="60771" DropTableID="76451" />
+        <Drop OgreID="60772" DropTableID="76451" />
+        <Drop OgreID="60774" DropTableID="76451" />
+        <Drop OgreID="60775" DropTableID="76451" />
+        <Drop OgreID="60773" DropTableID="76451" />
+        <Drop OgreID="60809" DropTableID="76451" />
+        <Drop OgreID="60836" DropTableID="76451" />
+        <Drop OgreID="60759" DropTableID="76451" />
+        <Drop OgreID="60761" DropTableID="76451" />
+        <Drop OgreID="60760" DropTableID="76451" />
+        <Drop OgreID="60762" DropTableID="76451" />
+        <Drop OgreID="60763" DropTableID="76451" />
+        <Drop OgreID="60764" DropTableID="76451" />
+        <Drop OgreID="60747" DropTableID="76452" />
+        <Drop OgreID="60756" DropTableID="76451" />
+        <Drop OgreID="60751" DropTableID="76451" />
+        <Drop OgreID="60752" DropTableID="76451" />
+        <Drop OgreID="60755" DropTableID="76451" />
+        <Drop OgreID="60777" DropTableID="76451" />
+        <Drop OgreID="60757" DropTableID="76451" />
+        <Drop OgreID="55628" DropTableID="76515" />
+        <Drop OgreID="55629" DropTableID="76515" />
+        <Drop OgreID="55630" DropTableID="76515" />
+        <Drop OgreID="55631" DropTableID="76515" />
+        <Drop OgreID="55632" DropTableID="76515" />
+        <Drop OgreID="55633" DropTableID="76515" />
+        <Drop OgreID="55674" DropTableID="76515" />
+        <Drop OgreID="55634" DropTableID="76515" />
+        <Drop OgreID="55635" DropTableID="76515" />
+        <Drop OgreID="55636" DropTableID="76515" />
+        <Drop OgreID="55637" DropTableID="76515" />
+        <Drop OgreID="55638" DropTableID="76515" />
+        <Drop OgreID="55642" DropTableID="76515" />
+        <Drop OgreID="55641" DropTableID="76515" />
+        <Drop OgreID="55639" DropTableID="76515" />
+        <Drop OgreID="55640" DropTableID="76515" />
+        <Drop OgreID="60740" DropTableID="76452" />
+        <Drop OgreID="60741" DropTableID="76452" />
+        <Drop OgreID="60753" DropTableID="76452" />
+        <Drop OgreID="60742" DropTableID="76452" />
+        <Drop OgreID="60745" DropTableID="76452" />
+        <Drop OgreID="60746" DropTableID="76452" />
+        <Drop OgreID="60749" DropTableID="76452" />
+        <Drop OgreID="60743" DropTableID="76452" />
+        <Drop OgreID="60744" DropTableID="76452" />
+        <Drop OgreID="60748" DropTableID="76452" />
+        <DropEx MapID="6,7,32,33,34,35,36,37,38,39,40,41,42,45,46,47,48,49,50,51,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="76450" DropType="0" />
+    </Induct>
+    <Induct ID="182" LevelLimit="60" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110720" />
+        <Date Date="20110721" />
+        <Date Date="20110722" />
+        <Date Date="20110725" />
+        <Date Date="20110726" />
+        <Date Date="20110727" />
+        <Date Date="20110728" />
+        <Date Date="20110729" />
+        <Time StartTime="1500" EndTime="1700" />
+        <DropEx MapID="72,73,74,75,76,77,96,46,47,48,49,50,51,107,108,114,115,116,117,118" DropTableID="76533" DropType="0" />
+    </Induct>
+    <Induct ID="183" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110806" />
+        <Date Date="20110807" />
+        <Date Date="20110808" />
+        <Date Date="20110809" />
+        <Date Date="20110810" />
+        <Time StartTime="1900" EndTime="2200" />
+    </Induct>
+    <Induct ID="185" LevelLimit="30" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110823" />
+        <Date Date="20110824" />
+        <Date Date="20110825" />
+        <Date Date="20110826" />
+        <Date Date="20110827" />
+        <Date Date="20110828" />
+        <Date Date="20110829" />
+        <Date Date="20110830" />
+        <Date Date="20110831" />
+        <Date Date="20110901" />
+        <Date Date="20110902" />
+        <Date Date="20110903" />
+        <Date Date="20110904" />
+        <Date Date="20110905" />
+        <Date Date="20110906" />
+        <Time StartTime="1900" EndTime="2200" />
+    </Induct>
+    <Induct ID="188" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110910" />
+        <Date Date="20110911" />
+        <Date Date="20110912" />
+        <Time StartTime="1000" EndTime="2320" />
+    </Induct>
+    <Induct ID="189" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20110909" />
+        <Date Date="20110910" />
+        <Date Date="20110911" />
+        <Date Date="20110912" />
+        <Date Date="20110913" />
+        <Date Date="20110914" />
+        <Date Date="20110915" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="190" LevelLimit="50" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111001" />
+        <Date Date="20111002" />
+        <Date Date="20111003" />
+        <Date Date="20111004" />
+        <Date Date="20111005" />
+        <Date Date="20111006" />
+        <Date Date="20111007" />
+        <Date Date="20111008" />
+        <Date Date="20111009" />
+        <Date Date="20111010" />
+        <Time StartTime="0" EndTime="2359" />
+        <DropEx MapID="72,73,74,75,76,77,96,46,47,48,49,50,51,107,108,114,115,116,117,118" DropTableID="77260" DropType="0" />
+    </Induct>
+    <Induct ID="192" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111001" />
+        <Date Date="20111002" />
+        <Date Date="20111003" />
+        <Date Date="20111004" />
+        <Date Date="20111005" />
+        <Date Date="20111006" />
+        <Date Date="20111007" />
+        <Time StartTime="0" EndTime="2359" />
+        <Drop OgreID="60765" DropTableID="77280" />
+        <Drop OgreID="60766" DropTableID="77280" />
+        <Drop OgreID="60767" DropTableID="77280" />
+        <Drop OgreID="60768" DropTableID="77280" />
+        <Drop OgreID="60770" DropTableID="77280" />
+        <Drop OgreID="60776" DropTableID="77280" />
+        <Drop OgreID="60771" DropTableID="77280" />
+        <Drop OgreID="60772" DropTableID="77280" />
+        <Drop OgreID="60774" DropTableID="77280" />
+        <Drop OgreID="60775" DropTableID="77280" />
+        <Drop OgreID="60773" DropTableID="77280" />
+        <Drop OgreID="60809" DropTableID="77280" />
+        <Drop OgreID="60836" DropTableID="77280" />
+        <Drop OgreID="60759" DropTableID="77280" />
+        <Drop OgreID="60761" DropTableID="77280" />
+        <Drop OgreID="60760" DropTableID="77280" />
+        <Drop OgreID="60762" DropTableID="77280" />
+        <Drop OgreID="60763" DropTableID="77280" />
+        <Drop OgreID="60764" DropTableID="77280" />
+        <Drop OgreID="60747" DropTableID="77279" />
+        <Drop OgreID="60756" DropTableID="77280" />
+        <Drop OgreID="60751" DropTableID="77280" />
+        <Drop OgreID="60752" DropTableID="77280" />
+        <Drop OgreID="60755" DropTableID="77280" />
+        <Drop OgreID="60777" DropTableID="77280" />
+        <Drop OgreID="60757" DropTableID="77280" />
+        <Drop OgreID="55628" DropTableID="77281" />
+        <Drop OgreID="55629" DropTableID="77281" />
+        <Drop OgreID="55630" DropTableID="77281" />
+        <Drop OgreID="55631" DropTableID="77281" />
+        <Drop OgreID="55632" DropTableID="77281" />
+        <Drop OgreID="55633" DropTableID="77281" />
+        <Drop OgreID="55674" DropTableID="77281" />
+        <Drop OgreID="55634" DropTableID="77281" />
+        <Drop OgreID="55635" DropTableID="77281" />
+        <Drop OgreID="55636" DropTableID="77281" />
+        <Drop OgreID="55637" DropTableID="77281" />
+        <Drop OgreID="55638" DropTableID="77281" />
+        <Drop OgreID="55642" DropTableID="77281" />
+        <Drop OgreID="55641" DropTableID="77281" />
+        <Drop OgreID="55639" DropTableID="77281" />
+        <Drop OgreID="55640" DropTableID="77281" />
+        <Drop OgreID="60740" DropTableID="77279" />
+        <Drop OgreID="60741" DropTableID="77279" />
+        <Drop OgreID="60753" DropTableID="77279" />
+        <Drop OgreID="60742" DropTableID="77279" />
+        <Drop OgreID="60745" DropTableID="77279" />
+        <Drop OgreID="60746" DropTableID="77279" />
+        <Drop OgreID="60749" DropTableID="77279" />
+        <Drop OgreID="60743" DropTableID="77279" />
+        <Drop OgreID="60744" DropTableID="77279" />
+        <Drop OgreID="60748" DropTableID="77279" />
+        <DropEx MapID="6,7,32,33,34,35,36,37,38,39,40,41,42,45,46,47,48,49,50,51,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="77278" DropType="0" />
+    </Induct>
+    <Induct ID="193" LevelLimit="30" LevelUp="200" TotalTimes="2" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111028" />
+        <Date Date="20111029" />
+        <Date Date="20111030" />
+        <Date Date="20111101" />
+        <Date Date="20111102" />
+        <Date Date="20111103" />
+        <Date Date="20111031" />
+        <Date Date="20111115" />
+        <Date Date="20111116" />
+        <Date Date="20111117" />
+        <Date Date="20111118" />
+        <Date Date="20111119" />
+        <Date Date="20111120" />
+        <Date Date="20111121" />
+        <Time StartTime="1100" EndTime="1300" />
+        <Time StartTime="2000" EndTime="2200" />
+    </Induct>
+    <Induct ID="194" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111029" />
+        <Date Date="20111030" />
+        <Time StartTime="1000" EndTime="2320" />
+    </Induct>
+    <Induct ID="195" LevelLimit="50" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111028" />
+        <Date Date="20111029" />
+        <Date Date="20111030" />
+        <Date Date="20111101" />
+        <Date Date="20111102" />
+        <Date Date="20111103" />
+        <Date Date="20111104" />
+        <Date Date="20111105" />
+        <Date Date="20111106" />
+        <Date Date="20111031" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="196" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111118" />
+        <Time StartTime="1400" EndTime="2359" />
+    </Induct>
+    <Induct ID="197" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111119" />
+        <Date Date="20111120" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="199" LevelLimit="0" LevelUp="200" TotalTimes="50" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111115" />
+        <Date Date="20111116" />
+        <Date Date="20111117" />
+        <Date Date="20111118" />
+        <Date Date="20111119" />
+        <Date Date="20111120" />
+        <Date Date="20111121" />
+        <Date Date="20111122" />
+        <Date Date="20111123" />
+        <Date Date="20111124" />
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="200" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="1">
+        <Date Date="20111115" />
+        <Date Date="20111116" />
+        <Date Date="20111117" />
+        <Date Date="20111118" />
+        <Date Date="20111119" />
+        <Date Date="20111120" />
+        <Date Date="20111121" />
+        <Date Date="20111122" />
+        <Date Date="20111123" />
+        <Date Date="20111124" />
+        <Time StartTime="0" EndTime="2359" />
+        <Drop OgreID="55638" DropTableID="79500" />
+        <Drop OgreID="55639" DropTableID="79500" />
+        <Drop OgreID="55640" DropTableID="79500" />
+        <Drop OgreID="55641" DropTableID="79500" />
+        <Drop OgreID="55642" DropTableID="79500" />
+        <Drop OgreID="55643" DropTableID="79500" />
+        <Drop OgreID="55674" DropTableID="79500" />
+        <Drop OgreID="60748" DropTableID="79500" />
+        <Drop OgreID="60740" DropTableID="79500" />
+        <Drop OgreID="60749" DropTableID="79500" />
+        <Drop OgreID="60945" DropTableID="79500" />
+        <Drop OgreID="60746" DropTableID="79500" />
+        <Drop OgreID="60747" DropTableID="79500" />
+        <Drop OgreID="60743" DropTableID="79500" />
+        <Drop OgreID="60744" DropTableID="79500" />
+        <Drop OgreID="60753" DropTableID="79500" />
+        <Drop OgreID="60741" DropTableID="79500" />
+        <Drop OgreID="60742" DropTableID="79500" />
+        <Drop OgreID="55644" DropTableID="79500" />
+        <DropEx MapID="5,6,7,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,60,62,63,64,65,67,68,69,70,71,72,73,74,75,76,77,96,61,100,101,105,106,107,108,114,118" DropTableID="79499" DropType="0" />
+        <DropEx MapID="92,80" DropTableID="79499" DropType="0" />
+    </Induct>
+    <Induct ID="1" LevelLimit="0" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="2" LevelLimit="10" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="40" LevelLimit="10" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="69" LevelLimit="1" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="70" LevelLimit="1" LevelUp="200" TotalTimes="0" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="151" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="152" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+    <Induct ID="153" LevelLimit="0" LevelUp="200" TotalTimes="1" WeekTotalTimes="0" DataType="0">
+        <Time StartTime="0" EndTime="2359" />
+    </Induct>
+</InductList>
